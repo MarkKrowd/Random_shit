@@ -1,0 +1,821 @@
+
+##########################################
+###########==-- ABOUT --==################
+##########################################
+
+        Stereo Box Pro - v1.0
+        ~~~~~~~~~~~~~~~~~~~~~
+                 by Mark Turner (Rymix) 
+                 email: coder@rymix.net
+                   www: www.rymix.net
+
+  An advanced stereo field manipulator
+  (pan, widen, shift, rotate, 
+   pseudostereo, balance, 
+   phase, etc)
+  
+  Similar to the Waves StereoImager (DX)
+  or PSP StereoControl (VST)
+
+  CPU Usage: 5.0% on pIII/733 (peak avg)
+  CPU Scale: 95% Sonic Verb (peak avg)
+
+##########################################
+##########==-- CONTROLS --==##############
+##########################################
+
+----------------------------------
+  Parameters:
+----------------------------------
+
+* I/O Mode		(0 - 8)
+   - Sets the input/output mode:
+
+	0: L/R			- Normal Left/Right input
+	1: L/-R 		- Right channel is phase inverted (180 degrees) on input
+	2: -L/R			- Left channel is phase inverted on input
+	3: -L/-R		- Both channels are phase inverted on input
+	4: Mono -> LR		- The signal is converted to mono on input, normal output
+	5: Mono -> MS		- The signal is converted to mono on input, the output is 
+				  in Mid/Side audio format (Center channel is output on the 
+				  left audio channel, and the Stereo channel is output on the
+				  right audio channel)
+	6: LR -> MS		- The signal is input as normal Left/Right channel audio, but
+				  is output in Mid/Side audio format.
+	7: MS -> LR		- The signal is input as Mid/Side audio, with the center audio
+				  part on the left channel and the Stereo audio part on the 
+				  right channel, and is output as normal Left/Right stereo
+				  audio.
+	8: MS -> MS		- The signal is input and output in Mid/Side audio format.
+
+
+	/// see the "USING MS MODES" section below ///
+     
+
+* Gain			(0 - 200%)
+   - Increases/decreases the input volume.
+
+* Center		(0 - 400%)
+   - Magnifies/shrinks the center sound image. 
+     0% will make a stereo sound completely out of phase.
+     Center will not affect stereo information.
+     On mono sounds, this is simply a gain.
+
+* Width			(0 - 400%)
+   - Expands/shrinks the stereo field. 0% is mono. 
+     Above 100% will widen the stereo field "outside" the
+     speakers/headphones. This has No effect on mono sounds.
+
+* LRBalance		(full left - center - full right)
+   - A "typical" left/right balance control. 
+     Shifts sound from full left channel to full right channel.
+     This balance control is not linear-gain (i.e., the overall
+     gain changes across the parameter range)
+     
+* Center Axis		(-90  -  +90)
+   - Balance control for the monophonic "center" part of the sound. 
+     Rotates the center axis -90 to +90 degrees, keeping the stereo
+     information intact. Also known as center asymmetry.
+     Acts as a linear-gain typical balance control on mono sounds. (i.e.,
+     the overall gain does not change across the parameter range)
+
+* Stereo Axis		(-90  -  +90)
+   - Balance control for the stereo part of the sound. 
+     Rotates the stereo axis -90 to +90 degrees, keeping the center
+     information intact. Also known as asymmetry or stereo asymmetry.
+     No effect on mono sounds
+     (* the stereo axis control is inverted)
+
+* Rotation		(-180  -  +180)
+   - Rotates both the center axis and stereo axis together, from
+     -45 to +45 degrees.
+     Acts as a linear-gain typical balance control on mono sounds.
+
+* PSI Mode		(0 - 3)
+   - Sets the Pseudo Stereo Imaging Mode: 
+
+	0: OFF/RESET  -  Turns PSI off and clears internal buffers
+	1: NORMAL  -  PSI is mixed with the incoming signal
+	2: THRU  -  PSI is not mixed with the incoming signal
+	3: ASYNC  -  PSI from the original signal is mixed with 
+	             the incoming signal 
+
+* PSI Spread		(~0ms - 50ms)
+   - Sets the delay "spread" of the PSI. Values over 20ms can be heard
+     as an echo.
+
+* PSI Center Amount	(-100% - +100%)
+   - This is how much of the delayed center image used for PSI.
+     Negative values will reverse the polarity.
+
+* PSI Stereo Amount	(-100% - +100%)
+   - This is how much of the delayed stereo image is used for PSI.
+     Negative values will reverse the polarity.
+
+* PSI Mix Amount	(-100% - +100%)
+   - This is how much of the delayed center and stereo image is crossfed for
+     PSI. The delayed center will become the delayed stereo image, and the delayed
+     stereo will become the delayed center (depending on the parameter below). 
+     Negative values will reverse the polarity. The Mix Amount is separate from 
+     and in addition to the previous two parameters.
+
+* PSI Mix Balance	(Full Stereo - Full Center)
+   - Sets the Balance between stereo and center image crossfeed for the PSI Mix Amount.
+     Full Stereo means only the stereo image is delayed and fed as the center image.
+     Full Center means only the center image is delayed and fed as the stereo image.
+
+* PSI Mix Feedback	(-100%  -  +100%)
+   - Sets how much of the PSI signal is fed back into itself. 0% is none. 
+     Negative amounts will invert the phase of the PSI before feeding it into 
+     itself. An amount of or near 100% can cause signal instability where the sound
+     may grow louder and louder.
+
+
+	/// see the "PSI, WINDOWING, and ROUTING" section below ///
+
+
+* Window Mode		(0 - 3)
+   - Sets the Frequency Window Mode:
+
+	0: OFF/RESET  -  Turns off the Frequency Window
+	1: NORMAL  -  All subsequent routed parameters will only affect
+                      frequencies defined for the window
+	2: THRU  -  Only pass frequencies defined for the window
+	3: ASYNC  -  The frequencies defined in the window will pass the original
+	             signal which the subsequent routed parameters will affect
+
+* Window HiPass		(20hz - 20000hz)
+* Window LoPass		(20hz - 20000hz)
+   - Sets the frequency boundaries of the Window. If the HiPass frequency is lower than
+     the LoPass frequency, then the frequency window is between the HiPass and LoPass
+     frequencies. Otherwise, the window is inverted.
+
+* Window Band Rez (Resonance)	(-256  -  +256)
+   - Sets the resonance of the Frequency Window filters. This amplifies
+     (for positive values) or dampens (for negative values) the frequencies
+     around the Frequency Window HiPass and LoPass settings.
+
+
+	/// see the "PSI, WINDOWING, and ROUTING" section below ///
+
+
+* LFO 1 AND 2 CONTROLS:
+
+ * LFO Target		(0 - 15)
+    - Sets the target parameter of the LFO (Low Frequency Oscillator).
+      The parameter selected will be modulated around its set value by 
+      a percentage of its total range. A setting of zero turns the LFO
+      off. Setting a target resets/retriggers the LFO
+
+ * LFO Type		(0 - 5)
+    - Sets the shape of the LFO curve. This also resets/retriggers the LFO.
+      You may choose from:
+
+	0: Sine wave
+	1: Square wave
+	2: Triange wave
+	3: Saw wave (up)
+ 	4: Saw wave (down)
+ 	5: Noize/Random (Note: This is a randomized but periodic LFO. 
+	                       Step capability may be added in a future release.) 
+
+ * LFO Depth		(-100% - +100%)
+    - Changes the depth of the LFO to a percentage of the target parameter's
+      total range. With negative values, the LFO oscillates in the opposite
+      direction.
+
+ * LFO Rate		(0.25 ticks - 512 ticks)
+    - Sets the period length of the LFO. This is how long it takes for the LFO
+      to complete one cycle (i.e., in "saw up" at a rate of 64 ticks, the LFO
+      will sweep the parameter from a low value to a high value over 64 ticks, 
+      and then start back at the low value).
+
+ * LFO Offset		(0% - 100%)
+    - Sets the phase offset of LFO 2 from LFO 1. Acts as an LFO trigger for LFO 2,
+      setting the current LFO 2 position equal to the position of LFO 1, plus the
+      phase offset. If the two LFOs are set to different rates, then setting 
+      offset will set the phase separation at that time, and then the LFOs will
+      oscillate from there. 
+      The offset % can be though of as the percentage of one complete LFO cycle.
+
+* ROUTING TABLE:
+   - This enables & orders each parameter in the specified sequence. 
+
+
+	/// see the "PSI, WINDOWING, and ROUTING" section below ///
+
+----------------------------------
+  Attributes:
+----------------------------------
+
+* Sub-Tick resolution - Determines how often (in samples) the anticlick
+                        routine is triggered. Lower values = finer 
+			resolution = much more CPU.
+                        Default is every 64 samples.
+* Anticlick strength - Value to reduce clicking on parameter changes. 
+                       Parameters will slide quickly from the old value
+                       to the new value on every subtick (define above).
+                       The strength value defines a maximum percentage of
+                       change the value can make on each subtick until it
+                       reaches the target value. Higher values = better
+                       anticlick = longer sliding = more cpu.
+                       Default is 80.  
+
+* PSI Spread Smooth - Toggles limiting of PSI Spread parameter changes to
+                      prevent clicking. This parameter may be removed 
+                      in later versions.
+
+* DC Correction - Cancels out internal DC offset on the output (centers the
+                  output around zero).
+
+##########################################
+############==-- USAGE --==###############
+##########################################
+
+ The following diagram resembles an audio vector/phase scope.
+ The top half of the graph resembles the control display of 
+ the Waves StereoImager DX plugin. The full graph is a 360
+ degree circle that represents channel and phase information
+ in an audio signal.
+                                   
+                               (C)  [0 degrees]
+----------------------------------------------------------------
+--------------------------##############------------------------
+-----------------------#####----##-----####---------------------
+---------------------####-------##--------###-------------------
+--------[-45] (L)--###----------##----------###--(R) [45 deg]--- C = Center Channel
+------------------##############################----------------
+-----------------####-----------##----------#####--------------- S = Stereo Channel
+----------------##--###---------##---------###--##--------------
+---------------##-----##--------##--------##-----##------------- L = Left Channel
+--------------###------##-------##------###-------##------------
+--------------##--------###-----##-----###---------#------------ R = Right Channel
+--------------#-----------##----##----##-----------##-----------
+-------------##------------##---##--###------------##-----------
+-------------#--------------###-##-###--------------#-----------
+-------------#----------------######----------------#-----------
+--[-90] (S) -########################################- (-S) [90]
+-------------########################################-----------
+-------------#------------------##------------------#-----------
+-------------##-----------------##------------------#-----------
+-------------##-----------------##-----------------##-----------
+--------------#-----------------##-----------------##-----------
+--------------##----------------##----------------##------------
+---------------##---------------##----------------##------------
+---------------##---------------##---------------##-------------
+----------------##--------------##--------------##--------------
+-----------------###------------##-------------##---------------
+------------------###-----------##-----------###----------------
+--------------------###---------##----------###-----------------
+-------------(-R)----####-------##-------####----(-L)-----------
+------------------------#####---##----#####---------------------
+---------------------------#############------------------------
+----------------------------------------------------------------
+
+ To understand the diagram, think about a stereo signal over time.
+ A normal signal would exist on most points on the graph. A perfect
+ stereo white noise signal would look like a square diamond shape going 
+ from C to -S (on the right) -C (bottom) to S back to C. Decreasing the
+ volume of the stereo whitenoise signal would make the diamond smaller
+ (Amplitude exists as distance from the center). A monophonic sinewave
+ would exist only on the C axis, oscillating from C to -C (the bottom 
+ of the graph). A sinewave on the Left speaker would oscillate only 
+ on the L axis, from L to -L. (-L is the opposite part of the L axis,
+ if you follow the L axis through the center to the opposite edge of
+ the circle.
+ 
+ To understand the Axes (plural of axis not axe) and Rotation, think of
+ the sound being shifted to follow the axis. Specifically, the axis
+ component of the sound is shifted to follow the axis modification.
+ So, rotating the Center Axis 45 degrees to the right would merge it
+ with the Right Channel axis, making all of the center part of the
+ sound shift to the right speaker. However, the original stereo part
+ of the sound stays the same. Conversely, rotating the stereo axis 45
+ degrees merges it with the left channel (remember, the SAxis control
+ is inverted, so 45 degrees is actually -45 degrees).
+ 
+ Imagine the stereo whitenoise again as a diamond shaped-plot on the
+ graph, but this time imagine only the outside edge, being a bounding
+ box for the sound. If you connect the endpoints of the C and S axes,
+ you will have this bounding box. If you rotate the Center or Stereo Axes,
+ the points of the bounding box that lie on the C orS Axis will rotate
+ around the circle. The bounding box shape will change accordingly (See 
+ the figures below). Note that the rotated axes are not the "new"
+ axes. The original axes still show the sound properties, but now of
+ the "new" sound. The best way to learn is to experiment. Using a
+ vector/phase scope helps too if you want to visualize things.
+ Fortunately, the Zephod Scope effect can be used as such (rotate the
+ display 45 degrees to the right, and swap the Left and Right channels).
+
+
+##########################################
+##==-- PSI, WINDOWING, and ROUTING --==###
+##########################################
+ 
+ * PSI
+                                
+ PSI stands for "Pseudo Stereo Imaging", and is a term that, well, I 
+ more or less made up. The way PSI works is by delaying the 
+ sound by a fraction of a second and adding the delayed sound back
+ onto the sound that was input into the PSI 'unit'. The effect is about
+ like a flanger, minus the LFO.
+ 
+ The PSI Center and PSI Stereo controls are for doing pseudo-stereo to 
+ an already stereo signal. PSI Mix is for adding pseudostereo to both
+ already stereo signals and also mono signals. In fact, adding PSI Mix to
+ a mono signal can bring it to a full stereo life, depending on your
+ settings. 
+
+ PSI Normal mode will add the delayed signal back onto the input signal.
+ PSI Thru only uses the delayed signal.
+ PSI Async will cause PSI to act upon the signal that was originally
+ input into the machine, unprocessed by all of the parameters that
+ come before PSI in the routing section. More about this in the routing
+ section below...
+
+ * WINDOWING  (Frequency Window)
+                                 
+ Windowing allows parameters to work on a certain frequency range in 
+ the incoming signal. Whatever parameters follow the window parameter
+ Will only work within the specified frequency range.
+
+ * ROUTING
+
+ The parameters of SBox Pro do not necessarily operate in the order listed
+ in the machine parameter view. You can put them in any order you want!
+ Also, if you do not need a parameter, you can turn it off. This is
+ accomplished in the Routing table. The routing table is the parameter
+ section at the bottom, labelled with a "#--". The parameter value
+ signifies its position in the parameter order. If two or more parameters 
+ have the same position, the topmost parameter will be processed first.
+
+ * HOW DOES THIS ALL WORK???
+
+ Now I will explain how this all fits together, by examples. Imagine the
+ route settings are set as follows:
+
+   #--Window		=	2
+   #--Center		=	
+   #--Width		=	1
+   #--Balance   	=
+   #--CAxis		=	
+   #--SAxis		=	
+   #--Rotation		=	3
+   #--PSI		=	4
+
+ Window, Center, Rotation, and PSI sections are turned on. All other
+ sections are turned off (parameter value full left). The order of
+ parameter processing is
+
+   #1 - Width
+   #2 - Window
+   #3 - Rotation
+   #4 - PSI
+
+ Now, say we set Window HiPass to 5000hz and Window LoPass to 10000hz.
+ We'll set Window Mode to Normal, and PSI Mode to Normal. Now, we 
+ will set Width to 200%, and Rotation to 30°. 
+ The effect routing will happen like this (not necessarily to scale):
+
+ 20hz                                         20000hz
+ ----------------------------------------------------------------
+ |                original sound                                | <--- input 
+ |                                                              |
+ ----------------------------------------------------------------
+ |                 width 200%                                   | <--- width
+ |                                                              |
+ ----------------------------------------------------------------
+ | width 200%  |   width 200%   |          width 200%           | <--- Window
+ |             |                |                               |
+ ----------------------------------------------------------------
+ | width200%   |   width 200%   |          width 200%           | <--- Rotate
+ |             |-> rotate 30°   |                               |
+ |             |                |                               |
+ ----------------------------------------------------------------
+ | width200%   |   width 200%   |          width 200%           | <--- PSI
+ |             |-> rotate 30°   |                               |
+ |             |-> PSI          |                               |
+ ----------------------------------------------------------------
+             5000hz          10000hz
+             HiPass          LoPass
+ 
+
+ Here, the frequency window split up the sound *after*
+ the sound is widened by 200%. The 200% widened sound is then
+ rotated 30°, but only between 5000hz and 10000hz. That same area
+ is then processed by pseudostereo imaging (PSI), where the widened,
+ rotated sound is delayed and then added back onto itself.
+
+ Now, lets set Window Mode to Async:
+
+ 20hz                                         20000hz
+ ----------------------------------------------------------------
+ |               original sound                                 | <--- input 
+ |                                                              |
+ ----------------------------------------------------------------
+ |                 width 200%                                   | <--- width
+ |                                                              |
+ ----------------------------------------------------------------
+ | width 200%  | original sound |          width 200%           | <--- Window (Async)
+ |             |                |                               |
+ ----------------------------------------------------------------
+ | width200%   |   rotate 30°   |          width 200%           | <--- Rotate
+ |             |                |                               |
+ |             |                |                               |
+ ----------------------------------------------------------------
+ | width200%   |   rotate 30°   |          width 200%           | <--- PSI
+ |             |-> PSI          |                               |
+ |             |                |                               |
+ ----------------------------------------------------------------
+             5000hz          10000hz
+             HiPass          LoPass
+
+ In this example, the frequency window split up the sound after
+ the sound is widened by 200%, but the area inside the window is
+ now the original sound (between 5000hz and 10000hz). This origial 
+ sound is then rotated 30° and processed by pseudostereo imaging, 
+ where the rotated sound is delayed and then added back onto itself.
+
+ Getting interesting yet?  We can also do PSI Async: 
+
+
+ 20hz                                         20000hz
+ ----------------------------------------------------------------
+ |               original sound                                 | <--- input 
+ |                                                              |
+ ----------------------------------------------------------------
+ |                 width 200%                                   | <--- width
+ |                                                              |
+ ----------------------------------------------------------------
+ | width 200%  | original sound |          width 200%           | <--- Window (Async)
+ |             |                |                               |
+ ----------------------------------------------------------------
+ | width200%   |   rotate 30°   |          width 200%           | <--- Rotate
+ |             |                |                               |
+ |             |                |                               |
+ ----------------------------------------------------------------
+ | width200%   |   rotate 30°   |          width 200%           | <--- PSI (Async)
+ |+ PSI Orig   | + PSI Original |        + PSI Original         |
+ |             |                |                               |
+ ----------------------------------------------------------------
+             5000hz          10000hz
+             HiPass          LoPass
+
+ Now, the frequency window split up the sound after
+ the sound is widened by 200%, with the area inside the window now
+ the original sound (between 5000hz and 10000hz). The windowed origial 
+ sound is then rotated 30°. Now, the *unwindowed* original sound is 
+ processed by pseudostereo imaging, being delayed and then added back into
+ the mix thus far. Async modes always bypass all previous effects,
+ including PSI and Window themselves, and acts upon the original sound.
+ Remember this, because it can get tricky!
+
+ But, what about Thru modes? Thru modes are useful for separating the
+ effect output from the direct output. In buzz terminology, this is
+ sometimes called "sidechaining" (which technically it is not, but we
+ will call it that for naming sake). You do this by sending a signal
+ through an effect and then to an output (master or another effect),
+ and also sending the signal itself to the output, thereby making the 
+ effect a "sidechain":
+
+           /--effect------|
+          /               V
+ signal --------------> output
+
+ When the effect is a sidechain, you dont want to pass too much of the
+ original sound through it. Since PSI also adds the inputted sound,
+ sometimes this can be a problem. This is where Thru comes in:
+                              
+
+ 20hz                                         20000hz
+ ----------------------------------------------------------------
+ |                original sound                                | <--- input 
+ |                                                              |
+ ----------------------------------------------------------------
+ |                 width 200%                                   | <--- width
+ |                                                              |
+ ----------------------------------------------------------------
+ | (nothing)   |   width 200%   |          (nothing)            | <--- Window (Thru)
+ |             |                |                               |
+ ----------------------------------------------------------------
+ | (nothing)   |   width 200%   |          (nothing)            | <--- Rotate
+ |             |-> rotate 30°   |                               |
+ |             |                |                               |
+ ----------------------------------------------------------------
+ | (nothing)   |   width 200%   |          (nothing)            | <--- PSI (Thru)
+ |             |-> rotate 30°   |                               |
+ |             |-> PSI Delay    |                               |
+ |             |   only         |                               |
+ ----------------------------------------------------------------
+             5000hz          10000hz
+             HiPass          LoPass
+
+ Note that when windowed, only the frequencies within the window
+ are passed along. Also, only the delayed part of the PSI section
+ is passed. The widened, rotated sound is delayed, but not added
+ back onto itself. Of course, you could have Window Normal/Async,
+ and PSI Thru to have just the windowed part delayed for a weird
+ effect.
+
+ One last thing. What happens when the HiPass frequency is higher
+ than the LoPass frequency? Well lets see. Here we will make the
+ Window mode Normal, remove PSI, make HiPass = 12000hz, and LoPass
+ = 6000hz:
+
+
+ 20hz                                         20000hz
+ ----------------------------------------------------------------
+ |                original sound                                | <--- input 
+ |                                                              |
+ ----------------------------------------------------------------
+ |                 width 200%                                   | <--- width
+ |                                                              |
+ ----------------------------------------------------------------
+ | width 200%   |   width 200%    |        width 200%           | <--- Window
+ |              |                 |                             |
+ ----------------------------------------------------------------
+ | width200%    |   width 200%    |        width 200%           | <--- Rotate
+ |-> rotate 30° |                 |     -> rotate 30°           |
+ |              |                 |                             |
+ ----------------------------------------------------------------
+             6000hz          12000hz
+             LoPass          HiPass
+ 
+ With LoPass frequency being lower than the HiPass frequency, the
+ frequency window is inverted. 
+
+
+##########################################
+########==-- USING I/O MODES--==##########
+##########################################
+
+ The I/O Mode parameter is useful for correcting sounds that are 
+ completely out of phase. By setting the parameter to L/-R, or
+ -L/R, you can correct stereo phase problems. Also, you can correct
+ effect chain phase problems by setting the parameter to -L/-R.
+ See the "Special Considerations" section for more infomation about 
+ phase problems.
+
+ The I/O Mode parameter also allows you to use other effects to
+ modify sounds by their center and stereo channels instead of just
+ by modifying the left and right channels directly. Setting I/O mode
+ to LR->MS will allow the next effect in the chain to operate on
+ a signal this way. The left audio channel outputted will be the 
+ "Center" channel, and the right audio channel will be the "Stereo" 
+ channel. After the effect, another StereoBox Pro with an I/O Mode of
+ MS->LR will convert the sound back to normal Left/Right audio.
+ With some effects, you may not hear much of a difference. But sounds
+ that give more stereo control, or by sending the left & right channel
+ (in LR->MS mode) independendly to separate effects, you can do some
+ pretty interesting things to the stereo signal. 
+
+ For example, if you have a monophonic generator routed through a 
+ jeskola x-delay, and then routed to a SBox Pro setup for LR->MS,
+ the signal output will have both the default sound and the echoes
+ on the left channel, but the right channel will only have the
+ echoes. Also, you could do other pseudostereo effects on a signal
+ by sending the mono signal through a pan machine panned hard left
+ into an SBox Pro set to MS->LR, and then adding an effect such as
+ a bandpass filter or a chorus set to thru mode to the mono signal
+ through a pan machine panned hard right into the SBox Pro.
+
+
+##########################################
+####==-- SPECIAL CONSIDERATIONS --==######
+##########################################
+
+* OUT OF PHASE SOUND
+  - Sounds that exist on the S axis but not (or barely) on the
+    C axis are out of phase. This means that 1) when converting the
+    sound to mono, you will diminish or convert parts of the sound to 
+    silence (especially bad for bass), 2) when listening to the sound in
+    stereo, it may cause extra fatigue and uncomfortability (it is
+    stressful for your ears and brain), 3) when listening to the sound
+    in stereo, bass sections will be produced by the speakers but will be
+    muted in airspace, since the left and right speakers will cancel each
+    other out in the middle. 
+
+    StereoBox Pro can make sounds out of phase easily, so be careful
+    (see differences from StereoBox below).
+    Be careful when setting rotation, CAxis, or SAxis beyond 45°, 
+    and reducing the Center parameter amount to below 50%. Also, check to
+    make sure the I/O Mode parameter is not set to make a normal sound
+    out-of-phase.
+
+* LOWERING CPU USAGE
+  - If you find this effect hogging up precious cpu cycles, then read 
+    through this. Here are some things that can give you your cpu back:
+    1) If you are not using a parameter, turn it off in the routing 
+       section. Even PSI and Window Modes of OFF/RESET take a little cpu.
+    2) PSI and Windowing are the heaviest effects. If you can get by
+       without them, you'll save much cpu.
+    3) In the attributes, keep the resolution at higher values.
+    4) Having the LFO targets set to PSI Spread, HiPass, LoPass, or
+       especially Resonance, chews up more cpu than the other targets.
+    5) Using LFOs take up more cpu than not using LFOs, of course. However,
+       even using LFOs on targets that are turned off in the routing table
+       will consume cpu.
+    6) If you can live with a tiny amount of DC Offset, turn DC Correction
+       off in the attributes. This only saves a tiny fraction of CPU, so
+       it is normal to leave this on.
+ 
+* CLICKS
+  - StereoBox Pro was designed to minimize clicks as much as possible.
+    Causing large jumps in parameter settings by parameter entry or by
+    using Square, SawUp, SawDn, and Noize LFO type, can sometimes cause
+    minor clicks. Here are some suggestions for reducing these clicks:
+
+    1) Modify subtick and/or anticlick attributes 
+       (this does not affect the lfo shapes).
+    2) Set the Window Hipass frequency so that clicks in the bass range 
+       are minimized.
+    3) Dont LFO or make sudden changes to the PSI Spread parameter. 
+       When oscillating the PSI Spread with an LFO, the PSI acts somewhat
+       as a flanger. However, the wrong LFO waveform or large PSI Spread 
+       parameter changes may cause PSI to click. With a fast LFO rate, you 
+       might hear a "zipper" noise. To fix this, make smaller changes, choose
+       a triangle or sine LFO shape, and slow down the LFO.
+       
+##########################################
+###==-- DIFFERENCES FROM StereoBox --==###
+##########################################
+       
+ Besides the number of parameters, StereoBox Pro has some other key
+ differences from StereoBox. StereoBox's parameter ranges for 
+ rotation, Center Axis, and Stereo Axis are designed to do natural
+ corrections to audio, and not to bring the sound to an out-of-phase
+ state (described above). StereoBox Pro does not have these limitations.
+ StereoBox Pro can do everything StereoBox can, but is designed for
+ much more advanced uses.
+
+                   StereoBox            StereoBox Pro
+              --------------------------------------------
+ I/O Mode            No                     Yes
+              --------------------------------------------
+ Gain             0% - 200%               0% - 200%
+              --------------------------------------------
+ Center              No                     Yes
+              --------------------------------------------
+ Width            0% - 300%               0% - 400%
+              --------------------------------------------
+ LRBalance       left - right            left - right
+              --------------------------------------------
+ Center Axis     -45° -  +45°            -90° -  +90°
+              --------------------------------------------
+ Stereo Axis     -45° -  +45°            -90° -  +90°
+              --------------------------------------------
+ Rotation        -45° -  +45°           -180° -  +180°
+              --------------------------------------------
+ PSI                 No                     Yes
+              --------------------------------------------
+ Windowing           No                     Yes
+              --------------------------------------------
+ # LFOs              0                       2
+              --------------------------------------------
+ Routing             No                     Yes
+              --------------------------------------------
+
+
+ 
+##########################################
+#####==-- REVISION HISTORY --==###########
+##########################################
+
+  0.9 - Beta release, parameter finalization
+  1.0 - Initial public release
+                                          
+##########################################
+##########==-- FIGURES --==###############
+##########################################
+                                                               
+ Stereo whitenoise bounding box...
+                                M
+                                                               
+                          XXXXXXXXXXXXXX                        
+                       XXXXX  XXXXXX   XXXX                     
+             L       XXXX    XX XX XX     XXX       R            
+                   XXX      XX  XX  XX      XXX                 
+                  XXX     XXX   XX    XX      XX                
+                 XX      XX     XX     XX      XXX              
+                XX      XX      XX      XX      XX              
+               XX     XXX       XX        XX     XX             
+              XXX    XX         XX         XX     XX            
+              XX    XX          XX          XX     X            
+              X   XXX           XX            XX   XX           
+             XX  XX             XX             XX  XX           
+             X  XX              XX              XX  X           
+             XXX                XX                XXXX          
+          S  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX          
+             XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX          
+             X XX               XX                XXXX          
+             XX XX              XX               XX X           
+             XX  XX             XX             XX  XX           
+              X   XXX           XX            XX   XX           
+              XX    XX          XX          XXX   XX            
+               XX    XX         XX         XX     XX            
+               XX     XXX       XX        XX     XX             
+                XX      XX      XX      XXX     XX              
+                 XXX     XX     XX     XX      XX               
+                  XXX     XX    XX    XX     XXX                
+                    XXX     XX  XX  XXX     XXX                 
+                     XXXX    XX XX XX    XXXX                   
+                        XXXXX XXXXXX  XXXXX                     
+                           XXXXXXXXXXXXX                        
+                                                                
+------------------------------------------------------------
+                                          
+ Stereo whitenoise rotated +22 degrees...
+                                M
+                                                               
+                          XXXXXXXXXXXXXX                       
+                       XXXXX    XX     XXXX                     
+                     XXXX       XX      XXXXX                   
+               L   XXX          XXXXXXXXX XXXXX    R            
+                  XXX       XXXXXXX      XXXX XX    
+                 XX   XXXXXX    XX      XX  X  XXX              
+                XXXXXX          XX     XX   X   XX              
+               XXXX             XX    XX    XX   XX             
+              XXXXXXX           XX   XX      X    XX            
+              XX X  XXX         XX   X       X     X            
+              X  X     XX       XX  XX       XX    XX           
+             XX  X       XX     XX XX         X    XX           
+             X    X        XXX  XXXX          X     X           
+             X    X          XXXXXX           X     XX          
+        S    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX          
+             XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX          
+             X     X           XXX XXX         X    XX          
+             XX    X          X XX   XXX       XX   X           
+             XX    XX        XX XX     XXX      X  XX           
+              X     X       XX  XX       XXX    X  XX           
+              XX    X      XX   XX         XXX  XXXX            
+               XX   X     XX    XX            XX XXX            
+               XX    X    X     XX             XXXX             
+                XX   X   X      XX       XXXXXXXXX              
+                 XXX X  XX      XX XXXXXXX     XX               
+                  XXXXXXX    XXXXXXX         XXX                
+                    XXXXXXXXXX  XX          XXX                 
+                     XXXX       XX       XXXX                   
+                        XXXXX   XX    XXXXX                     
+                           XXXXXXXXXXXXX                        
+
+------------------------------------------------------------
+
+ Stereo white noise center axis rotated +22 degrees...
+                                M
+                                                                
+                          XXXXXXXXXXXXXX                        
+                       XXXXX    XX     XXXX                     
+               L     XXXX       XX     XXXXXX     R             
+                   XXX          XX  XXXXX XXXXX                 
+                  XXX           XXXXX  XX  XX XX                
+                 XX             XXX   XX    XX XXX              
+                XX            XXXX    X      X  XX              
+               XX           XXX XX   XX       X  XX             
+              XXX         XXX   XX  XX        XX  XX            
+              XX        XX      XX  X          XX  X            
+              X      XXX        XX XX           XX XX           
+             XX    XXX          XX X             XXXX           
+             X   XXX            XXXX              X X           
+             X XXX              XXX                XXX          
+         S   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX          
+             XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX          
+             XXX               XXX              XXX XX          
+             XXXX              XXX            XXX   X           
+             XX XX            XXXX          XXX     X           
+              X  X            X XX        XXX      XX           
+              XX  X          X  XX      XXX       XX            
+               XX XX        XX  XX    XXX         XX            
+               XX  XX       X   XX  XX           XX             
+                XX  XX     XX   XXXX            XX              
+                 XXX XX   XX   XXX             XX               
+                  XXX XX  X  XXXXX           XXX                
+                    XXXXXXXXXX  XX          XXX                 
+                     XXXXXXX    XX       XXXX                   
+                        XXXXX   XX    XXXXX                     
+                           XXXXXXXXXXXXX                        
+ 
+
+
+------------------------------------------------------------
+
+                                          
+##########################################
+#########==-- DISCLAIMER--==##############
+##########################################
+
+StereBox Pro is donationware. This means you are free to use it. Just
+you will have to send me your firstborn. I'm just kidding.
+You may use it as free of charge. Drop me an email saying "thanks"
+or "cool" if you like it. Alternately, you could send me three 
+billion dollars. You cannot, however, sell this or repackage this
+in any form without my permission.
+
+Use at your own risk. I am not a perfect coder. At best, it will 
+run fine. At worst, it could cause nuclear devastation, with your
+machine being ground zero. However, that is unlikely. But in case
+it causes any damage from a) making your song turn out bad to z)
+causing a large population of people to disappear, I cannot be held
+responsible.
+
+-------------------------------------------------------------
+6.9.2001

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Enter_work.wav-4f00c90b7833a83698051e06a880e97b.sample"
+
+[deps]
+
+source_file="res://Sounds/Enter_work.wav"
+dest_files=[ "res://.import/Enter_work.wav-4f00c90b7833a83698051e06a880e97b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

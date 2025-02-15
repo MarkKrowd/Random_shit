@@ -1,0 +1,213 @@
+$Version=1
+$FileExt=.mrp
+$RootPath=Sound Banks
+$FilePath=Sound Banks
+$Alternative=Morphine
+$Caption=Morphine
+$RegPath=Morphine
+$RegValue=rootFolder
+$Format=344
+
+$Flags=12
+$ColName=Name
+$ColSize=Size
+$ColCount=Presets
+$BankText=preset
+$SampleText=preset
+
+;CDName|SubDirName|ItemName|Count|FileSize|ProductCode|Flags|WebLink
+Morphine|(01) Pads & Atmos|ATM Ethnosphere FG|0|1236|83004|32|
+Morphine|(01) Pads & Atmos|ATM Evilution FG|0|1438|83004|32|
+Morphine|(01) Pads & Atmos|ATM Industrial Feedback FG|0|173|83004|32|
+Morphine|(01) Pads & Atmos|ATM Ritual FG|0|427|83004|32|
+Morphine|(01) Pads & Atmos|ATM Terminator 2009 FG|0|526|83004|32|
+Morphine|(01) Pads & Atmos|PAD Beating Sines FG|0|392|83004|32|
+Morphine|(01) Pads & Atmos|PAD Dissonance FG|0|512|83004|32|
+Morphine|(01) Pads & Atmos|PAD Imax Movie FG|0|42|83004|32|
+Morphine|(01) Pads & Atmos|PAD Jungle Monk I FG|0|1839|83004|32|
+Morphine|(01) Pads & Atmos|PAD Jungle Monk II FG|0|1129|83004|32|
+Morphine|(01) Pads & Atmos|PAD Mystique FG|0|36|83004|32|
+Morphine|(01) Pads & Atmos|PAD Pheramones FG|0|36|83004|32|
+Morphine|(01) Pads & Atmos|PAD Serenity FG|0|70|83004|32|
+Morphine|(01) Pads & Atmos|PAD Wavesphere FG|0|314|83004|32|
+Morphine|(02) Keyboards|KBD Bits & Bytes FG|0|546|83004|32|
+Morphine|(02) Keyboards|KBD Cool Keys FG|0|980|83004|32|
+Morphine|(02) Keyboards|KBD CSI Eigthies FG|0|1093|83004|32|
+Morphine|(02) Keyboards|KBD Delayed Tine FG|0|108|83004|32|
+Morphine|(02) Keyboards|KBD Early FM FG I|0|728|83004|32|
+Morphine|(02) Keyboards|KBD Early FM II FG|0|67|83004|32|
+Morphine|(02) Keyboards|KBD Fairy Dust FG|0|650|83004|32|
+Morphine|(02) Keyboards|KBD FireFly FG|0|515|83004|32|
+Morphine|(02) Keyboards|KBD LoFi Bells FG|0|1773|83004|32|
+Morphine|(02) Keyboards|KBD Lowest-Fi Piano FG|0|819|83004|32|
+Morphine|(02) Keyboards|KBD Lullabye FG|0|1307|83004|32|
+Morphine|(02) Keyboards|KBD Pure Eighties FG|0|199|83004|32|
+Morphine|(02) Keyboards|KBD Purple Organ FG|0|187|83004|32|
+Morphine|(02) Keyboards|KBD Spectral Keys FG|0|2017|83004|32|
+Morphine|(02) Keyboards|KBD Thumb Piano FG|0|87|83004|32|
+Morphine|(02) Keyboards|KBD Warm Suitcase FG|0|176|83004|32|
+Morphine|(03) Strings|STR Alabama Banjo FG|0|1196|83004|32|
+Morphine|(03) Strings|STR BaliTar (C#) FG|0|183|83004|32|
+Morphine|(03) Strings|STR Ol' Twelve FG|0|1327|83004|32|
+Morphine|(04) Leads|LED FeedBack II FG|0|32|83004|32|
+Morphine|(04) Leads|LED Just a Phase FG|0|287|83004|32|
+Morphine|(04) Leads|LED Old-School I FG|0|1297|83004|32|
+Morphine|(04) Leads|LED Old-School II FG|0|1297|83004|32|
+Morphine|(04) Leads|LED Syncopated FG|0|55|83004|32|
+Morphine|(05) Brass & Wind|WND Shenai FG|0|1787|83004|32|
+Morphine|(05) Brass & Wind|WND Taped Flute FG|0|978|83004|32|
+Morphine|(06) Synthetic|SYN Bottom Feeder FG|0|314|83004|32|
+Morphine|(06) Synthetic|SYN Custom Trumpet FG|0|34|83004|32|
+Morphine|(06) Synthetic|SYN Floating Metal FG|0|487|83004|32|
+Morphine|(06) Synthetic|SYN Just Chill FG|0|140|83004|32|
+Morphine|(06) Synthetic|SYN Morose Digitar FG|0|904|83004|32|
+Morphine|(06) Synthetic|SYN Steam FG|0|644|83004|32|
+Morphine|(06) Synthetic|SYN TechnoTar I FG|0|8|83004|32|
+Morphine|(06) Synthetic|SYN TechnoTar II FG|0|259|83004|32|
+Morphine|(06) Synthetic|SYN Tine Travel FG|0|13|83004|32|
+Morphine|(08) Bass|BAS Albino-Funk FG|0|648|83004|32|
+Morphine|(08) Bass|BAS Beef Bass FG|0|54|83004|32|
+Morphine|(08) Bass|BAS Bit-Vowel I FG|0|291|83004|32|
+Morphine|(08) Bass|BAS Bit-Vowel II FG|0|291|83004|32|
+Morphine|(08) Bass|BAS BullShark FG|0|2136|83004|32|
+Morphine|(08) Bass|BAS DigiPWM FG|0|25|83004|32|
+Morphine|(08) Bass|BAS FM Analog FG|0|224|83004|32|
+Morphine|(08) Bass|BAS Gangsta Digital FG|0|94|83004|32|
+Morphine|(08) Bass|BAS Hot & Heavy FG|0|79|83004|32|
+Morphine|(08) Bass|BAS Juice FG|0|227|83004|32|
+Morphine|(08) Bass|BAS ManMade FG|0|8|83004|32|
+Morphine|(08) Bass|BAS Monoeurothane FG|0|224|83004|32|
+Morphine|(08) Bass|BAS Ninja FG|0|54|83004|32|
+Morphine|(08) Bass|BAS Plastic Pulse FG|0|79|83004|32|
+Morphine|(08) Bass|BAS Punchy FG|0|73|83004|32|
+Morphine|(08) Bass|BAS Scooped Analog FG|0|115|83004|32|
+Morphine|(08) Bass|BAS Sloppy Metal FG|0|248|83004|32|
+Morphine|(08) Bass|BAS The Waldorf FG|0|279|83004|32|
+Morphine|(08) Bass|BAS Typical Synth FG|0|28|83004|32|
+Morphine|(09) Percussion|PRC Bahamas Mallet FG|0|317|83004|32|
+Morphine|(09) Percussion|PRC Mystery Bowl FG|0|1746|83004|32|
+Morphine|(09) Percussion|PRC Radio Bell FG|0|172|83004|32|
+Morphine|(10) SFX|SFX Glissando Heaven FG|0|541|83004|32|
+Morphine|(10) SFX|SFX Prepared Toy Piano FG|0|28|83004|32|
+Morphine|(10) SFX|SFX Reverse Bell FG|0|542|83004|32|
+Morphine|(11) Vintage Digital|CMI Church Organ FG|0|107|83004|32|
+Morphine|(11) Vintage Digital|CMI PluckBass 1 FG|0|106|83004|32|
+Morphine|(11) Vintage Digital|D50 Arco Strings FG|0|6575|83004|32|
+Morphine|(11) Vintage Digital|D50 Chicago Heaven FG|0|12142|83004|32|
+Morphine|(11) Vintage Digital|D50 Christmas Bells FG|0|1123|83004|32|
+Morphine|(11) Vintage Digital|D50 Crossroads Blues FG|0|6371|83004|32|
+Morphine|(11) Vintage Digital|D50 Dig Bass FG|0|135|83004|32|
+Morphine|(11) Vintage Digital|D50 Fantasia FG|0|8789|83004|32|
+Morphine|(11) Vintage Digital|D50 Gamelan Bells FG|0|5547|83004|32|
+Morphine|(11) Vintage Digital|D-50 Singing Bells FG|0|19|83004|32|
+Morphine|(11) Vintage Digital|D50 Staccato Heaven FG|0|11801|83004|32|
+Morphine|(11) Vintage Digital|DX-7 Dyno EP FG|0|71|83004|32|
+Morphine|(11) Vintage Digital|DX-7 Female Voice FG|0|34|83004|32|
+Morphine|(11) Vintage Digital|DX-7 FlugelHorn FG|0|78|83004|32|
+Morphine|(11) Vintage Digital|DX-7 Harp FG|0|125|83004|32|
+Morphine|(11) Vintage Digital|DX-7 Lite Pluck FG|0|386|83004|32|
+Morphine|(11) Vintage Digital|DX-7 Marimba FG|0|1151|83004|32|
+Morphine|(11) Vintage Digital|DX-7 Music Box FG|0|256|83004|32|
+Morphine|(11) Vintage Digital|DX-7 Tonewheels FG|0|329|83004|32|
+Morphine|(11) Vintage Digital|DX-7 W Houston FG|0|775|83004|32|
+Morphine|(11) Vintage Digital|DX-7 Wire Pluck FG|0|1028|83004|32|
+Morphine|(11) Vintage Digital|EPS Asia FG|0|523|83004|32|
+Morphine|(11) Vintage Digital|EPS Harp 1 FG|0|48|83004|32|
+Morphine|(11) Vintage Digital|FZ-1 Acoustic Guitar FG|0|187|83004|32|
+Morphine|(11) Vintage Digital|FZ-1 China FG|0|209|83004|32|
+Morphine|(11) Vintage Digital|FZ-1 DXII String FG|0|15|83004|32|
+Morphine|(11) Vintage Digital|FZ-1 Mel-Bell FG|0|22|83004|32|
+Morphine|(11) Vintage Digital|FZ-1 Phased Clav FG|0|48|83004|32|
+Morphine|(11) Vintage Digital|K-1 E_Piano FG|0|1595|83004|32|
+Morphine|(11) Vintage Digital|K-1 Full Pipes FG|0|2666|83004|32|
+Morphine|(11) Vintage Digital|M1 Fretless FG|0|1284|83004|32|
+Morphine|(11) Vintage Digital|M1 Organ 2 FG|0|907|83004|32|
+Morphine|(11) Vintage Digital|M1 PanFlute FG|0|900|83004|32|
+Morphine|(11) Vintage Digital|M1 Piano 16 FG|0|7139|83004|32|
+Morphine|(11) Vintage Digital|M1 Pick Bass FG|0|377|83004|32|
+Morphine|(11) Vintage Digital|M1 Vibes FG|0|1034|83004|32|
+Morphine|(11) Vintage Digital|MicroWave WaveTrip FG|0|5190|83004|32|
+Morphine|(11) Vintage Digital|PPG PunchSynth FG|0|655|83004|32|
+Morphine|(11) Vintage Digital|PPG Razor Bass FG|0|378|83004|32|
+Morphine|(11) Vintage Digital|PPG Sweep Keys FG|0|987|83004|32|
+Morphine|(11) Vintage Digital|PPG TubuPad FG|0|1613|83004|32|
+Morphine|(11) Vintage Digital|PPG Wave Chime FG|0|90|83004|32|
+Morphine|(11) Vintage Digital|PPG WaveRise FG|0|1438|83004|32|
+Morphine|(11) Vintage Digital|Proteus Bass Clarinet FG|0|164|83004|32|
+Morphine|(11) Vintage Digital|Proteus Bazouki FG|0|1006|83004|32|
+Morphine|(11) Vintage Digital|Proteus Calm Night FG|0|436|83004|32|
+Morphine|(11) Vintage Digital|Proteus Harmonica Vib FG|0|642|83004|32|
+Morphine|(11) Vintage Digital|Proteus Slap Bass 1 FG|0|322|83004|32|
+Morphine|(11) Vintage Digital|Proteus Stone Bass FG|0|224|83004|32|
+Morphine|(11) Vintage Digital|Proteus Tubular Bells FG|0|197|83004|32|
+Morphine|(11) Vintage Digital|Proteus Waterphone FG|0|331|83004|32|
+Morphine|(11) Vintage Digital|Proteus Xpressive Guitar FG|0|231|83004|32|
+Morphine|(11) Vintage Digital|SK-1 Tubular Bell FG|0|417|83004|32|
+Morphine|(11) Vintage Digital|WS DRW Bass FG|0|111|83004|32|
+Morphine|FrankGenusBank1|ATM Hand-Made FG|0|11|0|0|
+Morphine|FrankGenusBank1|ATM Raining Down FG|0|561|0|0|
+Morphine|FrankGenusBank1|ATM Standard Fear FG|0|2966|0|0|
+Morphine|FrankGenusBank1|ATM Tumbling FG|0|29|0|0|
+Morphine|FrankGenusBank1|ATM Turbulentia FG|0|247|0|0|
+Morphine|FrankGenusBank1|BAS Acoustic 2 FG|0|39|0|0|
+Morphine|FrankGenusBank1|GTR Gibson Jazz FG|0|719|0|0|
+Morphine|FrankGenusBank1|KBD 90s Stack FG|0|662|0|0|
+Morphine|FrankGenusBank1|KBD Better B3 FG|0|97|0|0|
+Morphine|FrankGenusBank1|KBD D50 Keys FG|0|891|0|0|
+Morphine|FrankGenusBank1|KBD FarFigNewton FG|0|59|0|0|
+Morphine|FrankGenusBank1|KBD Glass EP FG|0|401|0|0|
+Morphine|FrankGenusBank1|KBD Late Morph FG|0|2429|0|0|
+Morphine|FrankGenusBank1|KBD MusicBox FG|0|295|0|0|
+Morphine|FrankGenusBank1|KBD Mystery FG|0|292|0|0|
+Morphine|FrankGenusBank1|KBD Nuance Keys FG|0|150|0|0|
+Morphine|FrankGenusBank1|KBD RoboClav FG|0|1461|0|0|
+Morphine|FrankGenusBank1|KBD Stackem High FG|0|146|0|0|
+Morphine|FrankGenusBank1|KBD Taped EP FG|0|3257|0|0|
+Morphine|FrankGenusBank1|PAD DX Pad FG|0|268|0|0|
+Morphine|FrankGenusBank1|PAD Eno Pad|0|70|0|0|
+Morphine|FrankGenusBank1|PAD Liquidity FG|0|71|0|0|
+Morphine|FrankGenusBank1|PAD Martins FG|0|807|0|0|
+Morphine|FrankGenusBank1|PAD Piano Pad FG|0|332|0|0|
+Morphine|FrankGenusBank1|PAD Plead The 5th FG|0|373|0|0|
+Morphine|FrankGenusBank1|PAD PWX FG|0|61|0|0|
+Morphine|FrankGenusBank1|PAD Simple-Morph FG|0|11|0|0|
+Morphine|FrankGenusBank1|PAD Solemn Eno FG|0|190|0|0|
+Morphine|FrankGenusBank1|PAD Solemn FG|0|490|0|0|
+Morphine|FrankGenusBank1|PAD Spirits FG|0|313|0|0|
+Morphine|FrankGenusBank1|PRC Bell Tree FG|0|238|0|0|
+Morphine|FrankGenusBank1|PRC Crotals FG|0|426|0|0|
+Morphine|FrankGenusBank1|PRC Crystalline FG|0|221|0|0|
+Morphine|FrankGenusBank1|PRC Far East FG|0|360|0|0|
+Morphine|FrankGenusBank1|PRC Hammered Church FG|0|26|0|0|
+Morphine|FrankGenusBank1|PRC Jazz Vibes FG|0|81|0|0|
+Morphine|FrankGenusBank1|PRC Kalimba FG|0|200|0|0|
+Morphine|FrankGenusBank1|PRC Morpher FG|0|173|0|0|
+Morphine|FrankGenusBank1|PRC PPG-Wave Chime FG|0|90|0|0|
+Morphine|FrankGenusBank1|PRC Ride Cymbal (C3)|0|722|0|0|
+Morphine|FrankGenusBank1|PRC Sierra FG|0|27|0|0|
+Morphine|FrankGenusBank1|PRC Tibetan Bowl FG|0|275|0|0|
+Morphine|FrankGenusBank1|SFX Additive Sweep FG|0|3133|0|0|
+Morphine|FrankGenusBank1|SFX Background - Church FG|0|5161|0|0|
+Morphine|FrankGenusBank1|SFX Bird Call (Under C2) FG|0|568|0|0|
+Morphine|FrankGenusBank1|SFX Davens Loon (Mid-Lo C) (AT) FG|0|79|0|0|
+Morphine|FrankGenusBank1|SFX Fallen From Grace FG|0|212|0|0|
+Morphine|FrankGenusBank1|SFX Neutron FG|0|2509|0|0|
+Morphine|FrankGenusBank1|STR Banjo FG|0|465|0|0|
+Morphine|FrankGenusBank1|STR Harp FG|0|135|0|0|
+Morphine|FrankGenusBank1|STR Loose Sitar FG|0|1061|0|0|
+Morphine|FrankGenusBank1|STR Sitar FG|0|352|0|0|
+Morphine|FrankGenusBank1|SYN Ballad Pad FG|0|68|0|0|
+Morphine|FrankGenusBank1|SYN ChinaTown FG|0|69|0|0|
+Morphine|FrankGenusBank1|SYN Diamonds FG|0|284|0|0|
+Morphine|FrankGenusBank1|SYN Dirty Ebow FG|0|459|0|0|
+Morphine|FrankGenusBank1|SYN Hold Me FG|0|20|0|0|
+Morphine|FrankGenusBank1|SYN Retro Trancer Remix FG|0|12|0|0|
+Morphine|FrankGenusBank1|SYN Stringer 1 FG|0|721|0|0|
+Morphine|FrankGenusBank1|SYN Stringer 2 FG|0|1787|0|0|
+Morphine|FrankGenusBank1|SYN Synbrass FG|0|907|0|0|
+Morphine|FrankGenusBank1|WND Bass Clarinet FG|0|78|0|0|
+Morphine|FrankGenusBank1|WND Concert Oboe FG|0|258|0|0|
+Morphine|FrankGenusBank1|WND Tibetan Flute (AT) FG|0|231|0|0|
+Morphine||Morphine video tutorials|0|0|0|16|tut_Morphine
+
+

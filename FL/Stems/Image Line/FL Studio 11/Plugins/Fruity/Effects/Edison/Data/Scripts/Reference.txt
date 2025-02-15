@@ -1,0 +1,132 @@
+Edison Script Reference
+=======================
+
+0. Scripts
+----------
+- scripts must be in .edscript files
+- a script file must start with a header like this:
+     script "Pulse generator" language "pascal";
+  The language can be "pascal", "javascript" or "basic"
+- additional units/modules can be regular .pas/.js/.bas files
+
+
+
+1. Global variables
+-------------------
+CRLF			string		acts as a line feed for showing multiline messages
+Editor			TEditor		an instance of Edison's wave editor
+EditorSample		TSample		an instance of the sample loaded in Edison's wave editor
+ScriptPath		string		the path to the script file being executed
+
+
+
+2. Global functions
+-------------------
+ProgressMsg		procedure ProgressMsg(const Msg:String;Pos,Total:Integer);			Shows a progress message in Edison/FL
+ShowMessage		procedure ShowMessage(const s: string);						Shows a message in a dialog box
+
+
+
+3. Delphi/Windows functions
+---------------------------
+Dec    			procedure dec_(var Value, Decrement: integer);		Decreases an integer value
+FloatToStr		function FloatToStr(Value: extended): string;		Converts a floating point value to a string
+Inc			procedure inc_(var Value, Increment: integer);		Increases an integer value
+IntToStr		function IntToStr(Value: integer): string;		Converts an integer value to a string
+Round			function Round(Value: double): integer;			Rounds a floating point value to an integer
+TimeGetTime		function timeGetTime: integer; stdcall;			Returns the time in ms since Windows was started (can be used to time parts of scripts)
+
+
+
+4. Wave related classes
+-----------------------
+  // PasteFromTo modes
+  0: insert
+  1: replace
+  2: mix
+
+  // NormalizeFormat Mode flags (combine as needed)
+  NF_NumChannels	: normalize the number of channels
+  NF_Format		: normalize the sample format
+  NF_Samplerate		: normalize the samplerate
+  NF_All		: normalize all (combines all flags)
+
+
+  // region
+  TRegion = class
+    constructor Create;				Constructor. Call like this (Region is a TRegion variable): Region := TRegion.Create;
+    procedure Copy(Source: TRegion);		Copy the properties of the Source region to this object
+    property SampleStart: integer;		The start of this region, in samples
+    property SampleEnd: integer;		The end of this region, in samples. If this is larger than the length of the sample, it's a marker instead of a region
+    property Name: string;			The name of the region (will be shown in Edison)
+    property Info: string;			Some extra info as a string
+    property Time: single;			Beat position, mainly for loop dumping (-1 if not supported)
+    property KeyNum: integer;			Linked MIDI note number (-1 if not supported)
+  end;
+  
+
+  // sample
+  TSample = class
+    constructor Create;													Constructor. Call like this: Sample := TSample.Create;
+    function GetSampleAt(Position, Channel: integer): single;								Retrieve the value of a single sample (Position in samples)
+    procedure SetSampleAt(Position, Channel: integer; Value: single);							Set the value of a single sample (Position in samples)
+    procedure CenterFromTo(x1, x2: integer);										Center the wave between the sample positions x1 and x2 (inclusive)
+    function NormalizeFromTo(x1, x2: integer; Vol: single; OnlyIfAbove: boolean = FALSE): single;			Normalize the wave between sample positions x1 and x2 (inclusive)
+    procedure AmpFromTo(x1, x2: integer; Vol: single);									Amplify the wave between sample positions x1 and x2 (inclusive)
+    procedure ReverseFromTo(x1, x2: integer);										Reverse the wave between sample positions x1 and x2 (inclusive)
+    procedure ReversePolarityFromTo(x1, x2: integer);									Reverse polarity of the wave between sample positions x1 and x2 (inclusive)
+    procedure SwapChannelsFromTo(x1, x2: integer);									Swap the values of the channels of this wave between sample positions x1 and x2 (inclusive), for a stereo wave
+    procedure InsertSilence(x1, x2: integer);										Insert a block of zero-valued samples (silence) between sample positions x1 and x2 (inclusive). This doesn't change the existing samples, it only inserts new samples at at position x1
+    procedure SilenceFromTo(x1, x2: integer);										Change the sample values between positions x1 and x2 (inclusive) to zero
+    procedure NoiseFromTo(x1, x2: integer; Mode: integer = 1; Vol: single = 1);						Change the samples between positions x1 and x2 (inclusive) to random values. Mode is 0 (uniform noise) or 1 (gaussian noise)
+    procedure SineFromTo(x1, x2: integer; Freq, Phase: double; Vol: single = 1);					Change the samples between positions x1 and x2 (inclusive) to a sine wave
+    procedure PasteFromTo(aSample: TSample; var x1, x2: integer; Mode: integer = 0);					Insert another wave file at point x1. The sample will be made longer, depending on the value of Mode. x1 and x2 will contain the actual sample positions that the other wave was inserted at. Mode can be 0 (insert), 1 (replace) or 2 (mix)
+    procedure LoadFromClipboard;											Load a wave from the clipboard into this sample object
+    procedure DeleteFromTo(x1, x2: integer; Copy: boolean = FALSE);							Delete samples from x1 to x2 (inclusive)
+    procedure TrimFromTo(x1, x2: integer);										Trim samples from 0 to x1 (inclusive) and from x2 to the end of the sample
+    function MsToSamples(Time: double): double;										Convert a position value from milliseconds to samples
+    function SamplesToMS(Time: double): double;										Convert a position value from samples to milliseconds
+    procedure LoadFromFile(const Filename: string);     								Load a filename. This needs to be a complete filename with path. Use ScriptPath to complete it if necessary
+    procedure LoadFromFile_Ask;                         								Shows an open dialog and loads the file into the sample if the user clicks OK
+    procedure NormalizeFormat(Source: TSample; Mode: integer = nfAll);							Change the format of this sample to be compatible with the format of the source sample. See the mode constants above
+    function GetRegion(Index: integer): TRegion;									Retrieve an object for the region at Index (between 0 and RegionCount-1)
+    function AddRegion(const SetName: string; SampleStart: integer; SampleEnd: integer = MaxInt): integer;		Add a new region. Returns the index of the new region (other regions may have been moved to another index)
+    procedure DeleteRegion(Index: integer);										Delete an existing region at Index
+
+    property Length: integer;												The length of the wave, in samples
+    property NumChans: integer;												The channel count
+    property Samplerate: integer;											The sample rate, in Hertz
+    property RegionCount: integer;											The amount of regions. Can be zero or more
+  end;
+
+  // editor
+  TEditor = class
+    function GetSelectionS(var x1, x2: integer): boolean;		Retrieve the start (x1) and end (x2) positions of the selection in the editor, in samples
+    function GetSelectionMS(var x1, x2: double): boolean;		Retrieve the start (x1) and end (x2) positions of the selection in the editor, in milliseconds
+    property Sample: TSample;						The sample currently loaded into the editor
+  end;
+
+
+
+5. Dialog classes and functions
+-------------------------------
+  TInput = class
+    property DefaultValue: single;		The default value of the control
+    property Value: single;			The current value of the control
+    property ValueAsInt: integer;		The current value of the control, rounded to an integer value
+    property Min: single;			The minimum value of the control
+    property Max: single;			The maximum value of the control
+  end;
+
+  TScriptDialog = class
+    constructor Create;										Constructor. Call like this:  MyDialog := TScriptDialog.Create;
+    function AddInput(const aName: string; Value: single): TInput;				Adds a generic input control
+    function AddInputKnob(const aName: string; Value, Min, Max: single): TInput;		Adds a knob input control
+    function AddInputCombo(const aName, ValueList: string; Value: integer): TInput;		Adds a combobox input control
+    function GetInput(const aName: string): TInput;						Retrieve the input with the specified name
+    function GetInputValue(const aName: string): single;    					Retrieve the current value of the input with the specified name
+    function GetInputValueAsInt(const aName: string): integer;					Retrieve the current value of the input with the specified name, rounded to an integer value
+    function Execute: boolean;									Show the dialog. Returns TRUE if the user pressed OK, FALSE if the dialog was cancelled
+  end;
+
+function CreateScriptDialog(const Title, Description: string): TScriptDialog;			Creates a new script dialog. It's recommended to use this instead of calling the TScriptDialog constructor directly

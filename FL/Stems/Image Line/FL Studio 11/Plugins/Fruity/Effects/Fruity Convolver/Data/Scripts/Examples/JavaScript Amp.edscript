@@ -1,0 +1,35 @@
+script "JavaScript Amp" language "javascript";
+
+function Amp(value)
+{
+	var x1 = 0;
+	var x2 = 0;
+	Editor.GetSelectionS(x1, x2);
+
+	for (var n = x1; n <= x2; n++)
+	{
+		var x = n-x1;
+  		if (x % 10000 == 0)
+			ProgressMsg("Processing", x, x2-x1);
+  
+  		for (var c = 0; c < EditorSample.NumChans; c++)
+		{
+			var s = EditorSample.GetSampleAt(n, c);
+			s = s*value;
+			EditorSample.SetSampleAt(n, c, s);
+		}
+	}
+}
+
+
+var Form = CreateScriptDialog("Amp", "Simple amplification.");
+try
+{
+	Form.AddInputKnob("Volume", 1, 0, 2);
+	if (Form.Execute())
+		Amp(Form.GetInputValue("Volume"));
+}
+finally
+{
+	Form.Free();
+}

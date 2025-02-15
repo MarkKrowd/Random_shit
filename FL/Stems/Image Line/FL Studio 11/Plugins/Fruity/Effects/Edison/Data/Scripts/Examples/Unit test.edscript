@@ -1,0 +1,7 @@
+script "Unit test" language "pascal";
+
+uses MyUnit;
+
+Begin
+Test;
+End.

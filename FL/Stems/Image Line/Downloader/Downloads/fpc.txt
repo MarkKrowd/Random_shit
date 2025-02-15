@@ -1,0 +1,149 @@
+;Options
+$Version=1
+$FileExt=.fst
+$RootPath=Data\Patches\
+$FilePath=Data\Patches\Plugin presets\Generators\FPC\
+$Caption=FPC
+
+; Format - cdname/subdirname meaning
+; values:
+;    0=not used
+;    1=(obsolete) use cd name and category on server
+;    2=(deprecated) use cd name and category to build local filename, see 32 and 64
+;    4=(deprecated) cd name and category in treeview
+;    8=ignore cd name in treeview
+;   16=ignore filename when downloading, not when downloaded. Downloads are determined from cdname+subdir instead, allows multiple downloads from 1 file
+;   32=use cd name to build local filename (in case option 2 is not included, to ignore the category alone)
+;   64=use category name to build local filename (in case option 2 is not included, to ignore the cd alone)
+;  128=ignore category name in treeview
+; combine values if necessary
+; --- we use 1+8
+$Format=9
+
+; flags, combination of these values:
+;   1=destpath must be fl path
+;   2=use category image as item image
+;   4=destpath must be custom path (don't allow download from selector)
+$Flags=1
+
+;CDName|SubDirName|DWGName|NrOfWavs|FileSize|ProductCode
+FPCInstallerFiles|E Drum Kits|Ekit_Blang|16|721|
+FPCInstallerFiles|E Drum Kits|Ekit_Bracke|64|4403|
+FPCInstallerFiles|E Drum Kits|Ekit_Broadside|16|1608|
+FPCInstallerFiles|E Drum Kits|Ekit_Burn|16|1501|
+FPCInstallerFiles|E Drum Kits|Ekit_Chromo|64|3731|
+FPCInstallerFiles|E Drum Kits|Ekit_Creekier|16|1485|
+FPCInstallerFiles|E Drum Kits|Ekit_Filthy|16|1400|
+FPCInstallerFiles|E Drum Kits|Ekit_Gazpacho|16|1133|
+FPCInstallerFiles|E Drum Kits|Ekit_Happening|16|1801|
+FPCInstallerFiles|E Drum Kits|Ekit_Nuked|16|1661|
+FPCInstallerFiles|E Drum Kits|Ekit_Spanked|16|1464|
+FPCInstallerFiles|E Drum Kits|Industrial HooDoo|16|5282|
+FPCInstallerFiles|E Drum Kits|Industrial Sweetness|16|4167|
+FPCInstallerFiles|Electronic|707|16|776|
+FPCInstallerFiles|Electronic|808|18|1041|
+FPCInstallerFiles|Electronic|909|27|897|
+FPCInstallerFiles|Electronic|Alma|16|1261|
+FPCInstallerFiles|Electronic|Beat Box Kit 01|17|825|
+FPCInstallerFiles|Electronic|Dilloo_Free|16|2164|
+FPCInstallerFiles|Electronic|FPC Industrial_001|15|1041|
+FPCInstallerFiles|Electronic|FPC Scratchin_001|16|554|
+FPCInstallerFiles|Electronic|FPC-Aspermic Kit|19|1612|
+FPCInstallerFiles|Electronic|FPC-Bug Kit|30|2873|
+FPCInstallerFiles|Electronic|FPC-Drag Kit|14|1255|
+FPCInstallerFiles|Electronic|FPC-Electrogram Kit|22|1708|
+FPCInstallerFiles|Electronic|FPC-Fly Kit|21|1671|
+FPCInstallerFiles|Electronic|FPC-Gobbet Kit|27|2581|
+FPCInstallerFiles|Electronic|FPC-Huffin Kit|23|1752|
+FPCInstallerFiles|Electronic|FPC-Jumentous Kit|21|1707|
+FPCInstallerFiles|Electronic|FPC-Lask Kit|26|2590|
+FPCInstallerFiles|Electronic|FPC-Merkin Kit|26|2632|
+FPCInstallerFiles|Electronic|FPC-Quizzler Kit|20|1452|
+FPCInstallerFiles|Electronic|FPC-Raisin Kit|26|2588|
+FPCInstallerFiles|Electronic|FPC-Rockin Kit|21|1922|
+FPCInstallerFiles|Electronic|FPC-Slighted Kit|20|1442|
+FPCInstallerFiles|Electronic|Glotch|16|1416|
+FPCInstallerFiles|Electronic|GM Kit1|89|5454|
+FPCInstallerFiles|Electronic|HardFlit|25|1774|
+FPCInstallerFiles|Electronic|Importer|61|3348|
+FPCInstallerFiles|Electronic|IndUstreeall_01|16|1122|
+FPCInstallerFiles|Electronic|Jungle Time|16|1321|
+FPCInstallerFiles|Electronic|Lin|17|583|
+FPCInstallerFiles|Electronic|SElect|16|1484|
+FPCInstallerFiles|Electronic|Smigen|105|5198|
+FPCInstallerFiles|Electronic|Stomper|51|3780|
+FPCInstallerFiles|Electronic|Toidiling|13|953|
+FPCInstallerFiles|Electronic|VideoGame Kit 1|16|558|
+FPCInstallerFiles|Electronic|VideoGame Kit 2|16|558|
+FPCInstallerFiles|Electronic|VocodedDrums Kit 1|16|1246|
+FPCInstallerFiles|Electronic|VocodedDrums Kit 2|16|568|
+FPCInstallerFiles|Electronic|VocodedDrums Kit 3|16|709|
+FPCInstallerFiles|Electronic|VocodedDrums Kit 4|16|966|
+FPCInstallerFiles|Electronic|WhoDat|16|1306|
+FPCInstallerFiles|HipHop|FPC-Brother Kit|16|249|
+FPCInstallerFiles|HipHop|FPC-Car Kit|16|1392|
+FPCInstallerFiles|HipHop|FPC-House Kit|24|1769|
+FPCInstallerFiles|HipHop|FPC-Scam Kit|26|2617|
+FPCInstallerFiles|HipHop|HipScratch 1|16|669|
+FPCInstallerFiles|HipHop|HipScratch 2_Free|16|835|
+FPCInstallerFiles|HipHop|HipScratch 3|16|1248|
+FPCInstallerFiles|HipHop|HipScratch 4|16|805|
+FPCInstallerFiles|New Real Drumkits|CB Custom|102|27594|
+FPCInstallerFiles|New Real Drumkits|FPC-Ingler Kit|29|3030|
+FPCInstallerFiles|New Real Drumkits|FPC-Kickin Kit|31|3180|
+FPCInstallerFiles|New Real Drumkits|FPC-Nocturic Kit|31|3193|
+FPCInstallerFiles|New Real Drumkits|FPC-Obstinant Kit|31|3199|
+FPCInstallerFiles|New Real Drumkits|FPC-Peccable Kit|33|2943|
+FPCInstallerFiles|New Real Drumkits|FPC-Power Kit|32|3237|
+FPCInstallerFiles|New Real Drumkits|FPC-Tumbrel Kit|32|3218|
+FPCInstallerFiles|New Real Drumkits|FPC-UpFor Kit|33|2984|
+FPCInstallerFiles|New Real Drumkits|Gretch Full|51|2828|
+FPCInstallerFiles|New Real Drumkits|GretchCataLoose|157|34159|
+FPCInstallerFiles|New Real Drumkits|HouseHold_001|26|2166|
+FPCInstallerFiles|New Real Drumkits|Jazz|42|3533|
+FPCInstallerFiles|New Real Drumkits|Krunk|41|2809|
+FPCInstallerFiles|New Real Drumkits|Live Piggy|116|45048|
+FPCInstallerFiles|New Real Drumkits|LudwigCS|147|23122|
+FPCInstallerFiles|New Real Drumkits|MutedTamaSuper|145|42133|
+FPCInstallerFiles|New Real Drumkits|OldSchool|44|2085|
+FPCInstallerFiles|New Real Drumkits|Overheads Only 01|57|19914|
+FPCInstallerFiles|New Real Drumkits|Overheads Only 02|59|12095|
+FPCInstallerFiles|New Real Drumkits|PExport|91|29369|
+FPCInstallerFiles|New Real Drumkits|ProM 01|88|33792|
+FPCInstallerFiles|New Real Drumkits|Punx|109|13524|
+FPCInstallerFiles|New Real Drumkits|Ringy Kit|88|26466|
+FPCInstallerFiles|New Real Drumkits|Rock_01|46|3248|
+FPCInstallerFiles|New Real Drumkits|Scotch Kit|92|30262|
+FPCInstallerFiles|New Real Drumkits|Stud|43|5211|
+FPCInstallerFiles|New Real Drumkits|Superstar1|128|37774|
+FPCInstallerFiles|New Real Drumkits|Superstar2|111|36735|
+FPCInstallerFiles|New Real Drumkits|Tama|32|746|
+FPCInstallerFiles|New Real Drumkits|TamaStageSt|109|28925|
+FPCInstallerFiles|New Real Drumkits|Titey Kit 01|16|3527|
+FPCInstallerFiles|New Real Drumkits|Yam_01|53|3849|
+FPCInstallerFiles|Real|Real Drums 01|33|4022|
+FPCInstallerFiles|Real|Real Drums 02|27|2539|
+FPCInstallerFiles|Real|Real Drums 03|25|3369|
+FPCInstallerFiles|Real|Real Drums 04_Free|22|2564|
+FPCInstallerFiles|Real|Real Drums 05|18|2396|
+FPCInstallerFiles|Real|Real Drums 06|23|2923|
+FPCInstallerFiles|Real|Real Drums 07|27|4432|
+FPCInstallerFiles|Real|Real Drums 08|21|2916|
+FPCInstallerFiles|Real|Real Drums 09|20|3411|
+FPCInstallerFiles|Real|Real Drums 10|25|2800|
+FPCInstallerFiles|Real|Real Drums Jazz 01|18|3458|
+FPCInstallerFiles|Real|Real Drums Jazz 02|29|4310|
+FPCInstallerFiles|World|FPC Bata|16|675|
+FPCInstallerFiles|World|FPC Bongo_001|16|469|
+FPCInstallerFiles|World|FPC Conga_001|18|774|
+FPCInstallerFiles|World|World_Arabic Kit A|16|1457|
+FPCInstallerFiles|World|World_Arabic Kit B|16|1345|
+FPCInstallerFiles|World|World_Busket|16|342|
+FPCInstallerFiles|World|World_China 1|16|1141|
+FPCInstallerFiles|World|World_Daiko|16|2550|
+FPCInstallerFiles|World|World_Dunu|16|1302|
+FPCInstallerFiles|World|World_Japan_Free|16|1328|
+FPCInstallerFiles|World|World_Surdo1|16|1734|
+FPCInstallerFiles|World|World_Surdo2|16|1794|
+FPCInstallerFiles|World|World_TimbaleZabu|16|1412|
+FPCInstallerFiles|World|World_Water|16|1799|

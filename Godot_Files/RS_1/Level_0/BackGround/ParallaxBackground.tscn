@@ -1,0 +1,111 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Level_0/BackGround/ParallaxBackground.gd" type="Script" id=1]
+[ext_resource path="res://Level_0/BackGround/ciel.png" type="Texture" id=2]
+[ext_resource path="res://Level_0/BackGround/fond-1.png" type="Texture" id=3]
+
+[sub_resource type="Animation" id=1]
+
+resource_name = "Defilement_ciel"
+length = 30.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimationPlayer/Sprite:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 30 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 960, 540 ), Vector2( -960, 540 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("AnimationPlayer/Sprite2:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 30 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 2880, 540 ), Vector2( 960, 540 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("AnimationPlayer/Sprite3:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 30 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 4800, 540 ), Vector2( 2880, 540 ) ]
+}
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+
+layer = -1
+offset = Vector2( 0, 0 )
+rotation = 0.0
+scale = Vector2( 1, 1 )
+transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+scroll_offset = Vector2( 0, 0 )
+scroll_base_offset = Vector2( 0, 0 )
+scroll_base_scale = Vector2( 0.7, 0 )
+scroll_limit_begin = Vector2( 0, 0 )
+scroll_limit_end = Vector2( 0, 0 )
+scroll_ignore_camera_zoom = true
+script = ExtResource( 1 )
+_sections_unfolded = [ "Scroll" ]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="0"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 0.5
+anims/Defilement_ciel = SubResource( 1 )
+blend_times = [  ]
+_sections_unfolded = [ "Playback Options" ]
+
+[node name="Sprite" type="Sprite" parent="AnimationPlayer" index="0"]
+
+show_behind_parent = true
+position = Vector2( -960, 540 )
+texture = ExtResource( 2 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="Sprite2" type="Sprite" parent="AnimationPlayer" index="1"]
+
+show_behind_parent = true
+position = Vector2( 960, 540 )
+texture = ExtResource( 2 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="Sprite3" type="Sprite" parent="AnimationPlayer" index="2"]
+
+show_behind_parent = true
+position = Vector2( 2880, 540 )
+texture = ExtResource( 2 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="." index="1"]
+
+motion_scale = Vector2( 0.2, 1 )
+motion_offset = Vector2( 0, 0 )
+motion_mirroring = Vector2( 1920, 0 )
+_sections_unfolded = [ "Motion", "Transform" ]
+
+[node name="Sprite" type="Sprite" parent="ParallaxLayer" index="0"]
+
+position = Vector2( 960, 540 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Visibility" ]
+
+

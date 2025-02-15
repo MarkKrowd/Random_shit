@@ -1,0 +1,77 @@
+' FruityLoops preset
+' groove - swing
+' (99) gol
+
+' here's how fpr files work:
+' you set the ID for the FX (Pan (0..128), Vol (0..128), Pitch (0..240), Filter res (0..255), Filter cut (0..255), Shift (0..48 (at 192PPQ)), Note (0..127))
+' (note that you can set several ID's in the same file)
+' then you write the values for each note
+' (for now it's only the value, no add/subtract or multiplication)
+
+
+' graph edit effect number & value for each note
+FXID=Shift
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12
+Val=0
+Val=12

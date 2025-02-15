@@ -1,0 +1,31 @@
+script "amp" language "pascal";
+
+procedure Amp(Value:Single);
+var   n,x,c,x1,x2:Integer;
+      s:Single;
+Begin
+Editor.GetSelectionS(x1,x2);
+
+for n:=x1 to x2 do 
+  Begin
+  x:=n-x1;
+  if x mod 10000=0 then ProgressMsg('Processing',x,x2-x1);
+  
+  for c:=0 to EditorSample.NumChans-1 do
+    Begin
+    s:=EditorSample.GetSampleAt(n,c);
+    s:=s*Value;
+    EditorSample.SetSampleAt(n,c,s);
+    End;
+  End;
+End;
+
+
+var Form:TScriptDialog;
+
+Begin
+Form:=CreateScriptDialog('Amp','Simple amplification.');
+Form.AddInputKnob('Volume',1,0,2);
+if Form.Execute then Amp(Form.GetInputValue('Volume'));
+Form.Free;
+End.

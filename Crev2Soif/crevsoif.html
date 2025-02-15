@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+  <head>
+    <head>
+      <title>Crev2Soif</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" href="img/favicon.png" />
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/css/ol.css"
+        type="text/css">
+    </head>
+	 <style>
+      html,body,#map { width:100%; height:100%; margin:0;background-color: black }
+		#map {
+			position: fixed;
+			z-index: 5;
+		}
+		
+	
+	  .main {float:left;color:white}
+	  .deroule {float:left;color:white}
+	  .user {
+		  position: absolute;
+		  bottom: 0;
+		  width: 100%;
+		  height: 2.5rem;
+		}
+	  .Soif {width:320px; height:200px;background-color: yellow;font-size:7vw;text-align:center}
+	  .Ajout {opacity:0%;width:320px; height:200px;background-color: yellow;font-size:1vw;text-align:center}
+      .marker-properties {
+        border-collapse: collapse;
+        margin: 0;
+        font-size: 11px;
+        border: 1px solid #eee;
+      }
+      .marker-properties tr:nth-child(2n) th, .marker-properties tr:nth-child(2n) td {
+        background-color: #f7f7f7;
+      }
+	  
+      .marker-properties th {
+        padding: 5px 10px;
+        white-space: nowrap;
+        border: 1px solid #eee;
+      }
+      .ol-popup {
+        position: absolute;
+        background-color: gray;
+        -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+        filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+        padding: 15px;
+        border-radius: 10px;
+        border: 1px solid #cccccc;
+        bottom: 12px;
+        left: -50px;
+        min-width: 280px;
+      }
+	  body{overflow: hidden}
+	  
+    </style>
+<body>
+	<header>
+	<input type="submit" value="MENU" onclick="switch_menu()">
+	</header>
+	<div class="deroule" id="deroule">
+		<h1>Tu bois quoi toi?</h1>
+		<h2>Couleur</h2>
+		
+		<select id="couleurs">
+		  <option value="Blanche">Blanche</option>
+		  <option value="Blonde">Blonde</option>
+		  <option value="Ambrée">Ambrée</option>
+		  <option value="Rousse">Rousse</option>
+		  <option value="Brune">Brune</option>
+		  <option value="Noire">Noire</option>
+		  
+		</select>
+		<h2>Style</h2>
+		<select id="styles">
+		  <option value="Altbier">Altbier</option>
+		  <option value="Bière de garde">Bière de garde</option>
+		  <option value="Blanche">Blanche</option>
+		  <option value="Brown Ale">Brown Ale</option>
+		  <option value="Fumée">Fumée</option>
+		  <option value="India Pale Ale">India Pale Ale</option>
+		  <option value="Lager / Pils">Lager / Pils</option>
+		  <option value="Pale Ale">Pale Ale</option>
+		  <option value="Red Ale">Red Ale</option>
+		  <option value="Sour">Sour</option>
+		  <option value="Spéciale">Spéciale</option>
+		  <option value="Stout / Porter">Stout / Porter</option>
+		  <option value="Strong Ale">Strong Ale</option>
+		  <option value="Style Belge">Style Belge</option>
+		  <option value="Autres">Autres</option>
+		  
+		  
+		</select>
+		
+		
+		<h2>On va jusqu'où?</h2>
+		<select id="Dist">
+		  <option value="1">1 km</option>
+		  <option value="2">2 km</option>
+		  <option value="5">5 km</option>
+		  <option value="10">10 km</option>
+		  <option value="15">15 km</option>
+		  <option value="20">20 km</option>
+		  <option value="30">30 km</option>
+		  <option value="50">50 km</option>
+		  <option value="999">S'en fout j'ai soif</option>
+		  
+		</select>
+		
+		<p></p>
+		<p></p>
+		<p>
+		<input class="Soif"
+		   type="button"
+		   value="Soif"
+		   onclick="Soif()">
+		   </p>
+		<input id = "Ajout"
+		   class="Ajout"
+		   type="button"
+		   value="Ajouter zone de satisfaction"
+		   onclick="Ajouter_Brass()">
+		   </p>
+		<h1>T'es qui?</h1>
+		
+		  
+		  
+		<input type="text" id="username" name="username"><br><br>
+		<input type="submit" value="C'est moi!" onclick="Define_username()">
+		
+		
+	</div>
+    <div class="main">
+	
+	
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/build/ol.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.6.2/proj4.js"
+      integrity="sha512-cgJnZ1VX2G0MAN4C5OGShwI3zHhfQ6RLriXuukhblNu+T082/ZRGoWLP/0xMKObvB6AUKdnm27hQKj8hKZPjXA=="
+      crossorigin="anonymous"></script>
+
+    <div id="map" class="map"></div>
+	
+    
+    </div>
+	
+	<div id="popup" class="ol-popup">
+      <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+      <div id="popup-content1">
+      </div>
+    </div>
+	
+	
+	
+
+	<script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/build/ol.js"></script>
+	
+	<script>
+	
+	<!-- Initialisation de la base de donnees -->
+	let database_url = "http://localhost:8000"
+	
+		<!-- Lecture de la base de donnees -->
+	
+	var vectorSource;
+	var vectorLayer;
+	getData()
+	function getData() {
+		  
+		
+		  $.ajax({
+			type: "GET",
+			url: database_url,
+			dataType: 'json',
+			
+			success: function (response) {
+			
+			   var features = new ol.format.GeoJSON().readFeatures(response);
+			   <!-- Definition de la source de la BD -->
+				<!-- Source: exemples en ligne openlayers -->
+				
+				window.vectorSource = new ol.source.Vector({
+				  
+				  features: features,
+				  format: new ol.format.GeoJSON()
+				});
+				
+				<!-- Affichage de la BD -->
+				<!-- Source: exemples en ligne openlayers -->
+				
+				window.vectorLayer = new ol.layer.Vector({
+				  source: vectorSource,
+				  style: new ol.style.Style({
+					image: new ol.style.Circle({
+					  radius: 6,
+					  fill: new ol.style.Fill({
+						color: '#9933CC',
+					  }),
+					  stroke: new ol.style.Stroke({
+						color: '#fff',
+						width: 2,
+					  }),
+					}),
+				  })
+				});
+
+				  map.addLayer(vectorLayer);
+			}
+		});
+		}
+	
+	
+	
+	
+	<!-- Definition de la projection -->
+	
+	proj4.defs(
+            "EPSG:2056",
+            "+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1"
+            + " +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs"
+      );
+      ol.proj.proj4.register(proj4);
+      const eastElement = $("#east");
+      const northElement = $("#north");
+	  
+      <!-- Couche vectorielle -->
+	  
+	  
+      const geojsonSource = new ol.source.Vector({
+        format: new ol.format.GeoJSON(),
+        
+      }); 
+
+
+
+      <!-- Initalisation de la mise en forme des éléments de la carte puis recherche des styles de début -->
+	  
+      const textStyle = new ol.style.Text({
+        textAlign: "center",
+        textBaseline: "center",
+        font: "bold 14px Arial",
+        fill: new ol.style.Fill({
+          color: "black"
+        }),
+        stroke: new ol.style.Stroke({
+          color: "rgba(0, 0, 255, 0.1)", width: 3
+        }),
+        offsetX: 0,
+        offsetY: -15,
+        rotation: 0
+      });
+
+		
+	  
+	  
+      const selectedlayerStyle = new ol.style.Style({
+              image: new ol.style.RegularShape({
+          fill: new ol.style.Fill({
+            color: "black"
+          }),
+          stroke: new ol.style.Stroke({
+            color: "rgba(0, 0, 255, 0.1)", width: 2
+          }),
+          points: 5,
+          radius: 10,
+          radius2: 4,
+          angle: 0,
+        }),
+        text: textStyle
+      });
+	
+      const layerStyle = new ol.style.Style({
+              image: new ol.style.RegularShape({
+          fill: new ol.style.Fill({
+            color: "black"
+          }),
+          stroke: new ol.style.Stroke({
+            color: "rgba(0, 0, 255, 0.1)", width: 2
+          }),
+          points: 4,
+          radius: 10,
+          radius2: 4,
+          angle: 0,
+        }),
+        text: textStyle
+      });
+
+
+      var container = document.getElementById('popup');
+	  var container_petit_bouton = document.getElementById('petitbouton');
+      var content = document.getElementById('popup-content1');
+	  var petit_bouton = document.getElementById("petitboutoncontent");
+	
+	<!-- Création de la couche vectorielle -->
+	
+      const geojsonLayer = new ol.layer.Vector({
+        source: geojsonSource,
+        style: function (feature) {
+          layerStyle.getText().setText(feature.get('name'));
+          return layerStyle;
+        },
+      })
+
+      <!-- Création des définitions de popup -->
+
+
+      
+      const overlay = new ol.Overlay({
+          element: container,
+          autoPan: true,
+          autoPanAnimation: {
+              duration: 250,
+          },
+      });
+	  
+	  const overlay2 = new ol.Overlay({
+          element: container_petit_bouton,
+          autoPan: true,
+          autoPanAnimation: {
+              duration: 250,
+          },
+      });
+	
+	<!-- Creation de la carte de base -->
+	
+	var view = new ol.View({
+          center: ol.proj.fromLonLat([6.65, 46.77]),
+          zoom: 13
+      });
+      const map = new ol.Map({
+        target: "map",
+        layers: [
+            new ol.layer.Tile({
+                source: new ol.source.OSM()
+            }),
+            geojsonLayer
+        ],
+        overlays: [overlay],
+        view
+      });
+	
+	
+	<!-- Definition de la geolocalisation -->
+	<!-- Source: exemples en ligne openlayers -->
+	
+	var geolocation = new ol.Geolocation({
+	  
+	  trackingOptions: {
+		enableHighAccuracy: true,
+	  },
+	  projection: view.getProjection(),
+	});
+
+	function el(id) {
+	  return document.getElementById(id);
+	}
+
+	
+
+	
+	<!-- Fonction pour gerer les erreurs sur la geolocalisation -->
+	<!-- Source: exemples en ligne openlayers -->
+	
+	geolocation.on('error', function (error) {
+	  var info = document.getElementById('info');
+	  info.innerHTML = error.message;
+	  info.style.display = '';
+	});
+	
+	<!-- Gestion de l'affichage de la géolocalisation -->
+	<!-- Source: exemples en ligne openlayers -->
+	
+	var accuracyFeature = new ol.Feature();
+	geolocation.on('change:accuracyGeometry', function () {
+	  accuracyFeature.setGeometry(geolocation.getAccuracyGeometry());
+	});
+
+	var positionFeature = new ol.Feature();
+	positionFeature.setStyle(
+	  new ol.style.Style({
+		image: new ol.style.Circle({
+		  radius: 6,
+		  fill: new ol.style.Fill({
+			color: '#3399CC',
+		  }),
+		  stroke: new ol.style.Stroke({
+			color: '#fff',
+			width: 2,
+		  }),
+		}),
+	  })
+	);
+	
+	<!-- Fonction pour lancer le déplacement vers la geolocalisation -->
+	<!-- Source: exemples en ligne openlayers, modifiée pour convenir à nos besoins -->
+	
+	var First = new Boolean(true);
+	var Second = new Boolean(true);
+	var id_cible;
+	var coords_cible;
+	geolocation.on('change:position', function () {
+	  var vectorSource2 = new ol.source.Vector();
+	  var vectorLayer2 = new ol.layer.Vector({
+		  source: vectorSource2
+		});
+		
+	  var coordinates = geolocation.getPosition();
+	  var cible = [];
+	  ;
+	  var out = [];
+	  out = getCoordinates(coordinates);
+	  if (window.First == true){
+	  
+	  
+	  window.coords_cible = out[0];
+	  window.id_cible = out[1];
+	  }
+	  if (window.First == true){
+	  flyTo(coordinates);
+	  } else {
+	  panTo(coordinates);
+	  window.Second = false
+	  };
+	  
+	  positionFeature.setGeometry(coordinates ? new ol.geom.Point(coordinates) : null);
+	  
+	  makeroute(ol.proj.transform(window.coords_cible, 'EPSG:3857', 'EPSG:4326'),ol.proj.transform(coordinates, 'EPSG:3857', 'EPSG:4326'));
+	  
+	  var distance_km = (utils.route.distance / 100 - (utils.route.distance / 100)%1)/10
+	  var temps_min = utils.route.duration / 60 - (utils.route.duration / 60)%1
+	  
+	  if (window.Second == true){
+	  place_interest_popup(window.id_cible,distance_km,temps_min);}
+	  window.First = false
+	});
+	
+	<!-- Placement de la popup de brasserie -->
+	function place_interest_popup(id_cible,distance_km,temps_min) {
+		var feature = vectorLayer.getSource().getFeatureById(id_cible);
+		var coordinate = feature.getGeometry().flatCoordinates;
+		var nom = feature.get("name");
+		var couleurs = feature.get("Couleurs");
+		var colors = "";
+		for (i = 0; i < couleurs.length; i++) {
+		  colors += couleurs[i] + ", ";
+		};
+				
+		var styles = feature.get("Styles")
+		var stiles = "";
+		for (i = 0; i < styles.length; i++) {
+		  stiles += styles[i] + ", ";
+		};
+		var web = feature.get("website")
+		var tel = feature.get("Tel")
+		
+		hdms = (ol.proj.toLonLat(coordinate));
+        hdms_CH = ol.proj.transform(hdms, 'EPSG:4326', 'EPSG:2056');
+        hdms_CH = [Math.round(hdms_CH[0]),Math.round(hdms_CH[1])]
+        content.innerHTML = '<h3>' + nom + '</h3><p>Téléphone: ' + tel + '</p><p>Site web: <a href=' + web + '>' + nom + '</a></p><p>Couleurs de bières à découvrir: ' + colors + '</p><p>Styles de bières à découvrir: ' + stiles + '</p><p>Distance [km]: ' + distance_km + '</p><p>Temps [min]: ' + temps_min + '</p><input type="button" value="Silence" onclick="overlay.setPosition(0,0)">';
+        overlay.setPosition(coordinate);
+	};
+	
+	
+	
+	<!-- Fonction pour se deplacer vers la geolocalisation la premiere fois -->
+	<!-- Source: exemples en ligne openlayers -->
+	function flyTo(location) {
+	  var duration = 2000;
+	  var zoom = view.getZoom();
+	  var parts = 2;
+	  var called = false;
+	  function callback(complete) {
+		--parts;
+		if (called) {
+		  return;
+		}
+		
+	  }
+	  view.animate(
+		{
+		  center: location,
+		  duration: duration,
+		},
+		callback
+	  );
+	  view.animate(
+		{
+		  zoom: zoom - 1,
+		  duration: duration / 2,
+		},
+		{
+		  zoom: zoom,
+		  duration: duration / 2,
+		},
+		callback
+	  );
+	}
+	
+	<!-- Fonction pour se suivre la geolocalisation ensuite -->
+	<!-- Source: exemples en ligne openlayers -->
+	function panTo(location) {
+	  var called = false;
+	  console.log("Normalement là on aurait recentré sur la position de l'utilisateur mais en fait c'est très pénible à l'utilisation")
+	  };
+	
+	
+	<!-- Insertion de la carte -->
+	
+	new ol.layer.Vector({
+	  map: map,
+	  source: new ol.source.Vector({
+		features: [accuracyFeature, positionFeature],
+	  }),
+	});
+	
+	
+	
+	
+	
+
+	
+	  
+	  var closer = document.getElementById('popup-closer');
+	  
+	  
+
+	
+      closer.onclick = function () {
+          overlay.setPosition(undefined);
+          closer.blur();
+          return false;
+      };
+	
+	
+	
+	<!-- Recuperation des coordonnées des brasseries  -->
+	
+	function getCoordinates(actual_pos) {
+		
+		var features = window.vectorLayer.getSource().getFeatures();
+		var coords = []
+		var temp_coord = []
+		var min_dist = 9999999999
+		var dist = 0
+		var name = "None"
+		features.forEach((feature) => {
+			temp_coord = feature.getGeometry().flatCoordinates;
+			dist = ((actual_pos[0]-temp_coord[0])**2 + (actual_pos[1]-temp_coord[1])**2)**0.5	
+			if (dist < min_dist){
+				min_dist = dist;
+				coords = temp_coord;
+				name = feature.getId();
+				console.log(name);
+				}
+		});
+		
+		return [coords, name]
+	}
+	
+	<!-- Creation des variables nécessaires au routing, utilisation d'un service en ligne -->
+	<!-- Source: https://jsfiddle.net/jonataswalker/079xha47/ -->
+	
+	var msg_el = document.getElementById('msg'),
+		url_osrm_nearest = 'https://router.project-osrm.org/nearest/v1/driving/',
+		url_osrm_route = 'https://router.project-osrm.org/route/v1/driving/',
+		icon_url = 'https://cdn.rawgit.com/openlayers/ol3/master/examples/data/icon.png',
+		vectorSource2 = new ol.source.Vector(),
+		<!-- vectorSource = new ol.source.Vector(), -->
+		vectorLayer2 = new ol.layer.Vector({
+		  source: vectorSource2
+		}),
+		styles = {
+		  route: new ol.style.Style({
+			stroke: new ol.style.Stroke({
+			  width: 6, color: [40, 40, 40, 0.8]
+			})
+		  }),
+		  icon: new ol.style.Style({
+			image: new ol.style.Icon({
+			  anchor: [0.5, 1],
+			  src: icon_url
+			})
+		  })
+		};
+		
+		<!-- Fonction pour créer la route -->
+		<!-- Source: https://jsfiddle.net/jonataswalker/079xha47/ -->
+	
+	function makeroute(last_point,first_point){
+	  {
+		
+		
+		
+
+		//get the route
+		<!-- Source: https://jsfiddle.net/jonataswalker/079xha47/ -->
+		var point1 = last_point.join();
+		var point2 = first_point.join();
+		
+		fetch(url_osrm_route + point1 + ';' + point2).then(function(r) { 
+		  
+		  return r.json();
+		}).then(function(json) {
+		  if(json.code !== 'Ok') {
+			
+			console.log("souci routing");
+		  }
+		  
+		  
+		  //points.length = 0;
+		  utils.route = json.routes[0]
+		  
+		  utils.createRoute(json.routes[0].geometry);
+		  
+		});
+	  };
+	};
+	
+	<!-- Définition des utilitaires pour créer les routes  -->
+	<!-- Source: https://jsfiddle.net/jonataswalker/079xha47/ -->
+
+	var utils = {
+	  route: "",
+	  createFeature: function(coord) {
+		var feature = new ol.Feature({
+		  type: 'place',
+		  geometry: new ol.geom.Point(ol.proj.fromLonLat(coord))
+		});
+		feature.setStyle(styles.icon);
+		
+		vectorSource2.addFeature(feature);
+	  },
+	  createRoute: function(polyline) {
+		// route is ol.geom.LineString
+		var route = new ol.format.Polyline({
+		  factor: 1e5
+		}).readGeometry(polyline, {
+		  dataProjection: 'EPSG:4326',
+		  featureProjection: 'EPSG:3857'
+		});
+		var feature = new ol.Feature({
+		  type: 'route',
+		  geometry: route
+		});
+		feature.setStyle(styles.route);
+		vectorSource2.clear();
+		vectorSource2.addFeature(feature);
+	  },
+	  to4326: function(coord) {
+		return ol.proj.transform([
+		  parseFloat(coord[0]), parseFloat(coord[1])
+		], 'EPSG:3857', 'EPSG:4326');
+	  }
+	};
+	
+	map.addLayer(vectorLayer2);
+	
+	<!-- Fonction quand on clique sur la map -->
+	
+	map.on('singleclick', function (evt) {
+		
+		<!-- Hors édition, pour cliquer simplement sur une brasserie -->
+		
+		if (window.edition_mode == false ){
+		actual_pos = evt.coordinate;
+		var features = vectorLayer.getSource().getFeatures();
+		
+		var temp_coord = []
+		var min_dist = 1000
+		var dist = 0
+		window.id_cible = "None"
+		features.forEach((feature) => {
+			temp_coord = feature.getGeometry().flatCoordinates;
+			dist = ((actual_pos[0]-temp_coord[0])**2 + (actual_pos[1]-temp_coord[1])**2)**0.5	
+			if (dist < min_dist){
+				min_dist = dist;
+				window.coords_cible = temp_coord;
+				window.id_cible = feature.getId();
+				console.log(window.id_cible);
+				}
+		});
+		
+		if (window.id_cible != "None"){
+			var coordinates_user = geolocation.getPosition();
+			var distance_km = "?"
+			var temps_min = "?"
+			if (typeof coordinates_user !== "undefined"){
+			makeroute(ol.proj.transform(window.coords_cible, 'EPSG:3857', 'EPSG:4326'),ol.proj.transform(coordinates_user, 'EPSG:3857', 'EPSG:4326'));
+			
+			var distance_km = (utils.route.distance / 100 - (utils.route.distance / 100)%1)/10
+			var temps_min = utils.route.duration / 60 - (utils.route.duration / 60)%1;
+			};
+			place_interest_popup(window.id_cible,distance_km,temps_min)};
+			} else {
+			
+		<!-- Ajout d'une nouvelle brasserie -->
+		actual_pos = evt.coordinate;
+		show_the_popup_d_ajout(actual_pos)
+
+		}
+			
+		
+	});
+	
+	<!-- Affichage de la popup pour créer une nouvelle brasserie -->
+	var shared_coords;
+	
+	function show_the_popup_d_ajout(coordinate) {
+		var zoom = view.getZoom();
+		window.shared_coords = coordinate
+		if (zoom < 18){
+		content.innerHTML = "<h3>Merci de zoomer plus!</h3><input type='button' value='Silence' onclick='overlay.setPosition(0,0)'>";
+        overlay.setPosition(coordinate);
+		} else {
+		
+		
+        content.innerHTML = "<h3>Là y'en a une!</h3>"+
+							"<p>Nom:<input type = 'text' id = 'nom_nouveau'></p>"+
+							"<p>Téléphone:<input type = 'text' id = 'tel_nouveau'></p>"+
+							"<p>Site web:<input type = 'text' id = 'web_nouveau'></p>"+
+							"<p>Couleurs à découvrir:</p><p><input type='checkbox' id='adla_Blanche' name='adla_Blanche'><label for='adla_Blanche'>Blanche  -</label>"+
+							"<input type='checkbox' id='adla_Blonde' name='adla_Blonde'><label for='adla_Blonde'>Blonde  -</label>"+
+							"<input type='checkbox' id='adla_Ambree' name='adla_Ambree'><label for='adla_Ambree'>Ambree  -</label>"+
+							"<input type='checkbox' id='adla_Rousse' name='adla_Rousse'><label for='adla_Rousse'>Rousse  -</label>"+
+							"<input type='checkbox' id='adla_Brune' name='adla_Brune'><label for='adla_Brune'>Brune  -</label>"+
+							"<input type='checkbox' id='adla_Noire' name='adla_Noire'><label for='adla_Noire'>Noire</label>"+
+							"</p>"+
+							"<p>Styles à découvrir:</p><p><input type='checkbox' id='adla_Altbier' name='adla_Altbier'><label for='adla_Altbier'>Altbier  -</label>"+
+							"<input type='checkbox' id='adla_Biere_de_garde' name='adla_Biere_de_garde'><label for='adla_Biere_de_garde'>Bière de garde  -</label>"+
+							"<input type='checkbox' id='adla_Blanchee' name='adla_Blanchee'><label for='adla_Blanchee'>Blanche  -</label>"+
+							"<input type='checkbox' id='adla_Brown_Ale' name='adla_Brown_Ale'><label for='adla_Brown_Ale'>Brown Ale  -</label>"+
+							"<input type='checkbox' id='adla_Fumee' name='adla_Fumee'><label for='adla_Fumee'>Fumee  -</label>"+
+							"<input type='checkbox' id='adla_India_Pale_Ale' name='adla_India_Pale_Ale'><label for='adla_India_Pale_Ale'>India Pale Ale  -</label>"+
+							"<input type='checkbox' id='adla_Lager_Pils' name='adla_Lager_Pils'><label for='adla_Lager_pils'>Lager / Pils  -</label>"+
+							"<input type='checkbox' id='adla_Pale_Ale' name='adla_Pale_Ale'><label for='adla_Pale_Ale'>Pale Ale  -</label>"+
+							"<input type='checkbox' id='adla_Red_Ale' name='adla_Red_Ale'><label for='adla_Red_Ale'>Red Ale  -</label>"+
+							"<input type='checkbox' id='adla_Sour' name='adla_Sour'><label for='adla_Sour'>Sour  -</label>"+
+							"<input type='checkbox' id='adla_Speciale' name='adla_Speciale'><label for='Speciale'>Speciale  -</label>"+
+							"<input type='checkbox' id='adla_Stout_Porter' name='adla_Stout_Porter'><label for='adla_Stout_Porter'>Stout / Porter  -</label>"+
+							"<input type='checkbox' id='adla_Strong_Ale' name='adla_Strong_Ale'><label for='adla_Strong_Ale'>Strong Ale  -</label>"+
+							"<input type='checkbox' id='adla_Style_Belge' name='adla_Style_Belge'><label for='adla_Style_Belge'>Style Belge  -</label>"+
+							"<input type='checkbox' id='adla_Autres' name='adla_Autres'><label for='adla_Autres'>Autres</label>"+
+							"</p>"+
+							"<input type='button' value='Ajouter' onclick='Ajout_new("+coordinate+")'>"+
+							"<input type='button' value='Silence' onclick='overlay.setPosition(0,0)'>";
+        overlay.setPosition(coordinate);
+		}
+	};
+	
+	<!-- Fonction pour récupérer les valeurs entrées par l'utilisateur et les concaténer en json -->
+	
+	function Ajout_new(position_x,position_y){
+	overlay.setPosition(0,0)
+	var temp_json = ``;
+	temp_json += `{"type": "Feature","properties":{"name":"`
+	var nom_new = document.getElementById(`nom_nouveau`).value;
+	temp_json += nom_new + `","website":"`
+	var website_new = document.getElementById(`web_nouveau`).value;
+	temp_json += website_new + `","usernaaaame":"`
+	temp_json += window.username + `","Couleurs":[`
+	
+	var adla_Blanche = document.getElementById(`adla_Blanche`).checked;
+	if (adla_Blanche == true){temp_json += `"Blanche",`};
+	
+	var adla_Blonde = document.getElementById(`adla_Blonde`).checked;
+	if (adla_Blonde == true){temp_json += `"Blonde",`};
+	
+	var adla_Ambree = document.getElementById(`adla_Ambree`).checked;
+	if (adla_Ambree == true){temp_json += `"Ambrée",`};
+	
+	var adla_Rousse = document.getElementById(`adla_Rousse`).checked;
+	if (adla_Rousse == true){temp_json += `"Rousse",`};
+	
+	var adla_Brune = document.getElementById(`adla_Brune`).checked;
+	if (adla_Brune == true){temp_json += `"Brune",`};
+	
+	var adla_Noire = document.getElementById(`adla_Noire`).checked;
+	if (adla_Noire == true){temp_json += `"Noire",`};
+	
+	
+	temp_json = temp_json.substring(0, temp_json.length - 1);
+	
+	temp_json += `],"Styles":[`
+	
+	var adla_Altbier = document.getElementById(`adla_Altbier`).checked;
+	if (adla_Altbier == true){temp_json += `"Altbier",`};
+	
+	var adla_Biere_de_garde = document.getElementById(`adla_Biere_de_garde`).checked;
+	if (adla_Biere_de_garde == true){temp_json += `"Bière de garde",`};
+	
+	var adla_Blanchee = document.getElementById(`adla_Blanchee`).checked;
+	if (adla_Blanchee == true){temp_json += `"Blanche",`};
+	
+	var adla_Brown_Ale = document.getElementById(`adla_Brown_Ale`).checked;
+	if (adla_Brown_Ale == true){temp_json += `"Brown Ale",`};
+	
+	var adla_Fumee = document.getElementById(`adla_Fumee`).checked;
+	if (adla_Fumee == true){temp_json += `"Fumée",`};
+	
+	var adla_India_Pale_Ale = document.getElementById(`adla_India_Pale_Ale`).checked;
+	if (adla_India_Pale_Ale == true){temp_json += `"India Pale Ale",`};
+	
+	var adla_Lager_Pils = document.getElementById(`adla_Lager_Pils`).checked;
+	if (adla_Lager_Pils == true){temp_json += `"Lager / Pils",`};
+	
+	var adla_Pale_Ale = document.getElementById(`adla_Pale_Ale`).checked;
+	if (adla_Pale_Ale == true){temp_json += `"Pale Ale",`};
+	
+	var adla_Red_Ale = document.getElementById(`adla_Red_Ale`).checked;
+	if (adla_Red_Ale == true){temp_json += `"Red Ale",`};
+	
+	var adla_Sour = document.getElementById(`adla_Sour`).checked;
+	if (adla_Sour == true){temp_json += `"Sour",`};
+	
+	var adla_Speciale = document.getElementById(`adla_Speciale`).checked;
+	if (adla_Speciale == true){temp_json += `"Spéciale",`};
+	
+	var adla_Stout_Porter = document.getElementById(`adla_Stout_Porter`).checked;
+	if (adla_Stout_Porter == true){temp_json += `"Stout / Porter",`};
+	
+	var adla_Strong_Ale = document.getElementById(`adla_Strong_Ale`).checked;
+	if (adla_Strong_Ale == true){temp_json += `"Strong Ale",`};
+	
+	var adla_Style_Belge = document.getElementById(`adla_Style_Belge`).checked;
+	if (adla_Style_Belge == true){temp_json += `"Style Belge",`};
+	
+	var adla_Autres = document.getElementById(`adla_Autres`).checked;
+	if (adla_Autres == true){temp_json += `"Autres",`};
+	
+	
+	temp_json = temp_json.substring(0, temp_json.length - 1);
+	
+	
+	temp_json += `],"Tel":"`
+	var new_tel = document.getElementById(`tel_nouveau`).value;
+	temp_json += new_tel + `"},"geometry":{"type":"Point","coordinates":[`
+	temp_json += String(position_x) + `,` + String(position_y) + `]},"id":"` + String(position_x) + String(position_y) + `"}`
+	
+	do_Post(temp_json)
+	
+	console.log(temp_json)
+	}
+	
+	function do_Post(temp_json){
+		console.log('On va tenter d\'envoyer ça au serveur:', temp_json);
+      $.ajax({
+        url: database_url,
+        type: 'POST',
+        contentType: "application/json",
+        data: temp_json,
+        dataType: "json",
+        success: function (response) {
+          console.log('POST fait avec succès, voici la réponse:', response);
+		  getData()
+        },
+        error: function (error) {
+          Raise_Not_Admin();
+        }
+      });
+	};
+	
+	<!-- Fonction pour dire à l'utilisateur que sa demande va être vérifiée -->
+	function Raise_Not_Admin(){
+		content.innerHTML = "<h3>Merci pour votre requête, votre demande sera contrôlée par un administrateur.</h3><p>Veuillez noter qu'une seule requête est possible par utilisateur non vérifié</p><input type='button' value='Silence' onclick='overlay.setPosition(0,0)'>";
+        overlay.setPosition(window.shared_coords)
+	}
+	
+	
+	
+	<!-- Fonction de sortie de recherche -->
+	
+	function get_brass(actual_pos){var features = vectorLayer.getSource().getFeatures();
+		
+		var temp_coord = []
+		var min_dist = 1000
+		var dist = 0
+		window.id_cible = "None"
+		features.forEach((feature) => {
+			temp_coord = feature.getGeometry().flatCoordinates;
+			dist = ((actual_pos[0]-temp_coord[0])**2 + (actual_pos[1]-temp_coord[1])**2)**0.5	
+			if (dist < min_dist){
+				min_dist = dist;
+				window.coords_cible = temp_coord;
+				window.id_cible = feature.getId();
+				console.log(window.id_cible);
+				}
+		});
+		
+		if (window.id_cible != "None"){
+			var coordinates_user = geolocation.getPosition();
+			var distance_km = "?"
+			var temps_min = "?"
+			if (typeof coordinates_user !== "undefined"){
+			makeroute(ol.proj.transform(window.coords_cible, 'EPSG:3857', 'EPSG:4326'),ol.proj.transform(coordinates_user, 'EPSG:3857', 'EPSG:4326'));
+			
+			var distance_km = (utils.route.distance / 100 - (utils.route.distance / 100)%1)/10
+			var temps_min = utils.route.duration / 60 - (utils.route.duration / 60)%1;
+			};
+			place_interest_popup(window.id_cible,distance_km,temps_min)};
+			
+			
+		
+	};
+	
+	
+	
+	<!-- Fonction de recherche -->
+	function Soif(){
+		var actual_pos = geolocation.getPosition()
+		var Couleur = document.getElementById("couleurs").value;
+		
+		var Style = document.getElementById("styles").value;
+		var Distance = document.getElementById("Dist").value;
+		
+		var features = vectorLayer.getSource().getFeatures();
+		Distance = parseInt(Distance)*1000;
+		
+		var possible = [99999999,[0,0]];
+		
+		features.forEach((feature) => {
+			
+			temp_coord = feature.getGeometry().flatCoordinates;
+			dist = ((actual_pos[0]-temp_coord[0])**2 + (actual_pos[1]-temp_coord[1])**2)**0.5	;
+			dist = parseInt(dist);
+			
+			if (dist < Distance){
+				
+				var styles = feature.get("Styles");
+				var couleurs = feature.get("Couleurs");
+				styles.forEach((stylea) => {
+					if (stylea == Style){
+						
+						couleurs.forEach((couleura) => {
+							if (couleura == Couleur){
+								
+								if (dist < possible[0]){
+									possible = [dist,temp_coord]
+								}
+							}
+						})
+					}
+				})
+			}
+			
+			});
+		
+		if (possible[0] < 99999998){
+			get_brass(possible[1])
+		}
+	};
+	
+	<!-- Définition de l'username -->
+	
+	var username = ""
+	function Define_username(){
+		name = document.getElementById("username").value;
+		window.username = name;
+		console.log(window.username)
+		if (window.username != ""){
+			document.getElementById("Ajout").style.opacity = 100}
+	}
+
+	<!-- Changement du mode de click -->
+	
+	var edition_mode = false;
+	function Ajouter_Brass() {
+		if (window.edition_mode == false){
+			if (window.username != ""){
+			console.log(window.username);
+			document.getElementById("Ajout").value = "Cliquer sur la carte pour ajouter";
+			window.edition_mode = true}
+		} else {
+			document.getElementById("Ajout").value = "Ajouter zone de satisfaction";
+			window.edition_mode = false
+		}		
+		}
+	
+	<!-- Mobile -->
+	<!-- Peut faire plus propre avec vraie détection mobile mais trop compliqué à tester -->
+	<!-- Source https://stackoverflow.com/questions/21626357/angularjs-event-on-window-innerwidth-size-change -->
+	
+	var window_width = window.innerWidth
+	var status
+	var menu_status = "open"
+	
+	if(window_width < 1000){switch_mobile();status="Mobile"}else{switch_PC();status="PC"};
+	
+	$(window).resize(function(){
+		window_width = window.innerWidth;
+		if((window_width < 1000)&&(status == "PC")){switch_mobile();status="Mobile"}
+		if((window_width > 999)&&(status == "Mobile")){switch_PC();status="PC"}
+		})
+	
+	function switch_mobile(){
+		document.getElementById('deroule').setAttribute("style","width:0px");
+		menu_status = "close"
+		};
+		
+	function switch_menu(){
+		if (menu_status == "open"){menu_status = "close";document.getElementById('deroule').setAttribute("style","width:0px")
+		}else{menu_status = "open";document.getElementById('deroule').setAttribute("style","width:300px")}
+		};
+		
+	function switch_PC(){
+		document.getElementById('deroule').setAttribute("style","width:300px")
+		menu_status = "open"
+		};
+	
+	
+	
+	
+	<!-- Demarrage de la geoloc -->
+	<!-- Laisser au fond du code -->
+	
+	geolocation.setTracking(true);
+      
+	
+	
+    </script>
+  </body>
+</html>

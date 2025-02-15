@@ -1,0 +1,120 @@
+$Version=1
+$FileExt=.osm
+$Caption=Synthmaker
+$Format=72
+
+
+;CDName|SubDirName|ItemName|Count|FileSize|ProductCode|Flags|WebLink|MainItemName
+SynthMaker|Examples\Filters|3 Band EQ|2|87|0|1||SMG 3 Band EQ
+SynthMaker|Effects|558Mul8R-4-SMG|2|27|0|5||558Mul8R-4-SMG
+SynthMaker|Examples\Graphics|ADSR Display|2|16|0|1||SMG ADSR Display
+SynthMaker|Examples\Graphics|Brushed Backgrounds Pack|2|1201|0|1||SMG Brushed Backgrounds
+SynthMaker|Examples\Graphics|Buttons Pack 1|2|32|0|1||SMG Buttons Pack 1
+SynthMaker|Examples\Graphics|Buttons Pack 2|2|24|0|1||SMG Buttons Pack 2
+SynthMaker|Examples\Miscellaneous|Choker|2|219|0|1||SMG Choker
+SynthMaker|Examples\Filters|Filterfun|2|227|0|1||SMG Filterfun
+SynthMaker|Generators|FL DX11|2|126|0|5||FL DX11
+SynthMaker|Examples\Miscellaneous|Hihat|2|64|0|1||SMG Hihat
+SynthMaker|Generators|Invector|2|303|0|5||Invector
+SynthMaker|Examples\Graphics|Knob Pack 1|2|97|0|1||SMG Knob Pack 1
+SynthMaker|Examples\Graphics|Knob Pack 2|2|1322|0|1||SMG Knob Pack 2
+SynthMaker|Examples\Graphics|Knob Pack 3|2|160|0|1||SMG Knob Pack 3
+SynthMaker|Examples\Graphics|Knob Pack 4|2|945|0|1||SMG Knob Pack 4
+SynthMaker|Examples\Graphics|Knob Pack 5|2|562|0|1||SMG Knob Pack 5
+SynthMaker|Examples\Graphics|Knob Pack 6|2|223|0|1||SMG Knob Pack 6
+SynthMaker|Examples\Graphics|Knob Pack 7|2|1519|0|1||SMG Knob Pack 7
+SynthMaker|Examples\Graphics|Knob Pack 8|2|1770|0|1||SMG Knob Pack 8
+SynthMaker|Examples\Graphics|Knobs Roland Style|2|178|0|1||SMG Knobs Roland Style
+SynthMaker|Examples\Graphics|LCD Screen|2|9|0|1||SMG LCD Screen
+SynthMaker|Examples\Filters|Maximizer + 3 band EQ|2|118|0|1||SMG Maximizer + 3 Band EQ
+SynthMaker|Examples\Filters|Multi Filter 16|2|151|0|1||SMG Multi Filter 16
+SynthMaker|Examples\Miscellaneous|Multi FX|2|433|0|1||SMG Multi FX
+SynthMaker|Generators|MyCo LoopDrive 3|2|676|0|5||MyCo LoopDrive 3
+SynthMaker|Examples\Miscellaneous|Preset Manager Ext|2|9|0|1||SMG Preset Manager Ext
+SynthMaker|Examples\Graphics|Slider Pack|2|35|0|1||SMG Slider Pack
+SynthMaker|Generators|SMG 30X|4|179|0|5||SMG 30X
+SynthMaker|Generators|SMG 3VA|2|707|0|5||SMG 3VA
+SynthMaker|Dashboards|SMG Access Virus|2|705|0|5||SMG Access Virus
+SynthMaker|Generators|SMG Additive|2|1138|0|5||SMG Additive
+SynthMaker|Generators|SMG AM Synth|2|1069|0|5||SMG AM Synth
+SynthMaker|Generators|SMG ClapLab|2|264|0|5||SMG ClapLab
+SynthMaker|Dashboards|SMG Clavia Nord Lead 2|2|106|0|5||SMG Clavia Nord Lead 2
+SynthMaker|Dashboards|SMG Clavia Nord Lead|2|102|0|5||SMG Clavia Nord Lead
+SynthMaker|Dashboards|SMG Clavia Nord Rack|2|102|0|5||SMG Clavia Nord Rack
+SynthMaker|Effects|SMG Double LFO Filter|2|434|0|5||SMG Double LFO Filter
+SynthMaker|Generators|SMG EXS|2|778|0|5||SMG EXS
+SynthMaker|Effects|SMG Filter Delay|2|252|0|5||SMG Filter Delay
+SynthMaker|Generators|SMG Freehand|4|1013|0|5||SMG Freehand
+SynthMaker|Dashboards|SMG Jomox AirBase|2|557|0|5||SMG Jomox AirBase
+SynthMaker|Generators|SMG Karbass|2|205|0|5||SMG Karbass
+SynthMaker|Generators|SMG Kickdrum Player|2|1191|0|5||SMG Kickdrum Player
+SynthMaker|Generators|SMG KickLab|2|193|0|5||SMG KickLab
+SynthMaker|Dashboards|SMG Korg ElecTribe EA-1|2|283|0|5||SMG Korg ElecTribe EA-1
+SynthMaker|Dashboards|SMG Korg ElecTribe ER-1|2|481|0|5||SMG Korg ElecTribe ER-1
+SynthMaker|Dashboards|SMG KORG MS2000|2|1876|0|5||SMG KORG MS2000
+SynthMaker|Dashboards|SMG KORG MS2000R|2|1874|0|5||SMG KORG MS2000R
+SynthMaker|Dashboards|SMG Line6 Bass Pod|2|509|0|5||SMG Line6 Bass Pod
+SynthMaker|Dashboards|SMG Line6 Guitar Pod|2|512|0|5||SMG Line6 Guitar Pod
+SynthMaker|Effects|SMG Max EQ|2|313|0|5||SMG Max EQ
+SynthMaker|Dashboards|SMG MC 909 Dashboard|2|763|0|5||SMG MC-909 Dashboard
+SynthMaker|Generators|SMG Morph Machine|2|2146|0|5||SMG Morph Machine
+SynthMaker|Dashboards|SMG Novation A-Station|2|598|0|5||SMG Novation A-Station
+SynthMaker|Dashboards|SMG Novation D-Station|2|913|0|5||SMG Novation D-Station
+SynthMaker|Dashboards|SMG Novation KS-4|2|656|0|5||SMG Novation KS-4
+SynthMaker|Dashboards|SMG Novation KS-5|2|656|0|5||SMG Novation KS-5
+SynthMaker|Dashboards|SMG Novation KS-Rack|2|656|0|5||SMG Novation KS-Rack
+SynthMaker|Dashboards|SMG Novation K-Station|2|539|0|5||SMG Novation K-Station
+SynthMaker|Dashboards|SMG Novation Nova II|2|1200|0|5||SMG Novation Nova II
+SynthMaker|Dashboards|SMG Novation Nova|2|1200|0|5||SMG Novation Nova
+SynthMaker|Dashboards|SMG Novation SuperBassStation|2|169|0|5||SMG Novation SuperBassStation
+SynthMaker|Dashboards|SMG Novation Supernova II|2|1192|0|5||SMG Novation Supernova II
+SynthMaker|Dashboards|SMG Novation Supernova|2|1192|0|5||SMG Novation Supernova
+SynthMaker|Dashboards|SMG Novation X-Station|2|659|0|5||SMG Novation X-Station
+SynthMaker|Dashboards|SMG Oberheim Matrix 1000|2|694|0|5||SMG Oberheim Matrix 1000
+SynthMaker|Effects|SMG OctaQ|2|385|0|5||SMG OctaQ
+SynthMaker|Dashboards|SMG Phat Boy Dashboard|2|227|0|5||SMG Phat Boy Dashboard
+SynthMaker|Effects|SMG Ping Pong Delay|2|473|0|5||SMG Ping Pong Delay
+SynthMaker|Dashboards|SMG QuadPad|2|31|0|5||SMG QuadPad
+SynthMaker|Dashboards|SMG Red Sound EleVAta|2|260|0|5||SMG Red Sound EleVAta
+SynthMaker|Generators|SMG Retronix 2|2|1645|0|5||SMG Retronix 2
+SynthMaker|Generators|SMG Retronix LE|2|198|0|5||SMG Retronix LE
+SynthMaker|Generators|SMG Retronix|2|949|0|5||SMG Retronix
+SynthMaker|Generators|SMG RGB Osc|2|92|0|5||SMG RGB Osc
+SynthMaker|Dashboards|SMG Roland Alpha Juno 1|2|177|0|5||SMG Roland Alpha Juno 1
+SynthMaker|Dashboards|SMG Roland Alpha Juno 2|2|177|0|5||SMG Roland Alpha Juno 2
+SynthMaker|Dashboards|SMG Roland JP-8000|2|532|0|5||SMG Roland JP-8000
+SynthMaker|Dashboards|SMG Roland JP-8080|2|629|0|5||SMG Roland JP-8080
+SynthMaker|Dashboards|SMG Roland Juno-106|2|50|0|5||SMG Roland Juno-106
+SynthMaker|Dashboards|SMG Roland JX-8P|2|120|0|5||SMG Roland JX-8P
+SynthMaker|Dashboards|SMG Roland MC-505|2|458|0|5||SMG Roland MC-505
+SynthMaker|Generators|SMG SFZ Player|2|617|0|5||SMG SFZ Player
+SynthMaker|Generators|SMG SnareLab|2|496|0|5||SMG SnareLab
+SynthMaker|Generators|SMG Supersaw|2|300|0|5||SMG Supersaw
+SynthMaker|Effects|SMG Sweepy Q|2|396|0|5||SMG Sweepy Q
+SynthMaker|Dashboards|SMG Syntecno Teebee Mark III Dashboard|2|95|0|5||SMG Syntecno Teebee Mark III Dashboard
+SynthMaker|Dashboards|SMG TC Electronics M300|2|566|0|5||SMG TC Electronics M300
+SynthMaker|Generators|SMG Twintable|2|1895|0|5||SMG Twin Table
+SynthMaker|Generators|SMG Unitable 2|2|1019|0|5||SMG Unitable 2
+SynthMaker|Generators|SMG Unitable|2|859|0|5||SMG Unitable
+SynthMaker|Dashboards|SMG Universal Controller|2|699|0|5||SMG Universal Controller
+SynthMaker|Generators|SMG Virtuadrum|2|2956|0|5||SMG Virtuadrum
+SynthMaker|Dashboards|SMG Waldorf Miniworks 4Pole|2|219|0|5||SMG Waldorf Miniworks 4Pole
+SynthMaker|Dashboards|SMG Waldorf Pulse|2|524|0|5||SMG Waldorf Pulse
+SynthMaker|Dashboards|SMG Waldorf Q|2|854|0|5||SMG Waldorf Q
+SynthMaker|Dashboards|SMG Waldorf Q+|2|855|0|5||SMG Waldorf Q+
+SynthMaker|Generators|SMG Wave Convert|2|171|0|5||SMG Wave Convert
+SynthMaker|Generators|SMG Wavedraw|2|577|0|5||SMG Wavedraw
+SynthMaker|Generators|SMG WavePlayer|2|259|0|5||SMG Waveplayer
+SynthMaker|Dashboards|SMG X360-2-MIDI|2|402|0|5||SMG X360-2-MIDI
+SynthMaker|Dashboards|SMG Yamaha AN1x|2|592|0|5||SMG Yamaha AN1x
+SynthMaker|Dashboards|SMG Yamaha DX1|2|125|0|5||SMG Yamaha DX1
+SynthMaker|Dashboards|SMG Yamaha DX7 II|2|125|0|5||SMG Yamaha DX7 II
+SynthMaker|Dashboards|SMG Yamaha DX7|2|126|0|5||SMG Yamaha DX7
+SynthMaker|Dashboards|SMG Yamaha Motif 6-7-8|2|234|0|5||SMG Yamaha Motif 6-7-8
+SynthMaker|Dashboards|SMG Yamaha Motif ES 6-7-8|2|234|0|5||SMG Yamaha Motif ES 6-7-8
+SynthMaker|Dashboards|SMG Yamaha Motif Rack|2|232|0|5||SMG Yamaha Motif Rack
+SynthMaker|Effects|TDA EQ8 FL|2|116|0|5||TDA EQ8 FL
+SynthMaker|Generators|UniRetro|2|108|0|5||UniRetro
+SynthMaker|Examples\Graphics|VU-LR-Meters|2|37|0|1||SMG VU-LR-Meters
+
+

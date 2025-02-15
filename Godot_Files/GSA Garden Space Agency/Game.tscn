@@ -1,0 +1,1322 @@
+[gd_scene load_steps=71 format=2]
+
+[ext_resource path="res://Game.gd" type="Script" id=1]
+[ext_resource path="res://Textures/Scene/Stars.png" type="Texture" id=2]
+[ext_resource path="res://Textures/Scene/Air_1.png" type="Texture" id=3]
+[ext_resource path="res://Textures/Scene/Mount_1.png" type="Texture" id=4]
+[ext_resource path="res://Textures/Scene/Air_2.png" type="Texture" id=5]
+[ext_resource path="res://Textures/Scene/Mount_2.png" type="Texture" id=6]
+[ext_resource path="res://Textures/Deco/Fish.png" type="Texture" id=7]
+[ext_resource path="res://Textures/Deco/Roche_1.png" type="Texture" id=8]
+[ext_resource path="res://Textures/Deco/Herbe_1.png" type="Texture" id=9]
+[ext_resource path="res://Textures/Deco/Herbe_2.png" type="Texture" id=10]
+[ext_resource path="res://Textures/Deco/Herbe_3.png" type="Texture" id=11]
+[ext_resource path="res://Textures/Deco/Herbe_4.png" type="Texture" id=12]
+[ext_resource path="res://Textures/Scene/Background_1.png" type="Texture" id=13]
+[ext_resource path="res://Textures/Scene/Background_2.png" type="Texture" id=14]
+[ext_resource path="res://Textures/Scene/Background_3.png" type="Texture" id=15]
+[ext_resource path="res://Textures/Scene/Background_4.png" type="Texture" id=16]
+[ext_resource path="res://Textures/Deco/Tree_1_tronc.png" type="Texture" id=17]
+[ext_resource path="res://Textures/Deco/Tree_2_tronc.png" type="Texture" id=18]
+[ext_resource path="res://Textures/Deco/Tree_3_tronc.png" type="Texture" id=19]
+[ext_resource path="res://Textures/Deco/Tree_4_tronc.png" type="Texture" id=20]
+[ext_resource path="res://Textures/Deco/Tree_5_leaves.png" type="Texture" id=21]
+[ext_resource path="res://Textures/Deco/Tree_6_tronc.png" type="Texture" id=22]
+[ext_resource path="res://Textures/Deco/Tree_1_leaves.png" type="Texture" id=23]
+[ext_resource path="res://Textures/Deco/Tree_2_leaves.png" type="Texture" id=24]
+[ext_resource path="res://Textures/Deco/Tree_3_leaves.png" type="Texture" id=25]
+[ext_resource path="res://Textures/Deco/Tree_4_leaves.png" type="Texture" id=26]
+[ext_resource path="res://Textures/Deco/Tree_5_tronc.png" type="Texture" id=27]
+[ext_resource path="res://Textures/Deco/Tree_6_leaves.png" type="Texture" id=28]
+[ext_resource path="res://Rocket.gd" type="Script" id=29]
+[ext_resource path="res://Textures/Atelier/Pieces/4_Main_engine/Main_1_Mounted.png" type="Texture" id=30]
+[ext_resource path="res://Textures/Particles/Main_1.png" type="Texture" id=31]
+[ext_resource path="res://Textures/Atelier/Pieces/5_Boosters/Boost_1_Mounted.png" type="Texture" id=32]
+[ext_resource path="res://Textures/Atelier/Pieces/1_Head/Head_1.png" type="Texture" id=33]
+[ext_resource path="res://Textures/Atelier/Pieces/2_Accessories/Thermo.png" type="Texture" id=34]
+[ext_resource path="res://Textures/Atelier/Pieces/3_Aerodyn/Aero_1.png" type="Texture" id=35]
+[ext_resource path="res://Sounds/Launch.wav" type="AudioStream" id=36]
+[ext_resource path="res://KinematicBody2D.gd" type="Script" id=37]
+[ext_resource path="res://Textures/Player/Head.png" type="Texture" id=38]
+[ext_resource path="res://Textures/Player/Leg.png" type="Texture" id=39]
+[ext_resource path="res://Textures/Player/Body.png" type="Texture" id=40]
+[ext_resource path="res://Textures/Player/Arm.png" type="Texture" id=41]
+[ext_resource path="res://Sounds/pas.wav" type="AudioStream" id=42]
+[ext_resource path="res://Textures/Deco/Machin_1.png" type="Texture" id=43]
+[ext_resource path="res://Textures/Deco/Machin_2.png" type="Texture" id=44]
+[ext_resource path="res://Textures/Buttons/Button_right.png" type="Texture" id=45]
+[ext_resource path="res://Textures/Buttons/Button_left.png" type="Texture" id=46]
+[ext_resource path="res://Textures/Buttons/Abort.png" type="Texture" id=47]
+[ext_resource path="res://Sounds/Ambient.wav" type="AudioStream" id=48]
+[ext_resource path="res://Sounds/Music_1.wav" type="AudioStream" id=49]
+[ext_resource path="res://Sounds/Buttons.wav" type="AudioStream" id=50]
+[ext_resource path="res://Sounds/Workshop.wav" type="AudioStream" id=51]
+[ext_resource path="res://Sounds/Enter_work.wav" type="AudioStream" id=52]
+[ext_resource path="res://Sounds/Exit_work.wav" type="AudioStream" id=53]
+[ext_resource path="res://Sounds/Flying.wav" type="AudioStream" id=54]
+[ext_resource path="res://Textures/Buttons/Enter_Workshop.png" type="Texture" id=55]
+[ext_resource path="res://Textures/Buttons/Launch.png" type="Texture" id=56]
+[ext_resource path="res://Atelier.tscn" type="PackedScene" id=57]
+[ext_resource path="res://Textures/HUD/Cash.png" type="Texture" id=58]
+[ext_resource path="res://Textures/HUD/Science.png" type="Texture" id=59]
+[ext_resource path="res://ARLRDBD.TTF" type="DynamicFontData" id=60]
+
+[sub_resource type="Animation" id=1]
+resource_name = "Main"
+length = 8.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Fish:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0.4, 3.8, 5.5, 7.4 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 8944.34, 1203.71 ), Vector2( 8954.39, 1205.73 ), Vector2( 8929.19, 1205.74 ), Vector2( 8944.34, 1191.33 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Fish2:position")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0.4, 3, 5.3, 7.2 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 9061.06, 1211.98 ), Vector2( 9068.04, 1207.09 ), Vector2( 9046.91, 1205.68 ), Vector2( 9036.03, 1222.81 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Grass:position")
+tracks/2/interp = 2
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 2, 4.5, 6.7 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ), Vector2( -3, 0 ), Vector2( 2, 0 ), Vector2( -1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=2]
+resource_name = "Main"
+length = 3.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Trees/Tree_Leaves_6:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 10997, 583.099 ), Vector2( 10951.1, 582.65 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Trees/Tree_Leaves_6:rotation_degrees")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Trees/Tree_Leaves_4:position")
+tracks/2/interp = 2
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 1.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 11809.8, 964.679 ), Vector2( 11792.1, 964.679 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Trees/Tree_Leaves_4:rotation_degrees")
+tracks/3/interp = 2
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 1.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Trees/Tree_Leaves_2:position")
+tracks/4/interp = 2
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 1.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 11437.3, 954.975 ), Vector2( 11446.4, 954.975 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Trees/Tree_Leaves_2:rotation_degrees")
+tracks/5/interp = 2
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0, 1.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Trees/Tree_Leaves_5:position")
+tracks/6/interp = 2
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0, 1.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 11551.6, 704.987 ), Vector2( 11573.3, 704.987 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Trees/Tree_Leaves_5:rotation_degrees")
+tracks/7/interp = 2
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0, 1.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("Trees/Tree_Leaves_1:position")
+tracks/8/interp = 2
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0, 1.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 12054.3, 583.266 ), Vector2( 12076, 583.647 ) ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("Trees/Tree_Leaves_1:rotation_degrees")
+tracks/9/interp = 2
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0, 1.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/10/type = "value"
+tracks/10/path = NodePath("Trees/Tree_Leaves_3:position")
+tracks/10/interp = 2
+tracks/10/loop_wrap = true
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/keys = {
+"times": PoolRealArray( 0, 1.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 12569.4, 848.846 ), Vector2( 12559.3, 848.846 ) ]
+}
+tracks/11/type = "value"
+tracks/11/path = NodePath("Trees/Tree_Leaves_3:rotation_degrees")
+tracks/11/interp = 2
+tracks/11/loop_wrap = true
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/keys = {
+"times": PoolRealArray( 0, 1.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+
+[sub_resource type="CapsuleShape2D" id=3]
+radius = 78.4824
+height = 40.7772
+
+[sub_resource type="ParticlesMaterial" id=4]
+emission_shape = 1
+emission_sphere_radius = 7.88
+flag_disable_z = true
+spread = 11.33
+gravity = Vector3( 0, 0, 0 )
+initial_velocity = 202.97
+initial_velocity_random = 0.26
+angular_velocity_random = 0.29
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+linear_accel = -43.16
+linear_accel_random = 0.37
+
+[sub_resource type="CapsuleShape2D" id=5]
+radius = 43.6333
+height = 99.8015
+
+[sub_resource type="Animation" id=6]
+length = 2.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Body:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -1.16796, 6.7209 ), Vector2( -1.168, 4.8 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Body:rotation_degrees")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Arm:position")
+tracks/2/interp = 2
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 13.9621, 29.4328 ), Vector2( 13.9621, 24.6895 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Arm:rotation_degrees")
+tracks/3/interp = 2
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0 ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Head:position")
+tracks/4/interp = 2
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0, -80 ), Vector2( -0.647095, -82.2648 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Head:rotation_degrees")
+tracks/5/interp = 2
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, -4.22237 ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Leg_1:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 3.08008, 66.3027 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Leg_1:rotation_degrees")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("Leg_2:position")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0.513367, 65.7894 ) ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("Leg_2:rotation_degrees")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
+
+[sub_resource type="Animation" id=7]
+length = 0.6
+loop = true
+step = 0.05
+tracks/0/type = "value"
+tracks/0/path = NodePath("Leg_1:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.15, 0.3, 0.45 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 3.08008, 66.3027 ), Vector2( 25.938, 57.0045 ), Vector2( 5.21082, 65.7216 ), Vector2( -27.6233, 58.0697 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Leg_1:rotation_degrees")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.15, 0.3, 0.45 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, -39.9085, -0.849925, 48.5105 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Leg_2:position")
+tracks/2/interp = 2
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.15, 0.3, 0.45 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.513367, 65.7894 ), Vector2( -21.5698, 59.5909 ), Vector2( 1.86942, 65.5313 ), Vector2( 23.4683, 55.3935 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Leg_2:rotation_degrees")
+tracks/3/interp = 2
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.15, 0.3, 0.45 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 43.0201, 0.289385, -39.6787 ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Arm:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.15, 0.3, 0.45 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 13.9621, 29.4327 ), Vector2( -9.39703, 34.6885 ), Vector2( 15.0328, 30.8927 ), Vector2( 29.0969, 22.5711 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Arm:rotation_degrees")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0, 0.15, 0.3, 0.45 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 35.7417, -0.797479, -29.1545 ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Head:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0, 0.15, 0.3, 0.45 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0, -80 ), Vector2( 0.397217, -84.7665 ), Vector2( 0.264811, -83.1777 ), Vector2( -0.662028, -87.547 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Head:rotation_degrees")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0, 0.15, 0.3, 0.45 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.0, 0.0, 0.0 ]
+}
+
+[sub_resource type="Animation" id=8]
+length = 3.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Trees2/Tree_Leaves_5:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 11002.9, 715.814 ), Vector2( 10977, 715.814 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Trees2/Tree_Leaves_4:position")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0.2, 1.7 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 11198.8, 977.634 ), Vector2( 11224.7, 975.783 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Trees2/Tree_Leaves_3:position")
+tracks/2/interp = 2
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0.5, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 11691.3, 859.95 ), Vector2( 11658, 859.95 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Trees2/Tree_Leaves_2:position")
+tracks/3/interp = 2
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 1.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 12089, 966.078 ), Vector2( 12070.5, 966.078 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Grass2:position")
+tracks/4/interp = 2
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0.5, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ), Vector2( -3, 0 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Machins/Machins_2:rotation_degrees")
+tracks/5/interp = 2
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0, 1.4 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 7.93262 ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("Machins/Machins_2:position")
+tracks/6/interp = 2
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0, 1.4 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 8619.79, 1068.07 ), Vector2( 8631.74, 1075.36 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Machins/Machins_1:position")
+tracks/7/interp = 2
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0, 1.4 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 10408.7, 1056.43 ), Vector2( 10385.9, 1066.01 ) ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("Machins/Machins_1:rotation_degrees")
+tracks/8/interp = 2
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0, 1.4 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, -14.7126 ]
+}
+
+[sub_resource type="RectangleShape2D" id=9]
+extents = Vector2( 444.396, 320.772 )
+
+[sub_resource type="DynamicFont" id=10]
+size = 80
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 60 )
+
+[node name="Game" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Stars_back" type="CanvasLayer" parent="."]
+layer = -6
+
+[node name="Stars" type="Node2D" parent="Stars_back"]
+
+[node name="Sprite" type="Sprite" parent="Stars_back/Stars"]
+texture = ExtResource( 2 )
+centered = false
+
+[node name="Backgrounds" type="Node2D" parent="."]
+
+[node name="Air_1" type="Node2D" parent="Backgrounds"]
+
+[node name="Air_1_background" type="ParallaxBackground" parent="Backgrounds/Air_1"]
+layer = -5
+scroll_base_scale = Vector2( 0.1, 0.1 )
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="Backgrounds/Air_1/Air_1_background"]
+motion_mirroring = Vector2( 2960, 0 )
+
+[node name="Sprite" type="Sprite" parent="Backgrounds/Air_1/Air_1_background/ParallaxLayer"]
+position = Vector2( 1480, -1310 )
+texture = ExtResource( 3 )
+
+[node name="Mount_1" type="Node2D" parent="Backgrounds"]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="Backgrounds/Mount_1"]
+layer = -4
+scroll_base_scale = Vector2( 0.1, 0.02 )
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="Backgrounds/Mount_1/ParallaxBackground"]
+motion_mirroring = Vector2( 8000, 0 )
+
+[node name="Sprite" type="Sprite" parent="Backgrounds/Mount_1/ParallaxBackground/ParallaxLayer"]
+position = Vector2( 0, 821 )
+texture = ExtResource( 4 )
+centered = false
+
+[node name="Air_2" type="Node2D" parent="Backgrounds"]
+
+[node name="Air_1_background" type="ParallaxBackground" parent="Backgrounds/Air_2"]
+layer = -3
+scroll_base_scale = Vector2( 0.2, 0.2 )
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="Backgrounds/Air_2/Air_1_background"]
+motion_mirroring = Vector2( 2960, 0 )
+
+[node name="Sprite" type="Sprite" parent="Backgrounds/Air_2/Air_1_background/ParallaxLayer"]
+position = Vector2( 1480, -1310 )
+texture = ExtResource( 5 )
+
+[node name="Mount_2" type="Node2D" parent="Backgrounds"]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="Backgrounds/Mount_2"]
+layer = -2
+scroll_base_scale = Vector2( 0.2, 0.04 )
+scroll_ignore_camera_zoom = true
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="Backgrounds/Mount_2/ParallaxBackground"]
+motion_mirroring = Vector2( 32000, 0 )
+
+[node name="Sprite" type="Sprite" parent="Backgrounds/Mount_2/ParallaxBackground/ParallaxLayer"]
+scale = Vector2( 4, 4 )
+texture = ExtResource( 6 )
+centered = false
+
+[node name="Air_3" type="Node2D" parent="Backgrounds"]
+
+[node name="Air_1_background" type="ParallaxBackground" parent="Backgrounds/Air_3"]
+scroll_base_scale = Vector2( 0.3, 0.3 )
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="Backgrounds/Air_3/Air_1_background"]
+motion_mirroring = Vector2( 2960, 0 )
+
+[node name="Sprite" type="Sprite" parent="Backgrounds/Air_3/Air_1_background/ParallaxLayer"]
+position = Vector2( 1480, -1310 )
+texture = ExtResource( 5 )
+
+[node name="Deco_3" type="Node2D" parent="."]
+
+[node name="Deco_2" type="AnimationPlayer" parent="Deco_3"]
+anims/Main = SubResource( 1 )
+
+[node name="Fish" type="Sprite" parent="Deco_3"]
+position = Vector2( 8944.05, 1200.13 )
+texture = ExtResource( 7 )
+
+[node name="Fish2" type="Sprite" parent="Deco_3"]
+position = Vector2( 9055.56, 1214.76 )
+scale = Vector2( 0.610919, 0.798482 )
+texture = ExtResource( 7 )
+flip_h = true
+
+[node name="Rocks" type="Node2D" parent="Deco_3"]
+
+[node name="Rock_1" type="Sprite" parent="Deco_3/Rocks"]
+position = Vector2( 1647.38, 1090.83 )
+texture = ExtResource( 8 )
+
+[node name="Rock_2" type="Sprite" parent="Deco_3/Rocks"]
+position = Vector2( 10930.9, 1108.56 )
+texture = ExtResource( 8 )
+
+[node name="Rock_3" type="Sprite" parent="Deco_3/Rocks"]
+position = Vector2( 11742.5, 1097.77 )
+texture = ExtResource( 8 )
+flip_h = true
+
+[node name="Grass" type="Node2D" parent="Deco_3"]
+position = Vector2( -0.106864, 0 )
+
+[node name="Grass_type_1_1" type="Sprite" parent="Deco_3/Grass"]
+position = Vector2( 12281.1, 1096.47 )
+texture = ExtResource( 9 )
+
+[node name="Grass_type_1_2" type="Sprite" parent="Deco_3/Grass"]
+position = Vector2( 11635.9, 1085.92 )
+texture = ExtResource( 9 )
+
+[node name="Grass_type_2_1" type="Sprite" parent="Deco_3/Grass"]
+position = Vector2( 11501.1, 1077.39 )
+texture = ExtResource( 10 )
+
+[node name="Grass_type_2_2" type="Sprite" parent="Deco_3/Grass"]
+position = Vector2( 7879.09, 1089.37 )
+texture = ExtResource( 10 )
+
+[node name="Grass_type_3_1" type="Sprite" parent="Deco_3/Grass"]
+position = Vector2( 10934.3, 1091.13 )
+texture = ExtResource( 11 )
+
+[node name="Grass_type_3_2" type="Sprite" parent="Deco_3/Grass"]
+position = Vector2( 8437.87, 1090.43 )
+texture = ExtResource( 11 )
+
+[node name="Grass_type_4_1" type="Sprite" parent="Deco_3/Grass"]
+position = Vector2( 12843.1, 1082.24 )
+texture = ExtResource( 12 )
+
+[node name="Scene" type="Node2D" parent="."]
+
+[node name="Sprite" type="Sprite" parent="Scene"]
+texture = ExtResource( 13 )
+centered = false
+
+[node name="Sprite2" type="Sprite" parent="Scene"]
+position = Vector2( 8000, 0 )
+texture = ExtResource( 14 )
+centered = false
+
+[node name="Sprite3" type="Sprite" parent="Scene"]
+position = Vector2( 16000, 0 )
+texture = ExtResource( 15 )
+centered = false
+
+[node name="Sprite4" type="Sprite" parent="Scene"]
+position = Vector2( 24000, 0 )
+texture = ExtResource( 16 )
+centered = false
+
+[node name="Area2D" type="Area2D" parent="Scene"]
+collision_layer = 3
+collision_mask = 3
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Scene/Area2D"]
+polygon = PoolVector2Array( 0, 1120, 32000.4, 1121.07, 32000, 1440, 0, 1440 )
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="Scene/Area2D"]
+position = Vector2( 0.664063, 0 )
+polygon = PoolVector2Array( 18490, 980, 19540, 980, 19540, 1120, 18490, 1120 )
+
+[node name="Deco_1" type="Node2D" parent="."]
+
+[node name="Deco_1" type="AnimationPlayer" parent="Deco_1"]
+anims/Main = SubResource( 2 )
+
+[node name="Trees" type="Node2D" parent="Deco_1"]
+
+[node name="Tree_1" type="Sprite" parent="Deco_1/Trees"]
+position = Vector2( 12065.7, 636.746 )
+texture = ExtResource( 17 )
+
+[node name="Tree_2" type="Sprite" parent="Deco_1/Trees"]
+position = Vector2( 11436.2, 1005.02 )
+texture = ExtResource( 18 )
+
+[node name="Tree_3" type="Sprite" parent="Deco_1/Trees"]
+position = Vector2( 12577.8, 930.952 )
+texture = ExtResource( 19 )
+
+[node name="Tree_4" type="Sprite" parent="Deco_1/Trees"]
+position = Vector2( 11789.6, 1004.15 )
+texture = ExtResource( 20 )
+
+[node name="Tree_5" type="Sprite" parent="Deco_1/Trees"]
+position = Vector2( 11592.1, 742.121 )
+texture = ExtResource( 21 )
+
+[node name="Tree_6" type="Sprite" parent="Deco_1/Trees"]
+position = Vector2( 10978.5, 633.065 )
+texture = ExtResource( 22 )
+
+[node name="Tree_Leaves_1" type="Sprite" parent="Deco_1/Trees"]
+position = Vector2( 12061.2, 583.388 )
+texture = ExtResource( 23 )
+
+[node name="Tree_Leaves_2" type="Sprite" parent="Deco_1/Trees"]
+position = Vector2( 11440.2, 954.975 )
+texture = ExtResource( 24 )
+
+[node name="Tree_Leaves_3" type="Sprite" parent="Deco_1/Trees"]
+position = Vector2( 12566.2, 848.846 )
+texture = ExtResource( 25 )
+
+[node name="Tree_Leaves_4" type="Sprite" parent="Deco_1/Trees"]
+position = Vector2( 11804.2, 964.679 )
+texture = ExtResource( 26 )
+
+[node name="Tree_Leaves_5" type="Sprite" parent="Deco_1/Trees"]
+position = Vector2( 11558.5, 704.987 )
+texture = ExtResource( 27 )
+
+[node name="Tree_Leaves_6" type="Sprite" parent="Deco_1/Trees"]
+position = Vector2( 10982.4, 582.956 )
+texture = ExtResource( 28 )
+
+[node name="Vaisseau" type="Node2D" parent="."]
+position = Vector2( 19000, 890 )
+
+[node name="Rocket" type="KinematicBody2D" parent="Vaisseau"]
+collision_layer = 3
+collision_mask = 3
+script = ExtResource( 29 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Vaisseau/Rocket"]
+shape = SubResource( 3 )
+one_way_collision = true
+
+[node name="Textures" type="Node2D" parent="Vaisseau/Rocket"]
+scale = Vector2( 0.5, 0.5 )
+
+[node name="Main_1" type="Sprite" parent="Vaisseau/Rocket/Textures"]
+texture = ExtResource( 30 )
+
+[node name="Main_1" type="Particles2D" parent="Vaisseau/Rocket/Textures/Main_1"]
+position = Vector2( 3, 220 )
+rotation = 1.5708
+emitting = false
+amount = 50
+lifetime = 2.0
+speed_scale = 9.66
+explosiveness = 0.11
+randomness = 0.41
+process_material = SubResource( 4 )
+texture = ExtResource( 31 )
+
+[node name="Boost_1" type="Sprite" parent="Vaisseau/Rocket/Textures"]
+visible = false
+position = Vector2( -2, 27.5 )
+texture = ExtResource( 32 )
+
+[node name="BoostL" type="Particles2D" parent="Vaisseau/Rocket/Textures/Boost_1"]
+position = Vector2( -132, 190 )
+rotation = 1.5708
+emitting = false
+amount = 50
+lifetime = 2.0
+speed_scale = 9.66
+explosiveness = 0.11
+randomness = 0.41
+process_material = SubResource( 4 )
+texture = ExtResource( 31 )
+
+[node name="BoostL2" type="Particles2D" parent="Vaisseau/Rocket/Textures/Boost_1"]
+position = Vector2( 132, 190 )
+rotation = 1.5708
+emitting = false
+amount = 50
+lifetime = 2.0
+speed_scale = 9.66
+explosiveness = 0.11
+randomness = 0.41
+process_material = SubResource( 4 )
+texture = ExtResource( 31 )
+
+[node name="Head_1" type="Sprite" parent="Vaisseau/Rocket/Textures"]
+visible = false
+position = Vector2( 0, -230 )
+texture = ExtResource( 33 )
+
+[node name="Therm" type="Sprite" parent="Vaisseau/Rocket/Textures"]
+visible = false
+texture = ExtResource( 34 )
+
+[node name="Aero_1" type="Sprite" parent="Vaisseau/Rocket/Textures"]
+visible = false
+texture = ExtResource( 35 )
+
+[node name="Camera2D" type="Camera2D" parent="Vaisseau/Rocket"]
+limit_bottom = 1440
+
+[node name="Launch" type="AudioStreamPlayer" parent="Vaisseau/Rocket"]
+stream = ExtResource( 36 )
+bus = "Alarm"
+
+[node name="Player" type="Node2D" parent="."]
+position = Vector2( 19300, 955 )
+
+[node name="KinematicBody2D" type="KinematicBody2D" parent="Player"]
+collision_layer = 512
+collision_mask = 512
+script = ExtResource( 37 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player/KinematicBody2D"]
+position = Vector2( 0, 80 )
+shape = SubResource( 5 )
+
+[node name="Head" type="Sprite" parent="Player/KinematicBody2D/CollisionShape2D"]
+position = Vector2( 0, -80 )
+texture = ExtResource( 38 )
+
+[node name="Leg_2" type="Sprite" parent="Player/KinematicBody2D/CollisionShape2D"]
+position = Vector2( 0.513367, 65.7894 )
+texture = ExtResource( 39 )
+
+[node name="Body" type="Sprite" parent="Player/KinematicBody2D/CollisionShape2D"]
+position = Vector2( -1.16797, 6.36513 )
+texture = ExtResource( 40 )
+
+[node name="Leg_1" type="Sprite" parent="Player/KinematicBody2D/CollisionShape2D"]
+position = Vector2( 3.08008, 66.3027 )
+texture = ExtResource( 39 )
+
+[node name="Arm" type="Sprite" parent="Player/KinematicBody2D/CollisionShape2D"]
+position = Vector2( 13.9621, 29.4327 )
+texture = ExtResource( 41 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Player/KinematicBody2D/CollisionShape2D"]
+anims/Static = SubResource( 6 )
+anims/Walking = SubResource( 7 )
+
+[node name="Camera2D" type="Camera2D" parent="Player/KinematicBody2D"]
+current = true
+limit_left = 0
+limit_right = 32000
+limit_bottom = 1440
+
+[node name="Walk" type="AudioStreamPlayer" parent="Player/KinematicBody2D"]
+stream = ExtResource( 42 )
+volume_db = -4.28
+bus = "Casual"
+
+[node name="Deco_2" type="Node2D" parent="."]
+
+[node name="Deco_2" type="AnimationPlayer" parent="Deco_2"]
+anims/Main = SubResource( 8 )
+
+[node name="Trees2" type="Node2D" parent="Deco_2"]
+
+[node name="Tree_2" type="Sprite" parent="Deco_2/Trees2"]
+position = Vector2( 12082.1, 1016.12 )
+texture = ExtResource( 18 )
+
+[node name="Tree_3" type="Sprite" parent="Deco_2/Trees2"]
+position = Vector2( 11693.3, 940.205 )
+texture = ExtResource( 19 )
+
+[node name="Tree_4" type="Sprite" parent="Deco_2/Trees2"]
+position = Vector2( 11202.9, 1015.25 )
+texture = ExtResource( 20 )
+
+[node name="Tree_5" type="Sprite" parent="Deco_2/Trees2"]
+position = Vector2( 11015.4, 752.948 )
+texture = ExtResource( 21 )
+
+[node name="Tree_Leaves_2" type="Sprite" parent="Deco_2/Trees2"]
+position = Vector2( 12081.9, 966.078 )
+texture = ExtResource( 24 )
+
+[node name="Tree_Leaves_3" type="Sprite" parent="Deco_2/Trees2"]
+position = Vector2( 11689.9, 859.95 )
+texture = ExtResource( 25 )
+
+[node name="Tree_Leaves_4" type="Sprite" parent="Deco_2/Trees2"]
+position = Vector2( 11204.7, 977.215 )
+texture = ExtResource( 26 )
+
+[node name="Tree_Leaves_5" type="Sprite" parent="Deco_2/Trees2"]
+position = Vector2( 10993, 715.814 )
+texture = ExtResource( 27 )
+
+[node name="Machins" type="Node2D" parent="Deco_2"]
+
+[node name="Machins_1" type="Sprite" parent="Deco_2/Machins"]
+position = Vector2( 10399.2, 1060.43 )
+rotation = -0.107282
+texture = ExtResource( 43 )
+
+[node name="Machins_2" type="Sprite" parent="Deco_2/Machins"]
+position = Vector2( 8624.78, 1071.12 )
+rotation = 0.0578434
+texture = ExtResource( 44 )
+
+[node name="Grass2" type="Node2D" parent="Deco_2"]
+position = Vector2( -0.129655, 0 )
+
+[node name="Grass_type_1_1" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 11326.5, 1116.32 )
+texture = ExtResource( 9 )
+
+[node name="Grass_type_1_2" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 8324.07, 1111.71 )
+texture = ExtResource( 9 )
+
+[node name="Grass_type_1_4" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 7980.92, 1112.76 )
+texture = ExtResource( 9 )
+
+[node name="Grass_type_1_7" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 7625.13, 1112.76 )
+texture = ExtResource( 9 )
+
+[node name="Grass_type_1_8" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 15652.6, 1105.96 )
+texture = ExtResource( 9 )
+
+[node name="Grass_type_1_3" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 8153.07, 1117.71 )
+texture = ExtResource( 9 )
+flip_h = true
+
+[node name="Grass_type_1_5" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 7809.92, 1118.76 )
+texture = ExtResource( 9 )
+flip_h = true
+
+[node name="Grass_type_1_6" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 7454.13, 1118.76 )
+texture = ExtResource( 9 )
+flip_h = true
+
+[node name="Grass_type_1_9" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 15481.6, 1111.96 )
+texture = ExtResource( 9 )
+flip_h = true
+
+[node name="Grass_type_2_1" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 11880.5, 1109.2 )
+texture = ExtResource( 10 )
+
+[node name="Grass_type_2_11" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 16574.9, 1110.19 )
+texture = ExtResource( 10 )
+
+[node name="Grass_type_2_3" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 8426.2, 1102.88 )
+texture = ExtResource( 10 )
+
+[node name="Grass_type_2_5" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 8083.04, 1103.93 )
+texture = ExtResource( 10 )
+
+[node name="Grass_type_2_8" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 7727.25, 1103.93 )
+texture = ExtResource( 10 )
+
+[node name="Grass_type_2_10" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 15754.7, 1097.13 )
+texture = ExtResource( 10 )
+
+[node name="Grass_type_2_4" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 8255.2, 1108.88 )
+texture = ExtResource( 10 )
+flip_h = true
+
+[node name="Grass_type_2_6" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 7912.04, 1109.93 )
+texture = ExtResource( 10 )
+flip_h = true
+
+[node name="Grass_type_2_7" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 7556.25, 1109.93 )
+texture = ExtResource( 10 )
+flip_h = true
+
+[node name="Grass_type_2_9" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 15583.7, 1103.13 )
+texture = ExtResource( 10 )
+flip_h = true
+
+[node name="Grass_type_2_12" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 17150.8, 1107.45 )
+texture = ExtResource( 10 )
+
+[node name="Grass_type_2_2" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 10636.9, 1105.5 )
+texture = ExtResource( 10 )
+
+[node name="Grass_type_3_1" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 12404.4, 1120.67 )
+texture = ExtResource( 11 )
+
+[node name="Grass_type_3_3" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 8351.27, 1128.5 )
+texture = ExtResource( 11 )
+
+[node name="Grass_type_3_9" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 8544.33, 1139.11 )
+texture = ExtResource( 11 )
+
+[node name="Grass_type_3_10" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 10430.8, 1132.64 )
+texture = ExtResource( 11 )
+
+[node name="Grass_type_3_6" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 8008.11, 1129.55 )
+texture = ExtResource( 11 )
+
+[node name="Grass_type_3_8" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 7652.32, 1129.55 )
+texture = ExtResource( 11 )
+
+[node name="Grass_type_3_11" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 15679.8, 1122.75 )
+texture = ExtResource( 11 )
+
+[node name="Grass_type_3_4" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 8180.27, 1134.5 )
+texture = ExtResource( 11 )
+flip_h = true
+
+[node name="Grass_type_3_5" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 7837.11, 1135.55 )
+texture = ExtResource( 11 )
+flip_h = true
+
+[node name="Grass_type_3_7" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 7481.32, 1135.55 )
+texture = ExtResource( 11 )
+flip_h = true
+
+[node name="Grass_type_3_12" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 15508.8, 1128.75 )
+texture = ExtResource( 11 )
+flip_h = true
+
+[node name="Grass_type_3_2" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 12853.3, 1104.35 )
+texture = ExtResource( 11 )
+
+[node name="Grass_type_4_1" type="Sprite" parent="Deco_2/Grass2"]
+position = Vector2( 11369.1, 1122.47 )
+texture = ExtResource( 12 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = 4
+
+[node name="Right" type="TouchScreenButton" parent="CanvasLayer"]
+position = Vector2( 2650, 1136.48 )
+normal = ExtResource( 45 )
+action = "ui_right"
+
+[node name="Left" type="TouchScreenButton" parent="CanvasLayer"]
+position = Vector2( 20, 1130 )
+normal = ExtResource( 46 )
+action = "ui_left"
+
+[node name="Abort" type="TouchScreenButton" parent="CanvasLayer"]
+position = Vector2( 36.3531, 38.6252 )
+normal = ExtResource( 47 )
+
+[node name="Sounds" type="Node2D" parent="."]
+
+[node name="Main" type="AudioStreamPlayer" parent="Sounds"]
+stream = ExtResource( 48 )
+autoplay = true
+bus = "Ambient"
+
+[node name="Music_1" type="AudioStreamPlayer" parent="Sounds"]
+stream = ExtResource( 49 )
+bus = "Music"
+
+[node name="Buttons" type="AudioStreamPlayer" parent="Sounds"]
+stream = ExtResource( 50 )
+bus = "Casual"
+
+[node name="Walk" type="AudioStreamPlayer" parent="Sounds"]
+stream = ExtResource( 42 )
+bus = "Casual"
+
+[node name="Workshop" type="AudioStreamPlayer" parent="Sounds"]
+stream = ExtResource( 51 )
+bus = "Music"
+
+[node name="Enter" type="AudioStreamPlayer" parent="Sounds"]
+stream = ExtResource( 52 )
+bus = "Casual"
+
+[node name="Exit" type="AudioStreamPlayer" parent="Sounds"]
+stream = ExtResource( 53 )
+bus = "Casual"
+
+[node name="Flying" type="AudioStreamPlayer" parent="Sounds"]
+stream = ExtResource( 54 )
+bus = "Music"
+
+[node name="Static_Buttons" type="Node2D" parent="."]
+
+[node name="Workshop" type="Area2D" parent="Static_Buttons"]
+collision_layer = 512
+collision_mask = 512
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Static_Buttons/Workshop"]
+position = Vector2( 15059.1, 796.415 )
+shape = SubResource( 9 )
+
+[node name="Workshop_butt" type="TouchScreenButton" parent="Static_Buttons"]
+position = Vector2( 14740.9, 108.115 )
+normal = ExtResource( 55 )
+action = "\"ui_enter_workshop\""
+
+[node name="Launch" type="Area2D" parent="Static_Buttons"]
+collision_layer = 512
+collision_mask = 512
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Static_Buttons/Launch"]
+polygon = PoolVector2Array( 18021.3, 722.232, 18400, 720, 18400, 1120, 18020, 1120 )
+
+[node name="Launch_butt" type="TouchScreenButton" parent="Static_Buttons"]
+position = Vector2( 17980.3, 101.595 )
+normal = ExtResource( 56 )
+
+[node name="Atelier" type="CanvasLayer" parent="."]
+layer = 5
+
+[node name="Atelier" parent="Atelier" instance=ExtResource( 57 )]
+visible = false
+
+[node name="HUD" type="CanvasLayer" parent="."]
+layer = 100
+
+[node name="MarginContainer" type="MarginContainer" parent="HUD"]
+margin_right = 2960.0
+margin_bottom = 1440.0
+custom_constants/margin_right = 2330
+custom_constants/margin_top = 50
+custom_constants/margin_left = 50
+custom_constants/margin_bottom = 50
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HUD/MarginContainer"]
+margin_left = 50.0
+margin_top = 50.0
+margin_right = 630.0
+margin_bottom = 1390.0
+custom_constants/separation = 40
+
+[node name="Money" type="Sprite" parent="HUD/MarginContainer/VBoxContainer"]
+texture = ExtResource( 58 )
+centered = false
+
+[node name="Science" type="Sprite" parent="HUD/MarginContainer/VBoxContainer"]
+position = Vector2( 0, 130 )
+texture = ExtResource( 59 )
+centered = false
+
+[node name="Money_lab" type="Label" parent="HUD/MarginContainer/VBoxContainer"]
+margin_right = 580.0
+margin_bottom = 93.0
+custom_fonts/font = SubResource( 10 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "0"
+align = 2
+valign = 1
+
+[node name="Science_lab" type="Label" parent="HUD/MarginContainer/VBoxContainer"]
+margin_top = 133.0
+margin_right = 580.0
+margin_bottom = 226.0
+custom_fonts/font = SubResource( 10 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "0"
+align = 2
+valign = 1
+[connection signal="body_entered" from="Scene/Area2D" to="Vaisseau/Rocket" method="_on_Area2D_body_entered"]
+[connection signal="body_exited" from="Scene/Area2D" to="Vaisseau/Rocket" method="_on_Area2D_body_exited"]
+[connection signal="end_flight" from="Vaisseau/Rocket" to="." method="_on_Rocket_end_flight"]
+[connection signal="pressed" from="CanvasLayer/Abort" to="." method="_on_Abort_pressed"]
+[connection signal="pressed" from="CanvasLayer/Abort" to="Vaisseau/Rocket" method="_on_Abort_pressed"]
+[connection signal="body_entered" from="Static_Buttons/Workshop" to="." method="_on_Workshop_body_entered"]
+[connection signal="body_exited" from="Static_Buttons/Workshop" to="." method="_on_Workshop_body_exited"]
+[connection signal="pressed" from="Static_Buttons/Workshop_butt" to="." method="_on_Workshop_butt_pressed"]
+[connection signal="body_entered" from="Static_Buttons/Launch" to="." method="_on_Launch_body_entered"]
+[connection signal="body_exited" from="Static_Buttons/Launch" to="." method="_on_Launch_body_exited"]
+[connection signal="pressed" from="Static_Buttons/Launch_butt" to="." method="_on_Launch_butt_pressed"]
+[connection signal="pressed" from="Static_Buttons/Launch_butt" to="." method="_on_TouchScreenButton_pressed"]
+[connection signal="pressed" from="Static_Buttons/Launch_butt" to="Vaisseau/Rocket" method="_on_Launch_butt_pressed"]
+[connection signal="pressed" from="Atelier/Atelier/Exit" to="." method="_on_Exit_pressed"]
+
+[editable path="Atelier/Atelier"]

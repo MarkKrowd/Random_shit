@@ -1,0 +1,146 @@
+$Version=1
+$FileExt=.fst
+$RootPath=Data\Patches\Plugin presets\Generators\Ogun
+$FilePath=Data\Patches\Plugin presets\Generators\Ogun
+$Alternative=Ogun
+$Caption=Ogun
+$Format=344
+
+$Flags=13
+$ColName=Name
+$ColSize=Size
+$ColCount=Presets
+$BankText=preset
+$SampleText=preset
+
+;CDName|SubDirName|ItemName|Count|FileSize|ProductCode|Flags|WebLink
+Ogun|Atmosphere|300 Ft Glass Bowl|0|11|0|0|
+Ogun|Atmosphere|Alien Queens Lair|0|120|0|0|
+Ogun|Atmosphere|Ancient Discovery|0|232|0|0|
+Ogun|Atmosphere|At the Core|0|88|0|0|
+Ogun|Atmosphere|CyberCrime|0|81|0|0|
+Ogun|Atmosphere|Deep Mystery|0|28|0|0|
+Ogun|Atmosphere|Dragon Breath|0|138|0|0|
+Ogun|Atmosphere|Enter the Temple|0|226|0|0|
+Ogun|Atmosphere|Inferno|0|63|0|0|
+Ogun|Atmosphere|Lo-Fi Cluster 1|0|78|0|0|
+Ogun|Atmosphere|Lo-Fi Cluster 2|0|24|0|0|
+Ogun|Atmosphere|Lo-Fi Cluster 3|0|33|0|0|
+Ogun|Atmosphere|Moaning in the Crypt|0|108|0|0|
+Ogun|Atmosphere|Percussive Vocals|0|198|0|0|
+Ogun|Atmosphere|Red October|0|37|0|0|
+Ogun|Atmosphere|Sci-Fi Movie|0|239|0|0|
+Ogun|Atmosphere|Spectral Drone|0|56|0|0|
+Ogun|Atmosphere|Timeless 1|0|99|0|0|
+Ogun|Atmosphere|Timeless 2|0|115|0|0|
+Ogun|Atmosphere|Wierd Voices|0|198|0|0|
+Ogun|Cymbal|808 HiHat|0|45|0|0|
+Ogun|Cymbal|909 HiHat|0|68|0|0|
+Ogun|Cymbal|Acoustic Crash 1|0|119|0|0|
+Ogun|Cymbal|Acoustic Crash 2|0|142|0|0|
+Ogun|Cymbal|Acoustic Crash 3|0|113|0|0|
+Ogun|Cymbal|Acoustic Crash 4|0|114|0|0|
+Ogun|Cymbal|Acoustic Crash 5|0|132|0|0|
+Ogun|Cymbal|Acoustic HiHat 1|0|50|0|0|
+Ogun|Cymbal|Acoustic HiHat 2|0|37|0|0|
+Ogun|Cymbal|Acoustic HiHat 3|0|29|0|0|
+Ogun|Cymbal|BeatBox HiHat|0|63|0|0|
+Ogun|Cymbal|Bright Ride Cymbal|0|139|0|0|
+Ogun|Cymbal|China 1|0|171|0|0|
+Ogun|Cymbal|China 2|0|170|0|0|
+Ogun|Cymbal|Choked Crash 1|0|61|0|0|
+Ogun|Cymbal|Choked Crash 2|0|74|0|0|
+Ogun|Cymbal|Concert Crash 1|0|129|0|0|
+Ogun|Cymbal|Concert Crash 2|0|147|0|0|
+Ogun|Cymbal|Cymbal Roll|0|172|0|0|
+Ogun|Cymbal|Dance HiHat|0|98|0|0|
+Ogun|Cymbal|Deep Gong 1|0|50|0|0|
+Ogun|Cymbal|Deep Gong 2|0|54|0|0|
+Ogun|Cymbal|DR55 HiHat|0|15|0|0|
+Ogun|Cymbal|Heavy Metal Ride 1|0|137|0|0|
+Ogun|Cymbal|Heavy Metal Ride 2|0|147|0|0|
+Ogun|Cymbal|Imperial Gong|0|14|0|0|
+Ogun|Cymbal|Jazz Crash|0|125|0|0|
+Ogun|Cymbal|Medium Gong 1|0|69|0|0|
+Ogun|Cymbal|Medium Gong 2|0|170|0|0|
+Ogun|Cymbal|MT-500 HiHat|0|21|0|0|
+Ogun|Cymbal|Ride Cymbal 1|0|104|0|0|
+Ogun|Cymbal|Ride Cymbal 2|0|65|0|0|
+Ogun|Cymbal|Ride Cymbal 3|0|90|0|0|
+Ogun|Cymbal|Ride Cymbal 4|0|113|0|0|
+Ogun|Cymbal|Ride Cymbal 5|0|87|0|0|
+Ogun|Cymbal|Sampler Crash 1|0|101|0|0|
+Ogun|Cymbal|Sampler Crash 2|0|116|0|0|
+Ogun|Cymbal|Sampler Crash 3|0|111|0|0|
+Ogun|Cymbal|SK-1 HiHat|0|67|0|0|
+Ogun|Cymbal|Sloppy HiHat|0|20|0|0|
+Ogun|Cymbal|Splash Cymbal 1|0|162|0|0|
+Ogun|Cymbal|Splash Cymbal 2|0|129|0|0|
+Ogun|Cymbal|Splash Cymbal 3|0|165|0|0|
+Ogun|Cymbal|Splash Cymbal 4|0|153|0|0|
+Ogun|Cymbal|Tam-Tam|0|143|0|0|
+Ogun|Cymbal|Tibetan Gong|0|19|0|0|
+Ogun|Cymbal|Wind Gong 1|0|113|0|0|
+Ogun|Cymbal|Wind Gong 2|0|205|0|0|
+Ogun|Pad|Classic Digital|0|48|0|0|
+Ogun|Pad|Deep Air|0|100|0|0|
+Ogun|Pad|Depeche Ogun|0|77|0|0|
+Ogun|Pad|Digitalis|0|2|0|0|
+Ogun|Pad|Eighties Atmosphere|0|46|0|0|
+Ogun|Pad|Epic-center|0|35|0|0|
+Ogun|Pad|Exceedingly Bright|0|83|0|0|
+Ogun|Pad|Industry Sweet|0|171|0|0|
+Ogun|Pad|JP8 Strings|0|44|0|0|
+Ogun|Pad|O-50 Pad|0|142|0|0|
+Ogun|Pad|Phazor|0|234|0|0|
+Ogun|Pad|Pied Piper 1|0|47|0|0|
+Ogun|Pad|Pied Piper 2|0|71|0|0|
+Ogun|Pad|PPG Pad|0|2|0|0|
+Ogun|Pad|Timberyard|0|3|0|0|
+Ogun|Pad|Tine Travel|0|26|0|0|
+Ogun|Pad|Vox Ogana 1|0|35|0|0|
+Ogun|Pad|Vox Ogana 2|0|35|0|0|
+Ogun|Pad|Weeping Orchestral|0|63|0|0|
+Ogun|Pad|Workstation Pad|0|93|0|0|
+Ogun|Percussion|Bali Bells|0|49|0|0|
+Ogun|Percussion|Bongo|0|59|0|0|
+Ogun|Percussion|Cabasa|0|42|0|0|
+Ogun|Percussion|Chase Scene|0|96|0|0|
+Ogun|Percussion|CSI Carribean|0|120|0|0|
+Ogun|Percussion|Fence Post|0|47|0|0|
+Ogun|Percussion|Industrial Percussion 1|0|120|0|0|
+Ogun|Percussion|Industrial Percussion 2|0|158|0|0|
+Ogun|Percussion|Industrial Percussion 3|0|216|0|0|
+Ogun|Percussion|Industrial Percussion 4|0|35|0|0|
+Ogun|Percussion|Kitchen Percussion|0|105|0|0|
+Ogun|Percussion|Lo-Fi Bells|0|5|0|0|
+Ogun|Percussion|Lo-Fi Church Bell|0|50|0|0|
+Ogun|Percussion|Mystery Mallet|0|37|0|0|
+Ogun|Percussion|Oil Barrelaphone|0|212|0|0|
+Ogun|Percussion|Shaker|0|61|0|0|
+Ogun|Percussion|SleighBells|0|257|0|0|
+Ogun|Percussion|Steam Bell|0|250|0|0|
+Ogun|Percussion|Steel Odrum|0|121|0|0|
+Ogun|Percussion|Tambourine|0|108|0|0|
+Ogun|Percussion|Tibetan Handbells|0|131|0|0|
+Ogun|Percussion|Timpanies In Stereo|0|33|0|0|
+Ogun|Percussion|Waterphone Smack|0|71|0|0|
+Ogun|Sound FX|Chainsaw Symphony|0|128|0|0|
+Ogun|Sound FX|Intro to Noise|0|246|0|0|
+Ogun|Sound FX|Melody Bubbles|0|9|0|0|
+Ogun|Sound FX|Orchestration|0|65|0|0|
+Ogun|Sound FX|Race Car Siren|0|18|0|0|
+Ogun|Sound FX|Reversed Cymbal 1|0|45|0|0|
+Ogun|Sound FX|Reversed Cymbal 2|0|122|0|0|
+Ogun|Sound FX|Reversed Cymbal 3|0|109|0|0|
+Ogun|Sound FX|Reversed Cymbal 4|0|177|0|0|
+Ogun|Sound FX|Reversed Cymbal 5|0|137|0|0|
+Ogun|Sound FX|Reversed HiHat 1|0|123|0|0|
+Ogun|Sound FX|Reversed HiHat 2|0|59|0|0|
+Ogun|Sound FX|Reversed HiHat 3|0|53|0|0|
+Ogun|Sound FX|Space Transition|0|21|0|0|
+Ogun|Sound FX|Steamy Transition|0|160|0|0|
+Ogun|Sound FX|Suspense Hit|0|81|0|0|
+Ogun|Sound FX|Waterphone|0|20|0|0|
+
+

@@ -1,0 +1,15 @@
+$Version=1
+$FileExt=.kik
+$RootPath=Programs
+$FilePath=Programs
+$Caption=BassDrum
+$RegPath=BassDrum
+$RegValue=rootFolder
+$Format=344
+
+$Flags=12
+$ColName=Name
+$ColSize=Size
+$ColCount=Presets
+$BankText=preset
+$SampleText=preset

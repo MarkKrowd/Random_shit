@@ -1,0 +1,82 @@
+script "Destructoid" language "pascal";
+
+procedure FX(Freq:Integer;DistVol,MixVol:Single);
+var   n,x,c,x1,x2,tx1,tx2:Integer;
+      s,v1,v2:Single;
+      Orig:Boolean;
+      TempSample:TSample;
+Begin
+Editor.GetSelectionS(x1,x2);
+
+Orig:=(x1=0) and (x2=EditorSample.Length-1) and (MixVol=1);
+if Orig then 
+   TempSample:=EditorSample
+        else 
+   Begin
+   // make a temp copy of the sample
+   TempSample:=TSample.Create;
+   TempSample.SampleRate:=EditorSample.SampleRate;
+   TempSample.NumChans:=EditorSample.NumChans;
+   tx1:=0;
+   tx2:=0;
+   TempSample.PasteFromTo(EditorSample,tx1,tx2);
+   End;
+
+// resample
+if Freq<TempSample.SampleRate then
+   Begin
+   if Freq<250 then Freq:=250;
+   TempSample.SampleRate:=Freq;  
+   End;
+
+// distort
+v1:=DistVol;
+v2:=0.2;
+for n:=0 to TempSample.Length-1 do 
+  Begin
+  if n mod 10000=0 then ProgressMsg('Distorting',n,TempSample.Length-1);
+  
+  for c:=0 to TempSample.NumChans-1 do
+    Begin
+    s:=TempSample.GetSampleAt(n,c);
+    s:=ArcTan(s*v1)*v2;     
+    TempSample.SetSampleAt(n,c,s);
+    End;
+  End; 
+
+if not Orig then
+   Begin
+   // resample
+   TempSample.NormalizeFormat(EditorSample,NF_All);
+   
+   // mix
+   v1:=MixVol;
+   v2:=1-MixVol;
+   for n:=x1 to x2 do 
+     Begin
+     x:=n-x1;
+     if x mod 10000=0 then ProgressMsg('Distorting',x,x2-x1);
+     
+     for c:=0 to EditorSample.NumChans-1 do
+       Begin
+       s:=EditorSample.GetSampleAt(n,c);
+       s:=TempSample.GetSampleAt(n,c)*v1+s*v2;
+       EditorSample.SetSampleAt(n,c,s);
+       End;
+     End;
+   
+   TempSample.Free;
+   End;            
+End;
+
+
+var Form:TScriptDialog;
+
+Begin
+Form:=CreateScriptDialog('Destructoid','Waveshaping & samplerate reduction.');
+Form.AddInputKnob('Freq',8000,250,44100);
+Form.AddInputKnob('Distortion',50,1,100);
+Form.AddInputKnob('Mix',0.75,0,1);
+if Form.Execute then FX(Round(Form.GetInputValue('Freq')),Form.GetInputValue('Distortion'),Form.GetInputValue('Mix'));
+Form.Free;
+End.

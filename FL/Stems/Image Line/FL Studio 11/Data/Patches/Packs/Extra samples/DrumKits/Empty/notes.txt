@@ -1,0 +1,1 @@
+A loop with 4 empty channels.

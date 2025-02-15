@@ -1,0 +1,99 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Common/STENCIL.TTF" type="DynamicFontData" id=1]
+[ext_resource path="res://Canvas.gd" type="Script" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+size = 108
+extra_spacing_top = 50
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 50
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 50
+font_data = ExtResource( 1 )
+
+[node name="Canvas" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="."]
+margin_right = 1073.0
+margin_bottom = 159.0
+custom_fonts/font = SubResource( 1 )
+text = "SCHMIDTOMETRE 1.1"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="."]
+margin_top = 152.219
+margin_right = 1073.0
+margin_bottom = 311.219
+custom_fonts/font = SubResource( 1 )
+text = "Nombre de CC:"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CC" type="LineEdit" parent="."]
+margin_left = 328.908
+margin_top = 322.215
+margin_right = 728.908
+margin_bottom = 522.215
+custom_fonts/font = SubResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label3" type="Label" parent="."]
+margin_left = 16.9402
+margin_top = 501.407
+margin_right = 1089.94
+margin_bottom = 660.407
+custom_fonts/font = SubResource( 1 )
+text = "Distance [m]:"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Dist" type="LineEdit" parent="."]
+margin_left = 326.932
+margin_top = 671.487
+margin_right = 726.932
+margin_bottom = 871.486
+custom_fonts/font = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Res" type="Label" parent="."]
+margin_left = -21.3664
+margin_top = 858.109
+margin_right = 1051.63
+margin_bottom = 1017.11
+custom_fonts/font = SubResource( 1 )
+text = "Resultat [mm]:"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Res2" type="Label" parent="."]
+margin_left = -6.67874
+margin_top = 1020.71
+margin_right = 1066.32
+margin_bottom = 1179.71
+custom_fonts/font = SubResource( 1 )
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="text_changed" from="CC" to="." method="_on_CC_text_changed"]
+[connection signal="text_change_rejected" from="Dist" to="." method="_on_Dist_text_change_rejected"]
+[connection signal="text_changed" from="Dist" to="." method="_on_Dist_text_changed"]

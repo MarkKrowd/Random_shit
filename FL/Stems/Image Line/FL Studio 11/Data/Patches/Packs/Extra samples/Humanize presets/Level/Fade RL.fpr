@@ -1,0 +1,34 @@
+' FruityLoops preset
+' level - fade pan from right to left
+' (99) gol
+
+' graph edit effect number & value for each note
+FXID=Pan
+Val=127
+Val=118
+Val=110
+Val=101
+Val=93
+Val=84
+Val=76
+Val=68
+Val=59
+Val=52
+Val=43
+Val=35
+Val=26
+Val=18
+Val=10
+Val=0
+
+
+
+
+
+
+
+
+
+
+
+

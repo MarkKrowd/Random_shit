@@ -1,0 +1,41 @@
+<html>
+
+<head>
+<title></title>
+</head>
+
+<body bgcolor="#D6DADC">
+
+<Script language="Javascript">
+document.body.scroll="no"
+</script>
+
+
+<p align="left"><font face="Tahoma" size="1">
+The <b>Fruity HTML NoteBook</b> is similar to the Fruity NoteBook plugin, except that
+it displays <b> HTML</b>-formatted documents and doesn't allow
+editing. <br>
+<br>
+Unlike the Fruity NoteBook, this plugin doesn't save the document in its state,
+but reads it from the original file(s), which you need to bundle with your
+projects.<br>
+<br>
+<br>
+<br>
+</font></p>
+
+
+<form name="jumpurl1" onSubmit="return jumpit()" size=52>
+<p align="left"><font face="Tahoma" size="1">Jump to</font> <input type="text" size=52 name="jumpurl2" value="http://" style="font-family: Tahoma; font-size: 11px; border: 1px solid black;">
+</form>
+<script>
+
+function jumpit(){
+window.location=document.jumpurl1.jumpurl2.value
+return false
+}
+</script>
+
+
+</body>
+</html>

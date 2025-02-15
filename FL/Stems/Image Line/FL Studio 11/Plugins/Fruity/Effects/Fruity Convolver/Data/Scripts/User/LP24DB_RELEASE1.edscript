@@ -1,0 +1,50 @@
+procedure Filter(cutoff,res:Single);
+var   fs, n, x1, x2, c:Integer;
+      t, t2, x, scale, f, k, p, e, r, y1, y2, y3, y4, oldx, oldy1, oldy2, oldy3: Single;
+      input:Single;
+Begin
+  fs := EditorSample.Samplerate;
+  Editor.GetSelectionS(x1,x2);
+  f := (cutoff+cutoff) / fs;
+  p:=f*(1.8-0.8*f);
+  k:=p+p-1.0;
+  t:=(1.0-p)*1.386249;
+  t2:=12.0+t*t;
+  r := res*(t2+6.0*t)/(t2-6.0*t);
+  y1:=0;
+  y2:=0;
+  y3:=0;
+  y4:=0;
+  oldx:=0;
+  oldy1:=0;
+  oldy2:=0;
+  oldy3:=0;
+  for n:=x1 to x2 do 
+  Begin
+	  for c:=0 to EditorSample.NumChans-1 do
+    Begin
+      input:=EditorSample.GetSampleAt(n,c);
+      x := input - r*y4;
+      y1:=x*p + oldx*p - k*y1;
+      y2:=y1*p+oldy1*p - k*y2;
+      y3:=y2*p+oldy2*p - k*y3;
+      y4:=y3*p+oldy3*p - k*y4;
+      y4 := y4 - ((y4*y4*y4)/6.0);
+      oldx := x;
+      oldy1 := y1;
+      oldy2 := y2;
+      oldy3 := y3;  
+      EditorSample.SetSampleAt(n,c,y4);
+    End;
+  End;
+End;
+
+var Form:TScriptDialog;
+
+Begin
+Form:=CreateScriptDialog('Lowpass Filter','Simple lowpass filter.');
+Form.AddInputKnob('Filter Cutoff',500,1,Round(EditorSample.Samplerate / 2));
+Form.AddInputKnob('Filter Resonance',0,0,1);
+if Form.Execute then Filter(Form.GetInputValue('Filter Cutoff'),Form.GetInputValue('Filter Resonance'));
+Form.Free;
+End.

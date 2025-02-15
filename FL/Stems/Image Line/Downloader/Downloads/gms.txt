@@ -1,0 +1,15 @@
+$Version=1
+$FileExt=.gmsynth
+$RootPath=Synth Programs
+$FilePath=Synth Programs
+$Caption=GMS
+$RegPath=GMS
+$RegValue=rootFolder
+$Format=344
+
+$Flags=12
+$ColName=Name
+$ColSize=Size
+$ColCount=Presets
+$BankText=preset
+$SampleText=preset

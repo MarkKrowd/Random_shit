@@ -1,0 +1,184 @@
+[gd_scene load_steps=16 format=2]
+
+[ext_resource path="res://Atelier.gd" type="Script" id=1]
+[ext_resource path="res://Textures/Atelier/Base.png" type="Texture" id=2]
+[ext_resource path="res://Textures/Atelier/Pieces/Butt_left.png" type="Texture" id=3]
+[ext_resource path="res://Textures/Atelier/Pieces/Butt_right.png" type="Texture" id=4]
+[ext_resource path="res://Textures/Atelier/Pieces/Butt_lvl_up.png" type="Texture" id=5]
+[ext_resource path="res://Textures/Atelier/Pieces/None.png" type="Texture" id=6]
+[ext_resource path="res://Textures/Atelier/Pieces/1_Head/Head_1.png" type="Texture" id=7]
+[ext_resource path="res://Textures/Atelier/Pieces/2_Accessories/Thermo.png" type="Texture" id=8]
+[ext_resource path="res://Textures/Atelier/Pieces/3_Aerodyn/Aero_1.png" type="Texture" id=9]
+[ext_resource path="res://Textures/Atelier/Pieces/4_Main_engine/Main_1.png" type="Texture" id=10]
+[ext_resource path="res://Textures/Atelier/Pieces/5_Boosters/Boost_1.png" type="Texture" id=11]
+[ext_resource path="res://Textures/Atelier/Pieces/4_Main_engine/Main_1_Mounted.png" type="Texture" id=12]
+[ext_resource path="res://Textures/Atelier/Pieces/5_Boosters/Boost_1_Mounted.png" type="Texture" id=13]
+[ext_resource path="res://Textures/Buttons/Button_exit.png" type="Texture" id=14]
+[ext_resource path="res://Sounds/Buttons.wav" type="AudioStream" id=15]
+
+[node name="Atelier" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Back" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+centered = false
+
+[node name="Buttons" type="Node2D" parent="."]
+editor/display_folded = true
+
+[node name="He_Left" type="TouchScreenButton" parent="Buttons"]
+position = Vector2( 1943.84, 88.0896 )
+normal = ExtResource( 3 )
+
+[node name="He_Right" type="TouchScreenButton" parent="Buttons"]
+position = Vector2( 2763.08, 93.9622 )
+normal = ExtResource( 4 )
+
+[node name="Ac_Left" type="TouchScreenButton" parent="Buttons"]
+position = Vector2( 1940, 370 )
+normal = ExtResource( 3 )
+
+[node name="Ac_Right" type="TouchScreenButton" parent="Buttons"]
+position = Vector2( 2759.23, 375.873 )
+normal = ExtResource( 4 )
+
+[node name="Ae_Left" type="TouchScreenButton" parent="Buttons"]
+position = Vector2( 1940, 650 )
+normal = ExtResource( 3 )
+
+[node name="Ae_Right" type="TouchScreenButton" parent="Buttons"]
+position = Vector2( 2759.23, 655.873 )
+normal = ExtResource( 4 )
+
+[node name="Ma_Left" type="TouchScreenButton" parent="Buttons"]
+position = Vector2( 1940, 940 )
+normal = ExtResource( 3 )
+
+[node name="Ma_Right" type="TouchScreenButton" parent="Buttons"]
+position = Vector2( 2759.23, 945.873 )
+normal = ExtResource( 4 )
+
+[node name="Bo_Left" type="TouchScreenButton" parent="Buttons"]
+position = Vector2( 1940, 1220 )
+normal = ExtResource( 3 )
+
+[node name="Bo_Right" type="TouchScreenButton" parent="Buttons"]
+position = Vector2( 2759.23, 1225.87 )
+normal = ExtResource( 4 )
+
+[node name="Ma_lvl" type="TouchScreenButton" parent="Buttons"]
+position = Vector2( 2616.27, 984.34 )
+normal = ExtResource( 5 )
+
+[node name="Bo_lvl" type="TouchScreenButton" parent="Buttons"]
+position = Vector2( 2620.16, 1260.96 )
+normal = ExtResource( 5 )
+
+[node name="Choices" type="Node2D" parent="."]
+editor/display_folded = true
+
+[node name="Head" type="Node2D" parent="Choices"]
+
+[node name="None" type="Sprite" parent="Choices/Head"]
+position = Vector2( 2404.85, 187.924 )
+texture = ExtResource( 6 )
+
+[node name="Head_1" type="Sprite" parent="Choices/Head"]
+visible = false
+position = Vector2( 2404.85, 187.924 )
+texture = ExtResource( 7 )
+
+[node name="Accessories" type="Node2D" parent="Choices"]
+
+[node name="None" type="Sprite" parent="Choices/Accessories"]
+position = Vector2( 2404.85, 472.747 )
+texture = ExtResource( 6 )
+
+[node name="Therm" type="Sprite" parent="Choices/Accessories"]
+visible = false
+position = Vector2( 2404.85, 472.747 )
+texture = ExtResource( 8 )
+
+[node name="Aerodynamics" type="Node2D" parent="Choices"]
+
+[node name="None" type="Sprite" parent="Choices/Aerodynamics"]
+position = Vector2( 2407.78, 751.698 )
+texture = ExtResource( 6 )
+
+[node name="Aero_1" type="Sprite" parent="Choices/Aerodynamics"]
+visible = false
+position = Vector2( 2407.78, 751.698 )
+texture = ExtResource( 9 )
+
+[node name="Main_Engine" type="Node2D" parent="Choices"]
+
+[node name="Main_1" type="Sprite" parent="Choices/Main_Engine"]
+position = Vector2( 2341.84, 1036.82 )
+scale = Vector2( 0.840005, 0.759999 )
+texture = ExtResource( 10 )
+
+[node name="Boosters" type="Node2D" parent="Choices"]
+
+[node name="None" type="Sprite" parent="Choices/Boosters"]
+position = Vector2( 2352.63, 1310 )
+texture = ExtResource( 6 )
+
+[node name="Boos_1" type="Sprite" parent="Choices/Boosters"]
+visible = false
+position = Vector2( 2350.22, 1320.55 )
+texture = ExtResource( 11 )
+
+[node name="Mounted" type="Node2D" parent="."]
+
+[node name="Main_Engine" type="Node2D" parent="Mounted"]
+
+[node name="Main_1" type="Sprite" parent="Mounted/Main_Engine"]
+position = Vector2( 878.617, 918.897 )
+texture = ExtResource( 12 )
+
+[node name="Boosters" type="Node2D" parent="Mounted"]
+
+[node name="Boos_1" type="Sprite" parent="Mounted/Boosters"]
+position = Vector2( 878.617, 949.232 )
+texture = ExtResource( 13 )
+
+[node name="Head" type="Node2D" parent="Mounted"]
+
+[node name="Head_1" type="Sprite" parent="Mounted/Head"]
+visible = false
+position = Vector2( 878.205, 686.916 )
+texture = ExtResource( 7 )
+
+[node name="Accessories" type="Node2D" parent="Mounted"]
+
+[node name="Therm" type="Sprite" parent="Mounted/Accessories"]
+visible = false
+position = Vector2( 883.652, 903.792 )
+texture = ExtResource( 8 )
+
+[node name="Aerodynamics" type="Node2D" parent="Mounted"]
+
+[node name="Aero_1" type="Sprite" parent="Mounted/Aerodynamics"]
+visible = false
+position = Vector2( 873.582, 893.722 )
+texture = ExtResource( 9 )
+
+[node name="Exit" type="TouchScreenButton" parent="."]
+position = Vector2( 21.2003, 1190 )
+scale = Vector2( 0.790728, 0.806497 )
+normal = ExtResource( 14 )
+
+[node name="Buttons_sound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 15 )
+bus = "Casual"
+
+[connection signal="pressed" from="Buttons/He_Left" to="." method="_on_He_Left_pressed"]
+[connection signal="pressed" from="Buttons/He_Right" to="." method="_on_He_Right_pressed"]
+[connection signal="pressed" from="Buttons/Ac_Left" to="." method="_on_Ac_Left_pressed"]
+[connection signal="pressed" from="Buttons/Ac_Right" to="." method="_on_Ac_Right_pressed"]
+[connection signal="pressed" from="Buttons/Ae_Left" to="." method="_on_Ae_Left_pressed"]
+[connection signal="pressed" from="Buttons/Ae_Right" to="." method="_on_Ae_Right_pressed"]
+[connection signal="pressed" from="Buttons/Ma_Left" to="." method="_on_Ma_Left_pressed"]
+[connection signal="pressed" from="Buttons/Ma_Right" to="." method="_on_Ma_Right_pressed"]
+[connection signal="pressed" from="Buttons/Bo_Left" to="." method="_on_Bo_Left_pressed"]
+[connection signal="pressed" from="Buttons/Bo_Right" to="." method="_on_Bo_Right_pressed"]

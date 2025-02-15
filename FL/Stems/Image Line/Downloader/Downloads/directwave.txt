@@ -1,0 +1,1456 @@
+$Version=1
+$FileExt=.dwp
+$RootPath=Data\Patches\Packs\Samplefusion\
+$FilePath=Data\Patches\Packs\Samplefusion\
+$Alternative=DirectWave
+$Caption=DirectWave
+$Format=7
+
+
+;CDName|SubDirName|ItemName|Count|FileSize|ProductCode|Flags|WebLink|MainItemName
+Amped||A Power Chord|0|0|0|0||A Power Chord
+Amped||Air Strat|0|0|80112|0||Air Strat
+Amped||Amped (Bulk Samples)|0|0|80112|0||Amped (Bulk Samples)
+Amped||Big Jim|0|0|80112|0||Big Jim
+Amped||Blue Gretch Lead|0|0|80112|0||Blue Gretch Lead
+Amped||BrightMetal Power Chord|0|0|80112|0||BrightMetal Power Chord
+Amped||ClassiGill|0|0|80112|0||ClassiGill
+Amped||Distortion Feedback|0|0|80112|0||Distortion Feedback
+Amped||DistortionStrat|0|0|80112|0||DistortionStrat
+Amped||Guitar FX Bank|0|0|80112|0||Guitar FX Bank
+Amped||HardMetal Power Chord|0|0|80112|0||HardMetal Power Chord
+Amped||Heavy Mute|0|0|0|0||Heavy Mute
+Amped||Heavy Rythm|0|0|80112|0||Heavy Rythm
+Amped||Jazz Guitar|0|0|80112|0||Jazz Guitar
+Amped||Lead Beast|0|0|0|0||Lead Beast
+Amped||MandoLynn|0|0|0|0||MandoLynn
+Amped||MandyLynn|0|0|0|0||MandyLynn
+Amped||Mesa Power Chord|0|0|80112|0||Mesa Power Chord
+Amped||Metal Combo Power Chord|0|0|80112|0||Metal Combo Power Chord
+Amped||Metal Stack Power Chord|0|0|80112|0||Metal Stack Power Chord
+Amped||Muter|0|0|80112|0||Muter
+Amped||MX D Lead|0|0|0|0||MX D Lead
+Amped||MX Strat|0|0|0|0||MX Strat
+Amped||Opened|0|0|0|0||Opened
+Amped||Palmer|0|0|0|0||Palmer
+Amped||Purity|0|0|0|0||Purity
+Amped||Strat Hard Pos1|0|0|80112|0||Strat Hard Pos1
+Amped||Strat Hard Pos2|0|0|80112|0||Strat Hard Pos2
+Amped||Strat Hard Pos3|0|0|80112|0||Strat Hard Pos3
+Amped||Strat Pos1 Mute|0|0|0|0||Strat Pos1 Mute
+Amped||Strat Pos2 Mute|0|0|0|0||Strat Pos2 Mute
+Amped||Strat Pos3 Mute|0|0|80112|0||Strat Pos3 Mute
+Amped||Strat Soft Pos1|0|0|80112|0||Strat Soft Pos1
+Amped||Strat Soft Pos2|0|0|80112|0||Strat Soft Pos2
+Amped||Strat Soft Pos3|0|0|80112|0||Strat Soft Pos3
+Amped||Strat Solo|0|0|80112|0||Strat Solo
+Amped||Tied Tite|0|0|0|0||Tied Tite
+Amped||Tremelo Strat|0|0|80112|0||Tremelo Strat
+Amped||Wanna B Manson|0|0|80112|0||Wanna B Manson
+Amped||Wonder|0|0|0|0||Wonder
+Axe Forge||BritBlubb|0|0|80120|0||BritBlubb
+Axe Forge||DaisyRockAcoustic 1|0|0|80120|0||DaisyRockAcoustic 1
+Axe Forge||Dark Star Metal|0|0|80120|0||Dark Star Metal
+Axe Forge||DarkStar Metal_Feedb|0|0|80120|0||DarkStar Metal_Feedb
+Axe Forge||DarkStarAccoustic1|0|0|80120|0||DarkStarAccoustic1
+Axe Forge||DiddyWahp_01|0|0|80120|0||DiddyWahp_01
+Axe Forge||Ebow_01|0|0|80120|0||Ebow_01
+Axe Forge||EguitFingBrHumAC15|0|0|80120|0||EguitFingBrHumAC15
+Axe Forge||EguitFingBridHumJC12|0|0|80120|0||EguitFingBridHumJC12
+Axe Forge||FingEguitNeckHumbFBl|0|0|80120|0||FingEguitNeckHumbFBl
+Axe Forge||Ovation Elite 1768 Dry B|0|0|80120|0||Ovation Elite 1768 Dry B
+Axe Forge||Ovation Elite_Free|0|0|80120|0||Ovation Elite_Free
+Axe Forge||OvationElite1768 A|0|0|80120|0||OvationElite1768 A
+Axe Forge||PickedNeckHumb-JC120|0|0|80120|0||PickedNeckHumb-JC120
+Axe Forge||Piezoish_001|0|0|80120|0||Piezoish_001
+Axe Forge||PignoseFullGain 1|0|0|80120|0||PignoseFullGain 1
+Axe Forge||PignoseHalfGain 1|0|0|80120|0||PignoseHalfGain 1
+Axe Forge||PignoseQuarterGain 1|0|0|80120|0||PignoseQuarterGain 1
+Axe Forge||TalBoxDistWahLong|0|0|80120|0||TalBoxDistWahLong
+Axe Forge||TalBoxWahChordsLong|0|0|80120|0||TalBoxWahChordsLong
+Axe Forge||Talkbox WahWah_120bp|0|0|80120|0||Talkbox WahWah_120bp
+Axe Forge||TalkBoxWahShort|0|0|0|0||TalkBoxWahShort
+BassCase|Electronic|Binge1|0|0|0|0||Binge1
+BassCase|Electronic|80s Arp|0|0|0|0||80s Arp
+BassCase|Electronic|Acid|0|0|80113|0||Acid
+BassCase|Electronic|Alpacca|0|0|0|0||Alpacca
+BassCase|Electronic|AnaSoft|0|0|80113|0||AnaSoft
+BassCase|Electronic|Bass Of Space|0|0|80113|0||Bass Of Space
+BassCase|Electronic|Bassic|0|0|80113|0||Bassic
+BassCase|Electronic|Binge2|0|0|80113|0||Binge2
+BassCase|Electronic|Bite|0|0|80113|0||Bite
+BassCase|Electronic|Bold School|0|0|80113|0||Bold School
+BassCase|Electronic|Bombed|0|0|80113|0||Bombed
+BassCase|Electronic|Bracken|0|0|80113|0||Bracken
+BassCase|Electronic|BS Fat Bass|0|0|0|0||BS Fat Bass
+BassCase|Electronic|Burpy|0|0|80113|0||Burpy
+BassCase|Electronic|Chad Means War|0|0|80113|0||Chad Means War
+BassCase|Electronic|Cholla|0|0|80113|0||Cholla
+BassCase|Electronic|Cored|0|0|80113|0||Cored
+BassCase|Electronic|Deep|0|0|80113|0||Deep
+BassCase|Electronic|DontFret|0|0|80113|0||DontFret
+BassCase|Electronic|DP|0|0|0|0||DP
+BassCase|Electronic|DS Bass|0|0|80113|0||DS Bass
+BassCase|Electronic|DW Bass|0|0|0|0||DW Bass
+BassCase|Electronic|EX Smack Bass|0|0|0|0||EX Smack Bass
+BassCase|Electronic|FargThat|0|0|80113|0||FargThat
+BassCase|Electronic|Flip|0|0|0|0||Flip
+BassCase|Electronic|FM Gill 2|0|0|0|0||FM Gill 2
+BassCase|Electronic|FM Gill|0|0|0|0||FM Gill
+BassCase|Electronic|FMRub|0|0|0|0||FMRub
+BassCase|Electronic|FrenchPotty|0|0|0|0||FrenchPotty
+BassCase|Electronic|Frizz|0|0|80113|0||Frizz
+BassCase|Electronic|FSweepB|0|0|0|0||FSweepB
+BassCase|Electronic|G Bass|0|0|0|0||G Bass
+BassCase|Electronic|GillGhenny|0|0|80113|0||GillGhenny
+BassCase|Electronic|Goombah|0|0|80113|0||Goombah
+BassCase|Electronic|GrownOnMe|0|0|80113|0||GrownOnMe
+BassCase|Electronic|HarshDandB|0|0|80113|0||HarshDandB
+BassCase|Electronic|Hoover Bam|0|0|80113|0||Hoover Bam
+BassCase|Electronic|Hoover Bammo|0|0|80113|0||Hoover Bammo
+BassCase|Electronic|House|0|0|0|0||House
+BassCase|Electronic|ISaidDance|0|0|0|0||ISaidDance
+BassCase|Electronic|Joyous|0|0|80113|0||Joyous
+BassCase|Electronic|Jury|0|0|80113|0||Jury
+BassCase|Electronic|Kill It|0|0|80113|0||Kill It
+BassCase|Electronic|Killjoy|0|0|0|0||Killjoy
+BassCase|Electronic|LeavingBass|0|0|80113|0||LeavingBass
+BassCase|Electronic|Master|0|0|80113|0||Master
+BassCase|Electronic|MG Beef|0|0|0|0||MG Beef
+BassCase|Electronic|MonoSaw|0|0|0|0||MonoSaw
+BassCase|Electronic|Mow|0|0|80113|0||Mow
+BassCase|Electronic|Mow101|0|0|80113|0||Mow101
+BassCase|Electronic|Mr Bass|0|0|0|0||Mr Bass
+BassCase|Electronic|MutedSubBass|0|0|80113|0||MutedSubBass
+BassCase|Electronic|MyBass|0|0|80113|0||MyBass
+BassCase|Electronic|NoFrettinElectro|0|0|80113|0||NoFrettinElectro
+BassCase|Electronic|Number 2|0|0|80113|0||Number 2
+BassCase|Electronic|Ober|0|0|80113|0||Ober
+BassCase|Electronic|Octaver|0|0|0|0||Octaver
+BassCase|Electronic|Ouch|0|0|0|0||Ouch
+BassCase|Electronic|Out|0|0|0|0||Out
+BassCase|Electronic|Pizzacatto|0|0|0|0||Pizzacatto
+BassCase|Electronic|PluckedyCore|0|0|0|0||PluckedyCore
+BassCase|Electronic|Podunk|0|0|80113|0||Podunk
+BassCase|Electronic|Poiniant|0|0|80113|0||Poiniant
+BassCase|Electronic|PolyGammy|0|0|0|0||PolyGammy
+BassCase|Electronic|Pretty tite|0|0|80113|0||Pretty tite
+BassCase|Electronic|Real Analog|0|0|80113|0||Real Analog
+BassCase|Electronic|RealHi|0|0|0|0||RealHi
+BassCase|Electronic|ResetThis|0|0|80113|0||ResetThis
+BassCase|Electronic|Rezzo|0|0|80113|0||Rezzo
+BassCase|Electronic|Romulous|0|0|80113|0||Romulous
+BassCase|Electronic|RubyMoog|0|0|0|0||RubyMoog
+BassCase|Electronic|RumpRoast|0|0|0|0||RumpRoast
+BassCase|Electronic|Second Take|0|0|80113|0||Second Take
+BassCase|Electronic|SeeYa|0|0|80113|0||SeeYa
+BassCase|Electronic|SH2|0|0|80113|0||SH2
+BassCase|Electronic|SH420|0|0|80113|0||SH420
+BassCase|Electronic|Sharp|0|0|80113|0||Sharp
+BassCase|Electronic|Shimmy|0|0|0|0||Shimmy
+BassCase|Electronic|SmackedAgain|0|0|0|0||SmackedAgain
+BassCase|Electronic|Smoogered|0|0|80113|0||Smoogered
+BassCase|Electronic|SoyBra|0|0|0|0||SoyBra
+BassCase|Electronic|Splat|0|0|80113|0||Splat
+BassCase|Electronic|Spoink|0|0|80113|0||Spoink
+BassCase|Electronic|Square303|0|0|80113|0||Square303
+BassCase|Electronic|SquareK|0|0|80113|0||SquareK
+BassCase|Electronic|Stanky|0|0|0|0||Stanky
+BassCase|Electronic|Steal|0|0|0|0||Steal
+BassCase|Electronic|StickItInYa|0|0|80113|0||StickItInYa
+BassCase|Electronic|Subbed|0|0|80113|0||Subbed
+BassCase|Electronic|SuperCool|0|0|80113|0||SuperCool
+BassCase|Electronic|SupSup|0|0|80113|0||SupSup
+BassCase|Electronic|Swangin|0|0|80113|0||Swangin
+BassCase|Electronic|SxnTc|0|0|0|0||SxnTc
+BassCase|Electronic|SyncoDeBasso|0|0|80113|0||SyncoDeBasso
+BassCase|Electronic|Talit|0|0|80113|0||Talit
+BassCase|Electronic|TalkBox|0|0|0|0||TalkBox
+BassCase|Electronic|TBrculosis|0|0|0|0||TBrculosis
+BassCase|Electronic|TeeBee|0|0|0|0||TeeBee
+BassCase|Electronic|TekNoBow|0|0|0|0||TekNoBow
+BassCase|Electronic|The Edge|0|0|80113|0||The Edge
+BassCase|Electronic|The Stack|0|0|80113|0||The Stack
+BassCase|Electronic|Tight Buzz|0|0|0|0||Tight Buzz
+BassCase|Electronic|TimBBassObsce|0|0|80113|0||TimBBassObsce
+BassCase|Electronic|TmBs|0|0|0|0||TmBs
+BassCase|Electronic|TooSoft|0|0|80113|0||TooSoft
+BassCase|Electronic|Tough|0|0|80113|0||Tough
+BassCase|Electronic|Turncoat|0|0|0|0||Turncoat
+BassCase|Electronic|Twapstail|0|0|0|0||Twapstail
+BassCase|Electronic|Union|0|0|0|0||Union
+BassCase|Electronic|Utopic|0|0|80113|0||Utopic
+BassCase|Electronic|VaginalMono|0|0|80113|0||VaginalMono
+BassCase|Electronic|Vesicle|0|0|0|0||Vesicle
+BassCase|Electronic|Whaaahhh|0|0|80113|0||Whaaahhh
+BassCase|Electronic|Xistential|0|0|80113|0||Xistential
+BassCase|Electronic|YakWak|0|0|80113|0||YakWak
+BassCase|Electronic|Zbass|0|0|0|0||Zbass
+BassCase|Electronic|ZittKicker|0|0|0|0||ZittKicker
+BassCase|Electronic|Zuper Bass|0|0|80113|0||Zuper Bass
+BassCase||BassCase (Bulk Samples)|0|0|80113|0||BassCase (Bulk Samples)
+BassCase|Guitar|5 FingerStringPV Dr|0|0|80113|0||5 FingerStringPV Dr
+BassCase|Guitar|5 PickStringPV Dry|0|0|80113|0||5 PickStringPV Dry
+BassCase|Guitar|5StringFenderHardStac|0|0|0|0||5StringFenderHardStac
+BassCase|Guitar|5StringFenderHardSus|0|0|80113|0||5StringFenderHardSus
+BassCase|Guitar|5StringFenderHrdSus2|0|0|80113|0||5StringFenderHrdSus2
+BassCase|Guitar|5StringFenderPullSlap|0|0|0|0||5StringFenderPullSlap
+BassCase|Guitar|5StringFenderSoftSus|0|0|80113|0||5StringFenderSoftSus
+BassCase|Guitar|C Fredless|0|0|0|0||C Fredless
+BassCase|Guitar|Funker|0|0|80113|0||Funker
+BassCase|Guitar|Fuzzed|0|0|80113|0||Fuzzed
+BassCase|Guitar|Give The Finger|0|0|80113|0||Give The Finger
+BassCase|Guitar|GnL Hard Stac Wah 1|0|0|0|0||GnL Hard Stac Wah 1
+BassCase|Guitar|GnL Hard Stac Wah 2|0|0|0|0||GnL Hard Stac Wah 2
+BassCase|Guitar|GnL Hard Stac Wah 3|0|0|0|0||GnL Hard Stac Wah 3
+BassCase|Guitar|GnL Hard Stac|0|0|0|0||GnL Hard Stac
+BassCase|Guitar|GnL Hard Sustain|0|0|80113|0||GnL Hard Sustain
+BassCase|Guitar|GnL Pull|0|0|80113|0||GnL Pull
+BassCase|Guitar|GnL Soft Stac|0|0|0|0||GnL Soft Stac
+BassCase|Guitar|GnL Soft Sus|0|0|80113|0||GnL Soft Sus
+BassCase|Guitar|Hickly|0|0|80113|0||Hickly
+BassCase|Guitar|Hofner Finger|0|0|80113|0||Hofner Finger
+BassCase|Guitar|Hofner Hard Pick|0|0|80113|0||Hofner Hard Pick
+BassCase|Guitar|Hofner PickStac|0|0|0|0||Hofner PickStac
+BassCase|Guitar|Hofner Soft Pick|0|0|80113|0||Hofner Soft Pick
+BassCase|Guitar|Ibanez Picked|0|0|80113|0||Ibanez Picked
+BassCase|Guitar|JBass|0|0|0|0||JBass
+BassCase|Guitar|JBass2|0|0|0|0||JBass2
+BassCase|Guitar|MM Standard Bass|0|0|0|0||MM Standard Bass
+BassCase|Guitar|PickedB|0|0|0|0||PickedB
+BassCase|Guitar|Prickly|0|0|80113|0||Prickly
+BassCase|Guitar|Rocky|0|0|80113|0||Rocky
+BassCase|Guitar|Slappy|0|0|80113|0||Slappy
+BassCase|Guitar|TF Bass|0|0|80113|0||TF Bass
+BassCase|Guitar|WhasUp|0|0|80113|0||WhasUp
+BassCase|Real Bass|5 String PV Finger1|0|0|80113|0||5 String PV Finger1
+BassCase|Real Bass|5 String PV Finger2|0|0|80113|0||5 String PV Finger2
+BassCase|Real Bass|5StringSWRGoliathPluck|0|0|80113|0||5StringSWRGoliathPluck
+BassCase|Real Bass|68 MarSuperBassPlexi|0|0|80113|0||68 MarSuperBassPlexi
+BassCase|Real Bass|69 Marshall Major|0|0|80113|0||69 Marshall Major
+BassCase|Real Bass|Ampeg B-15|0|0|80113|0||Ampeg B-15
+BassCase|Real Bass|Bassman Finger|0|0|80113|0||Bassman Finger
+BassCase|Real Bass|Bassman Picked|0|0|80113|0||Bassman Picked
+BassCase|Real Bass|Bassman Plucked|0|0|80113|0||Bassman Plucked
+BassCase|Real Bass|Frettless 2|0|0|80113|0||Frettless 2
+BassCase|Real Bass|GK800RB|0|0|80113|0||GK800RB
+BassCase|Real Bass|Jazzy Mellow|0|0|80113|0||Jazzy Mellow
+BassCase|Real Bass|SVT Classic Slap|0|0|80113|0||SVT Classic Slap
+BassCase|Real Bass|SVT PRO II|0|0|80113|0||SVT PRO II
+BassCase|Real Bass|The Funk|0|0|80113|0||The Funk
+BassCase|Real Bass|VOX AC-30 Dist|0|0|80113|0||VOX AC-30 Dist
+BassCase|Real Bass|VOXAC100|0|0|80113|0||VOXAC100
+Bass Mace||Who's Bass Finger|0|0|80119|0||Who's Bass Finger
+Bass Mace||Temptated Bass Finger|0|0|80119|0||Temptated Bass Finger
+Bass Mace||Temptated Bass Pick|0|0|80119|0||Temptated Bass Pick
+Bass Mace||Temptated Bass Pluck|0|0|80119|0||Temptated Bass Pluck
+Bass Mace||Who's Bass Pick|0|0|80119|0||Who's Bass Pick
+Bass Mace||5String BopBass Finger|0|0|80119|0||5String BopBass Finger
+Bass Mace||5String BopBass Pick|0|0|80119|0||5String BopBass Pick
+Bass Mace||5String BopBass Pluck|0|0|80119|0||5String BopBass Pluck
+Bass Mace||5String BopBass Slap|0|0|0|0||5String BopBass Slap
+Bass Mace||5String NewRock Finger|0|0|80119|0||5String NewRock Finger
+Bass Mace||5String NewRock Pick|0|0|80119|0||5String NewRock Pick
+Bass Mace||5String NewRock Pluck|0|0|80119|0||5String NewRock Pluck
+Bass Mace||Fretless Bass_002|0|0|80119|0||Fretless Bass_002
+Bass Mace||Deeper Purple Pluck|0|0|80119|0||Deeper Purple Pluck
+Bass Mace||Deeper Purple Pick|0|0|80119|0||Deeper Purple Pick
+Bass Mace||5String NewRock Slap|0|0|80119|0||5String NewRock Slap
+Bass Mace||Deeper Purple Finger|0|0|80119|0||Deeper Purple Finger
+Bass Mace||Fretless Bass_003|0|0|80119|0||Fretless Bass_003
+Bass Mace||Who's Bass Pluck|0|0|80119|0||Who's Bass Pluck
+Bass Mace||FretlessBass_001|0|0|80119|0||FretlessBass_001
+Bass Mace||GoldenEdenFinger|0|0|80119|0||GoldenEdenFinger
+Bass Mace||GoldenEdenPick|0|0|80119|0||GoldenEdenPick
+Bass Mace||GoldenEdenPluck|0|0|80119|0||GoldenEdenPluck
+Bass Mace||Good 80 Finger_free|0|0|80119|0||Good 80 Finger_free
+Bass Mace||Good 80 Pick_free|0|0|80119|0||Good 80 Pick_free
+Bass Mace||Good 80 Pluck_free|0|0|80119|0||Good 80 Pluck_free
+Bass Mace||Major Bruce Finger|0|0|80119|0||Major Bruce Finger
+Bass Mace||Major Bruce Pick|0|0|80119|0||Major Bruce Pick
+Bass Mace||Major Bruce Pluck|0|0|80119|0||Major Bruce Pluck
+Bass Mace||SWR400MesaC 5strFinger|0|0|80119|0||SWR400MesaC 5strFinger
+Bass Mace||SWR400MesaC 5strPick|0|0|80119|0||SWR400MesaC 5strPick
+Bass Mace||SWR400MesaC 5strPluck|0|0|80119|0||SWR400MesaC 5strPluck
+Bass Mace||SWR400MesaC 5strSlap|0|0|0|0||SWR400MesaC 5strSlap
+Bass Mace||T-Bird Bass Finger_free|0|0|80119|0||T-Bird Bass Finger_free
+Bass Mace||T-Bird Bass Pick_free|0|0|80119|0||T-Bird Bass Pick_free
+Bass Mace||T-Bird Bass Pluck_free|0|0|80119|0||T-Bird Bass Pluck_free
+ContagiousAudio||ContagiousAudio (Bulk Samples)|0|0|80110|0||ContagiousAudio (Bulk Samples)
+DreamPads||DreamPads (Bulk Samples)|0|0|80102|0||DreamPads (Bulk Samples)
+DreamPads||DreamPads_free|0|0|80102|0||DreamPads_free
+GenericSampleCD||GenericSampleCD (Bulk Samples)|0|0|80101|0||GenericSampleCD (Bulk Samples)
+KillerTweaksII||Sidbass_free|0|0|0|0||Sidbass_free
+KillerTweaksII||VeryFat|0|0|80103|0||VeryFat
+KillerTweaksII||SH09Thu_free|0|0|0|0||SH09Thu_free
+KillerTweaksII||KillerTweaksII (Bulk Samples)|0|0|80103|0||KillerTweaksII (Bulk Samples)
+KillerTweaksII||Fatz_free|0|0|0|0||Fatz_free
+KillerTweaksII||Fat3_free|0|0|0|0||Fat3_free
+KillerTweaksII||DrumSmp_free|0|0|80103|0||DrumSmp_free
+KillerTweaksII||Acid2_free|0|0|0|0||Acid2_free
+LaurieWebVocalCD||LaurieWebVocalCD (bulk samples)|0|0|80116|0||LaurieWebVocalCD (bulk samples)
+Nucleus Soundlab|VS Resurrection|3 and 5|2|8|80127|0||3 and 5
+Nucleus Soundlab|VS Resurrection|3 and 5 saw|2|9|80127|0||3 and 5 Saw
+Nucleus Soundlab|VS Resurrection|5th-sin|2|11|80127|0||5th Sin
+Nucleus Soundlab|VS Resurrection|aahbass|2|7|80127|0||Ahh Bass
+Nucleus Soundlab|VS Resurrection|aahfem|2|7|80127|0||Ahh Fem
+Nucleus Soundlab|VS Resurrection|aahhom|2|8|80127|0||Ahh Hom
+Nucleus Soundlab|OB Resurrection|Advanced Beyond|10|20455|80125|0||Advanced Beyond
+Nucleus Soundlab|VS Resurrection|ahhpnch|2|9|80125|0||Ahh Pnch
+Nucleus Soundlab|Viral Outbreak|analog keys|16|9982|80126|0||Analog Keys
+Nucleus Soundlab|Viral Outbreak|analog saw_free|17|26402|0|0||Analog Saw
+Nucleus Soundlab|Viral Outbreak|auralx pad|13|31557|80126|0||Auralx Pad
+Nucleus Soundlab|Viral Outbreak|BassAve|12|8278|80126|0||Bass Ave
+Nucleus Soundlab|VS Resurrection|bassbel|2|7|80127|0||Bass Bel
+Nucleus Soundlab|VS Resurrection|bass|2|7|80127|0||VS Bass 1
+Nucleus Soundlab|VS Resurrection|bell2|2|12|80127|0||Bell 2
+Nucleus Soundlab|VS Resurrection|bell3|2|9|80127|0||Bell 3
+Nucleus Soundlab|Viral Outbreak|Bell Candy|17|3062|80126|0||Bell Candy
+Nucleus Soundlab|VS Resurrection|bell|2|7|80127|0||Bell
+Nucleus Soundlab|VS Resurrection|bellhrm|2|7|80127|0||Bell Hrm
+Nucleus Soundlab|Ambient Drums|Bell Kit (dry)|15|7254|80123|0||Bell Kit (dry)
+Nucleus Soundlab|Ambient Drums|Bell Kit (wet)|15|11661|80123|0||Bell Kit (wet)
+Nucleus Soundlab|Viral Outbreak|bellmorph|11|19048|80126|0||Bell Morph
+Nucleus Soundlab|VS Resurrection|bellreed|2|8|80127|0||Bell Reed
+Nucleus Soundlab|VS Resurrection|bells|2|11|80127|0||Bells
+Nucleus Soundlab|VS Resurrection|bellvox|2|9|80127|0||Bell Vox
+Nucleus Soundlab|VS Resurrection|belorg|2|7|80127|0||Bell Org
+Nucleus Soundlab|Viral Outbreak|Blue Atmo_free|2|2424|0|0||Blue Atmo
+Nucleus Soundlab|VS Resurrection|bottom dweller pad|9|9770|80127|0||Bottom Dweller Pad
+Nucleus Soundlab|OB Resurrection|Brass1|10|3411|80125|0||Brass 1
+Nucleus Soundlab|OB Resurrection|Brass2|12|1603|80125|0||Brass 2
+Nucleus Soundlab|OB Resurrection|BrassFat|9|4840|80125|0||Brass Fat
+Nucleus Soundlab|Viral Outbreak|bright clav|14|38314|80126|0||Bright Clav
+Nucleus Soundlab|VS Resurrection|br-reed|2|7|80127|0||Br Reed
+Nucleus Soundlab|Viral Outbreak|Bubble Atmo|2|5219|80126|0||Bubble Atmo
+Nucleus Soundlab|Viral Outbreak|bulb bass|11|13319|80126|0||Bulb Bass
+Nucleus Soundlab|OB Resurrection|BuzzSweep|11|3025|80125|0||Buzz Sweep
+Nucleus Soundlab|Viral Outbreak|buzztable pad|15|23760|80126|0||Buzztable Pad
+Nucleus Soundlab|OB Resurrection|Choir1|7|774|80125|0||Choir 1
+Nucleus Soundlab|OB Resurrection|Choir2|12|1836|80125|0||Choir 2
+Nucleus Soundlab|VS Resurrection|clar|2|7|80127|0||Clar
+Nucleus Soundlab|Viral Outbreak|ClassicWT01|4|38|80126|0||Classic WT01
+Nucleus Soundlab|Viral Outbreak|ClassicWT02|4|41|80126|0||Classic WT02
+Nucleus Soundlab|Viral Outbreak|ClassicWT03|4|36|80126|0||Classic WT03
+Nucleus Soundlab|Viral Outbreak|ClassicWT04|4|41|80126|0||Classic WT04
+Nucleus Soundlab|Viral Outbreak|ClassicWT05|4|35|80126|0||Classic WT05
+Nucleus Soundlab|Viral Outbreak|ClassicWT06|4|37|80126|0||Classic WT06
+Nucleus Soundlab|Viral Outbreak|ClassicWT07|4|40|80126|0||Classic WT07
+Nucleus Soundlab|Viral Outbreak|ClassicWT08|4|36|80126|0||Classic WT08
+Nucleus Soundlab|Viral Outbreak|ClassicWT09|4|37|80126|0||Classic WT09
+Nucleus Soundlab|Viral Outbreak|ClassicWT10|4|38|80126|0||Classic WT10
+Nucleus Soundlab|Viral Outbreak|ClassicWT11|4|36|80126|0||Classic WT11
+Nucleus Soundlab|Viral Outbreak|ClassicWT12|4|37|80126|0||Classic WT12
+Nucleus Soundlab|Viral Outbreak|ClassicWT13|4|40|80126|0||Classic WT13
+Nucleus Soundlab|Viral Outbreak|ClassicWT14|4|40|80126|0||Classic WT14
+Nucleus Soundlab|Viral Outbreak|ClassicWT15|4|41|80126|0||Classic WT15
+Nucleus Soundlab|Viral Outbreak|ClassicWT16|4|35|80126|0||Classic WT16
+Nucleus Soundlab|Viral Outbreak|ClassicWT17|4|41|80126|0||Classic WT17
+Nucleus Soundlab|Viral Outbreak|ClassicWT18|4|40|80126|0||Classic WT18
+Nucleus Soundlab|Viral Outbreak|ClassicWT19_free|4|37|0|0||Classic WT19
+Nucleus Soundlab|Viral Outbreak|ClassicWT20|4|37|80126|0||Classic WT20
+Nucleus Soundlab|Viral Outbreak|ClassicWT21|4|39|80126|0||Classic WT21
+Nucleus Soundlab|Viral Outbreak|ClassicWT22|4|29|80126|0||Classic WT22
+Nucleus Soundlab|Viral Outbreak|ClassicWT23|4|38|80126|0||Classic WT23
+Nucleus Soundlab|Viral Outbreak|ClassicWT24|4|34|80126|0||Classic WT24
+Nucleus Soundlab|Viral Outbreak|ClassicWT25|4|32|80126|0||Classic WT25
+Nucleus Soundlab|Viral Outbreak|ClassicWT26|4|33|80126|0||Classic WT26
+Nucleus Soundlab|Viral Outbreak|ClassicWT27|4|25|80126|0||Classic WT27
+Nucleus Soundlab|Viral Outbreak|ClassicWT28|4|29|80126|0||Classic WT28
+Nucleus Soundlab|Viral Outbreak|ClassicWT29|4|25|80126|0||Classic WT29
+Nucleus Soundlab|Viral Outbreak|ClassicWT30|4|27|80126|0||Classic WT30
+Nucleus Soundlab|Viral Outbreak|ClassicWT31|4|28|80126|0||Classic WT31
+Nucleus Soundlab|Viral Outbreak|ClassicWT32|4|25|80126|0||Classic WT32
+Nucleus Soundlab|Viral Outbreak|ClassicWT33|4|36|80126|0||Classic WT33
+Nucleus Soundlab|Viral Outbreak|ClassicWT34|4|37|80126|0||Classic WT34
+Nucleus Soundlab|Viral Outbreak|ClassicWT35|4|38|80126|0||Classic WT35
+Nucleus Soundlab|Viral Outbreak|ClassicWT36|4|37|80126|0||Classic WT36
+Nucleus Soundlab|Viral Outbreak|ClassicWT37|4|38|80126|0||Classic WT37
+Nucleus Soundlab|Viral Outbreak|ClassicWT38|4|36|80126|0||Classic WT38
+Nucleus Soundlab|Viral Outbreak|ClassicWT39|4|37|80126|0||Classic WT39
+Nucleus Soundlab|Viral Outbreak|ClassicWT40|4|39|80126|0||Classic WT40
+Nucleus Soundlab|Viral Outbreak|ClassicWT41|4|36|80126|0||Classic WT41
+Nucleus Soundlab|Viral Outbreak|ClassicWT42|4|37|80126|0||Classic WT42
+Nucleus Soundlab|Viral Outbreak|ClassicWT43|4|39|80126|0||Classic WT43
+Nucleus Soundlab|Viral Outbreak|ClassicWT44|4|41|80126|0||Classic WT44
+Nucleus Soundlab|Viral Outbreak|ClassicWT45|4|38|80126|0||Classic WT45
+Nucleus Soundlab|Viral Outbreak|ClassicWT46|4|35|80126|0||Classic WT46
+Nucleus Soundlab|Viral Outbreak|ClassicWT47|4|37|80126|0||Classic WT47
+Nucleus Soundlab|Viral Outbreak|ClassicWT48|4|38|80126|0||Classic WT48
+Nucleus Soundlab|Viral Outbreak|ClassicWT49|4|39|80126|0||Classic WT49
+Nucleus Soundlab|Viral Outbreak|ClassicWT50|4|40|80126|0||Classic WT50
+Nucleus Soundlab|Viral Outbreak|ClassicWT51|4|39|80126|0||Classic WT51
+Nucleus Soundlab|Viral Outbreak|ClassicWT52|4|39|80126|0||Classic WT52
+Nucleus Soundlab|Viral Outbreak|ClassicWT53|4|37|80126|0||Classic WT53
+Nucleus Soundlab|Viral Outbreak|ClassicWT54|4|38|80126|0||Classic WT54
+Nucleus Soundlab|Viral Outbreak|ClassicWT55|4|40|80126|0||Classic WT55
+Nucleus Soundlab|Viral Outbreak|ClassicWT56|4|38|80126|0||Classic WT56
+Nucleus Soundlab|Viral Outbreak|ClassicWT57|4|40|80126|0||Classic WT57
+Nucleus Soundlab|Viral Outbreak|ClassicWT58|4|39|80126|0||Classic WT58
+Nucleus Soundlab|Viral Outbreak|ClassicWT59|4|38|80126|0||Classic WT59
+Nucleus Soundlab|Viral Outbreak|ClassicWT60|4|39|80126|0||Classic WT60
+Nucleus Soundlab|Viral Outbreak|ClassicWT61|4|35|80126|0||Classic WT61
+Nucleus Soundlab|Viral Outbreak|ClassicWT62|4|38|80126|0||Classic WT62
+Nucleus Soundlab|Viral Outbreak|ClassicWT63|4|37|80126|0||Classic WT63
+Nucleus Soundlab|Viral Outbreak|ClassicWT64|4|35|80126|0||Classic WT64
+Nucleus Soundlab|OB Resurrection|Clavinet|12|1424|80125|0||Clavinet
+Nucleus Soundlab|OB Resurrection|ClavRez|12|1225|80125|0||Clav Rez
+Nucleus Soundlab|OB Resurrection|ClavTalk|12|1239|80125|0||Clav Talk
+Nucleus Soundlab|VS Resurrection|cloud diamond pad|11|34467|80127|0||Cloud Diamond Pad
+Nucleus Soundlab|VS Resurrection|clustr|2|8|80127|0||Clustr
+Nucleus Soundlab|OB Resurrection|CO3 BellWaveG6|2|21|80125|0||Bell Wave
+Nucleus Soundlab|OB Resurrection|Colour Sweep|9|17115|80125|0||Colour Sweep
+Nucleus Soundlab|Ambient Drums|Convo Kit (dry)|12|10313|80123|0||Convo Kit (dry)
+Nucleus Soundlab|Ambient Drums|Convo Kit (wet)|12|13150|80123|0||Convo Kit (wet)
+Nucleus Soundlab|Viral Outbreak|cutting brass|11|12475|80126|0||Cutting Brass
+Nucleus Soundlab|Viral Outbreak|dance phaser|13|22497|80126|0||Dance Phaser
+Nucleus Soundlab|Viral Outbreak|darkness sight|13|11889|80126|0||Darkness Sight
+Nucleus Soundlab|VS Resurrection|depot pad|11|24626|80127|0||Depot Pad
+Nucleus Soundlab|Viral Outbreak|digitalis pad|9|2829|80126|0||Digitalis Pad
+Nucleus Soundlab|OB Resurrection|Digital Noise|2|71|80125|0||Digital Noise
+Nucleus Soundlab|OB Resurrection|DigiVoice|2|167|80125|0||Digi Voice
+Nucleus Soundlab|VS Resurrection|directional keys|11|13490|80127|0||Directional Keys
+Nucleus Soundlab|VS Resurrection|disbell|2|8|80127|0||Disbell
+Nucleus Soundlab|Viral Outbreak|dna organ|16|2213|80126|0||DNA Organ
+Nucleus Soundlab|Viral Outbreak|doom sweep|11|16313|80126|0||Doom Sweep
+Nucleus Soundlab|Viral Outbreak|dream square|13|10296|80126|0||Dream Square
+Nucleus Soundlab|OB Resurrection|Drone Food_C1|2|2597|80125|0||Drone Food
+Nucleus Soundlab|VS Resurrection|eehh|2|9|80127|0||EeHh
+Nucleus Soundlab|OB Resurrection|EleBass1|10|467|80125|0||Ele Bass 1
+Nucleus Soundlab|OB Resurrection|EleBass2|10|480|80125|0||Ele Bass 2
+Nucleus Soundlab|OB Resurrection|EP Filtered|11|953|80125|0||EP Filtered
+Nucleus Soundlab|VS Resurrection|e-pno|2|9|80127|0||E Piano
+Nucleus Soundlab|OB Resurrection|EWFdetune|12|1144|80125|0||EWF Detune
+Nucleus Soundlab|Viral Outbreak|ExoSweep|5|11547|80126|0||Exo Sweep
+Nucleus Soundlab|Viral Outbreak|F2M|12|9294|80126|0||F2M
+Nucleus Soundlab|Viral Outbreak|fat strings|12|16521|80126|0||Fat Strings
+Nucleus Soundlab|OB Resurrection|FdBckLead|10|1673|80125|0||Fdbck Lead
+Nucleus Soundlab|VS Resurrection|feedback|2|7|80127|0||Feedback
+Nucleus Soundlab|OB Resurrection|Fifths|10|2208|80125|0||Fifths
+Nucleus Soundlab|Viral Outbreak|filter dirt lead|13|26978|80126|0||Filter Dirt Lead
+Nucleus Soundlab|OB Resurrection|FilterLoop|2|158|80125|0||Filter Loop
+Nucleus Soundlab|Viral Outbreak|fm bassman|10|5072|80126|0||FM Bassman
+Nucleus Soundlab|VS Resurrection|fmtaah|2|7|80127|0||FM TAah
+Nucleus Soundlab|VS Resurrection|fmtaoh|2|8|80127|0||FM TAoh
+Nucleus Soundlab|VS Resurrection|fmtbell|2|8|80127|0||FM TBell
+Nucleus Soundlab|VS Resurrection|fmtorg|2|7|80127|0||FM TOrg
+Nucleus Soundlab|Viral Outbreak|follower pad|11|9374|80126|0||Follower Pad
+Nucleus Soundlab|Viral Outbreak|Foreign Matter 2|15|7178|80126|0||Foreign Matter 2
+Nucleus Soundlab|Viral Outbreak|Foreign Matter|15|7168|80126|0||Foreign Matter
+Nucleus Soundlab|Viral Outbreak|Formant Atmo|2|6917|80126|0||Formant Atmo
+Nucleus Soundlab|Viral Outbreak|Formantis|14|9789|80126|0||Formantis
+Nucleus Soundlab|Viral Outbreak|formant sweep_free|11|22447|0|0||Formant Sweep
+Nucleus Soundlab|Viral Outbreak|Formy|17|24961|80126|0||Fromy
+Nucleus Soundlab|Viral Outbreak|FrogHop|13|19084|80126|0||Frog Hop
+Nucleus Soundlab|Viral Outbreak|Frontier Atmo|2|5492|80126|0||Frontier Atmo
+Nucleus Soundlab|VS Resurrection|fullbell|2|10|80127|0||Full Bell
+Nucleus Soundlab|VS Resurrection|fzreed|2|8|80127|0||FZ Reed
+Nucleus Soundlab|OB Resurrection|Galaga Drone|8|18565|80125|0||Glaga Drone
+Nucleus Soundlab|Viral Outbreak|gigantic sweep|11|21928|80126|0||Gigantic Sweep
+Nucleus Soundlab|OB Resurrection|GlassBreak|2|99|80125|0||Glass Break
+Nucleus Soundlab|Viral Outbreak|gothic choir|13|7747|80126|0||Gothic Choir
+Nucleus Soundlab|Viral Outbreak|GrainSeed|13|27147|80126|0||Grain Seed
+Nucleus Soundlab|Viral Outbreak|Growler|11|12705|80126|0||Growler
+Nucleus Soundlab|VS Resurrection|guitar|2|7|80127|0||Guitar
+Nucleus Soundlab|Viral Outbreak|guitar pad|12|20448|80126|0||Guitar Pad
+Nucleus Soundlab|VS Resurrection|hack1|2|9|80127|0||Hack 1
+Nucleus Soundlab|VS Resurrection|hack2|2|7|80127|0||Hack 2
+Nucleus Soundlab|VS Resurrection|hack3|2|11|80127|0||Hack 3
+Nucleus Soundlab|OB Resurrection|Harmonica|10|142|80125|0||Harmonica
+Nucleus Soundlab|VS Resurrection|harp|2|10|80127|0||Harp
+Nucleus Soundlab|VS Resurrection|hiahh|2|8|80127|0||Hi Ahh
+Nucleus Soundlab|VS Resurrection|hi-harm|2|10|80127|0||Hi Harm 2
+Nucleus Soundlab|VS Resurrection|hiharm|2|11|80127|0||Hi Harm 1
+Nucleus Soundlab|VS Resurrection|hipipe|2|8|80127|0||Hi Pipe
+Nucleus Soundlab|VS Resurrection|hi-reed|2|7|80127|0||Hi Reed
+Nucleus Soundlab|Viral Outbreak|HiSaw 10|19|24463|80126|0||Hi Saw 10
+Nucleus Soundlab|Viral Outbreak|HiSaw 30|19|26245|80126|0||Hi Saw 30
+Nucleus Soundlab|Viral Outbreak|HiSaw 50|19|26034|80126|0||Hi Saw 50
+Nucleus Soundlab|Viral Outbreak|HiSaw 70|19|26278|80126|0||Hi Saw 70
+Nucleus Soundlab|Viral Outbreak|HiSaw 90|19|26742|80126|0||Hi Saw 90
+Nucleus Soundlab|Viral Outbreak|HiSawSub 10|19|26074|80126|0||Hi Saw Sub 10
+Nucleus Soundlab|Viral Outbreak|HiSawSub 30|19|26322|80126|0||Hi Saw Sub 30
+Nucleus Soundlab|Viral Outbreak|HiSawSub 50|19|26322|80126|0||Hi Saw Sub 50
+Nucleus Soundlab|Viral Outbreak|HiSawSub 70|19|26865|80126|0||Hi Saw Sub 70
+Nucleus Soundlab|Viral Outbreak|HiSawSub 90|19|26522|80126|0||Hi Saw Sub 90
+Nucleus Soundlab|Viral Outbreak|HiSweep|17|18043|80126|0||Hi Sweep
+Nucleus Soundlab|VS Resurrection|hitop|2|16|80127|0||Hi Top
+Nucleus Soundlab|VS Resurrection|hollow|2|8|80127|0||Hollow
+Nucleus Soundlab|VS Resurrection|homme|2|9|80127|0||Homme
+Nucleus Soundlab|OB Resurrection|Horn|11|560|80125|0||Horn
+Nucleus Soundlab|Viral Outbreak|HP Law|5|8233|80126|0||HP Law
+Nucleus Soundlab|Viral Outbreak|huge square|13|19149|80126|0||Huge Square
+Nucleus Soundlab|VS Resurrection|hvy7|2|7|80127|0||Heavy 7
+Nucleus Soundlab|VS Resurrection|imitation pad|11|34467|80127|0||Imitation Pad
+Nucleus Soundlab|Viral Outbreak|interference pad|13|18135|80126|0||Interference Pad
+Nucleus Soundlab|Viral Outbreak|jungle ghosts|12|16854|80126|0||Jungle Ghosts
+Nucleus Soundlab|Viral Outbreak|jungle pad_free|12|21061|0|0||Jungle Pad
+Nucleus Soundlab|Viral Outbreak|Kit4_Clap1|2|96|80126|0||Kit 4 Clap 1
+Nucleus Soundlab|Viral Outbreak|Kit4_Clap2|2|113|80126|0||Kit 4 Clap 2
+Nucleus Soundlab|Viral Outbreak|Kit4_FX1|2|56|80126|0||Kit 4 FX 1
+Nucleus Soundlab|Viral Outbreak|Kit4_FX2|2|56|80126|0||Kit 4 FX 2
+Nucleus Soundlab|Viral Outbreak|Kit4_HiHat1|2|161|80126|0||Kit 4 HiHat 1
+Nucleus Soundlab|Viral Outbreak|Kit4_HiHat2|2|159|80126|0||Kit 4 HiHat 2
+Nucleus Soundlab|Viral Outbreak|Kit4_HiHat3|2|89|80126|0||Kit 4 HiHat 3
+Nucleus Soundlab|Viral Outbreak|Kit4_HiHat4|2|318|80126|0||Kit 4 HiHat 4
+Nucleus Soundlab|Viral Outbreak|Kit4_Kick1|2|799|80126|0||Kit 4 Kick 1
+Nucleus Soundlab|Viral Outbreak|Kit4_Snare1|2|69|80126|0||Kit 4 Snare 1
+Nucleus Soundlab|Viral Outbreak|Kit5_FX1|2|61|80126|0||Kit 5 FX 1
+Nucleus Soundlab|Viral Outbreak|Kit5_FX2|2|52|80126|0||Kit 5 FX 2
+Nucleus Soundlab|Viral Outbreak|Kit5_HiHat1|2|372|80126|0||Kit 5 HiHat 1
+Nucleus Soundlab|Viral Outbreak|Kit5_HiHat2|2|81|80126|0||Kit 5 HiHat 2
+Nucleus Soundlab|Viral Outbreak|Kit5_HiHat3|2|384|80126|0||Kit 5 HiHat 3
+Nucleus Soundlab|Viral Outbreak|Kit5_HiHat4|2|62|80126|0||Kit 5 HiHat 4
+Nucleus Soundlab|Viral Outbreak|Kit5_HiHat5|2|28|80126|0||Kit 5 HiHat 5
+Nucleus Soundlab|Viral Outbreak|Kit5_Kick1|2|82|80126|0||Kit 5 Kit 1
+Nucleus Soundlab|Viral Outbreak|Kit5_Kick2|2|74|80126|0||Kit 5 Kick 2
+Nucleus Soundlab|Viral Outbreak|Kit5_Kick3|2|69|80126|0||Kit 5 Kick 3
+Nucleus Soundlab|Viral Outbreak|Kit5_Snare1|2|56|80126|0||Kit 5 Snare 1
+Nucleus Soundlab|Viral Outbreak|Kit5_Stick|2|19|80126|0||Kit 5 Stick
+Nucleus Soundlab|OB Resurrection|Lead|12|693|80125|0||Lead
+Nucleus Soundlab|OB Resurrection|Limuidz|12|2529|80125|0||Limuidz
+Nucleus Soundlab|VS Resurrection|litefund|2|9|80127|0||Lite Fund
+Nucleus Soundlab|OB Resurrection|Lofi Comb|10|4683|80125|0||Lofi Comb
+Nucleus Soundlab|Viral Outbreak|lowball bass|9|1456|80126|0||Lowball Bass
+Nucleus Soundlab|Viral Outbreak|Majkal|16|18519|80126|0||Majkal
+Nucleus Soundlab|OB Resurrection|Mallet|9|698|80125|0||Mallet
+Nucleus Soundlab|VS Resurrection|mass_free|2|8|0|0||Mass
+Nucleus Soundlab|OB Resurrection|MeanStreet|12|1903|80125|0||Mean Street
+Nucleus Soundlab|VS Resurrection|med-pure|2|14|80127|0||Med Pure
+Nucleus Soundlab|Viral Outbreak|mellow strings|13|19988|80126|0||Mellow Strings
+Nucleus Soundlab|VS Resurrection|melorg2|2|8|80127|0||Mel Org 2
+Nucleus Soundlab|VS Resurrection|melorg|2|7|80127|0||Mel Org 1
+Nucleus Soundlab|Viral Outbreak|menangerie pad|9|14889|80126|0||Menangerie Pad
+Nucleus Soundlab|VS Resurrection|m-harm|2|8|80127|0||Med Harm
+Nucleus Soundlab|Ambient Drums|Mighty Kit (dry)|13|9323|80123|0||Mighty Kit (dry)
+Nucleus Soundlab|Ambient Drums|Mighty Kit (wet)|13|11527|80123|0||Mighty Kit (wet)
+Nucleus Soundlab|MK Digital Keys|MKClavi L|124|150390|80124|0||MK Clavi L
+Nucleus Soundlab|MK Digital Keys|MKClavi M|58|70128|80124|0||MK Clavi M
+Nucleus Soundlab|MK Digital Keys|MKClavi S_free|18|20515|0|0||MK Clavi S
+Nucleus Soundlab|MK Digital Keys|MKClavi XL|259|313606|80124|0||MK Clavi XL
+Nucleus Soundlab|MK Digital Keys|MKEpiano_1 L|124|169885|80124|0||MK Epiano 1 L
+Nucleus Soundlab|MK Digital Keys|MKEpiano_1 M|58|82349|80124|0||MK Epiano 1 M
+Nucleus Soundlab|MK Digital Keys|MKEpiano_1 S|18|24004|80124|0||MK Epiano 1 S
+Nucleus Soundlab|MK Digital Keys|MKEpiano_1 XL|259|358174|80124|0||MK Epiano 1 XL
+Nucleus Soundlab|MK Digital Keys|MKEpiano_2 L|124|153739|80124|0||MK Epiano 2 L
+Nucleus Soundlab|MK Digital Keys|MKEpiano_2 M|58|74056|80124|0||Mk Epiano 2 M
+Nucleus Soundlab|MK Digital Keys|MKEpiano_2 S|18|20297|80124|0||MK Epiano 2 S
+Nucleus Soundlab|MK Digital Keys|MKEpiano_2 XL|259|324990|80124|0||MK Epiano 2 XL
+Nucleus Soundlab|MK Digital Keys|MKHarp L|124|145479|80124|0||MK Harp L
+Nucleus Soundlab|MK Digital Keys|MKHarp M|58|68065|80124|0||MK Harp M
+Nucleus Soundlab|MK Digital Keys|MKHarp S|18|19916|80124|0||MK Harp S
+Nucleus Soundlab|MK Digital Keys|MKHarp XL|259|308484|80124|0||MK Harp XL
+Nucleus Soundlab|MK Digital Keys|MKPiano_1 L|124|165839|80124|0||MK Piano 1 L
+Nucleus Soundlab|MK Digital Keys|MKPiano_1 M|58|79905|80124|0||MK Piano 1 M
+Nucleus Soundlab|MK Digital Keys|MKPiano_1 S|18|23304|80124|0||MK Piano 1 S
+Nucleus Soundlab|MK Digital Keys|MKPiano_1 XL|259|341396|80124|0||MK Piano 1 XL
+Nucleus Soundlab|MK Digital Keys|MKPiano_2 L|124|161816|80124|0||MK Piano 2 L
+Nucleus Soundlab|MK Digital Keys|MKPiano_2 M|58|76975|80124|0||MK Piano 2 M
+Nucleus Soundlab|MK Digital Keys|MKPiano_2 S|18|21314|80124|0||MK Piano 2 S
+Nucleus Soundlab|MK Digital Keys|MKPiano_2 XL|259|335925|80124|0||MK Piano 2 XL
+Nucleus Soundlab|MK Digital Keys|MKPiano_3 L|124|156022|80124|0||MK Piano 3 L
+Nucleus Soundlab|MK Digital Keys|MKPiano_3 M|58|73548|80124|0||MK Piano 3 M
+Nucleus Soundlab|MK Digital Keys|MKPiano_3 S|18|21525|80124|0||MK Piano 3 S
+Nucleus Soundlab|MK Digital Keys|MKPiano_3 XL|259|327432|80124|0||MK Piano 3 XL
+Nucleus Soundlab|MK Digital Keys|MKVibes L|124|127072|80124|0||MK Vibes L
+Nucleus Soundlab|MK Digital Keys|MKVibes M|58|60989|80124|0||MK Vibes M
+Nucleus Soundlab|MK Digital Keys|MKVibes S_free|18|17052|0|0||MK Vibes S
+Nucleus Soundlab|MK Digital Keys|MKVibes XL|259|257525|80124|0||MK Vibes XL
+Nucleus Soundlab|Viral Outbreak|mocha|15|35283|80126|0||Mocha
+Nucleus Soundlab|VS Resurrection|monument pad|2|2540|80127|0||Monument Pad
+Nucleus Soundlab|Viral Outbreak|morte pickbass|9|2177|80126|0||Morte Pickbass
+Nucleus Soundlab|Viral Outbreak|mothership sweep_free|13|37932|0|0||Mothership Sweep
+Nucleus Soundlab|VS Resurrection|m-pinch|2|9|80127|0||Med Pinch
+Nucleus Soundlab|OB Resurrection|MultiSaw2|7|1403|80125|0||Multi Saw 2
+Nucleus Soundlab|OB Resurrection|MultiSaw|8|1783|80125|0||Multi Saw
+Nucleus Soundlab|Viral Outbreak|mystic india|29|29815|80126|0||Mystic India
+Nucleus Soundlab|Viral Outbreak|nasty virus pad|14|23743|80126|0||Nasty Virus Pad
+Nucleus Soundlab|Viral Outbreak|nature choir|14|22047|80126|0||Nature Choir
+Nucleus Soundlab|VS Resurrection|new age ep|12|28439|80127|0||New Age EP
+Nucleus Soundlab|VS Resurrection|nice|2|9|80127|0||Nice
+Nucleus Soundlab|VS Resurrection|nofund|2|8|80127|0||No Fund
+Nucleus Soundlab|Ambient Drums|Noise Kit (dry)|12|3491|80123|0||Noise Kit (dry)
+Nucleus Soundlab|Ambient Drums|Noise Kit (wet)|12|10574|80123|0||Noise Kit (wet)
+Nucleus Soundlab|Viral Outbreak|Number 22|15|21299|80126|0||Number 22
+Nucleus Soundlab|OB Resurrection|Nylon_free|12|2254|0|0||Nylon
+Nucleus Soundlab|OB Resurrection|OberBass|9|3289|80125|0||Ober Bass
+Nucleus Soundlab|VS Resurrection|oboe|2|8|80127|0||VS Oboe
+Nucleus Soundlab|OB Resurrection|OctBass|11|1553|80125|0||Oct Bass
+Nucleus Soundlab|OB Resurrection|OM HollowNoiseD5|2|136|80125|0||OM Hollow Noise
+Nucleus Soundlab|OB Resurrection|OM NoiseSweep1C4|2|583|80125|0||OM Noise Sweep
+Nucleus Soundlab|OB Resurrection|OM RandomC5|2|537|80125|0||OM Random
+Nucleus Soundlab|OB Resurrection|OM SweepLoop2C4|2|94|80125|0||OM Sweep Loop
+Nucleus Soundlab|OB Resurrection|OM TubeBellC4|2|223|80125|0||OM Tube Bell
+Nucleus Soundlab|OB Resurrection|OM WildThingC5|2|949|80125|0||OM Wild Thing
+Nucleus Soundlab|VS Resurrection|oohh|2|8|80127|0||Oohh
+Nucleus Soundlab|VS Resurrection|orgaah_free|2|7|0|0||Org Ahh
+Nucleus Soundlab|OB Resurrection|Organ|6|377|80125|0||Organ
+Nucleus Soundlab|VS Resurrection|orgpnch|2|9|80127|0||Org Pnch
+Nucleus Soundlab|VS Resurrection|orient|2|9|80127|0||Orient
+Nucleus Soundlab|Viral Outbreak|percentile chord|13|22818|80126|0||Percentile Chord
+Nucleus Soundlab|Ambient Drums|Phantom Kit (dry)|34|5031|80123|0||Phantom Kit (dry)
+Nucleus Soundlab|Ambient Drums|Phantom Kit (wet)|34|23915|80123|0||Phantom Kit (wet)
+Nucleus Soundlab|Viral Outbreak|phase guitar|11|14022|80126|0||Phase Guitar
+Nucleus Soundlab|Viral Outbreak|phase saw|7|15401|80126|0||Phase Saw
+Nucleus Soundlab|Viral Outbreak|phazon pad|11|25811|80126|0||Phazon Pad
+Nucleus Soundlab|VS Resurrection|phsqr|2|7|80127|0||Phs Sqr
+Nucleus Soundlab|OB Resurrection|Physix Pad 1_free|10|10268|0|0||Physix Pad 1
+Nucleus Soundlab|OB Resurrection|Physix Pad 2|10|11675|80125|0||Physix Pad 2
+Nucleus Soundlab|VS Resurrection|piano1|2|9|80127|0||VS Piano
+Nucleus Soundlab|OB Resurrection|Picked|9|203|80125|0||Picked
+Nucleus Soundlab|VS Resurrection|pinch2|2|11|80127|0||Pinch 2
+Nucleus Soundlab|VS Resurrection|pinch|2|8|80127|0||Pinch 1
+Nucleus Soundlab|VS Resurrection|pipe|2|9|80127|0||Pipe
+Nucleus Soundlab|Viral Outbreak|pitchenv poly|14|14225|80126|0||Pitch Evn Poly
+Nucleus Soundlab|Viral Outbreak|planetary chord|13|15977|80126|0||Planetary Chord
+Nucleus Soundlab|VS Resurrection|pno-org|2|10|80127|0||Piano Org
+Nucleus Soundlab|Viral Outbreak|prayer|16|25611|80126|0||Prayer
+Nucleus Soundlab|VS Resurrection|precious diamond pad|11|34467|80127|0||Precious Diamond Pad
+Nucleus Soundlab|Viral Outbreak|presonic pad|12|8219|80126|0||Presonic Pad
+Nucleus Soundlab|VS Resurrection|pulse1|2|12|80127|0||Pulse 1
+Nucleus Soundlab|VS Resurrection|pulse2|2|11|80127|0||Pulse 2
+Nucleus Soundlab|Viral Outbreak|pulse 50|17|225|80126|0||Pulse 50
+Nucleus Soundlab|Viral Outbreak|pulse 65|17|180|80126|0||Pulse 65
+Nucleus Soundlab|Viral Outbreak|pulse 80|17|286|80126|0||Pulse 80
+Nucleus Soundlab|Viral Outbreak|pulse 95|17|210|80126|0||Pulse 95
+Nucleus Soundlab|OB Resurrection|PulseFMsync|12|3228|80125|0||Pulse FM Sync
+Nucleus Soundlab|VS Resurrection|pure|2|13|80127|0||Pure
+Nucleus Soundlab|VS Resurrection|r2bell|2|8|80127|0||R2 Bell
+Nucleus Soundlab|Viral Outbreak|Rack Chord|13|23077|80126|0||Rack Chord
+Nucleus Soundlab|OB Resurrection|Radio Choir|10|5643|80125|0||Radio Choir
+Nucleus Soundlab|Ambient Drums|Rainstick Kit (dry)|10|9376|80123|0||Rainstick Kit (dry)
+Nucleus Soundlab|Ambient Drums|Rainstick Kit (wet)|10|12558|80123|0||Rainstick Kit (wet)
+Nucleus Soundlab|OB Resurrection|Raised Edge|11|10667|80125|0||Raised Edge
+Nucleus Soundlab|Viral Outbreak|Random Atmo|2|7508|80126|0||Random Atmo
+Nucleus Soundlab|VS Resurrection|rdbell|2|8|80127|0||Rd Bell
+Nucleus Soundlab|VS Resurrection|reedhrm|2|8|80127|0||Reed Harm
+Nucleus Soundlab|VS Resurrection|reedorg|2|8|80127|0||Reed Org
+Nucleus Soundlab|VS Resurrection|regvox|2|7|80127|0||Reg Vox
+Nucleus Soundlab|Ambient Drums|Resynth Kit (dry)|13|3825|80123|0||Resynth Kit (dry)
+Nucleus Soundlab|Ambient Drums|Resynth Kit (wet)|13|10116|80123|0||Resynth Kit (wet)
+Nucleus Soundlab|Viral Outbreak|Robotics|12|14118|80126|0||Robotics
+Nucleus Soundlab|OB Resurrection|Rotor|12|1944|80125|0||Rotor
+Nucleus Soundlab|Ambient Drums|Rust Kit (dry)_free|28|15596|0|0||Rust Kit (dry)
+Nucleus Soundlab|Ambient Drums|Rust Kit (wet)_free|28|23807|0|0||Rust Kit (wet)
+Nucleus Soundlab|Viral Outbreak|Rygar Bass|6|714|80126|0||Rygar Bass
+Nucleus Soundlab|OB Resurrection|Sacrificial|10|6259|80125|0||Sacrificial
+Nucleus Soundlab|OB Resurrection|Sanctus|12|461|80125|0||Sanctus
+Nucleus Soundlab|VS Resurrection|saw2oct|2|11|80127|0||Saw 2 Oct
+Nucleus Soundlab|VS Resurrection|saw5th_free|2|9|0|0||Saw 5th
+Nucleus Soundlab|VS Resurrection|saw|2|7|80127|0||Saw 1
+Nucleus Soundlab|OB Resurrection|SawFast|12|582|80125|0||Saw Fast
+Nucleus Soundlab|OB Resurrection|SawMed|12|960|80125|0||Saw Med
+Nucleus Soundlab|OB Resurrection|SawRez1|10|1928|80125|0||Saw Rez 1
+Nucleus Soundlab|OB Resurrection|SawRez2|14|456|80125|0||Saw Rez 2
+Nucleus Soundlab|OB Resurrection|SawRezMed|11|1461|80125|0||Saw Rez Med
+Nucleus Soundlab|OB Resurrection|SawRezSlow|12|3735|80125|0||Squ Rez Slow
+Nucleus Soundlab|OB Resurrection|SawRezSlow|12|3735|80125|0||Saw Rez Slow
+Nucleus Soundlab|Viral Outbreak|Sculpt Struck|16|26837|80126|0||Sculpt Struck
+Nucleus Soundlab|Viral Outbreak|searchlight|13|23605|80126|0||Searchlight
+Nucleus Soundlab|VS Resurrection|sin2oct|2|9|80127|0||Sin 2 Oct
+Nucleus Soundlab|VS Resurrection|sin4oct|2|11|80127|0||Sin 4 Oct
+Nucleus Soundlab|VS Resurrection|sine|2|9|80127|0||Sine
+Nucleus Soundlab|OB Resurrection|SloRezPulse|13|10493|80125|0||Slo Rez Pulse
+Nucleus Soundlab|OB Resurrection|SloSweep|12|4020|80125|0||Slo Sweep
+Nucleus Soundlab|Viral Outbreak|Smear Atmo|2|6645|80126|0||Smear Atmo
+Nucleus Soundlab|Viral Outbreak|SpacePulse Atmo|2|3352|80126|0||Space Pulse Atmo
+Nucleus Soundlab|Viral Outbreak|spare atmo|11|11286|80126|0||Spare Atmo
+Nucleus Soundlab|Viral Outbreak|S Personality|14|19693|80126|0||S Personality
+Nucleus Soundlab|Viral Outbreak|Spreadbox|11|11204|80126|0||Spread Box
+Nucleus Soundlab|VS Resurrection|sqr2oct|2|12|80127|0||Sqr 2 Oct
+Nucleus Soundlab|VS Resurrection|sqr5oct|2|10|80127|0||Sqr 5 Oct
+Nucleus Soundlab|VS Resurrection|sqr5th|2|14|80127|0||Sqr 5th
+Nucleus Soundlab|VS Resurrection|sqrreed|2|7|80127|0||Sqr Reed
+Nucleus Soundlab|VS Resurrection|square|2|7|80127|0||VS Square
+Nucleus Soundlab|OB Resurrection|Square|7|90|80125|0||Square
+Nucleus Soundlab|OB Resurrection|SquMed|14|1128|80125|0||Squ Med
+Nucleus Soundlab|OB Resurrection|SquRezMed|12|1421|80125|0||Squ Rez Med
+Nucleus Soundlab|Viral Outbreak|star pluck_free|16|17612|0|0||Star Pluck
+Nucleus Soundlab|Viral Outbreak|SteamPad|13|18561|80126|0||Steam Pad
+Nucleus Soundlab|Viral Outbreak|stereo v-noise|2|1852|80126|0||Stereo V noise
+Nucleus Soundlab|Ambient Drums|Stick Kit (dry)|13|1705|80123|0||Stick kit (dry)
+Nucleus Soundlab|Ambient Drums|Stick Kit (wet)|13|9422|80123|0||Stick Kit (wet)
+Nucleus Soundlab|OB Resurrection|Storm Warning_C2|2|1965|80125|0||Storm Warning
+Nucleus Soundlab|OB Resurrection|Strings1|8|577|80125|0||Strings 1
+Nucleus Soundlab|OB Resurrection|Strings2|7|711|80125|0||Strings 2
+Nucleus Soundlab|OB Resurrection|StrSect|7|786|80125|0||Str Sect
+Nucleus Soundlab|OB Resurrection|SynBass2|9|4465|80125|0||Syn Bass 2
+Nucleus Soundlab|OB Resurrection|Sync1|7|1398|80125|0||Sync 1
+Nucleus Soundlab|OB Resurrection|Sync2|11|2836|80125|0||Sync 2
+Nucleus Soundlab|Viral Outbreak|sync bell|11|15211|80126|0||Sync Bell
+Nucleus Soundlab|Viral Outbreak|sync belllead|33|35069|80126|0||Sync Bell Lead
+Nucleus Soundlab|OB Resurrection|SyncDeep|10|3346|80125|0||Sync Deep
+Nucleus Soundlab|OB Resurrection|SyncFM|11|3102|80125|0||Sync FM
+Nucleus Soundlab|Viral Outbreak|SyncHSaw|15|16795|80126|0||Sync H Saw
+Nucleus Soundlab|OB Resurrection|Synth1|6|1839|80125|0||Synth 1
+Nucleus Soundlab|OB Resurrection|Synth2|6|2682|80125|0||Synth 2
+Nucleus Soundlab|OB Resurrection|SynthBass1_free|9|322|0|0||Synth Bass 1
+Nucleus Soundlab|OB Resurrection|SynthBass2|12|1239|80125|0||Synth Bass 2
+Nucleus Soundlab|Viral Outbreak|tablemorph|11|14595|80126|0||Table Morph
+Nucleus Soundlab|Viral Outbreak|tech attack|2|1394|80126|0||Tech Attack
+Nucleus Soundlab|Viral Outbreak|tek kit1|10|690|80126|0||Tek Kit 1
+Nucleus Soundlab|Viral Outbreak|tek kit2|7|642|80126|0||Tek Kit 2
+Nucleus Soundlab|Viral Outbreak|tek kit3|8|384|80126|0||Tek Kit 3
+Nucleus Soundlab|Viral Outbreak|tek kit4|11|1886|80126|0||Tek Kit 4
+Nucleus Soundlab|Viral Outbreak|tek kit5|11|875|80126|0||Tek Kit 5
+Nucleus Soundlab|Viral Outbreak|tekno bass|11|18705|80126|0||Tekno Bass
+Nucleus Soundlab|Viral Outbreak|Theory Atmo|2|6497|80126|0||Theory Atmo
+Nucleus Soundlab|OB Resurrection|Thick|10|1506|80125|0||Thick
+Nucleus Soundlab|Viral Outbreak|Thin Pulse|14|12910|80126|0||Thin Pulse
+Nucleus Soundlab|Ambient Drums|Thunder Kit (dry)|16|16160|80123|0||Thunder Kit (dry)
+Nucleus Soundlab|Ambient Drums|Thunder Kit (wet)|16|22248|80123|0||Thunder Kit (wet)
+Nucleus Soundlab|Ambient Drums|Tibet Kit (dry)|8|27065|80123|0||Tibet Kit (dry)
+Nucleus Soundlab|Ambient Drums|Tibet Kit (wet)|8|40093|80123|0||Tibet Kit (wet)
+Nucleus Soundlab|Ambient Drums|Tibet Kit (wet)|8|40093|80123|0||Waverider Kit (dry)
+Nucleus Soundlab|VS Resurrection|tine|2|8|80127|0||Tine
+Nucleus Soundlab|OB Resurrection|Tines Bell|4|1254|80125|0||Tines Bell
+Nucleus Soundlab|OB Resurrection|TinesWarm|10|4082|80125|0||Tines Warm
+Nucleus Soundlab|Viral Outbreak|Tomahawk|4|5686|80126|0||Tomahawk
+Nucleus Soundlab|VS Resurrection|triplus|2|7|80127|0||Tri Plus
+Nucleus Soundlab|Viral Outbreak|Twin BP|13|9010|80126|0||Twin BP
+Nucleus Soundlab|Viral Outbreak|twin strings_free|17|43741|0|0||Twin Strings
+Nucleus Soundlab|Viral Outbreak|twin sweep|12|19187|80126|0||Twin Sweep
+Nucleus Soundlab|OB Resurrection|UniClav|12|3339|80125|0||Uni Clav
+Nucleus Soundlab|Viral Outbreak|Unison Pulse 50|18|24262|80126|0||Unison Pulse 50
+Nucleus Soundlab|Viral Outbreak|Unison Pulse 80|18|25636|80126|0||Unison Pulse 80
+Nucleus Soundlab|Viral Outbreak|Unison Saw|17|26147|80126|0||Unison Saw
+Nucleus Soundlab|VS Resurrection|unison vs_square_free|12|28487|0|0||Unison VS Square
+Nucleus Soundlab|OB Resurrection|Vibes|17|948|80125|0||Vibes
+Nucleus Soundlab|OB Resurrection|Violin|7|143|80125|0||Violin
+Nucleus Soundlab|Viral Outbreak|viral piano|17|18168|80126|0||Viral Piano
+Nucleus Soundlab|Viral Outbreak|viral saw|19|512|80126|0||Viral Saw
+Nucleus Soundlab|VS Resurrection|vocal|2|7|80127|0||Vocal
+Nucleus Soundlab|Viral Outbreak|VoxBass|10|3139|80126|0||Vox Bass
+Nucleus Soundlab|VS Resurrection|voxpnch|2|11|80127|0||Vox Pnch
+Nucleus Soundlab|VS Resurrection|vs bass|10|10871|80127|0||VS Bass 2
+Nucleus Soundlab|VS Resurrection|vs keys 2|11|14656|80127|0||VS Keys 2
+Nucleus Soundlab|VS Resurrection|vs keys_free|14|16812|0|0||VS Keys
+Nucleus Soundlab|VS Resurrection|vs lead|13|6361|80127|0||VS Lead
+Nucleus Soundlab|VS Resurrection|w2bell|2|7|80127|0||W2 Bell
+Nucleus Soundlab|Viral Outbreak|wall poly|17|19689|80126|0||Wall Poly
+Nucleus Soundlab|VS Resurrection|warmlo|2|12|80127|0||Warm Lo
+Nucleus Soundlab|Ambient Drums|Waverider Kit (wet)|14|10307|80123|0||Waverider Kit (wet)
+Nucleus Soundlab|Viral Outbreak|wave traveller|12|17138|80126|0||Wave Traveller
+Nucleus Soundlab|OB Resurrection|WavModulated|6|14|80125|0||Wav Modulated
+Nucleus Soundlab|VS Resurrection|wide open pad|14|44806|80127|0||Wide Open Pad
+Nucleus Soundlab|Viral Outbreak|Wireless Atmo|2|6909|80126|0||Wireless Atmo
+Nucleus Soundlab|VS Resurrection|wmbell_free|2|7|0|0||Warm Bell
+Nucleus Soundlab|VS Resurrection|wmreed|2|6|80127|0||Warm Reed
+Nucleus Soundlab|VS Resurrection|wmwhstl|2|12|80127|0||Warm Whistle
+Nucleus Soundlab|VS Resurrection|wood|2|13|80127|0||Wood
+Nucleus Soundlab|Viral Outbreak|WP Bass|11|15111|80126|0||WP Bass
+Nucleus Soundlab|VS Resurrection|wwind|2|8|80127|0||Wind
+Nucleus Soundlab|Viral Outbreak|young heart|11|18189|80126|0||Young Heart
+Nucleus Soundlab|OB Resurrection|Zerious|12|1073|80125|0||Zerious
+Orchestral|Organs|Btubed|0|0|80109|0||Btubed
+Orchestral|Organs|ChurchOrg|0|0|0|0||ChurchOrg
+Orchestral|Organs|CX3 DBS1|0|0|0|0||CX3 DBS1
+Orchestral|Organs|CX3 DBS2|0|0|0|0||CX3 DBS2
+Orchestral|Organs|CX3 DBS3|0|0|0|0||CX3 DBS3
+Orchestral|Organs|CX3DBS4|0|0|80109|0||CX3DBS4
+Orchestral|Organs|CX3DBS5|0|0|80109|0||CX3DBS5
+Orchestral|Organs|CX3DBS6|0|0|80109|0||CX3DBS6
+Orchestral|Organs|CX3DBS7|0|0|80109|0||CX3DBS7
+Orchestral|Organs|Dmans|0|0|0|0||Dmans
+Orchestral|Organs|DrRot|0|0|0|0||DrRot
+Orchestral|Organs|DRVib|0|0|0|0||DRVib
+Orchestral|Organs|DW8|0|0|80109|0||DW8
+Orchestral|Organs|Gospill I|0|0|0|0||Gospill I
+Orchestral|Organs|Gospill V|0|0|0|0||Gospill V
+Orchestral|Organs|LonelyR|0|0|80109|0||LonelyR
+Orchestral|Organs|M3VBS|0|0|0|0||M3VBS
+Orchestral|Organs|MellowTron|0|0|80109|0||MellowTron
+Orchestral|Organs|MMorgan|0|0|0|0||MMorgan
+Orchestral|Organs|OrganicDist|0|0|80109|0||OrganicDist
+Orchestral|Organs|PsychoR|0|0|80109|0||PsychoR
+Orchestral|Organs|Rave|0|0|80109|0||Rave
+Orchestral|Organs|Regent|0|0|0|0||Regent
+Orchestral|Organs|RockBdist|0|0|80109|0||RockBdist
+Orchestral|Organs|SoftBR|0|0|0|0||SoftBR
+Orchestral|Organs|SuperRhode|0|0|80109|0||SuperRhode
+Orchestral|Organs|Tubed|0|0|80109|0||Tubed
+Orchestral|Organs|TubeDist|0|0|80109|0||TubeDist
+Orchestral|Percussion|Timpani 1|0|0|0|0||Timpani 1
+Orchestral|Percussion|Timpani 2|0|0|0|0||Timpani 2
+Orchestral|Piano|Baby Grand BIG|0|0|80109|0||Baby Grand BIG
+Orchestral|Piano|Baby Grand Medium|0|0|80109|0||Baby Grand Medium
+Orchestral|Piano|Classic Grand 2|0|0|80109|0||Classic Grand 2
+Orchestral|Piano|ConcertGrandClassic|0|0|80109|0||ConcertGrandClassic
+Orchestral|Piano|DarkPiano|0|0|0|0||DarkPiano
+Orchestral|Piano|Fazioli Grand|0|0|80109|0||Fazioli Grand
+Orchestral|Piano|GPiano1|0|0|80109|0||GPiano1
+Orchestral|Piano|GPiano2|0|0|80109|0||GPiano2
+Orchestral|Piano|GPiano3|0|0|80109|0||GPiano3
+Orchestral|Piano|Gram Piamo|0|0|80109|0||Gram Piamo
+Orchestral|Piano|Harpsy|0|0|80109|0||Harpsy
+Orchestral|Piano|RockPiano|0|0|80109|0||RockPiano
+Orchestral|Piano|StagePiano|0|0|80109|0||StagePiano
+Orchestral|Piano|Steinway Grand Model C|0|0|80109|0||Steinway Grand Model C
+Orchestral|Reeds|Alto Sax_02|0|0|80109|0||Alto Sax_02
+Orchestral|Reeds|Alto Sax_03|0|0|80109|0||Alto Sax_03
+Orchestral|Reeds|Baritone Sax 2|0|0|80109|0||Baritone Sax 2
+Orchestral|Reeds|Baritone Sax|0|0|0|0||Baritone Sax
+Orchestral|Reeds|Bass Clarinet|0|0|80109|0||Bass Clarinet
+Orchestral|Reeds|Bassoon|0|0|80109|0||Bassoon
+Orchestral|Reeds|Clarinet 2|0|0|80109|0||Clarinet 2
+Orchestral|Reeds|Clarinet|0|0|0|0||Clarinet
+Orchestral|Reeds|Contra Bassoon|0|0|80109|0||Contra Bassoon
+Orchestral|Reeds|Oboe 2|0|0|80109|0||Oboe 2
+Orchestral|Reeds|Oboe|0|0|0|0||Oboe
+Orchestral|Reeds|Soprano Sax|0|0|80109|0||Soprano Sax
+Orchestral|Reeds|Tenor Sax 2|0|0|80109|0||Tenor Sax 2
+Orchestral|Reeds|Tenor Sax|0|0|80109|0||Tenor Sax
+Orchestral|Strings|Arco Strings|0|0|80109|0||Arco Strings
+Orchestral|Strings|Cellular|0|0|0|0||Cellular
+Orchestral|Strings|Legato Strings|0|0|80109|0||Legato Strings
+Orchestral|Strings|Marcato Strings|0|0|0|0||Marcato Strings
+Orchestral|Strings|Mellotron_01|0|0|80109|0||Mellotron_01
+Orchestral|Strings|Mellotron_02|0|0|0|0||Mellotron_02
+Orchestral|Strings|MGM|0|0|80109|0||MGM
+Orchestral|Strings|Mixologic|0|0|80109|0||Mixologic
+Orchestral|Strings|Morgan Hight|0|0|80109|0||Morgan Hight
+Orchestral|Strings|MX Strings|0|0|0|0||MX Strings
+Orchestral|Strings|P6 Strings|0|0|0|0||P6 Strings
+Orchestral|Strings|PE 2000 AnalogString|0|0|0|0||PE 2000 AnalogString
+Orchestral|Strings|Pizzicato Strings|0|0|0|0||Pizzicato Strings
+Orchestral|Strings|Solina|0|0|0|0||Solina
+Orchestral|Strings|Solo String|0|0|80109|0||Solo String
+Orchestral|Strings|Stringy|0|0|80109|0||Stringy
+Orchestral|Strings|The Cell|0|0|80109|0||The Cell
+Orchestral|Strings|WS Debussy|0|0|80109|0||WS Debussy
+Orchestral|Reeds|Alto Sax_01|0|0|0|0||Alto Sax_01
+Orchestral|Brass|BrassChord|0|0|0|0||BrassChord
+Orchestral|Brass|BrightHorn|0|0|80109|0||BrightHorn
+Orchestral|Brass|DW8syBrass|0|0|80109|0||DW8syBrass
+Orchestral|Brass|English Horn|0|0|80109|0||English Horn
+Orchestral|Brass|ESBrassEns|0|0|0|0||ESBrassEns
+Orchestral|Brass|FiltBrassSect|0|0|80109|0||FiltBrassSect
+Orchestral|Brass|French and Flugle|0|0|80109|0||French and Flugle
+Orchestral|Brass|Full Brass Ensemble|0|0|0|0||Full Brass Ensemble
+Orchestral|Brass|Orch Hits|0|0|80109|0||Orch Hits
+Orchestral|Brass|Trombone|0|0|80109|0||Trombone
+Orchestral|Brass|Trumpet|0|0|80109|0||Trumpet
+Orchestral|Brass|Trumpeted|0|0|0|0||Trumpeted
+Orchestral|Brass|Tubas and French Horns|0|0|80109|0||Tubas and French Horns
+Orchestral|Choirs and Voices|80s Mode|0|0|0|0||80s Mode
+Orchestral|Choirs and Voices|Aaahs|0|0|80109|0||Aaahs
+Orchestral|Choirs and Voices|Dream|0|0|80109|0||Dream
+Orchestral|Choirs and Voices|Gospel|0|0|80109|0||Gospel
+Orchestral|Choirs and Voices|Heaven|0|0|80109|0||Heaven
+Orchestral|Choirs and Voices|MO Choir|0|0|80109|0||MO Choir
+Orchestral|Choirs and Voices|MX Choir|0|0|80109|0||MX Choir
+Orchestral|Choirs and Voices|Ooohs|0|0|80109|0||Ooohs
+Orchestral|Choirs and Voices|VS Vox|0|0|80109|0||VS Vox
+Orchestral|Electronic Piano|AnnyChi|0|0|80109|0||AnnyChi
+Orchestral|Electronic Piano|AntyDert|0|0|80109|0||AntyDert
+Orchestral|Electronic Piano|Clavier|0|0|0|0||Clavier
+Orchestral|Electronic Piano|CP|0|0|80109|0||CP
+Orchestral|Electronic Piano|CP70BSoft|0|0|80109|0||CP70BSoft
+Orchestral|Electronic Piano|D6ClavinetHD|0|0|0|0||D6ClavinetHD
+Orchestral|Electronic Piano|DS8Clav|0|0|0|0||DS8Clav
+Orchestral|Electronic Piano|ElectricP|0|0|80109|0||ElectricP
+Orchestral|Electronic Piano|FanClav|0|0|80109|0||FanClav
+Orchestral|Electronic Piano|Hohnerism|0|0|80109|0||Hohnerism
+Orchestral|Electronic Piano|LeesTas|0|0|0|0||LeesTas
+Orchestral|Electronic Piano|MDWurl|0|0|80109|0||MDWurl
+Orchestral|Electronic Piano|MK80|0|0|80109|0||MK80
+Orchestral|Electronic Piano|Pelectric|0|0|80109|0||Pelectric
+Orchestral|Electronic Piano|R-1000|0|0|80109|0||R-1000
+Orchestral|Electronic Piano|RadClav|0|0|80109|0||RadClav
+Orchestral|Electronic Piano|RhodeET|0|0|0|0||RhodeET
+Orchestral|Electronic Piano|Rhodes|0|0|80109|0||Rhodes
+Orchestral|Electronic Piano|RhodesEPsft|0|0|0|0||RhodesEPsft
+Orchestral|Electronic Piano|RMK1|0|0|0|0||RMK1
+Orchestral|Electronic Piano|SineP|0|0|80109|0||SineP
+Orchestral|Electronic Piano|SuitcaseEP|0|0|0|0||SuitcaseEP
+Orchestral|Electronic Piano|WurlitsEP|0|0|0|0||WurlitsEP
+Orchestral|Electronic Piano|Wurlitsers|0|0|0|0||Wurlitsers
+Orchestral|Electronic Piano|X-EP|0|0|80109|0||X-EP
+Orchestral||Orchestral (Bulk Samples)|0|0|80109|0||Orchestral (Bulk Samples)
+Orchestral|FL Keys|FL Keys - Ana Clave_free|0|0|0|0||FL Keys - Ana Clave_free
+Orchestral|FL Keys|FL Keys - Chimes_free|0|0|0|0||FL Keys - Chimes_free
+Orchestral|FL Keys|FL Keys - Clave_free|0|0|0|0||FL Keys - Clave_free
+Orchestral|FL Keys|FL Keys - Dirty Rhodes_free|0|0|0|0||FL Keys - Dirty Rhodes_free
+Orchestral|FL Keys|FL Keys - Dmans_free|0|0|0|0||FL Keys - Dmans_free
+Orchestral|FL Keys|FL Keys - Electric Piano_free|0|0|80109|0||FL Keys - Electric Piano_free
+Orchestral|FL Keys|FL Keys - Harpsichord_free|0|0|0|0||FL Keys - Harpsichord_free
+Orchestral|FL Keys|FL Keys - Piano 1_free|0|0|80109|0||FL Keys - Piano 1_free
+Orchestral|FL Keys|FL Keys - Roto Organ_free|0|0|0|0||FL Keys - Roto Organ_free
+Orchestral|FL Keys|FL Keys - RS5 HonkyTonk_free|0|0|0|0||FL Keys - RS5 HonkyTonk_free
+Orchestral|FL Keys|FL Keys - RS5 Piano_free|0|0|80109|0||FL Keys - RS5 Piano_free
+Orchestral|FL Keys|FL Keys - Sine Piano_free|0|0|0|0||FL Keys - Sine Piano_free
+Orchestral|FL Keys|FL Keys - Super Rhodes_free|0|0|0|0||FL Keys - Super Rhodes_free
+Orchestral|FL Keys|FL Keys - Yamaha_free|0|0|0|0||FL Keys - Yamaha_free
+Orchestral|FL Keys|FL Keys Wurlitzer_free|0|0|0|0||FL Keys Wurlitzer_free
+Orchestral|Flutes|Alto Flute|0|0|80109|0||Alto Flute
+Orchestral|Flutes|Baroque Flute|0|0|80109|0||Baroque Flute
+Orchestral|Flutes|Bass Flute|0|0|80109|0||Bass Flute
+Orchestral|Flutes|Flute 1|0|0|0|0||Flute 1
+Orchestral|Flutes|Flute 2|0|0|80109|0||Flute 2
+Orchestral|Flutes|Flute|0|0|0|0||Flute
+Orchestral|Flutes|Mello Flute|0|0|80109|0||Mello Flute
+Orchestral|Flutes|Piccolo Flute|0|0|80109|0||Piccolo Flute
+Orchestral|Organs|B3FL|0|0|80109|0||B3FL
+Orchestral|Organs|B3PercDry|0|0|80109|0||B3PercDry
+Orchestral|Organs|B3SL|0|0|80109|0||B3SL
+Orchestral|Organs|Bowing|0|0|0|0||Bowing
+Orchestral|Organs|BrockRot|0|0|80109|0||BrockRot
+Orchestral|Organs|Btube|0|0|80109|0||Btube
+Poly-Mono||MiniVirus|0|0|80111|0||MiniVirus
+Poly-Mono||Z3 Pad Comb|0|0|0|0||Z3 Pad Comb
+Poly-Mono||Weird Space|0|0|80111|0||Weird Space
+Poly-Mono||Voxxy Lead|0|0|80111|0||Voxxy Lead
+Poly-Mono||Vox Lead|0|0|80111|0||Vox Lead
+Poly-Mono||VonNeumanLCD|0|0|0|0||VonNeumanLCD
+Poly-Mono||VonNeumanDCL|0|0|0|0||VonNeumanDCL
+Poly-Mono||Viral|0|0|80111|0||Viral
+Poly-Mono||VIO PolySynth|0|0|0|0||VIO PolySynth
+Poly-Mono||VintOpen|0|0|80111|0||VintOpen
+Poly-Mono||UnNatural|0|0|80111|0||UnNatural
+Poly-Mono||Trident P Decay|0|0|0|0||Trident P Decay
+Poly-Mono||Tinkling Lead|0|0|80111|0||Tinkling Lead
+Poly-Mono||Theremint|0|0|0|0||Theremint
+Poly-Mono||The Start|0|0|80111|0||The Start
+Poly-Mono||TellyLead|0|0|0|0||TellyLead
+Poly-Mono||TechPro|0|0|0|0||TechPro
+Poly-Mono||TD PolySynth|0|0|0|0||TD PolySynth
+Poly-Mono||TBee Square 1|0|0|0|0||TBee Square 1
+Poly-Mono||TBee Saw 5|0|0|0|0||TBee Saw 5
+Poly-Mono||TBee Saw 4|0|0|0|0||TBee Saw 4
+Poly-Mono||TBee Saw 3|0|0|0|0||TBee Saw 3
+Poly-Mono||TBee Saw 2|0|0|0|0||TBee Saw 2
+Poly-Mono||TBee Saw 1|0|0|0|0||TBee Saw 1
+Poly-Mono||Tapis Magique|0|0|80111|0||Tapis Magique
+Poly-Mono||TaBuzz|0|0|80111|0||TaBuzz
+Poly-Mono||TaAttack|0|0|80111|0||TaAttack
+Poly-Mono||T1 JD Type|0|0|80111|0||T1 JD Type
+Poly-Mono||SynComb Synth|0|0|80111|0||SynComb Synth
+Poly-Mono||SuperSinSin|0|0|0|0||SuperSinSin
+Poly-Mono||Super Pad|0|0|80111|0||Super Pad
+Poly-Mono||Super Green|0|0|80111|0||Super Green
+Poly-Mono||Stimulance|0|0|80111|0||Stimulance
+Poly-Mono||Stereo Pad|0|0|80111|0||Stereo Pad
+Poly-Mono||Square lead|0|0|80111|0||Square lead
+Poly-Mono||SP Synth|0|0|80111|0||SP Synth
+Poly-Mono||Slow Ping|0|0|80111|0||Slow Ping
+Poly-Mono||SinSaw|0|0|0|0||SinSaw
+Poly-Mono||Sinkin|0|0|80111|0||Sinkin
+Poly-Mono||Silver Pieces|0|0|0|0||Silver Pieces
+Poly-Mono||Shine On|0|0|80111|0||Shine On
+Poly-Mono||Sequencabell|0|0|80111|0||Sequencabell
+Poly-Mono||Scram|0|0|80111|0||Scram
+Poly-Mono||Sawtoid|0|0|0|0||Sawtoid
+Poly-Mono||Sakral|0|0|80111|0||Sakral
+Poly-Mono||Ruck Pluckety|0|0|0|0||Ruck Pluckety
+Poly-Mono||RoundSaw2|0|0|0|0||RoundSaw2
+Poly-Mono||RoundSaw|0|0|0|0||RoundSaw
+Poly-Mono||Retro Lead|0|0|80111|0||Retro Lead
+Poly-Mono||Real3rd|0|0|0|0||Real3rd
+Poly-Mono||RavingSaw|0|0|80111|0||RavingSaw
+Poly-Mono||Rantallion|0|0|80111|0||Rantallion
+Poly-Mono||Radix|0|0|0|0||Radix
+Poly-Mono||QuiteSimply Big|0|0|80111|0||QuiteSimply Big
+Poly-Mono||Quack 9|0|0|80111|0||Quack 9
+Poly-Mono||Pure Silver|0|0|0|0||Pure Silver
+Poly-Mono||Pure Dope|0|0|0|0||Pure Dope
+Poly-Mono||PR Clip|0|0|80111|0||PR Clip
+Poly-Mono||PowWow|0|0|80111|0||PowWow
+Poly-Mono||Power Pluck|0|0|80111|0||Power Pluck
+Poly-Mono||Popcorn Strange|0|0|0|0||Popcorn Strange
+Poly-Mono||Popcorn Pop|0|0|0|0||Popcorn Pop
+Poly-Mono||Poly-Mono (Bulk Samples)|0|0|80111|0||Poly-Mono (Bulk Samples)
+Poly-Mono||Poly Horny|0|0|80111|0||Poly Horny
+Poly-Mono||Poly Dance|0|0|80111|0||Poly Dance
+Poly-Mono||Plucker|0|0|80111|0||Plucker
+Poly-Mono||Plead The 5th|0|0|0|0||Plead The 5th
+Poly-Mono||Plaid Suck|0|0|0|0||Plaid Suck
+Poly-Mono||PerpySaw|0|0|0|0||PerpySaw
+Poly-Mono||Perky Synth|0|0|80111|0||Perky Synth
+Poly-Mono||Perky Pop|0|0|0|0||Perky Pop
+Poly-Mono||P6 Poly Pro|0|0|0|0||P6 Poly Pro
+Poly-Mono||P6 Brass|0|0|0|0||P6 Brass
+Poly-Mono||Original Corn|0|0|0|0||Original Corn
+Poly-Mono||Orgodd|0|0|80111|0||Orgodd
+Poly-Mono||OrganMode5|0|0|0|0||OrganMode5
+Poly-Mono||OrganMode4|0|0|0|0||OrganMode4
+Poly-Mono||OrganMode3|0|0|0|0||OrganMode3
+Poly-Mono||OrganMode2|0|0|0|0||OrganMode2
+Poly-Mono||OrganMode1|0|0|0|0||OrganMode1
+Poly-Mono||One More Pop|0|0|0|0||One More Pop
+Poly-Mono||OhmD|0|0|0|0||OhmD
+Poly-Mono||Not Another ARP|0|0|0|0||Not Another ARP
+Poly-Mono||Nice Dreams|0|0|80111|0||Nice Dreams
+Poly-Mono||Nerd|0|0|80111|0||Nerd
+Poly-Mono||Murderers Line|0|0|80111|0||Murderers Line
+Poly-Mono||Multi Staccato|0|0|80111|0||Multi Staccato
+Poly-Mono||MS20 PW|0|0|0|0||MS20 PW
+Poly-Mono||MS20 LngFilterSweep|0|0|80111|0||MS20 LngFilterSweep
+Poly-Mono||Moon Synth|0|0|80111|0||Moon Synth
+Poly-Mono||Moog Pro Lead|0|0|80111|0||Moog Pro Lead
+Poly-Mono||Moog MG Fsquares|0|0|0|0||Moog MG Fsquares
+Poly-Mono||Moog MG Classic|0|0|0|0||Moog MG Classic
+Poly-Mono||Moog Love Lead|0|0|80111|0||Moog Love Lead
+Poly-Mono||Moog DetSawSq|0|0|80111|0||Moog DetSawSq
+Poly-Mono||Moog Classic Filter|0|0|0|0||Moog Classic Filter
+Poly-Mono||MonoPoly PulseWidth|0|0|0|0||MonoPoly PulseWidth
+Poly-Mono||MonoPoly LSA|0|0|80111|0||MonoPoly LSA
+Poly-Mono||MonCuir|0|0|0|0||MonCuir
+Poly-Mono||MKorgSynBass2|0|0|0|0||MKorgSynBass2
+Poly-Mono||MKorgSynBass1|0|0|0|0||MKorgSynBass1
+Poly-Mono||MKorgSquare1|0|0|0|0||MKorgSquare1
+Poly-Mono||MKorg Saw 1|0|0|0|0||MKorg Saw 1
+Poly-Mono||MicroMod|0|0|80111|0||MicroMod
+Poly-Mono||Martian Pad|0|0|80111|0||Martian Pad
+Poly-Mono||Main Theme|0|0|0|0||Main Theme
+Poly-Mono||Low Bass|0|0|0|0||Low Bass
+Poly-Mono||LeadFruityFloot|0|0|80111|0||LeadFruityFloot
+Poly-Mono||LeadArc_01|0|0|0|0||LeadArc_01
+Poly-Mono||Lead Sample|0|0|80111|0||Lead Sample
+Poly-Mono||JustSquare|0|0|0|0||JustSquare
+Poly-Mono||Just Sweet Bass|0|0|80111|0||Just Sweet Bass
+Poly-Mono||Jumentus|0|0|80111|0||Jumentus
+Poly-Mono||JarrHead|0|0|80111|0||JarrHead
+Poly-Mono||Hoovered|0|0|80111|0||Hoovered
+Poly-Mono||HardSaw|0|0|0|0||HardSaw
+Poly-Mono||Happy Sync|0|0|80111|0||Happy Sync
+Poly-Mono||GSQ Pad 4|0|0|80111|0||GSQ Pad 4
+Poly-Mono||GSQ Pad 1|0|0|80111|0||GSQ Pad 1
+Poly-Mono||GrokBass|0|0|80111|0||GrokBass
+Poly-Mono||GodDamn|0|0|80111|0||GodDamn
+Poly-Mono||Full P|0|0|80111|0||Full P
+Poly-Mono||Fizzer|0|0|0|0||Fizzer
+Poly-Mono||Euro 2004|0|0|80111|0||Euro 2004
+Poly-Mono||Electric Reed|0|0|80111|0||Electric Reed
+Poly-Mono||Dwequel|0|0|80111|0||Dwequel
+Poly-Mono||DW8 DPL Synth|0|0|80111|0||DW8 DPL Synth
+Poly-Mono||Digitize|0|0|0|0||Digitize
+Poly-Mono||Digital Desert|0|0|80111|0||Digital Desert
+Poly-Mono||Digital Brak|0|0|0|0||Digital Brak
+Poly-Mono||DigiSaw1|0|0|0|0||DigiSaw1
+Poly-Mono||DigiBliss|0|0|0|0||DigiBliss
+Poly-Mono||Diggity Dugg|0|0|80111|0||Diggity Dugg
+Poly-Mono||Derty Baby|0|0|80111|0||Derty Baby
+Poly-Mono||Delta Mix|0|0|0|0||Delta Mix
+Poly-Mono||DeBasser|0|0|80111|0||DeBasser
+Poly-Mono||DeathStar|0|0|80111|0||DeathStar
+Poly-Mono||Dark Brass|0|0|80111|0||Dark Brass
+Poly-Mono||Dancin Yall|0|0|80111|0||Dancin Yall
+Poly-Mono||D2A|0|0|0|0||D2A
+Poly-Mono||Cutting|0|0|80111|0||Cutting
+Poly-Mono||Corn Mod|0|0|0|0||Corn Mod
+Poly-Mono||Complex Sequencer|0|0|0|0||Complex Sequencer
+Poly-Mono||Chronus Saw|0|0|0|0||Chronus Saw
+Poly-Mono||Chronus Saw 2|0|0|0|0||Chronus Saw 2
+Poly-Mono||Chacid Beeper|0|0|0|0||Chacid Beeper
+Poly-Mono||Brass Chill|0|0|80111|0||Brass Chill
+Poly-Mono||Black Bass|0|0|0|0||Black Bass
+Poly-Mono||Biggest Saw|0|0|80111|0||Biggest Saw
+Poly-Mono||BigDipSin|0|0|0|0||BigDipSin
+Poly-Mono||Belly Dancer|0|0|0|0||Belly Dancer
+Poly-Mono||Back Asswards|0|0|0|0||Back Asswards
+Poly-Mono||Awe Square|0|0|80111|0||Awe Square
+Poly-Mono||Arpeg303s|0|0|0|0||Arpeg303s
+Poly-Mono||April|0|0|80111|0||April
+Poly-Mono||Apple|0|0|0|0||Apple
+Poly-Mono||Angry Saw|0|0|80111|0||Angry Saw
+Poly-Mono||Alpine Horn|0|0|0|0||Alpine Horn
+Poly-Mono||Ablutophobic|0|0|80111|0||Ablutophobic
+Poly-Mono||8Dv Chorus Synth|0|0|0|0||8Dv Chorus Synth
+Poly-Mono||770 Ring Mod|0|0|0|0||770 Ring Mod
+Poly-Mono||700DetunedChorus|0|0|0|0||700DetunedChorus
+Poly-Mono||700 Paralells|0|0|0|0||700 Paralells
+Poly-Mono||700 Paralells 2|0|0|0|0||700 Paralells 2
+Poly-Mono||700 Duet|0|0|0|0||700 Duet
+Poly-Mono||5Deep|0|0|80111|0||5Deep
+Poly-Mono||3100 Synth 1|0|0|80111|0||3100 Synth 1
+Poly-Mono||3100 Poly Synth|0|0|80111|0||3100 Poly Synth
+Poly-Mono||2Dutch4U|0|0|80111|0||2Dutch4U
+Poly-Mono||20th Century FoxPad|0|0|0|0||20th Century FoxPad
+RealDrumkits||RealDrumkits (Bulk Samples)|0|0|80104|0||RealDrumkits (Bulk Samples)
+SFX||SFX (Bulk Samples)1|0|0|80117|0||SFX (Bulk Samples)1
+SFX||SFX (Bulk Samples)2|0|0|80117|0||SFX (Bulk Samples)2
+SlicedBeats||SlicedBeats (Bulk Samples)|0|0|80105|0||SlicedBeats (Bulk Samples)
+SlicedBeats||Haloplex_free|0|0|0|0||Haloplex_free
+SlicedBeats||SeedyA_free|0|0|0|0||SeedyA_free
+SlicedBeats||CPUSkool_free|0|0|0|0||CPUSkool_free
+Sounds Of India||India Saxophone|0|0|80121|0||India Saxophone
+Sounds Of India||India Shenai Reed_free|0|0|80121|0||India Shenai Reed_free
+Sounds Of India||India Sitar|0|0|80121|0||India Sitar
+Sounds Of India||India Steel Drum|0|0|80121|0||India Steel Drum
+Sounds Of India||India Surmandal|0|0|80121|0||India Surmandal
+Sounds Of India||India Tabla|0|0|80121|0||India Tabla
+Sounds Of India||India Talam|0|0|80121|0||India Talam
+Sounds Of India||India Tanpura|0|0|80121|0||India Tanpura
+Sounds Of India||India Tape Drum|0|0|80121|0||India Tape Drum
+Sounds Of India||India Temple Sounds|0|0|80121|0||India Temple Sounds
+Sounds Of India||India Thavil|0|0|80121|0||India Thavil
+Sounds Of India||India Udu|0|0|0|0||India Udu
+Sounds Of India||India Key Flute|0|0|80121|0||India Key Flute
+Sounds Of India||India Maddalam|0|0|80121|0||India Maddalam
+Sounds Of India||India Male Chant|0|0|80121|0||India Male Chant
+Sounds Of India||India Mandolin|0|0|80121|0||India Mandolin
+Sounds Of India||India Basin Drum|0|0|80121|0||India Basin Drum
+Sounds Of India||India Violin|0|0|80121|0||India Violin
+Sounds Of India||India Nadswaram|0|0|80121|0||India Nadswaram
+Sounds Of India||India Ganjira|0|0|80121|0||India Ganjira
+Sounds Of India||India Ghungroo|0|0|80121|0||India Ghungroo
+Sounds Of India||India Harmonium|0|0|80121|0||India Harmonium
+Sounds Of India||India Khartal|0|0|80121|0||India Khartal
+Sounds Of India||India Bamboo Flute|0|0|80121|0||India Bamboo Flute
+Sounds Of India||India Bongo|0|0|0|0||India Bongo
+Sounds Of India||India Udukku_free|0|0|80121|0||India Udukku_free
+Sounds Of India||India Veena|0|0|80121|0||India Veena
+Sounds Of India||India Moursing|0|0|80121|0||India Moursing
+Sounds Of India||India Chenda_free|0|0|80121|0||India Chenda_free
+Sounds Of India||India Clarinet|0|0|80121|0||India Clarinet
+Sounds Of India||India Darbuka|0|0|80121|0||India Darbuka
+Sounds Of India||India Dholak|0|0|80121|0||India Dholak
+Sounds Of India||India Mridungam|0|0|80121|0||India Mridungam
+Sounds Of India||India Djembe|0|0|80121|0||India Djembe
+Sounds Of India||India Duff|0|0|80121|0||India Duff
+Sounds Of India||India Edakka|0|0|80121|0||India Edakka
+Sounds Of India||India Elathalam_free|0|0|80121|0||India Elathalam_free
+Sounds Of India||India Female Chant|0|0|80121|0||India Female Chant
+SuperDrums8000||SuperDrums8000 (Bulk Samples)|0|0|80106|0||SuperDrums8000 (Bulk Samples)
+TheLoFiBox||TheLoFiBox (Bulk Samples)|0|0|80107|0||TheLoFiBox (Bulk Samples)
+TheLoFiBox||LoFi Kit002_free|0|0|0|0||LoFi Kit002_free
+TheLoFiBox||LoFi Kit001_free|0|0|0|0||LoFi Kit001_free
+TouchPads||Fat Sweep|0|0|80114|0||Fat Sweep
+TouchPads||5s Alive|0|0|80114|0||5s Alive
+TouchPads||Al Pro|0|0|80114|0||Al Pro
+TouchPads||AnaHog|0|0|80114|0||AnaHog
+TouchPads||AweSquare|0|0|80114|0||AweSquare
+TouchPads||Babtism|0|0|80114|0||Babtism
+TouchPads||Beeped|0|0|80114|0||Beeped
+TouchPads||Calling|0|0|80114|0||Calling
+TouchPads||Dark Brass|0|0|0|0||Dark Brass_0
+TouchPads||Harsh|0|0|0|0||Harsh
+TouchPads||Held4Sec_130Bpm|0|0|80114|0||Held4Sec_130Bpm
+TouchPads||Jacknife|0|0|80114|0||Jacknife
+TouchPads||Jup8|0|0|80114|0||Jup8
+TouchPads||JupitersMoons|0|0|80114|0||JupitersMoons
+TouchPads||Lavation|0|0|0|0||Lavation
+TouchPads||LeanSweep|0|0|80114|0||LeanSweep
+TouchPads||Freak Sweep|0|0|80114|0||Freak Sweep
+TouchPads||Frappy|0|0|80114|0||Frappy
+TouchPads||Liquid Skye|0|0|80114|0||Liquid Skye
+TouchPads||Mellow|0|0|80114|0||Mellow
+TouchPads||MoogBrass|0|0|80114|0||MoogBrass
+TouchPads||Normal|0|0|80114|0||Normal
+TouchPads||Novatorium|0|0|80114|0||Novatorium
+TouchPads||ObGyN|0|0|80114|0||ObGyN
+TouchPads||Padagra|0|0|80114|0||Padagra
+TouchPads||PolyHorn|0|0|80114|0||PolyHorn
+TouchPads||SawMen|0|0|80114|0||SawMen
+TouchPads||ThatsSomeSweep|0|0|80114|0||ThatsSomeSweep
+TouchPads||The5th|0|0|80114|0||The5th
+TouchPads||TouchPads (Bulk Samples)|0|0|80114|0||TouchPads (Bulk Samples)
+TouchPads||Villainy|0|0|80114|0||Villainy
+TouchPads||Warming|0|0|80114|0||Warming
+TouchPads||Xample|0|0|80114|0||Xample
+TouchPads||Xgen|0|0|80114|0||Xgen
+TouchPads||FugU2|0|0|80114|0||FugU2
+TouchPads||Groaner|0|0|80114|0||Groaner
+TouchPads||Dark Faeiries|0|0|80114|0||Dark Faeiries
+TouchPads||Dawns Dusk|0|0|80114|0||Dawns Dusk
+TouchPads||Digital Digeri|0|0|80114|0||Digital Digeri
+TouchPads||Fantasy|0|0|80114|0||Fantasy
+VarazdinOrchestral|ContraBass|ContraBass Trills|0|0|80118|3||ContraBass Trills
+VarazdinOrchestral|ContraBass|ContraBass Tremolo|0|0|80118|3||ContraBass Tremolo
+VarazdinOrchestral|ContraBass|ContraBass Specato|0|0|80118|3||ContraBass Specato
+VarazdinOrchestral|ContraBass|ContraBass Ricochet|0|0|80118|3||ContraBass Ricochet
+VarazdinOrchestral|ContraBass|ContraBass Marcato|0|0|80118|3||ContraBass Marcato
+VarazdinOrchestral|Contra Bassoon|ContraBassoonVib|0|0|80118|3||ContraBassoonVib
+VarazdinOrchestral|Contra Bassoon|ContraBassoonStacato|0|0|0|3||ContraBassoonStacato
+VarazdinOrchestral|Contra Bassoon|ContraBassoonPortato|0|0|80118|3||ContraBassoonPortato
+VarazdinOrchestral|Contra Bassoon|ContraBassoonLong|0|0|80118|3||ContraBassoonLong
+VarazdinOrchestral|Clarinet|b Clarinet-Cresc Dim|0|0|80118|3||b Clarinet-Cresc Dim
+VarazdinOrchestral|Clarinet|b Clarinet Stacato_free|0|0|0|3||b Clarinet Stacato_free
+VarazdinOrchestral|Clarinet|b Clarinet Portato|0|0|0|3||b Clarinet Portato
+VarazdinOrchestral|Clarinet|b Clarinet PianoMarc|0|0|80118|3||b Clarinet PianoMarc
+VarazdinOrchestral|Clarinet|b Clarinet Long|0|0|80118|3||b Clarinet Long
+VarazdinOrchestral|Clarinet|b Clarinet Fortepian|0|0|80118|3||b Clarinet Fortepian
+VarazdinOrchestral|Vibraphone|Vibraphone Mute|0|0|80118|3||Vibraphone Mute
+VarazdinOrchestral|Church Organ|Organ II Manual|0|0|80118|3||Organ II Manual
+VarazdinOrchestral|Church Organ|ChurchOrganPrincipal|0|0|80118|3||ChurchOrganPrincipal
+VarazdinOrchestral|Church Organ|ChurchOrganPedal|0|0|80118|3||ChurchOrganPedal
+VarazdinOrchestral|Church Organ|Church Organ Forte|0|0|80118|3||Church Organ Forte
+VarazdinOrchestral|Chamber Strings|Strings Vibrato|0|0|80118|1||Strings Vibrato
+VarazdinOrchestral|Chamber Strings|Strings Spiccato|0|0|80118|1||Strings Spiccato
+VarazdinOrchestral|Chamber Strings|Strings Pizzicato|0|0|80118|1||Strings Pizzicato
+VarazdinOrchestral|Chamber Strings|Strings Marcato|0|0|80118|1||Strings Marcato
+VarazdinOrchestral|Chamber Strings|Strings Long|0|0|80118|1||Strings Long
+VarazdinOrchestral|Cello|Cello-Vibrato|0|0|80118|3||Cello-Vibrato
+VarazdinOrchestral|Vibraphone|Vibraphone Long|0|0|80118|3||Vibraphone Long
+VarazdinOrchestral|Vibraphone|Vibraphone Dumped|0|0|80118|3||Vibraphone Dumped
+VarazdinOrchestral|Tuba|TubaFortepiano|0|0|80118|3||TubaFortepiano
+VarazdinOrchestral|Tuba|TubaCrescDiminendo|0|0|80118|3||TubaCrescDiminendo
+VarazdinOrchestral|Tuba|Tuba Straight_free|0|0|80118|3||Tuba Straight_free
+VarazdinOrchestral|Tuba|Tuba Staccato|0|0|0|3||Tuba Staccato
+VarazdinOrchestral|Tuba|Tuba Long|0|0|80118|3||Tuba Long
+VarazdinOrchestral|Trumpet|TrumpetVibrato|0|0|80118|3||TrumpetVibrato
+VarazdinOrchestral|Trumpet|TrumpetStaccato_free|0|0|80118|3||TrumpetStaccato_free
+VarazdinOrchestral|Trumpet|TrumpetFortepiano|0|0|80118|3||TrumpetFortepiano
+VarazdinOrchestral|Trumpet|TrumpetCres-Diminu|0|0|80118|3||TrumpetCres-Diminu
+VarazdinOrchestral|Trumpet|Trumpet Long|0|0|80118|3||Trumpet Long
+VarazdinOrchestral|Trombone|TromboneVibrato|0|0|80118|3||TromboneVibrato
+VarazdinOrchestral|Trombone|TromboneStaccato_free|0|0|0|3||TromboneStaccato_free
+VarazdinOrchestral|Trombone|TrombonePortato|0|0|80118|3||TrombonePortato
+VarazdinOrchestral|Trombone|TromboneMutedLong|0|0|80118|3||TromboneMutedLong
+VarazdinOrchestral|Trombone|TromboneLong|0|0|80118|3||TromboneLong
+VarazdinOrchestral|Trombone|TromboneGlishalfton|0|0|80118|3||TromboneGlishalfton
+VarazdinOrchestral|Timpani|TimpaniSlowCresendo|0|0|80118|3||TimpaniSlowCresendo
+VarazdinOrchestral|Timpani|TimpaniSforzatoRoll|0|0|80118|3||TimpaniSforzatoRoll
+VarazdinOrchestral|Timpani|TimpaniRollAndRoll|0|0|80118|3||TimpaniRollAndRoll
+VarazdinOrchestral|Timpani|TimpaniHitsStop|0|0|80118|3||TimpaniHitsStop
+VarazdinOrchestral|Timpani|TimpaniFastRoll cr|0|0|80118|3||TimpaniFastRoll cr
+VarazdinOrchestral|Timpani|TimpaniCresDec|0|0|80118|3||TimpaniCresDec
+VarazdinOrchestral|Tenor Sax|Tenor Sax-Stacato|0|0|0|3||Tenor Sax-Stacato
+VarazdinOrchestral|Tenor Sax|Tenor Sax-Portato_free|0|0|80118|3||Tenor Sax-Portato_free
+VarazdinOrchestral|Tenor Sax|Tenor Sax-Marcato|0|0|80118|3||Tenor Sax-Marcato
+VarazdinOrchestral|Tenor Sax|Tenor Sax-Long|0|0|80118|3||Tenor Sax-Long
+VarazdinOrchestral|Tenor Sax|Tenor Sax-Fortepiano|0|0|80118|3||Tenor Sax-Fortepiano
+VarazdinOrchestral|Soprano Sax|Sprno Sax-Vibrato|0|0|80118|3||Sprno Sax-Vibrato
+VarazdinOrchestral|Soprano Sax|Sprno Sax-Triller|0|0|80118|3||Sprno Sax-Triller
+VarazdinOrchestral|Soprano Sax|Sprno Sax-Stacato|0|0|0|3||Sprno Sax-Stacato
+VarazdinOrchestral|Soprano Sax|Sprno Sax-Portato_free|0|0|80118|3||Sprno Sax-Portato_free
+VarazdinOrchestral|Soprano Sax|Sprno Sax-PianoMarcato|0|0|80118|3||Sprno Sax-PianoMarcato
+VarazdinOrchestral|Alto Clarinet|Alto Clarinet-ForteP|0|0|80118|3||Alto Clarinet-ForteP
+VarazdinOrchestral|Alto Clarinet|Alto Clarinet-Long|0|0|80118|3||Alto Clarinet-Long
+VarazdinOrchestral|Alto Clarinet|Alto Clarinet-Portat|0|0|80118|3||Alto Clarinet-Portat
+VarazdinOrchestral|Alto Clarinet|Alto Clarinet-Portato_free|0|0|80118|3||Alto Clarinet-Portato_free
+VarazdinOrchestral|Alto Clarinet|Alto Clarinet-Vibrat|0|0|80118|3||Alto Clarinet-Vibrat
+VarazdinOrchestral|Alto Sax|Alt Sax Long|0|0|80118|3||Alt Sax Long
+VarazdinOrchestral|Alto Sax|Alt Sax-Crescendo|0|0|80118|3||Alt Sax-Crescendo
+VarazdinOrchestral|Alto Sax|Alt Sax-Fortepiano|0|0|80118|3||Alt Sax-Fortepiano
+VarazdinOrchestral|Alto Sax|Alt Sax-Portato|0|0|0|3||Alt Sax-Portato
+VarazdinOrchestral|Soprano Sax|Sprno Sax-Long|0|0|80118|3||Sprno Sax-Long
+VarazdinOrchestral|Viola|Viola Ricochet II|0|0|80118|3||Viola Ricochet II
+VarazdinOrchestral|Viola|Viola Muted|0|0|80118|3||Viola Muted
+VarazdinOrchestral|Viola|Viola Marcato_free|0|0|80118|3||Viola Marcato_free
+VarazdinOrchestral|Viola|Viola Long|0|0|80118|3||Viola Long
+VarazdinOrchestral|Vibraphone|VibraphoneSlowVibra|0|0|80118|3||VibraphoneSlowVibra
+VarazdinOrchestral|Vibraphone|VibraphoneMidVibra|0|0|80118|3||VibraphoneMidVibra
+VarazdinOrchestral|Vibraphone|VibraphoneFastVibra|0|0|80118|3||VibraphoneFastVibra
+VarazdinOrchestral|Baritone|BaritonePortato|0|0|80118|3||BaritonePortato
+VarazdinOrchestral|Baritone|BaritoneStaccato|0|0|0|3||BaritoneStaccato
+VarazdinOrchestral|Baritone|BaritoneVibrato|0|0|80118|3||BaritoneVibrato
+VarazdinOrchestral|Baritone Sax|Baritone Sax-Dim|0|0|80118|3||Baritone Sax-Dim
+VarazdinOrchestral|Baritone Sax|Baritone Sax-Long|0|0|80118|3||Baritone Sax-Long
+VarazdinOrchestral|Baritone Sax|Baritone Sax-Stacc_free|0|0|0|3||Baritone Sax-Stacc_free
+VarazdinOrchestral|Baritone Sax|Baritone Sax-Vibrato|0|0|80118|3||Baritone Sax-Vibrato
+VarazdinOrchestral|Bass Clarinet|Bass Clarinet Long|0|0|80118|3||Bass Clarinet Long
+VarazdinOrchestral|Bass Clarinet|Bass Clarinet Port_free|0|0|80118|3||Bass Clarinet Port_free
+VarazdinOrchestral|Bass Clarinet|Bass Clarinet Stacc|0|0|80118|3||Bass Clarinet Stacc
+VarazdinOrchestral|Bass Clarinet|Bass Clarinet Vibr|0|0|80118|3||Bass Clarinet Vibr
+VarazdinOrchestral|Bass Trombone|BassTromboneFall|0|0|0|3||BassTromboneFall
+VarazdinOrchestral|Bass Trombone|BassTromboneGlissUp|0|0|80118|3||BassTromboneGlissUp
+VarazdinOrchestral|Soprano Sax|Sprno Sax-Cresc-Dimi|0|0|80118|3||Sprno Sax-Cresc-Dimi
+VarazdinOrchestral|Piccolo Trumpet|PiccoloTrumpetVib|0|0|80118|3||PiccoloTrumpetVib
+VarazdinOrchestral|Piccolo Trumpet|PiccoloTrumpetStac_free|0|0|0|3||PiccoloTrumpetStac_free
+VarazdinOrchestral|Piccolo Trumpet|PiccoloTrumpetLong|0|0|80118|3||PiccoloTrumpetLong
+VarazdinOrchestral|Piccolo Trumpet|PiccoloTrumpetFP|0|0|80118|3||PiccoloTrumpetFP
+VarazdinOrchestral|Piccolo Trumpet|PiccoloTrumpetCresDim|0|0|80118|3||PiccoloTrumpetCresDim
+VarazdinOrchestral|Oboe|Oboe Vibrato|0|0|80118|3||Oboe Vibrato
+VarazdinOrchestral|Oboe|Oboe Stacato_free|0|0|0|3||Oboe Stacato_free
+VarazdinOrchestral|Oboe|Oboe Stacato|0|0|0|3||Oboe Stacato
+VarazdinOrchestral|Oboe|Oboe Portato|0|0|80118|3||Oboe Portato
+VarazdinOrchestral|Bass Trombone|BassTromboneLong|0|0|80118|3||BassTromboneLong
+VarazdinOrchestral|Bass Trombone|BassTrombonePorta|0|0|80118|3||BassTrombonePorta
+VarazdinOrchestral|Bass Trombone|BassTromboneStacato|0|0|0|3||BassTromboneStacato
+VarazdinOrchestral|Bass Trombone|BassTromboneVibrato|0|0|80118|3||BassTromboneVibrato
+VarazdinOrchestral|Bassoon|Bassoon Decrescendo|0|0|80118|3||Bassoon Decrescendo
+VarazdinOrchestral|Bassoon|Bassoon Long|0|0|80118|3||Bassoon Long
+VarazdinOrchestral|Bassoon|Bassoon Stacato_free|0|0|0|3||Bassoon Stacato_free
+VarazdinOrchestral|Bassoon|Bassoon Vibrato|0|0|80118|3||Bassoon Vibrato
+VarazdinOrchestral|Cello|Cello-Long|0|0|80118|3||Cello-Long
+VarazdinOrchestral|Cello|Cello-Marcato_free|0|0|80118|3||Cello-Marcato_free
+VarazdinOrchestral|Cello|Cello-Pizzicato_free|0|0|80118|3||Cello-Pizzicato_free
+VarazdinOrchestral|Cello|Cello-Ricochet|0|0|80118|3||Cello-Ricochet
+VarazdinOrchestral|Cello|Cello-Specato|0|0|80118|3||Cello-Specato
+VarazdinOrchestral|Cello|Cello-Tremolo|0|0|80118|3||Cello-Tremolo
+VarazdinOrchestral|Cello|Cello-Trill a|0|0|80118|3||Cello-Trill a
+VarazdinOrchestral|Cello|Cello-Trill b|0|0|80118|3||Cello-Trill b
+VarazdinOrchestral|Oboe|Oboe Long|0|0|80118|3||Oboe Long
+VarazdinOrchestral|Oboe|Oboe Fortepiano|0|0|80118|3||Oboe Fortepiano
+VarazdinOrchestral|Oboe|Oboe Crescendo|0|0|80118|3||Oboe Crescendo
+VarazdinOrchestral|French Horn|FrenchHornVibrato|0|0|80118|3||FrenchHornVibrato
+VarazdinOrchestral|French Horn|FrenchHornStacato_free|0|0|0|3||FrenchHornStacato_free
+VarazdinOrchestral|French Horn|FrenchHornPortato|0|0|80118|3||FrenchHornPortato
+VarazdinOrchestral|French Horn|FrenchHornLong|0|0|80118|3||FrenchHornLong
+VarazdinOrchestral|French Horn|FrenchHornDiminuendo|0|0|80118|3||FrenchHornDiminuendo
+VarazdinOrchestral|Flutes|Piccolo-Vibrato|0|0|80118|3||Piccolo-Vibrato
+VarazdinOrchestral|Flutes|Piccolo-Stacato_free|0|0|0|3||Piccolo-Stacato_free
+VarazdinOrchestral|Flutes|Piccolo-Portato|0|0|80118|3||Piccolo-Portato
+VarazdinOrchestral|Flutes|Piccolo-Long|0|0|80118|3||Piccolo-Long
+VarazdinOrchestral|Flutes|Flute Vibrato|0|0|80118|3||Flute Vibrato
+VarazdinOrchestral|Flutes|Flute Staccato_free|0|0|0|3||Flute Staccato_free
+VarazdinOrchestral|Flutes|Flute Sforzato|0|0|80118|3||Flute Sforzato
+VarazdinOrchestral|Flutes|Flute Long|0|0|80118|3||Flute Long
+VarazdinOrchestral|Flutes|bFlute-Vibrato|0|0|80118|3||bFlute-Vibrato
+VarazdinOrchestral|Flutes|bFlute-Sforzato|0|0|80118|3||bFlute-Sforzato
+VarazdinOrchestral|Flutes|bFlute-Long|0|0|80118|3||bFlute-Long
+VarazdinOrchestral|Flutes|bFlute-Flutter|0|0|80118|3||bFlute-Flutter
+VarazdinOrchestral|English Horn|EnglishHornVibrato|0|0|80118|3||EnglishHornVibrato
+VarazdinOrchestral|English Horn|EnglishHornStacato|0|0|0|3||EnglishHornStacato
+VarazdinOrchestral|English Horn|EnglishHornPortato|0|0|80118|3||EnglishHornPortato
+VarazdinOrchestral|English Horn|EnglishHornLong|0|0|80118|3||EnglishHornLong
+VarazdinOrchestral|English Horn|EnglishHornCresendo|0|0|80118|3||EnglishHornCresendo
+VarazdinOrchestral|Double Bass|Double Bass Vibrato|0|0|80118|1||Double Bass Vibrato
+VarazdinOrchestral|Double Bass|Double Bass Tremolo|0|0|80118|1||Double Bass Tremolo
+VarazdinOrchestral|Double Bass|Double Bass Stacato|0|0|80118|1||Double Bass Stacato
+VarazdinOrchestral|Double Bass|Double Bass Portato|0|0|80118|1||Double Bass Portato
+VarazdinOrchestral|Double Bass|Double Bass Pizzicat|0|0|80118|1||Double Bass Pizzicat
+VarazdinOrchestral|Double Bass|Double Bass Long|0|0|80118|1||Double Bass Long
+VarazdinOrchestral|Cymbals|Splash|0|0|80118|3||Splash
+VarazdinOrchestral|Cymbals|Ride Earth|0|0|80118|3||Ride Earth
+VarazdinOrchestral|Cymbals|RIDE 3BEL|0|0|80118|3||RIDE 3BEL
+VarazdinOrchestral|Cymbals|Marching Cymbal|0|0|80118|3||Marching Cymbal
+VarazdinOrchestral|Cymbals|Crash|0|0|80118|3||Crash
+VarazdinOrchestral|Contrabass Tuba|ContrabasTubaStraight_free|0|0|80118|3||ContrabasTubaStraight_free
+VarazdinOrchestral|Contrabass Tuba|ContrabasTubaStacc|0|0|80118|3||ContrabasTubaStacc
+VarazdinOrchestral|Contrabass Tuba|ContrabasTubaLong|0|0|80118|3||ContrabasTubaLong
+VarazdinOrchestral|Contrabass Tuba|CntrabasTubaFortePia|0|0|80118|3||CntrabasTubaFortePia
+VarazdinOrchestral|Contrabass Tuba|CntrabasTubaCrescDim|0|0|80118|3||CntrabasTubaCrescDim
+VarazdinOrchestral|ContraBass|ContrBass Long|0|0|80118|3||ContrBass Long
+VarazdinOrchestral|ContraBass|ContraBass Vibrato|0|0|80118|3||ContraBass Vibrato
+VarazdinOrchestral|Violin II|Violin Vibrato II|0|0|80118|3||Violin Vibrato II
+VarazdinOrchestral|Violin II|Violin Tremolo II|0|0|80118|3||Violin Tremolo II
+VarazdinOrchestral|Violin II|Violin Stacato II|0|0|80118|3||Violin Stacato II
+VarazdinOrchestral|Violin II|Violin Pizicatto II|0|0|80118|3||Violin Pizicatto II
+VarazdinOrchestral|Violin II|Violin Long II|0|0|80118|3||Violin Long II
+VarazdinOrchestral|Violin II|Violin Long II multi|0|0|80118|3||Violin Long II multi
+VarazdinOrchestral|Violin|Violin-Whole Trills|0|0|80118|3||Violin-Whole Trills
+VarazdinOrchestral|Soprano Sax|Sprno Sax-Fortepiano|0|0|80118|3||Sprno Sax-Fortepiano
+VarazdinOrchestral|Violin|Violin-Vibrato|0|0|80118|3||Violin-Vibrato
+VarazdinOrchestral|Violin|Violin-Tremolo|0|0|80118|3||Violin-Tremolo
+VarazdinOrchestral|Violin|Violin-Specato|0|0|80118|3||Violin-Specato
+VarazdinOrchestral|Violin|Violin-Ricochet|0|0|80118|3||Violin-Ricochet
+VarazdinOrchestral|Violin|Violin-Pizicato|0|0|80118|3||Violin-Pizicato
+VarazdinOrchestral|Violin|Violin-Marcato_free|0|0|80118|3||Violin-Marcato_free
+VarazdinOrchestral|Violin|Violin-Long|0|0|80118|3||Violin-Long
+VarazdinOrchestral|Alto Sax|Alt Sax-Portato_free|0|0|80118|3||Alt Sax-Portato_free
+VarazdinOrchestral|Alto Sax|Alt Sax-Staccato|0|0|0|3||Alt Sax-Staccato
+VarazdinOrchestral|Alto Sax|Alt Sax-Vibrato|0|0|80118|3||Alt Sax-Vibrato
+VarazdinOrchestral|Baritone|BaritoneLong|0|0|80118|3||BaritoneLong
+VarazdinOrchestral|Violin|Violin-Half Trills|0|0|80118|3||Violin-Half Trills
+VarazdinOrchestral|Viola II|Viola II Vibrato|0|0|80118|1||Viola II Vibrato
+VarazdinOrchestral|Viola II|Viola II Tremelo_free|0|0|80118|1||Viola II Tremelo_free
+VarazdinOrchestral|Viola II|Viola II Specato|0|0|80118|1||Viola II Specato
+VarazdinOrchestral|Viola II|Viola II Pizzicato|0|0|80118|1||Viola II Pizzicato
+VarazdinOrchestral|Viola II|Viola II Long|0|0|80118|1||Viola II Long
+VarazdinOrchestral|Viola|Viola Vibrato|0|0|80118|3||Viola Vibrato
+VarazdinOrchestral|Viola|Viola Tremolo|0|0|80118|3||Viola Tremolo
+VarazdinOrchestral|Viola|Viola Specato_free|0|0|80118|3||Viola Specato_free
+VarazdinOrchestral|Viola|Viola Ricochet|0|0|80118|3||Viola Ricochet
+VarazdinOrchestral|Viola|Viola Pizzicato|0|0|0|3||Viola Pizzicato
+VocalSampleCD||VocalSampleCD (bulk samples)|0|0|80115|1||VocalSampleCD (bulk samples)
+World|Plucked|Psaltry Picked|0|0|80108|1||Psaltry Picked
+World|Perc|Arabian Kit 2|0|0|80108|1||Arabian Kit 2
+World|Perc|Asian Kit 1|0|0|80108|1||Asian Kit 1
+World|Perc|Asian Kit 2|0|0|80108|1||Asian Kit 2
+World|Perc|Bells and Things|0|0|80108|1||Bells and Things
+World|Perc|Big Bell|0|0|80108|1||Big Bell
+World|Perc|Chimes|0|0|80108|1||Chimes
+World|Perc|Chinese Cymbals|0|0|80108|1||Chinese Cymbals
+World|Perc|Dunu Bell|0|0|80108|1||Dunu Bell
+World|Perc|Ethnic Bell|0|0|80108|1||Ethnic Bell
+World|Perc|Japan Gong|0|0|80108|1||Japan Gong
+World|Perc|Latin 1|0|0|80108|1||Latin 1
+World|Perc|Surdo 1|0|0|80108|1||Surdo 1
+World|Perc|Tibeten Bell|0|0|80108|1||Tibeten Bell
+World|Perc|Windspiel and extra|0|0|80108|1||Windspiel and extra
+World|Horns and Wind|Bass Recorder(noisy)|0|0|0|1||Bass Recorder(noisy)
+World|Horns and Wind|Bavarian Accordian|0|0|80108|1||Bavarian Accordian
+World|Horns and Wind|Blues Harp|0|0|0|1||Blues Harp
+World|Horns and Wind|C-Recorder (dynamic)|0|0|80108|1||C-Recorder (dynamic)
+World|Horns and Wind|C-Recorder (Tongue)|0|0|80108|1||C-Recorder (Tongue)
+World|Horns and Wind|C-Recorder (Trill)|0|0|80108|1||C-Recorder (Trill)
+World|Horns and Wind|C-Recorder|0|0|80108|1||C-Recorder
+World|Horns and Wind|Bandoneon|0|0|0|1||Bandoneon
+World|Horns and Wind|Bagpipe Chanter|0|0|0|1||Bagpipe Chanter
+World|Horns and Wind|Bagpipe 1|0|0|0|1||Bagpipe 1
+World|Horns and Wind|Austrian Accordian|0|0|0|1||Austrian Accordian
+World|Horns and Wind|Alto Recorder|0|0|80108|1||Alto Recorder
+World|Horns and Wind|Diggeridoo|0|0|80108|1||Diggeridoo
+World|Horns and Wind|Dtna Noisy Attack Tenor|0|0|80108|1||Dtna Noisy Attack Tenor
+World|Horns and Wind|Alphorn Modulated|0|0|80108|1||Alphorn Modulated
+World|Horns and Wind|Alphorn Flat|0|0|80108|1||Alphorn Flat
+World|Plucked|Eastern Ensemble|0|0|80108|1||Eastern Ensemble
+World|Plucked|Ethnic Harp|0|0|0|1||Ethnic Harp
+World|Plucked|Jamisen|0|0|80108|1||Jamisen
+World|Plucked|Mandolin Plucker|0|0|0|1||Mandolin Plucker
+World|Wood Perc|YeaMan|0|0|0|1||YeaMan
+World|Wood Perc|Vibro|0|0|0|1||Vibro
+World|Wood Perc|Vibraphone|0|0|0|1||Vibraphone
+World|Wood Perc|Vibe|0|0|80108|1||Vibe
+World|Wood Perc|Tribal|0|0|80108|1||Tribal
+World|Wood Perc|Steel Drum|0|0|0|1||Steel Drum
+World|Wood Perc|PercUlV|0|0|0|1||PercUlV
+World|Wood Perc|PercUl|0|0|0|1||PercUl
+World|Wood Perc|Kalimba|0|0|0|1||Kalimba
+World|Wood Perc|IsleMallet|0|0|0|1||IsleMallet
+World|Plucked|Zither|0|0|0|1||Zither
+World|Plucked|Spanish Guitar1|0|0|0|1||Spanish Guitar1
+World|Plucked|Spanish Guitar 3|0|0|80108|1||Spanish Guitar 3
+World|Plucked|Spanish Guitar 2|0|0|80108|1||Spanish Guitar 2
+World|Plucked|Sitar|0|0|80108|1||Sitar
+World|Plucked|Saz|0|0|80108|1||Saz
+World|Horns and Wind|Dtna Noisy Attack|0|0|0|1||Dtna Noisy Attack
+World|Horns and Wind|Dtna Recorder|0|0|80108|1||Dtna Recorder
+World|Horns and Wind|French Musette Acc 2|0|0|80108|1||French Musette Acc 2
+World|Horns and Wind|French Mussette Accord|0|0|80108|1||French Mussette Accord
+World|Horns and Wind|Greek Shepard Flute|0|0|80108|1||Greek Shepard Flute
+World|Horns and Wind|Ney Flute 1|0|0|0|1||Ney Flute 1
+World|Horns and Wind|Ney Flute 2|0|0|0|1||Ney Flute 2
+World|Horns and Wind|NoisyPanFlute Trem|0|0|80108|1||NoisyPanFlute Trem
+World|Horns and Wind|Okarina|0|0|0|1||Okarina
+World|Horns and Wind|Pan Flute 2|0|0|0|1||Pan Flute 2
+World|Horns and Wind|Pan Flute Noisy|0|0|80108|1||Pan Flute Noisy
+World|Horns and Wind|Pan Flute|0|0|80108|1||Pan Flute
+World|Horns and Wind|Renaissance Alto Recorder|0|0|80108|1||Renaissance Alto Recorder
+World|Horns and Wind|ShepardRecMaroc|0|0|80108|1||ShepardRecMaroc
+World|Horns and Wind|Sopranino Recorder|0|0|80108|1||Sopranino Recorder
+World|Horns and Wind|Tenor Recorder 2|0|0|80108|1||Tenor Recorder 2
+World|Horns and Wind|Tenor Recorder|0|0|80108|1||Tenor Recorder
+World|Horns and Wind|Afro Horns|0|0|0|1||Afro Horns
+World|Horns and Wind|African Horns|0|0|0|1||African Horns
+World||World (Bulk Samples)|0|0|80108|1||World (Bulk Samples)
+World|Plucked|12 String Guitar|0|0|0|1||12 String Guitar
+World|Plucked|Celtic Harp|0|0|80108|1||Celtic Harp
+World|Plucked|Dulcimer Plucked|0|0|80108|1||Dulcimer Plucked
+World|Plucked|Dulcimer Soft Atck|0|0|0|1||Dulcimer Soft Atck
+World|Plucked|Portuguese Fado Guitar2|0|0|0|1||Portuguese Fado Guitar2
+World|Plucked|6 String Steel Guitar|0|0|80108|1||6 String Steel Guitar
+World|Plucked|AcGuitar Flageolet1|0|0|80108|1||AcGuitar Flageolet1
+World|Plucked|Psaltry Bowed|0|0|80108|1||Psaltry Bowed
+World|Plucked|Mandolin|0|0|80108|1||Mandolin
+World|Plucked|MandoLynn|0|0|0|1||MandoLynn_0
+World|Plucked|Oriental Orch 1|0|0|80108|1||Oriental Orch 1
+World|Plucked|Oriental Orch 2|0|0|80108|1||Oriental Orch 2
+World|Plucked|Oriental Orch 3|0|0|80108|1||Oriental Orch 3
+World|Plucked|Oriental Orch 4|0|0|80108|1||Oriental Orch 4
+World|Plucked|Oud|0|0|0|1||Oud
+World|Plucked|Portuguese Fado Guitar1|0|0|80108|1||Portuguese Fado Guitar1
+World|Plucked|AcGuitar Flageolet2|0|0|80108|1||AcGuitar Flageolet2
+World|Plucked|Acoustic Steel Guitar|0|0|0|1||Acoustic Steel Guitar
+World|Plucked|Asian Pluck|0|0|80108|1||Asian Pluck
+World|Plucked|Banjo|0|0|0|1||Banjo
+World|Plucked|Bouzouki Flageolete|0|0|80108|1||Bouzouki Flageolete
+World|Plucked|Bouzouki|0|0|80108|1||Bouzouki
+World|Plucked|Bronze String Mandolin|0|0|0|1||Bronze String Mandolin
+World|Plucked|Buzouki ST|0|0|80108|1||Buzouki ST
+World|Horns and Wind|Tibeten Flute 1|0|0|80108|1||Tibeten Flute 1
+World|Horns and Wind|Tibeten Flute 2|0|0|0|1||Tibeten Flute 2
+World|Perc|African Kit 1 Bata|0|0|0|1||African Kit 1 Bata
+World|Perc|African Kit Busket|0|0|0|1||African Kit Busket
+World|Perc|African Kit Darbuk|0|0|0|1||African Kit Darbuk
+World|Perc|African Kit Djembe|0|0|0|1||African Kit Djembe
+World|Perc|African Kit Dunu|0|0|80108|1||African Kit Dunu
+World|Perc|African Kit Talking|0|0|0|1||African Kit Talking
+World|Perc|African Kit Water|0|0|0|1||African Kit Water
+World|Perc|Agog-Agud|0|0|0|1||Agog-Agud
+World|Perc|Arabian and Bells|0|0|80108|1||Arabian and Bells
+World|Perc|Arabian Kit 1|0|0|80108|1||Arabian Kit 1
+
+

@@ -1,0 +1,41 @@
+script "Random regions" language "pascal";
+
+procedure CreateRegions;
+var
+   i, start : integer;
+   l, idx   : integer;
+   region   : TRegion;
+   r2       : TRegion;
+begin
+  start := 0;
+  l := EditorSample.Length div 10;
+
+  for i := 0 to 9 do
+  begin
+    region := TRegion.Create;              // test creation
+    region.SampleStart := start;
+    inc(start, l);
+    region.SampleEnd := start-1;
+    region.Name := 'Region ' + IntToStr(i+1);
+    region.Info := 'Some random info ' + IntToStr(i+1);
+    region.Time := -1;
+    region.KeyNum := -1;
+
+    idx := EditorSample.AddRegion(region.Name, region.SampleStart, region.SampleEnd);  // test adding a region
+    if idx >= 0 then
+    begin
+      r2 := EditorSample.GetRegion(idx);
+      r2.Copy(region);                     // test copy of region
+    end;
+
+    region.Free;
+  end;
+
+  r2 := EditorSample.GetRegion(3);
+  EditorSample.DeleteRegion(2);            // test deletion
+  r2.Name := r2.Name + ' (still here)';    // test if a region object is still valid after a deletion (list is rebuilt)
+end;
+
+Begin
+CreateRegions;
+End.

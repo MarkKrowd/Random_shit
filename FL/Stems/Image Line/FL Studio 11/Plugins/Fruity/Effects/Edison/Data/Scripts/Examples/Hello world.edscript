@@ -1,0 +1,5 @@
+script "Hello world" language "pascal";
+
+Begin
+EditorSample.LoadFromFile(ScriptPath+'HelloWorld.wav');
+End.

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Tavernier_3.wav-7d967ee2da7c49032f5c9efc7d43883f.sample"
+
+[deps]
+
+source_file="res://Sounds/Zone_1/Tavernier_3.wav"
+dest_files=[ "res://.import/Tavernier_3.wav-7d967ee2da7c49032f5c9efc7d43883f.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

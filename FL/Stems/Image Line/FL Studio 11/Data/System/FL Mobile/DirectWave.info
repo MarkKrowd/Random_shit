@@ -1,0 +1,7 @@
+[attack]
+param=32
+formula=sqrt(sqrt(value/10))
+
+[release]
+param=35
+formula=sqrt(sqrt(value/10))

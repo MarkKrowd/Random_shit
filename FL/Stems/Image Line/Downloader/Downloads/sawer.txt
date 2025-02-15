@@ -1,0 +1,403 @@
+$Version=1
+$FileExt=.sawer
+$RootPath=Presets
+$FilePath=Presets
+$Caption=Sawer
+$RegPath=Sawer
+$RegValue=rootFolder
+$Format=344
+
+$Flags=12
+$ColName=Name
+$ColSize=Size
+$ColCount=Presets
+$BankText=preset
+$SampleText=preset
+
+;CDName|SubDirName|ItemName|Count|FileSize|ProductCode|Flags|WebLink|MainItemName
+Sawer|Ambient|MC Chains_free|8|4|0|0||Sawer Ambient
+Sawer|Ambient|MC Cracked_free|8|4|0|0||Sawer Ambient
+Sawer|Ambient|MC Cthulhu_free|8|4|0|0||Sawer Ambient
+Sawer|Ambient|MC Forest Cry_free|8|4|0|0||Sawer Ambient
+Sawer|Ambient|MC Pulsar_free|8|4|0|0||Sawer Ambient
+Sawer|Ambient|MC Siren_free|8|4|0|0||Sawer Ambient
+Sawer|Ambient|MC Vampire_free|8|4|0|0||Sawer Ambient
+Sawer|Ambient|MC YogSototh_free|8|4|0|0||Sawer Ambient
+Sawer|Arpeggios|Arp Trance MC_free|20|10|0|0||Sawer Arpeggios
+Sawer|Arpeggios|FG Ace of Spades_free|20|10|0|0||Sawer Arpeggios
+Sawer|Arpeggios|FG Ampeg Walker|128|58|83002|32||Sawer Factory Addition
+Sawer|Arpeggios|FG Angels Breath|128|58|83002|32||Sawer Factory Addition
+Sawer|Arpeggios|FG Anthem-ish|128|58|83002|32||Sawer Factory Addition
+Sawer|Arpeggios|FG Arcade Riff|128|58|83002|32||Sawer Factory Addition
+Sawer|Arpeggios|FG Backing Track_free|20|10|0|0||Sawer Arpeggios
+Sawer|Arpeggios|FG Bumper Lane|128|58|83002|32||Sawer Factory Addition
+Sawer|Arpeggios|FG ChipTune|128|58|83002|32||Sawer Factory Addition
+Sawer|Arpeggios|FG Chomper_free|20|10|0|0||Sawer Arpeggios
+Sawer|Arpeggios|FG Cyber PopCorn|128|58|83002|32||Sawer Factory Addition
+Sawer|Arpeggios|FG Damaged_free|20|10|0|0||Sawer Arpeggios
+Sawer|Arpeggios|FG Distort Me_free|20|10|0|0||Sawer Arpeggios
+Sawer|Arpeggios|FG Dream Harp (3 notes)_free|20|10|0|0||Sawer Arpeggios
+Sawer|Arpeggios|FG Eighties Bass_free|20|10|0|0||Sawer Arpeggios
+Sawer|Arpeggios|FG JP-Sawer|128|58|83002|32||Sawer Factory Addition
+Sawer|Arpeggios|FG Kite Runner_free|20|10|0|0||Sawer Arpeggios
+Sawer|Arpeggios|FG Lo-Fi Avenger_free|20|10|0|0||Sawer Arpeggios
+Sawer|Arpeggios|FG Low Battery|128|58|83002|32||Sawer Factory Addition
+Sawer|Arpeggios|FG Mixed Nutz_free|20|10|0|0||Sawer Arpeggios
+Sawer|Arpeggios|FG Moscow 80s|128|58|83002|32||Sawer Factory Addition
+Sawer|Arpeggios|FG Mosquito_free|20|10|0|0||Sawer Arpeggios
+Sawer|Arpeggios|FG Nitrogen_free|20|10|0|0||Sawer Arpeggios
+Sawer|Arpeggios|FG Obligatory PlucK_free|20|10|0|0||Sawer Arpeggios
+Sawer|Arpeggios|FG Picky|128|58|83002|32||Sawer Factory Addition
+Sawer|Arpeggios|FG Popcorn for Dinner_free|20|10|0|0||Sawer Arpeggios
+Sawer|Arpeggios|FG Racional|128|58|83002|32||Sawer Factory Addition
+Sawer|Arpeggios|FG Rubber Rhythms|128|58|83002|32||Sawer Factory Addition
+Sawer|Arpeggios|FG Silver Box|128|58|83002|32||Sawer Factory Addition
+Sawer|Arpeggios|FG Smitten|128|58|83002|32||Sawer Factory Addition
+Sawer|Arpeggios|FG Storm Bass_free|20|10|0|0||Sawer Arpeggios
+Sawer|Arpeggios|FG TechKnowledge-y|128|58|83002|32||Sawer Factory Addition
+Sawer|Arpeggios|FG Trasher_free|20|10|0|0||Sawer Arpeggios
+Sawer|Arpeggios|FG Use Velocity|128|58|83002|32||Sawer Factory Addition
+Sawer|Arpeggios|FG Velocity Slapper|128|58|83002|32||Sawer Factory Addition
+Sawer|Arpeggios|FG Video Game_free|20|10|0|0||Sawer Arpeggios
+Sawer|Arpeggios|FG We Mean Business|128|58|83002|32||Sawer Factory Addition
+Sawer|Arpeggios|FG WhipLash_free|20|10|0|0||Sawer Arpeggios
+Sawer|Arpeggios|MC RubberDuck_free|20|10|0|0||Sawer Arpeggios
+Sawer|Bass|FG 1982|128|58|83002|32||Sawer Factory Addition
+Sawer|Bass|FG 2600 Bass 1|128|58|83002|32||Sawer Factory Addition
+Sawer|Bass|FG 2600 Bass 2|128|58|83002|32||Sawer Factory Addition
+Sawer|Bass|FG Bottom Feeder|128|58|83002|32||Sawer Factory Addition
+Sawer|Bass|FG Breathing_free|31|1|0|0||Sawer Bass
+Sawer|Bass|FG Bubble Butt|128|58|83002|32||Sawer Factory Addition
+Sawer|Bass|FG Burnt|128|58|83002|32||Sawer Factory Addition
+Sawer|Bass|FG Chaos Theory|128|58|83002|32||Sawer Factory Addition
+Sawer|Bass|FG Classico Bass_free|31|1|0|0||Sawer Bass
+Sawer|Bass|FG Disharmonic Grit_free|31|1|0|0||Sawer Bass
+Sawer|Bass|FG Dog Bites Man_free|31|1|0|0||Sawer Bass
+Sawer|Bass|FG Down wit the Thickness_free|31|1|0|0||Sawer Bass
+Sawer|Bass|FG Dusty Woofer_free|31|1|0|0||Sawer Bass
+Sawer|Bass|FG Electro-Pulse|128|58|83002|32||Sawer Factory Addition
+Sawer|Bass|FG El Jefe|128|58|83002|32||Sawer Factory Addition
+Sawer|Bass|FG Fat Plastic|128|58|83002|32||Sawer Factory Addition
+Sawer|Bass|FG FunkLine|128|58|83002|32||Sawer Factory Addition
+Sawer|Bass|FG Here's the Beef_free|31|1|0|0||Sawer Bass
+Sawer|Bass|FG Hum & Bass|128|58|83002|32||Sawer Factory Addition
+Sawer|Bass|FG Just Add Distortion_free|31|1|0|0||Sawer Bass
+Sawer|Bass|FG Knuckle Sandwich_free|31|1|0|0||Sawer Bass
+Sawer|Bass|FG Lo Fidelity|128|58|83002|32||Sawer Factory Addition
+Sawer|Bass|FG Mad Maxx|128|58|83002|32||Sawer Factory Addition
+Sawer|Bass|FG Micro-Mini_free|31|1|0|0||Sawer Bass
+Sawer|Bass|FG Microwavable_free|31|1|0|0||Sawer Bass
+Sawer|Bass|FG Nickel Wound II|128|58|83002|32||Sawer Factory Addition
+Sawer|Bass|FG Nickel Wound_free|31|1|0|0||Sawer Bass
+Sawer|Bass|FG Plain House|128|58|83002|32||Sawer Factory Addition
+Sawer|Bass|FG Q-Saw Plus|128|58|83002|32||Sawer Factory Addition
+Sawer|Bass|FG Rawer_free|31|1|0|0||Sawer Bass
+Sawer|Bass|FG R&B Bump|128|58|83002|32||Sawer Factory Addition
+Sawer|Bass|FG Rear Rumble|128|58|83002|32||Sawer Factory Addition
+Sawer|Bass|FG RoughNeck|128|58|83002|32||Sawer Factory Addition
+Sawer|Bass|FG Rusty Zipper_free|31|1|0|0||Sawer Bass
+Sawer|Bass|FG SkinnyPulse|128|58|83002|32||Sawer Factory Addition
+Sawer|Bass|FG Snip Hop|128|58|83002|32||Sawer Factory Addition
+Sawer|Bass|FG Spaced TB_free|31|1|0|0||Sawer Bass
+Sawer|Bass|FG Spanky|128|58|83002|32||Sawer Factory Addition
+Sawer|Bass|FG Squarer_free|31|1|0|0||Sawer Bass
+Sawer|Bass|FG Stiff-Neck|128|58|83002|32||Sawer Factory Addition
+Sawer|Bass|FG Taurus_free|31|1|0|0||Sawer Bass
+Sawer|Bass|FG Thicky|128|58|83002|32||Sawer Factory Addition
+Sawer|Bass|FG ToB-Distorted 1|128|58|83002|32||Sawer Factory Addition
+Sawer|Bass|FG ToB-Distorted 2|128|58|83002|32||Sawer Factory Addition
+Sawer|Bass|FG Vintage_free|31|1|0|0||Sawer Bass
+Sawer|Bass|FG Wooly Mammoth _free|31|1|0|0||Sawer Bass
+Sawer|Bass|MC Beavis_free|31|1|0|0||Sawer Bass
+Sawer|Bass|MC Chunkee_free|31|1|0|0||Sawer Bass
+Sawer|Bass|MC Duckey_free|31|1|0|0||Sawer Bass
+Sawer|Bass|MC Electro_free|31|1|0|0||Sawer Bass
+Sawer|Bass|MC Japan_free|31|1|0|0||Sawer Bass
+Sawer|Bass|MC Kung Fu_free|31|1|0|0||Sawer Bass
+Sawer|Bass|MC MostWanted_free|31|1|0|0||Sawer Bass
+Sawer|Bass|MC Needle_free|31|1|0|0||Sawer Bass
+Sawer|Bass|MC Rock Lite_free|31|1|0|0||Sawer Bass
+Sawer|Bass|MC Rock_free|31|1|0|0||Sawer Bass
+Sawer|Bass|MC Shark_free|31|1|0|0||Sawer Bass
+Sawer|Bass|MC Subtonic_free|31|1|0|0||Sawer Bass
+Sawer|Keys|FG 90s Organ FG|128|58|83002|32||Sawer Factory Addition
+Sawer|Keys|FG 90's Techno_free|38|18|0|0||Sawer Keys
+Sawer|Keys|FG Brite Chords|128|58|83002|32||Sawer Factory Addition
+Sawer|Keys|FG Circus Freak_free|38|18|0|0||Sawer Keys
+Sawer|Keys|FG Clean Air|128|58|83002|32||Sawer Factory Addition
+Sawer|Keys|FG Cop-Out|128|58|83002|32||Sawer Factory Addition
+Sawer|Keys|FG Copper Chords|128|58|83002|32||Sawer Factory Addition
+Sawer|Keys|FG Cuttin' Funk_free|38|18|0|0||Sawer Keys
+Sawer|Keys|FG Dance Hall Pike|128|58|83002|32||Sawer Factory Addition
+Sawer|Keys|FG Dance with Me|128|58|83002|32||Sawer Factory Addition
+Sawer|Keys|FG E-Organ|128|58|83002|32||Sawer Factory Addition
+Sawer|Keys|FG Ethnicity_free|38|18|0|0||Sawer Keys
+Sawer|Keys|FG Four Bits_free|38|18|0|0||Sawer Keys
+Sawer|Keys|FG Harpsichordal Injury_free|38|18|0|0||Sawer Keys
+Sawer|Keys|FG Humming Bird|128|58|83002|32||Sawer Factory Addition
+Sawer|Keys|FG Jupiter Brass_free|38|18|0|0||Sawer Keys
+Sawer|Keys|FG Massive Pulse_free|38|18|0|0||Sawer Keys
+Sawer|Keys|FG MechaniClav|128|58|83002|32||Sawer Factory Addition
+Sawer|Keys|FG Moog Brass_free|38|18|0|0||Sawer Keys
+Sawer|Keys|FG Oddisync|128|58|83002|32||Sawer Factory Addition
+Sawer|Keys|FG Old Fashioned Chords|128|58|83002|32||Sawer Factory Addition
+Sawer|Keys|FG Organic Digital|128|58|83002|32||Sawer Factory Addition
+Sawer|Keys|FG Redundancy|128|58|83002|32||Sawer Factory Addition
+Sawer|Keys|FG Remixer|128|58|83002|32||Sawer Factory Addition
+Sawer|Keys|FG Saint Peters|128|58|83002|32||Sawer Factory Addition
+Sawer|Keys|FG Sawer Cheese_free|38|18|0|0||Sawer Keys
+Sawer|Keys|FG Sawlitzer|128|58|83002|32||Sawer Factory Addition
+Sawer|Keys|FG Seventies EP_free|38|18|0|0||Sawer Keys
+Sawer|Keys|FG Sharp Bell Syn|128|58|83002|32||Sawer Factory Addition
+Sawer|Keys|FG Sooper Pulse|128|58|83002|32||Sawer Factory Addition
+Sawer|Keys|FG Sooper Square_free|38|18|0|0||Sawer Keys
+Sawer|Keys|FG Steam-Engine_free|38|18|0|0||Sawer Keys
+Sawer|Keys|FG Teh Best Tarnce Synth 1_free|38|18|0|0||Sawer Keys
+Sawer|Keys|FG Teh Best Tarnce Synth 2_free|38|18|0|0||Sawer Keys
+Sawer|Keys|FG The Epic_free|38|18|0|0||Sawer Keys
+Sawer|Keys|FG Trigger-Finger_free|38|18|0|0||Sawer Keys
+Sawer|Keys|FG Vaccum Keys|128|58|83002|32||Sawer Factory Addition
+Sawer|Keys|FG Wiggle Worm|128|58|83002|32||Sawer Factory Addition
+Sawer|Keys|MC Bright_free|38|18|0|0||Sawer Keys
+Sawer|Keys|MC Chordian_free|38|18|0|0||Sawer Keys
+Sawer|Keys|MC Deaf Organ_free|38|18|0|0||Sawer Keys
+Sawer|Keys|MC Drop_free|38|18|0|0||Sawer Keys
+Sawer|Keys|MC Electro Keys_free|38|18|0|0||Sawer Keys
+Sawer|Keys|MC E Organ II_free|38|18|0|0||Sawer Keys
+Sawer|Keys|MC E Organ_free|38|18|0|0||Sawer Keys
+Sawer|Keys|MC EPiano_free|38|18|0|0||Sawer Keys
+Sawer|Keys|MC HeavyOrgan_free|38|18|0|0||Sawer Keys
+Sawer|Keys|MC Muted Rhodes_free|38|18|0|0||Sawer Keys
+Sawer|Keys|MC Organ_free|38|18|0|0||Sawer Keys
+Sawer|Keys|MC Pluck II_free|38|18|0|0||Sawer Keys
+Sawer|Keys|MC Pluck_free|38|18|0|0||Sawer Keys
+Sawer|Keys|MC Sparkle_free|38|18|0|0||Sawer Keys
+Sawer|Keys|MC Sprut_free|38|18|0|0||Sawer Keys
+Sawer|Keys|MC Stab Low_free|38|18|0|0||Sawer Keys
+Sawer|Keys|MC SyncSwell_free|38|18|0|0||Sawer Keys
+Sawer|Keys|MC Synthopia_free|38|18|0|0||Sawer Keys
+Sawer|Keys|MC Trance Hit_free|38|18|0|0||Sawer Keys
+Sawer|Keys|MC Waterphone_free|38|18|0|0||Sawer Keys
+Sawer|Keys|MC Yu_free|38|18|0|0||Sawer Keys
+Sawer|Leads|FG Analog Funk|128|58|83002|32||Sawer Factory Addition
+Sawer|Leads|FG Angry Analog_free|64|29|0|0||Sawer Leads
+Sawer|Leads|FG Boogie Oogie Woman_free|64|29|0|0||Sawer Leads
+Sawer|Leads|FG Boot Das|128|58|83002|32||Sawer Factory Addition
+Sawer|Leads|FG BuzzSaw_free|64|29|0|0||Sawer Leads
+Sawer|Leads|FG Circuit Bender_free|64|29|0|0||Sawer Leads
+Sawer|Leads|FG Circular Saw|128|58|83002|32||Sawer Factory Addition
+Sawer|Leads|FG Das Boot|128|58|83002|32||Sawer Factory Addition
+Sawer|Leads|FG El Cheapo|128|58|83002|32||Sawer Factory Addition
+Sawer|Leads|FG Favorite Solo_free|64|29|0|0||Sawer Leads
+Sawer|Leads|FG Fury of V_free|64|29|0|0||Sawer Leads
+Sawer|Leads|FG Germanium Solo 1|128|58|83002|32||Sawer Factory Addition
+Sawer|Leads|FG Germanium Solo 2|128|58|83002|32||Sawer Factory Addition
+Sawer|Leads|FG Hollow Man_free|64|29|0|0||Sawer Leads
+Sawer|Leads|FG I am Monster_free|64|29|0|0||Sawer Leads
+Sawer|Leads|FG Jet Phase|128|58|83002|32||Sawer Factory Addition
+Sawer|Leads|FG MechaniX_free|64|29|0|0||Sawer Leads
+Sawer|Leads|FG Misbehaved_free|64|29|0|0||Sawer Leads
+Sawer|Leads|FG Moana|128|58|83002|32||Sawer Factory Addition
+Sawer|Leads|FG Moog Solo|128|58|83002|32||Sawer Factory Addition
+Sawer|Leads|FG Plain Stab_free|64|29|0|0||Sawer Leads
+Sawer|Leads|FG Pro-52_free|64|29|0|0||Sawer Leads
+Sawer|Leads|FG Prophecy_free|64|29|0|0||Sawer Leads
+Sawer|Leads|FG Pulse Morph|128|58|83002|32||Sawer Factory Addition
+Sawer|Leads|FG QuickSID|128|58|83002|32||Sawer Factory Addition
+Sawer|Leads|FG S-64_free|64|29|0|0||Sawer Leads
+Sawer|Leads|FG Saw-Pass_free|64|29|0|0||Sawer Leads
+Sawer|Leads|FG Scorched_free|64|29|0|0||Sawer Leads
+Sawer|Leads|FG Scorched Square|128|58|83002|32||Sawer Factory Addition
+Sawer|Leads|FG Seventies Pulse|128|58|83002|32||Sawer Factory Addition
+Sawer|Leads|FG Slicing Butter|128|58|83002|32||Sawer Factory Addition
+Sawer|Leads|FG Soviet Stylee|128|58|83002|32||Sawer Factory Addition
+Sawer|Leads|FG StarDust|128|58|83002|32||Sawer Factory Addition
+Sawer|Leads|FG The Funk|128|58|83002|32||Sawer Factory Addition
+Sawer|Leads|FG TypiTarnce_free|64|29|0|0||Sawer Leads
+Sawer|Leads|FG Use for D&B_free|64|29|0|0||Sawer Leads
+Sawer|Leads|FG VL-1 Lead|128|58|83002|32||Sawer Factory Addition
+Sawer|Leads|FG Weeping Moog_free|64|29|0|0||Sawer Leads
+Sawer|Leads|FG White Russian|128|58|83002|32||Sawer Factory Addition
+Sawer|Leads|FG Zilk Worm_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC 80's Angry_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC 80's_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC 80's Slow_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Bright Metallic_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Cheer Leader_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Cubiq_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Dark_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Disco2_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Disco_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Drunk_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Dwarf_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Far Cry_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Fat_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Frog_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Funk II_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Funk_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Furry_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Gringo_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Higher Freq_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Hous_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Insane_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Jabba_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Laser_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC NarrowBand_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC North Bear_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Punk_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Razor_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Sawer Brass_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC SAWsage_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Screamer_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Seven_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Sing2_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Sing_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Six_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Square Head_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Stab Low_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Stab_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Stinger_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Symple_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC TrainPass_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Vintage_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Wasp_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Woxel_free|64|29|0|0||Sawer Leads
+Sawer|Leads|MC Wrecked_free|64|29|0|0||Sawer Leads
+Sawer|Pads|FG Classic Mood|128|58|83002|32||Sawer Factory Addition
+Sawer|Pads|FG Depth Charge|128|58|83002|32||Sawer Factory Addition
+Sawer|Pads|FG Digital Era|128|58|83002|32||Sawer Factory Addition
+Sawer|Pads|FG Effectively Simple|128|58|83002|32||Sawer Factory Addition
+Sawer|Pads|FG HUGE|128|58|83002|32||Sawer Factory Addition
+Sawer|Pads|FG Interruptions|128|58|83002|32||Sawer Factory Addition
+Sawer|Pads|FG Iron Moog|128|58|83002|32||Sawer Factory Addition
+Sawer|Pads|FG Losing Ground|128|58|83002|32||Sawer Factory Addition
+Sawer|Pads|FG Nervous System|128|58|83002|32||Sawer Factory Addition
+Sawer|Pads|FG Nothing Special|128|58|83002|32||Sawer Factory Addition
+Sawer|Pads|FG Old Atmosphere|128|58|83002|32||Sawer Factory Addition
+Sawer|Pads|FG Oxidized|128|58|83002|32||Sawer Factory Addition
+Sawer|Pads|FG Pop-Star|128|58|83002|32||Sawer Factory Addition
+Sawer|Pads|FG Safe Bet|128|58|83002|32||Sawer Factory Addition
+Sawer|Pads|FG Somber 3|128|58|83002|32||Sawer Factory Addition
+Sawer|Pads|FG Vintage Vocal|128|58|83002|32||Sawer Factory Addition
+Sawer|Pads|FG WaveSync|128|58|83002|32||Sawer Factory Addition
+Sawer|Percussive|FG Add Dance Hall (G#2)|128|58|83002|32||Sawer Factory Addition
+Sawer|Percussive|FG Casio VL-1_free|5|3|0|0||Sawer Percussive
+Sawer|Percussive|FG Hit Hat Rhythm_free|5|3|0|0||Sawer Percussive
+Sawer|Percussive|FG Kick Me 1 (G#2)|128|58|83002|32||Sawer Factory Addition
+Sawer|Percussive|FG Kick Me 2 (G#2)|128|58|83002|32||Sawer Factory Addition
+Sawer|Percussive|FG Kick Me 3 (G#2)|128|58|83002|32||Sawer Factory Addition
+Sawer|Percussive|FG Kraftwerk_free|5|3|0|0||Sawer Percussive
+Sawer|Percussive|FG Monster Kick (G#3)|128|58|83002|32||Sawer Factory Addition
+Sawer|Percussive|FG Snappy Drummer|128|58|83002|32||Sawer Factory Addition
+Sawer|Percussive|FG SP-1200 Hi-Hats_free|5|3|0|0||Sawer Percussive
+Sawer|Percussive|FG War Drum_free|5|3|0|0||Sawer Percussive
+Sawer|Sound FX|FG Better Beach Waves|128|58|83002|32||Sawer Factory Addition
+Sawer|Sound FX|FG Between Stations|128|58|83002|32||Sawer Factory Addition
+Sawer|Sound FX|FG Bumble-D|128|58|83002|32||Sawer Factory Addition
+Sawer|Sound FX|FG ChainSawer|128|58|83002|32||Sawer Factory Addition
+Sawer|Sound FX|FG HardCoded (C1-C3)|128|58|83002|32||Sawer Factory Addition
+Sawer|Sound FX|FG Meltdown|128|58|83002|32||Sawer Factory Addition
+Sawer|Synthesizer|FG 2Unlimited_free|25|12|0|0||Sawer Synthesizer
+Sawer|Synthesizer|FG Aflac_free|25|12|0|0||Sawer Synthesizer
+Sawer|Synthesizer|FG Almost a Violin_free|25|12|0|0||Sawer Synthesizer
+Sawer|Synthesizer|FG A Loud Whisper_free|25|12|0|0||Sawer Synthesizer
+Sawer|Synthesizer|FG Blips for Tim|128|58|83002|32||Sawer Factory Addition
+Sawer|Synthesizer|FG C64 Break_free|25|12|0|0||Sawer Synthesizer
+Sawer|Synthesizer|FG D&B Hoover_free|25|12|0|0||Sawer Synthesizer
+Sawer|Synthesizer|FG eighties Brass|128|58|83002|32||Sawer Factory Addition
+Sawer|Synthesizer|FG Fingered Nylon|128|58|83002|32||Sawer Factory Addition
+Sawer|Synthesizer|FG Heavy Stepper|128|58|83002|32||Sawer Factory Addition
+Sawer|Synthesizer|FG Iron Banjo_free|25|12|0|0||Sawer Synthesizer
+Sawer|Synthesizer|FG More Saws_free|25|12|0|0||Sawer Synthesizer
+Sawer|Synthesizer|FG MS-20 1_free|25|12|0|0||Sawer Synthesizer
+Sawer|Synthesizer|FG MS-20 2_free|25|12|0|0||Sawer Synthesizer
+Sawer|Synthesizer|FG No Limit_free|25|12|0|0||Sawer Synthesizer
+Sawer|Synthesizer|FG North Korea|128|58|83002|32||Sawer Factory Addition
+Sawer|Synthesizer|FG Polyeurothane Square_free|25|12|0|0||Sawer Synthesizer
+Sawer|Synthesizer|FG Pseudo Ethnic|128|58|83002|32||Sawer Factory Addition
+Sawer|Synthesizer|FG Rusted MKS|128|58|83002|32||Sawer Factory Addition
+Sawer|Synthesizer|FG SA-303_free|25|12|0|0||Sawer Synthesizer
+Sawer|Synthesizer|FG Saturated|128|58|83002|32||Sawer Factory Addition
+Sawer|Synthesizer|FG Sawerchestral Hit|128|58|83002|32||Sawer Factory Addition
+Sawer|Synthesizer|FG SH-101_free|25|12|0|0||Sawer Synthesizer
+Sawer|Synthesizer|FG SID Brass_free|25|12|0|0||Sawer Synthesizer
+Sawer|Synthesizer|FG Steel Drum|128|58|83002|32||Sawer Factory Addition
+Sawer|Synthesizer|FG Steel Guitar_free|25|12|0|0||Sawer Synthesizer
+Sawer|Synthesizer|FG Tech Stab_free|25|12|0|0||Sawer Synthesizer
+Sawer|Synthesizer|FG The DRP|128|58|83002|32||Sawer Factory Addition
+Sawer|Synthesizer|FG Trancer's Pluck_free|25|12|0|0||Sawer Synthesizer
+Sawer|Synthesizer|FG Tropical Island_free|25|12|0|0||Sawer Synthesizer
+Sawer|Synthesizer|FG Twelve String_free|25|12|0|0||Sawer Synthesizer
+Sawer|Synthesizer|FG Van-Jumpin|128|58|83002|32||Sawer Factory Addition
+Sawer|Synthesizer|FG Velociraptor_free|25|12|0|0||Sawer Synthesizer
+Sawer|Synthesizer|FG Wire Harp_free|25|12|0|0||Sawer Synthesizer
+Sawer|Synthesizer|MC Clarinet_free|25|12|0|0||Sawer Synthesizer
+Sawer|Synthesizer|MC Rhodes_free|25|12|0|0||Sawer Synthesizer
+Sawer|Synthesizer|MC Tribal Flute_free|25|12|0|0||Sawer Synthesizer
+Sawer|Xenos Sawer Volume 1|BA Analog Bass_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|BA Brilliant_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|BA Chemical_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|BA Classic Hip Hop_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|BA Crunk Stab_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|BA Deep Bass_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|BA Dirty Bass_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|BA Dubsteppe_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|BA Ethnic Sub_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|BA Fidget Mod_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|BA Goa_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|BA GreatWallOfBass_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|BA Higher Power_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|BA New Wave_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|BA Old Skool DnB_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|BA Punchy Sub_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|BA Rezonator_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|BA SID Chip_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|BA Sloppy Wet_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|BA Standard_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|BA Sync Bass 1_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|BA Sync Bass 2_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|BA Techno_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|FX Morph Drum_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|FX Whispering Souls_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|KB 80's Keys_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|KB Accordion_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|KB Rock Organ_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|KB Vintage Keys_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|LD Analog Funk_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|LD Chiptune 1_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|LD Chiptune 2_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|LD Classic Gangsta_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|LD Dance Lead 1_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|LD Dance Lead 2_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|LD Gray_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|LD Modern Syncwave_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|LD Psytrance Sync 1_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|LD Psytrance Sync 2_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|LD Pulse Lead_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|LD PW Saw_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|LD Rap Battles_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|LD Rave Lead 1_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|LD Rave Lead 2_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|LD Rippin'_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|LD Sad Lead_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|LD Space Voice_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|LD Stiff Pulse_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|LD Vertigo_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|LD Vintage Lead 1_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|LD Vintage Lead 2_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|LD Vintage Lead 3_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|LD Vintage Lead 4_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|PD Like Digital_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|PD Memories_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|PD Sapphire_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|PD Sonic Juice_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|PD Space Station_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|PD Warm Pad_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|SY 5th Hits_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|SY Beijing_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|SY Metal Scrape_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|SY Poly '86_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|SY Sunkissed_free|65|1|0|0||Xenos Sawer Volume 1
+Sawer|Xenos Sawer Volume 1|SY Techdrops_free|65|1|0|0||Xenos Sawer Volume 1
+
+

@@ -1,0 +1,3 @@
+Drumkits in these subdirs use DS scripts & 
+  are taken from DrumSynth by Paul Kellett.
+Find DrumSynth at http://www.abel.co.uk/~maxim/

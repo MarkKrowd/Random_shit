@@ -1,0 +1,323 @@
+$Version=1
+$FileExt=.dmkit|.dmpatch|.dmptrn
+$RootPath=Drumaxx
+$Alternative=Drumaxx|DrumPad
+$Caption=Drumaxx
+$RegPath=Drumaxx
+$RegValue=rootfolder
+$Format=1880
+
+$Flags=12
+$ColName=Name
+$ColSize=Size
+$ColCount=presets
+$BankText=preset
+$SampleText=preset
+
+;CDName|SubDirName|ItemName|Count|FileSize|ProductCode|Flags|WebLink
+Xenos Soundworks Vol1|Drum Kits\Acoustic|70s Disco_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Acoustic|Funk Kit_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Acoustic|Jazz Kit_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Acoustic|Speed Metal_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Acoustic|Studio Kit_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Dance|Basic 808_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Dance|Basic 909_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Dance|House Kit_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Dance|Psytrance Kit_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Dance|Rave On_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Drum and Bass|Dubstep Kit_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Drum and Bass|Xenos DnB 1_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Drum and Bass|Xenos DnB 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Drum and Bass|Xenos DnB_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Drum and Bass|Xenos Dubstep_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Electro|21st Century Electro_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Electro|Elektro Latin_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Electro|Modern Electro_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Electro|Nu Electro_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Electro|Simmons Drums_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Electro|Techstep Kit_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Hip Hop|90s Hip Hop_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Hip Hop|Crunk_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Hip Hop|Old School Rap_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Hip Hop|Xenos Hip Hop_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Industrial|Xenos Industries_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Lo-Fi|Old Keyboard_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Percussion|CR-78 Kit_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Percussion|Ethnic Kit_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Percussion|Exotic_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Percussion|Latin Fusion_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Percussion|Latin Percussion_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Percussion|Samba_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Special|Forever 80s_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Special|Fusion Kit_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Special|Hard Swing_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Special|Late 80's Pop_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Special|Reggae_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Special|Scary Drums_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Kits\Special|Synth Bass_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Cymbals|China Cymbol XS_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Cymbals|Crash Cymbol 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Cymbals|Crash Cymbol XS_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Cymbals|Dance Ride 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Cymbals|Dance Ride_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Cymbals|Exotic Cymbol_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Cymbals|Ride Bell_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Cymbals|Ride_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Cymbals|Splash Cymbol_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\HiHats|808 Hat CL_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\HiHats|808 Hat OP_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\HiHats|CR78 Hat CL_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\HiHats|CR78 Hat OP_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\HiHats|DnB Hat CL_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\HiHats|Elektro Hats CL_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\HiHats|Elektro Hats OP_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\HiHats|Funk Hats CL_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\HiHats|Funk Hats OP_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\HiHats|Hip Hop Hats CL_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\HiHats|Hip Hop Hats OP_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\HiHats|House HiHat CL_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\HiHats|House HiHat OP_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\HiHats|Industrial Hat CL_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\HiHats|Industrial Hat OP_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\HiHats|LoFi Hat CL_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\HiHats|LoFi Hat OP_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\HiHats|Pedal HiHat_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\HiHats|Rave HiHat CL_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\HiHats|Rave HiHat OP_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|70s Disco Kick_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|70s Dub Kick_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|808 Kick 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|808 Kick_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Acoustic Kick 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Acoustic Kick 3_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Acoustic Kick 4_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Acoustic Kick 5_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Acoustic Kick 6_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Acoustic Kick_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Attack Kick_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Big Gym Kick_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Blip Kick_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|CR78 Kick_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Crunk Kick_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|DnB Kick 12_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|DnB Kick 13_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|DnB Kick 14_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|DnB Kick 15_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Dubstep Kick 1_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Dubstep Kick 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Dubstep Kick 3_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Dubstep Kick 4_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Elekto Kick 3_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Elektro Kick 1_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Elektro Kick 2 XS_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Gangsta Kick_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Hard Kick_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Hybrid Kick_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Industrial Kick_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Industrial Phat Kick_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Jazz Kick_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|New Wave Kick_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Noise Kick_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Phat Kick_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Plastic Kick_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Polyester Kick_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Psytrance Kick 1_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Psytrance Kick 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Rap Kick 1_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Rap Kick 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Rap Kick 3_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Rap Kick 4_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Rap Kick 5_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Rave Kick_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Room Kick_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Short Kick_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Soft Kick_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Squishy Kick_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Studio Kick 1_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Studio Kick 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Techstep Kick_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Tekno Kick 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Tekno Kick 3_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Tekno Kick 4_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Tekno Kick 5_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Tekno Kick_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Kicks|Thunderous Kick_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|808 Cowbell_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Agogo_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Bongo Hi_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Bongo Lo_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Clicks 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Clicks_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Club Claps 1_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Club Claps 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Club Claps 3_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Conga Hi_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Conga Lo_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Conga Mute_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Conga Slap_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Cowbell XS_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|CR78 Claves_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|CR78 Cowbell_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|CR78 Guiro_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Cuica 1_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Cuica 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Disco Claps_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Drop Down_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Elektro Click_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Elektro Conga_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Elektro Conga Mute_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Elektro Cowbell_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Ethnic Drum_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Ethnic Drum Mute_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Ethnic Drum Slap_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Ethnic Jangle_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Gong_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|House Clicks_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Industrial Hit 1_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Industrial Hit 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Industrial Hit 3_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Mecha Scrape_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Metal Pole_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Psytrance Claps_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Rave Hit 1_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Rave Hit 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Rave Hit 3_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Real Claps 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Real Claps_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Spooky Metal_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Surdo_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Surdo Mute_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Tabla Hi_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Tabla Lo Bend_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Tabla Lo_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Tabla Lo Ring_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Tabla Mute 1_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Tabla Mute 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Taiko Hi_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Taiko Lo_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Taiko Lo Mute_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Tamborine 1_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Tamborine 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Timbale Hi_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Timbale Lo_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Timpani_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Percussion|Water Drum_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|70s Disco Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|808 Snare 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|808 Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|80's Fat Snare 1_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|80's Fat Snare 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Bitcrush Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Brown Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Cold Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|CR78 Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Dance Rimshot_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Dirty Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|DnB Rimshot 06_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|DnB Rimshot 07_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|DnB Snare 16_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|DnB Snare 17_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|DnB Snare 18_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Dub Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Dubstep Rimshot_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Dubstep Snare 1_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Dubstep Snare 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Dubstep Snare 3_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Dubstep Snare 4_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Dubstep Snare 5_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Dubstep Snare 6_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Dubstep Tops_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Elektro Snare 1_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Elektro Snare 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Elektro Snare 3_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Elektro Snare 4_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Elektro Snare 5_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Elektro Snare 6_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Exotic Snare 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Exotic Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Faux 606 Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Faux 707 Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Faux 909 Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Filler Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Gated Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Hip Hop Rimshot XS_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Hi Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|House Snare 1_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|House Snare 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Industrial Snare 1_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Industrial Snare 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Industrial Snare 3_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Industrial Snare 4_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Industrial Snare 5_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Jazz Snare 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Jazz Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|LA Fat Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Late 80's Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Lite Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Loose Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Miami Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Modeled Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Neptunium Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|New Wave Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Noise Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Old Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Plastic Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Power Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Psytrance Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Punch Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Rap Snare 1_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Rap Snare 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Rap Snare 3_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Rap Snare 4_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Rap Snare 5_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Rave Rimshot_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Rave Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Ring Snare 1_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Ring Snare 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Ring Snare 3_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Ring Snare 4_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Scary Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Short Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Simmons Snare 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Simmons Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Studio Rimshot_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Studio Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Techstep Snare 1_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Techstep Snare 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Thin Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Thwack Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Tight Snare 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Tight Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Totally Rad Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Snares|Trash Snare_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Sound FX|Lazer Gun_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Sound FX|Synth Bass A_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Sound FX|Synth Bass B_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Sound FX|Synth Bass C Hi_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Sound FX|Synth Bass C Lo_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Sound FX|Synth Bass D_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Sound FX|Synth Bass E_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Sound FX|Synth Bass F_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Sound FX|Synth Bass G_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Sound FX|Transition FX_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Tom-Toms|Airy Tom_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Tom-Toms|CR78 Tom_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Tom-Toms|Elektro Tom 1_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Tom-Toms|Elektro Tom 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Tom-Toms|Elektro Tom 3_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Tom-Toms|Faux 808 Tom_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Tom-Toms|Industrial Tom_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Tom-Toms|Junk Tom_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Tom-Toms|Plastic Tom 1_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Tom-Toms|Plastic Tom 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Tom-Toms|Plastic Tom 3_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Tom-Toms|Rave Tom_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Tom-Toms|Real Tom 2 Hi_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Tom-Toms|Real Tom 2 Lo_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Tom-Toms|Real Tom 2 Med_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Tom-Toms|Real Tom_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Tom-Toms|Simmons Tom 2_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Tom-Toms|Simmons Tom_free|0|1|0|0|
+Xenos Soundworks Vol1|Drum Patches\Tom-Toms|Synth Tom_free|0|1|0|0|
+
+

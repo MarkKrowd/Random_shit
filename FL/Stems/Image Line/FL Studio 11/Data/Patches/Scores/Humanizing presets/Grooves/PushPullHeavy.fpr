@@ -1,0 +1,26 @@
+' FruityLoops preset
+' groove - pushpull
+' (01) Billen
+
+' graph edit effect number & value for each note
+FXID=Shift
+
+Val=0
+Val=1
+Val=3
+Val=4
+
+Val=6
+Val=7
+Val=9
+Val=10
+
+Val=12
+Val=11
+Val=9
+Val=8
+
+Val=6
+Val=5
+Val=3
+Val=1

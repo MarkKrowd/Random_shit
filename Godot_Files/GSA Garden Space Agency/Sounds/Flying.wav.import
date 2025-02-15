@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Flying.wav-2f90e26faa7f22e10af2f25c77fd22e2.sample"
+
+[deps]
+
+source_file="res://Sounds/Flying.wav"
+dest_files=[ "res://.import/Flying.wav-2f90e26faa7f22e10af2f25c77fd22e2.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

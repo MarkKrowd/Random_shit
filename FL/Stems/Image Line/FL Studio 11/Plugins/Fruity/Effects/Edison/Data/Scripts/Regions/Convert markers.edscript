@@ -1,0 +1,23 @@
+script "Convert markers" language "pascal";
+
+procedure ConvertAllMarkers;
+var
+   i      : integer;
+   r1, r2 : TRegion;
+begin
+  for i := 0 to EditorSample.RegionCount-1 do
+  begin
+    r1 := EditorSample.GetRegion(i);
+    if i = EditorSample.RegionCount-1 then
+      r1.SampleEnd := EditorSample.Length-1    
+    else
+    begin
+      r2 := EditorSample.GetRegion(i+1);
+      r1.SampleEnd := r2.SampleStart;
+    end;
+  end;
+end;
+
+Begin
+ConvertAllMarkers;
+End.

@@ -1,0 +1,12 @@
+$Version=1
+$FileExt=.legacy
+$RootPath=Data\Patches\Packs\
+$FilePath=Data\Patches\Packs\
+$Caption=Legacy data
+$Format=136
+
+
+;CDName|SubDirName|ItemName|Count|FileSize|ProductCode|Flags|WebLink|MainItemName
+Legacy data||FL Studio 8 legacy samples_free|668|8924|0|0||FL Studio 8 legacy samples
+
+

@@ -1,0 +1,110 @@
+script "Limiter" language "pascal";
+
+uses DSP_Smoothing, DSP_Lookahead;
+
+
+
+
+procedure Limiter(Gain,LA,Rel,Thres,Tension:Double;ShowEnvelope:Boolean);
+var   n,m,x,c,x1,x2,lx,LAL,SilCount,SilTime:Integer;
+      v,v2,OldV2:Single;
+      Max,g:Double;
+      SmoothingMem,FadeMem,RelMem:TSmoothingMem;
+      SmoothingParams,FadeParams,RelParams:TSmoothingParams;
+      Lookahead:TLookahead;
+Begin
+Editor.GetSelectionS(x1,x2);
+Max:=0.95;  // because the smoothing doesn't exactly reach the goal
+LAL:=Round(EditorSample.MSToSamples(LA));
+
+Lookahead:=TLookahead.Create;
+Lookahead.SetBufferLength(LAL);
+
+SilTime:=Round(EditorSample.MSToSamples(200));
+SilCount:=SilTime;
+Smoothing_Init(FadeParams,ST_1Pole,SilTime,Tension);
+Smoothing_Reset(FadeMem,1);
+
+Smoothing_Init(SmoothingParams,ST_3Pole,LAL,Tension);
+Smoothing_Reset(SmoothingMem,1);
+
+Smoothing_Init(RelParams,ST_1Pole,Round(EditorSample.MSToSamples(Rel)),0);
+Smoothing_Reset(RelMem,1);
+
+lx:=x1;
+OldV2:=0;
+
+for n:=x1 to x2 do 
+  Begin
+  x:=n-x1;
+  if x mod 10000=0 then ProgressMsg('Processing',x,x2-x1);
+  
+  // lookahead
+  for lx:=lx to n+LAL-1 do 
+    Begin
+    v:=0;
+    for c:=0 to EditorSample.NumChans-1 do
+      Begin
+      v2:=Abs(EditorSample.GetSampleAt(lx,c));
+      if v2>v then v:=v2;
+      End;    
+    Lookahead.Input(v);
+    End; 
+  lx:=n+LAL; 
+  v:=Lookahead.Peak; 
+    
+  // release  
+  if v>OldV2 then Smoothing_Reset(RelMem,v);
+  v:=Smoothing_Process(RelParams,RelMem,v);
+  OldV2:=v;      
+    
+  // amp  
+  if v*Gain>Max then v2:=Max/v
+                else v2:=Gain;      
+               
+  // check noise thres              
+  if v<Thres then 
+     Begin
+     if SilCount=0 then Smoothing_Reset(FadeMem,v2);
+     inc(SilCount);
+     v2:=Smoothing_Process(FadeParams,Fademem,1);
+     End
+             else
+     SilCount:=0;
+     
+  // smooth env   
+  g:=Smoothing_Process(SmoothingParams,SmoothingMem,v2); 
+    
+  // gain  
+  for c:=0 to EditorSample.NumChans-1 do
+    if ShowEnvelope then EditorSample.SetSampleAt(n,c,g/2-1)
+                    else EditorSample.SetSampleAt(n,c,EditorSample.GetSampleAt(n,c)*g);      
+  End;
+  
+Lookahead.Free;  
+End;
+
+
+var Form:TScriptDialog;
+
+Begin
+Form:=CreateScriptDialog('Limiter','A limiter with 0dB top. Gain doesn''t apply below silence threshold. Switch envelope on to output the gain envelope.');
+
+Form.AddInputKnob('Input gain',2,0.25,4);
+Form.AddInputKnob('Lookahead',5,1,20);
+Form.AddInputKnob('Release',100,1,200);
+Form.AddInputKnob('Silence thres',0,0,0.25);
+Form.AddInputKnob('Tension',0.99,0.1,0.99);
+Form.AddInputCombo('Envelope','No,Yes',0);
+
+if Form.Execute then Limiter(
+     Form.GetInputValue('Input gain'),
+     Form.GetInputValue('Lookahead'),
+     Form.GetInputValue('Release'),     
+     Form.GetInputValue('Silence thres'),     
+     Form.GetInputValue('Tension'),
+     Form.GetInputValue('Envelope')=1
+                            );
+                            
+Form.Free;
+End.

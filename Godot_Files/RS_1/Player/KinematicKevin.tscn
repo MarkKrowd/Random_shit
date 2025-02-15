@@ -1,0 +1,268 @@
+[gd_scene load_steps=24 format=2]
+
+[ext_resource path="res://Player/KinematicKevin.gd" type="Script" id=1]
+[ext_resource path="res://Player/Present/Kevin_bien/Run_1.png" type="Texture" id=2]
+[ext_resource path="res://Player/Present/Kevin_bien/Run_2.png" type="Texture" id=3]
+[ext_resource path="res://Player/Present/Kevin_bien/Run_3.png" type="Texture" id=4]
+[ext_resource path="res://Player/Present/Kevin_bien/Run_4.png" type="Texture" id=5]
+[ext_resource path="res://Player/Present/Kevin_bien/Static_1.png" type="Texture" id=6]
+[ext_resource path="res://Player/Present/Kevin_bien/Static_2.png" type="Texture" id=7]
+[ext_resource path="res://Player/Present/Kevin_bien/Static_3.png" type="Texture" id=8]
+[ext_resource path="res://Player/Present/Kevin_bien/Static_4.png" type="Texture" id=9]
+[ext_resource path="res://Player/Present/Kevin_bien/Attack_1.png" type="Texture" id=10]
+[ext_resource path="res://Player/Present/Kevin_bien/Attack_2.png" type="Texture" id=11]
+[ext_resource path="res://Player/Present/Kevin_bien/Attack_3.png" type="Texture" id=12]
+[ext_resource path="res://Player/Present/Kevin_bien/Attack_4.png" type="Texture" id=13]
+[ext_resource path="res://Player/Present/Kevin_bien/Walk_1.png" type="Texture" id=14]
+[ext_resource path="res://Player/Present/Kevin_bien/Walk_2.png" type="Texture" id=15]
+[ext_resource path="res://Player/Present/Kevin_bien/Walk_3.png" type="Texture" id=16]
+[ext_resource path="res://Common/ARLRDBD.TTF" type="DynamicFontData" id=17]
+[ext_resource path="res://Metaaal/Veuchs.wav" type="AudioStream" id=18]
+[ext_resource path="res://Metaaal/Level_up.wav" type="AudioStream" id=19]
+[ext_resource path="res://Metaaal/Jump.wav" type="AudioStream" id=20]
+[ext_resource path="res://Metaaal/Beger_touche.wav" type="AudioStream" id=21]
+
+[sub_resource type="SpriteFrames" id=1]
+
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ) ],
+"loop": true,
+"name": "Run",
+"speed": 15.0
+}, {
+"frames": [ ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ) ],
+"loop": true,
+"name": "Static",
+"speed": 4.0
+}, {
+"frames": [ ExtResource( 7 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ) ],
+"loop": true,
+"name": "Attack",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ) ],
+"loop": true,
+"name": "Walk",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 16 ) ],
+"loop": true,
+"name": "Jump",
+"speed": 0.0
+} ]
+_sections_unfolded = [ "Resource" ]
+
+[sub_resource type="DynamicFont" id=2]
+
+size = 40
+use_mipmaps = false
+use_filter = false
+font_data = ExtResource( 17 )
+_sections_unfolded = [ "Font", "Settings" ]
+
+[node name="KinematicKevin" type="KinematicBody2D" index="0"]
+
+scale = Vector2( 0.35, 0.35 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+collision/safe_margin = 0.08
+script = ExtResource( 1 )
+_sections_unfolded = [ "Collision", "Pickable", "Transform" ]
+__meta__ = {
+"_edit_group_": true
+}
+max_health = 50
+health = 50
+XP = 0
+Max_XP = 100
+XP_Level = 1
+Current_strenght = 30
+
+[node name="Camera2D" type="Camera2D" parent="." index="0"]
+
+anchor_mode = 1
+rotating = false
+current = true
+zoom = Vector2( 1, 1 )
+limit_left = 0
+limit_top = -10000000
+limit_right = 10000000
+limit_bottom = 1088
+limit_smoothed = false
+drag_margin_h_enabled = true
+drag_margin_v_enabled = true
+smoothing_enabled = false
+smoothing_speed = 10.0
+offset_v = 0.0
+offset_h = 0.0
+drag_margin_left = 0.2
+drag_margin_top = 0.2
+drag_margin_right = 0.2
+drag_margin_bottom = 0.2
+editor_draw_screen = true
+editor_draw_limits = false
+editor_draw_drag_margin = false
+_sections_unfolded = [ "Limit", "Smoothing" ]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="1"]
+
+position = Vector2( 0, 111.429 )
+build_mode = 0
+polygon = PoolVector2Array( 0, -237.143, -40, -220, -48.5714, -205.715, -48.5714, 22.8567, 60, 22.8567, 60, -222.858, 31.4286, -237.143 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="." index="2"]
+
+position = Vector2( 65, 0 )
+frames = SubResource( 1 )
+animation = "Static"
+frame = 3
+playing = true
+_sections_unfolded = [ "Transform" ]
+
+[node name="Properties" type="Label" parent="." index="3"]
+
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -432.0
+margin_top = -262.0
+margin_right = 340.0
+margin_bottom = -115.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = SubResource( 2 )
+custom_colors/font_color = Color( 1, 0.615173, 0.242188, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_constants/shadow_offset_x = 2
+custom_constants/shadow_offset_y = 2
+text = "Niveau 1          HP max: 50          Force: 30"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "custom_colors" ]
+
+[node name="Veuch" type="AudioStreamPlayer" parent="." index="4"]
+
+stream = ExtResource( 18 )
+volume_db = 0.0
+pitch_scale = 1.0
+autoplay = false
+mix_target = 0
+bus = "Casual"
+
+[node name="RayCast2D3" type="RayCast2D" parent="." index="5"]
+
+position = Vector2( -48.5, 138 )
+scale = Vector2( 0.991071, 1 )
+enabled = true
+exclude_parent = true
+cast_to = Vector2( 105.3, 0 )
+collision_mask = 32768
+_sections_unfolded = [ "Transform" ]
+
+[node name="Level_UP" type="AudioStreamPlayer" parent="." index="6"]
+
+stream = ExtResource( 19 )
+volume_db = 0.0
+pitch_scale = 1.0
+autoplay = false
+mix_target = 0
+bus = "Casual"
+
+[node name="Gerbe_collider" type="Area2D" parent="." index="7"]
+
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+collision_layer = 1024
+collision_mask = 524288
+audio_bus_override = false
+audio_bus_name = "Master"
+_sections_unfolded = [ "Transform" ]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Gerbe_collider" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( 51.4286, -105.714, -40, -105.714, -40, 74.2857, 51.4286, 74.2857 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." index="8"]
+
+stream = ExtResource( 20 )
+volume_db = 0.0
+pitch_scale = 1.0
+autoplay = false
+mix_target = 0
+bus = "Casual"
+
+[node name="Killers" type="Node2D" parent="." index="9"]
+
+position = Vector2( 0, 111.429 )
+
+[node name="VeuchD" type="Area2D" parent="Killers" index="0"]
+
+position = Vector2( 0, -111.429 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+collision_layer = 1024
+collision_mask = 4
+audio_bus_override = false
+audio_bus_name = "Master"
+_sections_unfolded = [ "Collision" ]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Killers/VeuchD" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( 171.429, -25.7143, 171.429, -105.714, -51.4286, -105.714, -51.4286, -25.7143 )
+
+[node name="VeuchG" type="Area2D" parent="Killers" index="1"]
+
+position = Vector2( -80, -111.429 )
+input_pickable = true
+gravity_vec = Vector2( 0, 1 )
+gravity = 98.0
+linear_damp = 0.1
+angular_damp = 1.0
+collision_layer = 1024
+collision_mask = 4
+audio_bus_override = false
+audio_bus_name = "Master"
+_sections_unfolded = [ "Collision", "Transform" ]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Killers/VeuchG" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( 140, -25.7143, 140, -105.714, -77.1429, -105.714, -77.1429, -25.7143 )
+
+[node name="Beger" type="AudioStreamPlayer" parent="." index="10"]
+
+stream = ExtResource( 21 )
+volume_db = 0.0
+pitch_scale = 1.0
+autoplay = false
+mix_target = 0
+bus = "Casual"
+
+[connection signal="body_entered" from="Gerbe_collider" to="." method="_on_Gerbe_collider_body_entered"]
+
+[connection signal="body_entered" from="Killers/VeuchD" to="." method="_on_VeuchD_body_entered"]
+
+[connection signal="body_exited" from="Killers/VeuchD" to="." method="_on_VeuchD_body_exited"]
+
+[connection signal="body_entered" from="Killers/VeuchG" to="." method="_on_VeuchG_body_entered"]
+
+[connection signal="body_exited" from="Killers/VeuchG" to="." method="_on_VeuchG_body_exited"]
+
+

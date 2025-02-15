@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Beger_touche.wav-0a449ac4faa184fb64010d4640e6368e.sample"
+
+[deps]
+
+source_file="res://Metaaal/Beger_touche.wav"
+dest_files=[ "res://.import/Beger_touche.wav-0a449ac4faa184fb64010d4640e6368e.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

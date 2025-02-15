@@ -1,0 +1,35 @@
+smartelectronix tubescreamer 1.0
+
+Ibanez TubeScreamer model
+
+additional math and DSP by Bram de Jong (bram@smartelectronix.com)
+original description by Tamás Kenéz (kenezéinf.bme.hu)
+
+buzz port by Mikko Apo (http://iki.fi/apo/)
+
+------------------------------------------------------------------------------------.-
+
+internal signal path:
+
+in -> pregain -> prelimiter -> drive -> tone -> postgain -> postlimiter -> out
+
+gains:
+- adjust the range from the attributes
+limiters:
+- hard limiter, no release control, very digital, similar to distortion of buzz output
+- you can disable/enable limiters in the attributes, both default to off
+drive:
+- two different algorithms, select from attributes
+  "monday": a faulty version of the distortion code, which sounds very good [default]
+  "proper": the fixed distortion code, which well, distorts a lot
+- "min drive" attribute controls the level of minimun drive
+tone: 
+- lopass filter after the drive
+- range adjustable from attributes, separate max freqs for each drive algorithm
+- don't set the max freqs over the sampling rate used in buzz (usually 44100)
+inertia controls:
+- for all parameters, adjust from attributes
+
+tip:
+
+if you want a higher freq response from the distortion just increase the max freq!

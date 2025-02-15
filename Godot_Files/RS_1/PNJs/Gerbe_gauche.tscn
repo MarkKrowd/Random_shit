@@ -1,0 +1,68 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://PNJs/Gerbe.gd" type="Script" id=1]
+[ext_resource path="res://PNJs/Alcolo/Beger_1.png" type="Texture" id=2]
+[ext_resource path="res://PNJs/Alcolo/Beger_2.png" type="Texture" id=3]
+[ext_resource path="res://PNJs/Alcolo/Beger_3.png" type="Texture" id=4]
+
+[sub_resource type="CircleShape2D" id=1]
+
+custom_solver_bias = 0.0
+radius = 15.0
+
+[sub_resource type="SpriteFrames" id=2]
+
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ) ],
+"loop": true,
+"name": "Start",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 4 ) ],
+"loop": true,
+"name": "Vol",
+"speed": 5.0
+} ]
+
+[node name="RigidBody2D" type="RigidBody2D"]
+
+show_behind_parent = true
+input_pickable = false
+collision_layer = 524288
+collision_mask = 32768
+mode = 0
+mass = 1.0
+friction = 1.0
+bounce = 0.0
+gravity_scale = 8.0
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 0
+contact_monitor = false
+sleeping = false
+can_sleep = true
+linear_velocity = Vector2( 800, -700 )
+linear_damp = 0.0
+angular_velocity = 0.0
+angular_damp = -1.0
+script = ExtResource( 1 )
+_sections_unfolded = [ "Collision", "Transform", "Visibility" ]
+Type = "Gerbe"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="0"]
+
+shape = SubResource( 1 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="." index="1"]
+
+show_behind_parent = true
+scale = Vector2( 0.7, 0.7 )
+frames = SubResource( 2 )
+animation = "Start"
+frame = 2
+playing = true
+offset = Vector2( 20, 35 )
+_sections_unfolded = [ "Material", "Pause", "Transform", "Visibility", "Z Index" ]
+
+

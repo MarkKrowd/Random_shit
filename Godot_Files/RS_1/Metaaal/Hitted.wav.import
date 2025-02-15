@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Hitted.wav-8eefabbf97d4f0be925feb10fa2dcf36.sample"
+
+[deps]
+
+source_file="res://Metaaal/Hitted.wav"
+dest_files=[ "res://.import/Hitted.wav-8eefabbf97d4f0be925feb10fa2dcf36.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

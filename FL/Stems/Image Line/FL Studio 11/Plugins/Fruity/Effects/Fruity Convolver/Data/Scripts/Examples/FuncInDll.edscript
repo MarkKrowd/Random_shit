@@ -1,0 +1,11 @@
+script "FuncInDll" language "pascal";
+
+function IncreaseNumber(Number: integer): integer; cdecl; external 'testdll.dll';
+
+var
+   num: integer;
+
+begin
+  num := IncreaseNumber(5);  
+  ShowMessage(IntToStr(num));
+end.

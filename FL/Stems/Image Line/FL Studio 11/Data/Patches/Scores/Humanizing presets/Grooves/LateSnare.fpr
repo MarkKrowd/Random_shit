@@ -1,0 +1,26 @@
+' FruityLoops preset
+' groove - Late Snare
+' (01) Billen
+
+' graph edit effect number & value for each note
+FXID=Shift
+
+Val=0
+Val=3
+Val=6
+Val=9
+
+Val=12
+Val=11
+Val=10
+Val=9
+
+Val=8
+Val=7
+Val=6
+Val=5
+
+Val=4
+Val=3
+Val=2
+Val=1

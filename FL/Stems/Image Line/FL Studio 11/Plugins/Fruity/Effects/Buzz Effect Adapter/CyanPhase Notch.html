@@ -1,0 +1,63 @@
+<HTML LANG="en"><HEAD><TITLE>CyanPhase Notch</TITLE>
+<STYLE TYPE="text/css"><!--
+BODY { background: #002f5f; background-position: middle; color: #FFFFFF; font-family: Arial, Helvetica; font-size: 9pt; margins: 0px 0px 0px 0px;}
+A:link { font-family: Arial, Helvetica; font-size: 9pt; color: #FFCF00; text-decoration: none; }
+A:visited { font-family: Arial, Helvetica; font-size: 9pt; color: #FFCF00; text-decoration: none; }
+A:active { font-family: Arial, Helvetica; font-size: 9pt; color: #FFFFFF; text-decoration: none; }
+A:hover { font-family: Arial, Helvetica; font-size: 9pt; color: #FFDF55; text-decoration: underline; color : #FFFFFF; background-color : #00499C;}
+P { color: #FFFFFF; font-family: Arial, Helvetica; font-size: 9pt; }
+TD { color: #FFFFFF; font-family: Arial, Helvetica; font-size: 9pt; }
+LI { font-size: 8pt; }
+UL { margin-top: 0px; }
+H1 { font-family: Arial; color: #6060FF; font-size: 14pt}
+H2 { font-family: Arial; color: #6060FF; font-size: 12pt}
+H3 { font-family: Arial; color: #6060FF; font-size: 10pt}
+H4 { font-family: Arial; color: #6060FF; font-size: 8pt}
+--></STYLE></HEAD>
+<BODY MARGINWIDTH="0" MARGINHEIGHT="0" LEFTMARGIN="0" TOPMARGIN="0" TEXT="#FFFFFF" LINK="#FFCF00" VLINK="#FFCF00" ALINK="#FFFFFF" BGCOLOR="#002f5f">
+<BR><BR>
+<TABLE WIDTH="100%">
+<TR><TD WIDTH="50">&nbsp;</TD><TD BGCOLOR="#00152f">
+<H1 STYLE="font-family: Arial; color: #6060FF;">CYANPHASE NOTCH</H1>
+<TABLE CELLPADDING=4 CELLSPACING=0 BORDER=0>
+<TR><TD VALIGN="Top" BGCOLOR="#000000" WIDTH=120><P><B>Type</B></P></TD><TD VALIGN="Top" BGCOLOR="#000000"><P>Effect - Filter</P></TD></TR>
+<TR><TD VALIGN="Top"><P><B>Author</B></P></TD><TD VALIGN="Top"><P>Edward L. Blake (CyanPhase)</P></TD></TR>
+<TR><TD VALIGN="Top" BGCOLOR="#000000"><P><B>Email</B></P></TD><TD VALIGN="Top" BGCOLOR="#000000"><P>blakee@rovoscape.com</P></TD></TR>
+<TR><TD VALIGN="Top"><P><B>Description</B></P></TD><TD VALIGN="Top"><P>The missing piece (i guess) in terms of basic available filters. Also called a band reject, this filter makes a hole in the frequency spectrum at where the Frequency parameter is set.</P></TD></TR>
+</TABLE>
+<BR>
+
+<H2>PARAMETERS</H2>
+<TABLE CELLPADDING=4 CELLSPACING=0 BORDER=0>
+<TR><TD VALIGN="Top" BGCOLOR="#000000" WIDTH=75><P><B>Fixed1 Filter</B></TD><TD VALIGN="Top" BGCOLOR="#000000"><P>This turns the first fixed notch filter on or off.</P></TD></TR>
+<TR><TD VALIGN="Top"><P><B>Fixed1:Freq</B></P></TD><TD VALIGN="Top"><P>Sets the frequency of the notch filter in Hz.</P></TD></TR>
+<TR><TD VALIGN="Top" BGCOLOR="#000000" WIDTH=75><P><B>Fixed1:NoteFreq</B></TD><TD VALIGN="Top" BGCOLOR="#000000"><P>Sets the frequency of the notch filter with Notes.</P></TD></TR>
+<TR><TD VALIGN="Top"><P><B>Fixed1:BW</B></P></TD><TD VALIGN="Top"><P>Sets the bandwidth of the notch filter (how big the hole the filter makes).</P></TD></TR>
+<TR><TD VALIGN="Top" BGCOLOR="#000000" WIDTH=75><P><B>Fixed1:Inertia</B></TD><TD VALIGN="Top" BGCOLOR="#000000"><P>Sets how fast the filter moves to the new settings (in units per second, or ticks based on what's set in the attributes).</P></TD></TR>
+<TR><TD VALIGN="Top"><P><B>Fixed2 Filter</B></P></TD><TD VALIGN="Top"><P>This turns the second fixed notch filter on or off.</P></TD></TR>
+<TR><TD VALIGN="Top" BGCOLOR="#000000" WIDTH=75><P><B>Fixed2:Freq</B></TD><TD VALIGN="Top" BGCOLOR="#000000"><P>Sets the frequency of the notch filter in Hz.</P></TD></TR>
+<TR><TD VALIGN="Top"><P><B>Fixed2:NoteFreq</B></P></TD><TD VALIGN="Top"><P>Sets the frequency of the notch filter with Notes.</P></TD></TR>
+<TR><TD VALIGN="Top" BGCOLOR="#000000" WIDTH=75><P><B>Fixed2:BW</B></TD><TD VALIGN="Top" BGCOLOR="#000000"><P>Sets the bandwidth of the notch filter (how big the hole the filter makes).</P></TD></TR>
+<TR><TD VALIGN="Top"><P><B>Fixed2:Inertia</B></P></TD><TD VALIGN="Top"><P>Sets how fast the filter moves to the new settings (in units per second, or ticks based on what's set in the attributes).</P></TD></TR>
+<TR><TD VALIGN="Top" BGCOLOR="#000000" WIDTH=75><P><B>LFO Filter</B></TD><TD VALIGN="Top" BGCOLOR="#000000"><P>This turns the LFO notch filter on or off</P></TD></TR>
+<TR><TD VALIGN="Top"><P><B>LFO:Freq1</B></P></TD><TD VALIGN="Top"><P>Sets the frequency of the LFO notch filter in Hz, the LFO moves from this point to LFO:Freq2.</P></TD></TR>
+<TR><TD VALIGN="Top" BGCOLOR="#000000" WIDTH=75><P><B>LFO:Freq2</B></TD><TD VALIGN="Top" BGCOLOR="#000000"><P>Sets the frequency of the LFO notch filter in Hz, the LFO moves from this point to LFO:Freq1.</P></TD></TR>
+<TR><TD VALIGN="Top"><P><B>LFO:FreqLFO</B></P></TD><TD VALIGN="Top"><P>Sets how fast in seconds per revolution (how long it takes to revolve completely once) the LFO moves between Freq1 and Freq2.</P></TD></TR>
+<TR><TD VALIGN="Top" BGCOLOR="#000000" WIDTH=75><P><B>LFO:FreqNote1</B></TD><TD VALIGN="Top" BGCOLOR="#000000"><P>Sets the frequency of the LFO notch filter with Notes, the LFO moves from this point to LFO:Freq2.</P></TD></TR>
+<TR><TD VALIGN="Top"><P><B>LFO:FreqNote2</B></P></TD><TD VALIGN="Top"><P>Sets the frequency of the LFO notch filter with Notes, the LFO moves from this point to LFO:Freq1.</P></TD></TR>
+<TR><TD VALIGN="Top" BGCOLOR="#000000" WIDTH=75><P><B>LFO:BW1</B></TD><TD VALIGN="Top" BGCOLOR="#000000"><P>Sets the bandwidth of the notch filter (how big the hole the filter makes). The LFO moves from this point to LFO:BW2.</P></TD></TR>
+<TR><TD VALIGN="Top"><P><B>LFO:BW2</B></P></TD><TD VALIGN="Top"><P>Sets the bandwidth of the notch filter (how big the hole the filter makes). The LFO moves from this point to LFO:BW1.</P></TD></TR>
+<TR><TD VALIGN="Top" BGCOLOR="#000000" WIDTH=75><P><B>LFO:BW-LFO</B></TD><TD VALIGN="Top" BGCOLOR="#000000"><P>Sets how fast in seconds per revolution (how long it takes to revolve completely once) the LFO moves between BW1 and BW2.</P></TD></TR>
+</TABLE>
+<BR>
+
+<H2>STUFF</H2>
+<TABLE CELLPADDING=4 CELLSPACING=0 BORDER=0>
+<TR><TD VALIGN="Top"><P><B>E-Mail:</B></TD><TD VALIGN="Top"><A HREF="mailto:blakee@rovoscape.com">blakee@rovoscape.com</A>.</P></TD></TR>
+</TABLE>
+<BR>
+</TD><TD WIDTH="50">&nbsp;</TD></TR>
+</TABLE>
+<BR><BR><P ALIGN="CENTER">
+
+<BR><SMALL>Copyright &copy; 2000 Edward L. Blake</SMALL></P></BODY></HTML>

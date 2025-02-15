@@ -1,0 +1,6 @@
+set TCL_LIBRARY=C:\Users\RMichaud\AppData\Local\Programs\Python\Python37-32\tcl\tcl8.6
+set TK_LIBRARY=C:\Users\RMichaud\AppData\Local\Programs\Python\Python37-32\tcl\tk8.6
+
+C:\Users\RMichaud\AppData\Local\Programs\Python\Python37-32\python setup.py bdist_msi
+
+https://www.youtube.com/watch?v=xz2q2GaTBYE

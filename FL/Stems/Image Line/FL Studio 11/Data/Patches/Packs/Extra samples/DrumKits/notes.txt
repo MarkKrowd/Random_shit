@@ -1,0 +1,6 @@
+DrumKits here are just normal FLP files. The only advantage of putting
+them here is that they will be listed in the DrumKits menu in FruityLoops.
+It's just for beginners or those who want to use the same samples over & over.
+
+DrumKits are put in the \Samples\DrumKits subdir (& not in the \loops subdir) 
+so that the samples can be found more easily.

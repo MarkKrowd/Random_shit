@@ -1,0 +1,60 @@
+script "Ring modulation" language "pascal";
+
+procedure RM(Mix:Single;OverSample:Boolean);
+var   n,x,c,x1,x2,OldSampleRate:Integer;
+      s,s1,s2,v1,v2:Single;
+      CBSample:TSample;
+Begin
+// get sample from clipboard
+CBSample:=TSample.Create;
+CBSample.LoadFromClipboard;
+if CBSample.Length<=0 then 
+   Begin
+   CBSample.Free;   
+   Exit;
+   End;
+
+// oversample
+if Oversample then 
+   Begin
+   OldSampleRate:=EditorSample.SampleRate;
+   EditorSample.SampleRate:=EditorSample.SampleRate+CBSample.SampleRate;
+   End;
+
+// normalize both to the same format
+EditorSample.NormalizeFormat(CBSample);
+
+Editor.GetSelectionS(x1,x2);
+if x2-x1>=CBSample.Length then x2:=x1+CBSample.Length-1;
+
+v1:=Mix;
+v2:=1-v1;
+
+for n:=x1 to x2 do 
+  Begin
+  x:=n-x1;
+  if x mod 10000=0 then ProgressMsg('Processing',x,x2-x1);
+  
+  for c:=0 to EditorSample.NumChans-1 do
+    Begin
+    s1:=EditorSample.GetSampleAt(n,c);
+    s2:=CBSample.GetSampleAt(x,c);
+    s:=(s1*s2)*v1+s1*v2;
+    EditorSample.SetSampleAt(n,c,s);
+    End;
+  End;
+  
+CBSample.Free;  
+if Oversample then EditorSample.SampleRate:=OldSampleRate;
+End;
+
+
+var Form:TScriptDialog;
+
+Begin
+Form:=CreateScriptDialog('Ring modulation','Oversampled ring modulation. Clipboard data is used as modulator.');
+Form.AddInput('Mix',1);
+Form.AddInputCombo('Oversample','No,Yes',0);
+if Form.Execute then RM(Form.GetInputValue('Mix'),Form.GetInputValueAsInt('Oversample')=1);
+Form.Free;
+End.

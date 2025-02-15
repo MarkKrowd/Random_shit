@@ -1,0 +1,9 @@
+Tip=Sorted plugins
+
+' highlight this subdir
+ColIndex=3
+IconIndex=22
+HeightOfs=4
+
+' put it on top
+SortGroup=16

@@ -1,0 +1,380 @@
+Buzz effects in Fruity:
+
+11 (Zwar)	- Csi
+		- Delay-1
+		- Delay-1.1
+		- Distortion
+		- LoFi
+		- Rhythmgate-1.0
+		- Rhythmgate-1.1
+		- Signsplit
+		- Swapper
+
+7900		- Osc
+
+8 Tap Stereo Delay
+
+Arguru		- Degrader
+		- KFilter
+		- Sine FX
+		- Sine FX 2
+		- Trashkit
+		- Truepan
+		- Wazzup
+		- Autofilter
+		- Autofilter 2
+		- KDist
+		- KEcho
+		- KFlanger
+		- KGainer
+
+AseDev		- a2pFilter01
+		- a2pFilter03
+		- a2pFilter04
+		- a4pFilter01
+		- a4pFilter03
+		- a4pFilter04
+		- aEcho01
+		- aReverb01
+		- aGain01
+		- aGain02
+		- aGain03
+		- HumanM01
+		- HumanS01
+		- Psycho01
+		- Spread01
+
+Autofade
+
+Automaton	- 2-Pole
+		- Balance
+		- Compressor
+		- Compressor MkII
+		- Dc-Eliminator
+		- EQ-10
+		- EQ-7
+		- Expander
+		- Mono
+		- ParametricEQ
+		- VCF
+
+Chimp		- FXor
+		- Pitchshifter
+		- Pitchshifter v1.0
+		- Powerconvertor+
+
+Chun-Yu		- Smootherdrive
+		- Touchwah
+
+CnW		- Turbion Geiger
+		- Turbion Metal
+		- Turbion Voluma
+
+Cyanphase	- Atomstereomeld
+		- AutoDc Blocker
+		- BFilter
+		- Krashbox
+		- M-Derive
+		- M-Derive 2
+		- M-Integral
+		- M-Integral 2
+		- Mono
+		- Notch
+		- ViDist01
+		- Waveshaper
+
+Dave		- Smootherdrive
+
+Devin		- Negative
+		- Negative Entity
+
+Dex		- Distortion
+		- Filtah
+		- Filtah 2
+		- MultiComp
+		- Volumia
+
+Dimage		- Detonator
+		- ExpDist
+
+DolbyPrologic Echo
+
+Elak		- SVF
+		- Dist
+		- Dist 2
+
+Elenzil		- Amplitude Modulator
+
+Eqoffset
+
+Freq Unknown	- 20 Db Boost
+		- Absolut
+		- Asymmetric
+		- Bender
+		- Class B
+		- O-Delay
+		- Power Boost
+		- Stereo Vibe
+
+FSM		- Chorus
+		- Panzerdelay
+		- Phatman
+		- Scatman
+		- Scrapman
+		- Sprayman
+		- Tapman
+		- Tunaman
+		- Wahman
+		- WahmanPro
+		- WahmanPro2
+		
+FUK		- THCMA
+
+Geonik		- Amplitude Modulation
+		- Autopan
+		- Compressor
+		- DF Filter
+		- Dolby Surround
+		- Expression
+		- Gapper
+		- Gate
+		- Overdrive
+		- Overdrive 2
+		- Resonator
+		- Saturator
+		- Visualization
+
+Glow		- Sidfilter
+
+Jeskola		- 3210
+		- Chorus
+		- Cross Delay
+		- Delay
+		- Distortion
+		- Eq-3
+		- Filter
+		- Filter 2
+		- Flanger
+		- Karhu
+		- Multiplier
+		- Ninja Delay
+		- Raverb
+		- Reverb
+		- Reverb 2
+		- Stereo Reverb
+		- Wave Shaper
+
+Joachim		- Comp
+		- Compressor
+		- DeepPan
+		- DeNoiser
+		- Limiter
+		- Mercury Filer
+		- Multi 1
+		- Overdrive
+		- Temperature
+
+JoaSmurf	- VuMeter
+
+KBP		- Reversor
+
+Kibibu		- Convolver7
+
+LarsHa		- Funkyverb
+
+Madbrain	- Leeter Drive
+
+Mixer
+
+Muon		- Delay
+		- Smootherdrive
+		
+Oomek		- Exciter
+
+PSICorp		- LFO Filter
+		- Kraft2
+
+Q		- Brainwaves
+		- Rebond
+		- Watah
+		- ZFilter
+
+RnR		- Distortion
+
+Rout		- EQ-10
+		- Vibrato
+		
+Ryg		- Analog Distort
+
+Rymix		- Flasherbox
+		- StereoBox
+		- StereoBoxPro
+
+Savages		- Gap
+		- Kweeler
+
+Shaman		- Chorus
+
+SinDist
+
+Smartelectronix	- Tubescreamer
+
+Sonic		- Verb
+
+Static		- Dualfilt
+		- Dualfilt II
+		- Peak EQ
+		- Phaser
+		- Sensonic
+
+Whitenoise	- Chorus
+		- Gate
+		- Multidelay
+		- Stereodist
+		- Verb
+		- Filtron
+		- FuzzBox
+		- Harmonic Delay
+		- HiFiltron
+		- Pixelate
+		- Ringmod
+		- Ringmod 2
+		
+YnZn		- Mediana Filter
+		- 3Dizer
+		- Chirpfilter
+		- Interpolator
+		- Multiplexer
+		
+Zephod		- ADSR Filter
+		- BlueFilter
+		- GAIN
+		- Green Filter
+		- ITCH!
+		- MoogFiltah
+		- Orange Filter
+		- PAN
+		- Paniq
+		- Phaser
+		- SPREAD
+		- WUZZ
+		- Yellow Filter
+		
+Zu		- uTaps
+		- Parametric EQ
+		- Tube Head
+
+ZWAR		- Swapper
+
+
+===================================================
+= MACHINES THAT DON'T WORK (Or Obsolete machines) =
+===================================================
+
+* Allmost all Ninereeds effects need a special library made by him, that's why 
+  all his machines are in this part of the list.
+
+11		- Parrot
+11		- Zerhacker
+
+A2M
+
+Arguru		- Fixer
+		- FX 2			(Auxbus)
+		- Goaslicer
+		- Goaslicer 2
+		- Rovox			(Auxbus)
+
+Buzz in a Movi
+
+Cyanphase	- Auxreturn		(Auxbus)
+		- Dmo effect adapter
+		- Dx effect adapter
+		- Mc-1
+		- Mc-1 Delay
+		- Recorder
+		- Seacumcumber		(Auxbus)
+		- Songinfo
+		- Unnative Effects
+
+Dex		- Crossfade		(Auxbus)
+		- EFX			(Auxbus)
+		- Ringmod		(Auxbus)
+		
+Discretize				(Ninereeds)
+
+Eax2Output
+
+Edexter		- Logriser
+
+FireSledge	- Antiope-1		(Auxbus)
+
+Fractal					(Ninereeds)
+
+Frequency Unknown - Freq Out
+
+Gazbaby's 	- Prologic Encoder	(AuxBus)
+
+Geonik		- Expression 2		(Effect Flag set wrong... Fruity things it's an Gen)
+		- 2-Pole		(Effect Flag set wrong... Fruity things it's an Gen)
+
+Harcs		- Vision
+
+Hoester		- Groovebox
+
+Jeskola		- Auxsend		(AuxBus)
+
+JoyPlug1
+
+LarsHa		- rIDMa
+
+Lipid		- ItLoader
+
+Mimo		- MidiOut
+		- MiXo
+		
+Ninereeds	- 2pFilter
+		- Discretize
+		- Discritize
+		- Fade
+		- Fractal
+		- LFO Fade
+		- Pulsify
+
+PSI Corp	- Kraft
+
+Repeater
+
+RnZnAnF		- VST Effect Loader
+
+Rout		- Splitter
+		- VST Plugin Loader
+		
+Synopia		- 3Dizer Buffer
+		- VST Eff Slot
+
+VGraphity
+
+WhiteNoise	- AuxReturn
+		- Stutter
+	 	- Recorder
+	 	
+YnZn		- Amplitude Modulator
+		- Remote Compressor
+		- Remote Gate
+		- Vocoder
+
+Zephod		- ADSR
+		- Autopan
+		- EKKY
+		- Enveloper
+		- Freefilter
+		- Gurufilter
+		- Polywog 22
+		- Scope
+		- Waveshaper
+		- Resaw
+
+Zu		- Morphin
+		- Morphin Final Dose
+		- Slicer

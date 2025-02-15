@@ -1,0 +1,51 @@
+script "Sine generator" language "pascal";
+
+{
+Sine generator for Edison
+(06) gol
+}
+
+
+// slow version
+procedure GenSine(Freq,Phase,Vol:Single);
+var   n,c,x1,x2:Integer;
+      s:Single;
+      d,p:Double;
+Begin
+if EditorSample.Length<=0 then EditorSample.Length:=Round(EditorSample.MSToSamples(1000));
+Editor.GetSelectionS(x1,x2);
+
+d:=Pi*2*Freq/EditorSample.SampleRate;
+p:=Phase*Pi*2;
+
+for n:=x1 to x2 do 
+  Begin
+  if n mod 10000=0 then ProgressMsg('Processing',n,EditorSample.Length);
+  
+  s:=Sin(n*d+p)*Vol;
+  for c:=0 to EditorSample.NumChans-1 do
+    EditorSample.SetSampleAt(n,c,s);
+  End;
+End;
+
+
+// fast version
+procedure GenSine_Fast(Freq,Phase,Vol:Single);
+var  x1,x2:Integer;
+Begin
+if EditorSample.Length<=0 then EditorSample.Length:=Round(EditorSample.MSToSamples(1000));
+Editor.GetSelectionS(x1,x2);
+EditorSample.SineFromTo(x1,x2,Freq,Phase,Vol);
+End;
+
+
+var Form:TScriptDialog;
+
+Begin
+Form:=CreateScriptDialog('Sine generator','Simple sine generator.');
+Form.AddInputKnob('Freq (Hz)',500,1,20000);
+Form.AddInput('Phase',0);
+Form.AddInputKnob('Volume',1,0,2);
+if Form.Execute then GenSine_Fast(Form.GetInputValue('Freq (Hz)'),Form.GetInputValue('Phase'),Form.GetInputValue('Volume'));
+Form.Free;
+End.

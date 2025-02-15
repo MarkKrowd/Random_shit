@@ -1,0 +1,263 @@
+
+##########################################
+###########==-- ABOUT --==################
+##########################################
+
+            Flaser Box v1.0
+            ~~~~~~~~~~~~~~~
+                 by Mark Turner (Rymix) 
+                 email: coder@rymix.net
+                   www: www.rymix.net
+
+  A combo flanger/48 stage phaser
+  Similar to... well... i dunno =)
+
+  8.6% max cpu on pIII/850
+
+##########################################
+##########==-- CONTROLS --==##############
+##########################################
+
+----------------------------------
+  Parameters:
+----------------------------------
+
+* Gain		(0 - 200%)
+   - Increases/decreases the output gain.
+
+* Mode		(0 - 12)
+   - Changes the machine mode:
+
+	0: Flanger		In --> [Flanger] +-> In --> Out
+	1: Tape Flanger		In --> [Flanger] +-> TapeIn --> Out
+	2: Phaser		In --> [Phaser] +-> In --> Out
+	3: F->P			In --> [Flanger] --> [Phaser] +-> In --> Out
+	4: TF->P		In --> [Flanger] --> [Phaser] +-> TapeIn --> Out
+	5: P->F			In --> [Phaser] --> [Flanger] +-> In --> Out
+	6: P->TF		In --> [Phaser] --> [Flanger] +-> TapeIn --> Out
+	7: [F]->P		In --> [Flanger] +-> In -> [Phaser] +-> In --> Out
+	8: [TF]->P		In --> [Flanger] +-> TapeIn -> [Phaser] +-> In --> Out
+	9: [P]->F		In --> [Phaser] +-> In -> [Flanger] +-> In --> Out
+	a: [P]->TF		In --> [Phaser] +-> In -> [Flanger] +-> TapeIn --> Out
+	b: F||P			[In --> [Flanger]] +-> [In --> [Phaser]] +-> In --> Out
+	c: F||P			[TapeIn --> [Flanger]] +-> [In --> [Phaser]] +-> In --> Out
+
+	(LEGEND, LEFTSIDE)
+
+	F  :  Flanger  (simulates most digital flangers)
+        TF  :  Tape Flanger  (simulates an analog tape flanger)
+        P  : Phaser
+        [F]  :  enclosed flanger (has input mixing)
+        [TF]  :  enclosed tape flanger (has input mixing)
+	[P]  :  enclosed phaser (has input mixing)
+	->  :  units are in series (one unit passes its signal into the other)
+	||  :  units are parallel (each unit operates on original input)
+
+	(LEGEND, RIGHTSIDE)
+
+        -->  :  direct routing (one signal is fed into a unit or output)
+        +->  :  mixed routing (one signal is mixed with another signal)
+        []  :  a unit block
+        In  :  Original Input
+        TapeIn  :  Delayed original input. This simulates an analog tape flanger where
+                   the flange unit can have positive and negative delay
+        Out  :  Output, multiplied by the output Gain. This goes to the next machine.
+	[Flanger]  :  a flanger unit, complete with gain and feedback
+	[Phaser]  :  a phaser unit, complete with gain and feedback
+        
+
+* Link		(0 - 128)
+   - Links the params of the phaser to the flanger's sliders. Behavior depends
+     on the "LinkType" attribute (see below).
+     Setting the link is easy. Just add together the numbers besides the phaser's
+     parameters to obtain the link value. EX: linking Feedback, Rate, and Manual
+     would give 4+8+32 = 44.  The display will read "__fr_m_:44". 'f', 'r', and 'm'
+     are 'feedback', 'rate', and 'manual' in this case. Also, to link the flanger
+     and phaser levels, change LINK to 128 (slider full right = 80 hex). The display
+     will read "mrfrsmp+L"
+  
+*FLANGER/PHASER UNIT CONTROLS:   
+
+ * Level (LVL)		(-100% - 100%)
+    - Level control for the unit. Does not affect feedback or 
+      input mixing.
+ 
+ * Stages		(0 - 48)
+    - Number of filter stages the phaser unit uses. '0' turns the phaser off.
+      (phaser only) 
+
+ * Minimum		(0ms - 40ms)
+    - Minimum delay time within the flanger, and minimum filter internal modulation
+      time of the phaser. Also, in tape flanger modes, this will offset the 
+      tape flange centerpoint (see below). 
+	
+ * Range			(0ms - 40ms)
+    - LFO modulation range. The LFO will modulate the flanger/phaser unit with
+             millisecond time values between Minimum and Minimum+Range. 
+ 
+ * Feedback		(-100% - 100%)
+    - How much of the flanger/phaser will be fed back into itself. This increases
+      the strength of the unit.
+
+      *NOTE: Be careful with values at or approaching -100% or 100%. 
+ 
+ * Rate		("FREEZE", 0.25 ticks - 512 ticks)
+    - How fast the lfo completes one cycle. If rate = 0, then the lfo will be in 
+      "freeze mode" and will not oscillate (this is useful for manual control below)
+ 
+ * Step		(0 (off) - 32 ticks)
+    - The LFO step size. If step is 0 (off) then the lfo will change gradually over
+      time. If step is >0, then the lfo will affect the unit every 'step' ticks.
+      I.E, if step = 2, then the lfo will change every 2 ticks.
+      *NOTE: This does not control the lfo speed, but only how often the internal
+      LFO is applied to the flanger or phaser. It is applied internally after 
+      the LFO.
+ 
+ * Manual LFO	(0% - 100%)
+    - Manually set the LFO. This actually changes the position (or phase) of the
+      LFO. I.E., 0% = start of lfo cycle (reset), 50% = middle of lfo cycle. This
+      is useful when Rate is set to 'FREEZE', but it can be used while the lfo is
+      in motion for cool effects.
+
+      *NOTE: unlike some manual controls, this does not set the flanger or phaser
+      itself linearly. Setting Manual will make the unit follow its lfo, 
+      not the actual control setting. See considerations below
+ 
+ * Phase Separation	(0% - 100%)
+    - Sets the difference in phase/position of the lfo between the left and right
+      channels for a good stereo effect.
+
+
+* LFO Type F:P		(0 - 35)
+    - Sets the LFO shape for both the flanger and the phaser. This control selects
+      two LFO shapes, one for the flanger, and one for the phaser. The shapes are
+      Sine (Sin, #0), Triangle (Tri, #1), Square (Sqr, #2), Saw Up (SawUp, #3), 
+      Saw Down (SawDn, #4), and Noise/Random (Noiz, #5). In the pattern editor, the
+      parameter value is the phaser LFO shape times six, and add the flanger
+      (Phaser * 6 + Flanger).
+
+* HiPass/LoPass		(0hz - 20000hz)
+    - The Highpass and Lowpass filters are applied to the wet sound before adding it
+      to the dry sound. In other words, they allow the effect to only be applied to
+      the frequency range above the Hipass value and below the Lopass value.
+
+      *NOTE: setting the lopass value lower than the hipass value will cause the 
+             effect not to sound.
+
+- Inertia		(0 [off] - 512 ticks)
+    - Inertia allows the Manual and Filter parameters to glide gradually instead of
+      jumping immediately to the value. The inertia amount is the number of ticks it
+      takes for the setting to slide from the previous setting to the new setting.
+      The Manual and Filter params are marked with an '*' in the machine view to let
+      you know those parameters are affected by inertia setting.
+
+- Wet/Dry	(0:100 [Wet] - 100:0 [Dry])
+    - Sets the balance between full wet (100% effect) and full dry (0% effect). 
+ 	
+----------------------------------
+  Attributes:
+----------------------------------
+
+* Sub-Tick resolution - Determines how often (in samples) the anticlick
+                        routine is triggered. Lower values = finer 
+			resolution = much more CPU. This also affects interia.
+                        *Default is every 128 samples.
+* Anticlick strength - Value to reduce clicking on parameter changes. 
+                       Parameters will slide quickly from the old value
+                       to the new value on every subtick (define above).
+                       The strength value defines a maximum percentage of
+                       change the value can make on each subtick until it
+                       reaches the target value. Higher values = better
+                       anticlick = longer sliding = more cpu.
+                       *Default is 80.  
+
+* Interpolate - Determines the type of interpolation for the flanger. 
+                  0 = None  (fastest, more aliasing & clicks)
+	          1 = Linear  (fast, and good quality... faint aliasing & clicks)  *Default
+                  2 = Cubic  (slow, but best quality of the three)
+
+- Link Type - Determines how linking operates.
+                0 = int1  (Internal linking. Phaser param changes will override link.)
+                1 = int2  (Internal linking, Phaser param changes are ignored.)
+                2 = slider1  (Slider follows. Phaser param changes will override link.)
+		3 = slider2  (slider follows. Phaser param changes are ignored.)  *Default
+
+              *NOTE: on slider1 and slider2 modes, the slider actually follows one tick late.
+                     Although internally the parameter is updated correctly, when recording 
+                     live movement, the late phaser slider movement will be recorded as well.
+                     This may affect slider1 mode (Link Type=2), as the recorded phaser
+                     movement upon playback will cause the parameter to change as well.
+		     When recording live movement, I recommend Link Type=3 (silder2 mode).
+
+##########################################
+############==-- USAGE --==###############
+##########################################
+
+To use this effect, simply plug a sound into it, and plug the flaserbox into another effect or
+Master. Sidechaining (using the effectin parallel with the source sound) is usually not done.
+
+Flangers usually operate with timings of 1ms to 10ms. You can use the flanger as a chorus by
+using timings of 20ms to 30ms (see considerations below).
+
+Instead of explaining how a flanger and phaser works, I will give these links:
+
+http://www.harmony-central.com/Effects/Articles/Flanging/
+http://www.harmony-central.com/Effects/Articles/Phase_Shifting/
+
+##########################################
+####==-- SPECIAL CONSIDERATIONS --==######
+##########################################
+
+* Lowering CPU Usage
+  - This machine can hog cpu, especially when using a lot of phaser stages. 
+    SOme tips to lower CPU:
+    1) Reduce phaser stages if not needed.
+    2) Turning off the Hipass or Lopass filters saves cpu.
+    3) Using a step value lowers cpu, since internal values do not have to be updated as often.
+    4) If you only need a flanger or phaser, dont choose a mode containing both. 
+       Turning phaser stages to zero will save cpu, but chaging the mode to flanger 
+       or tape flanger (without phaser) saves more.
+    5) Dont turn the anticlick or (especially) the subtick attribute values to 
+       unnecessary settigns.
+
+* Clicks
+  - Clicks are produced usually when the flanger's delay value is changed too rapidly. 
+    This usually happens with Square, SawUp, SawDn, and Noize LFO settings, step mode, and
+    Manual adjustments w/o intertia settings. Some ways to elminate clicks:
+    1) Modify subtick and/or anticlick attributes (this does not affect the lfo shapes)
+    2) Set the Hipass filter, so that clicks in the bass range are minimized
+    3) Set intertia (this only affects manual control)
+
+- Noise LFO shape
+  - The Noise LFO (Noiz) is periodic with the rate value. A noise lfo with a rate 
+    of 64 and a step value of 4 will produce 16 "random" values. If used without a step 
+    value, it will be rather chaotic. This is not a bug =)
+
+- Manual
+  - Remember, manual control via the Manual LFO parameter does *not* just sweet the flanger
+    and phaser from low to hi. It sweeps it along the LFO "curve". So, if the lfo shape is
+    Square, changing Manual will only produce two values. If the lfo shape is triange, the
+    moving manual from left to right will sweep from low to high, then high to low. For 
+    old-fashioned results, set the LFO Type to "SawUp".
+    Manual control also is governed by the Range parameter. If Range is zero, then manual,
+    as well as the lfo, will not have any effect.
+    Also, the lfo does not have to be in "freeze" mode to be manually set. If the LFO Type is
+    "SawDn", and you set manual to 50%, then the lfo will jump to the middle of the range and 
+    continue to sweep down.
+    Finally, manual will change in step timing if the step parameter is set.
+
+- Step
+  - When using the flanger as a chorus, do not use step values. Chorusing relies on 
+    "detuning" the input, which happens by "dopplar effect" when the flanger modulates
+    the delay on the input. Step valuesdefeat this effect.
+    Also, remember that the step value is applied after the lfo, thereby affecting manual
+    lfo control. 
+
+##########################################
+#######==-- VERSION HISTORY --==##########
+##########################################
+
+1.0 - Initial release
+
+##########################################
+                                                               

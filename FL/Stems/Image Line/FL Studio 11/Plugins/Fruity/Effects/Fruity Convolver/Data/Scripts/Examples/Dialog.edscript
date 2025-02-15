@@ -1,0 +1,26 @@
+script "Dialog" language "pascal";
+
+procedure RunScript(Value: single; ComboValue: integer);
+begin
+  ShowMessage('Value = ' + FloatToStr(Value));
+  ShowMessage('Combo value = ' + IntToStr(ComboValue));
+end;
+
+var
+   form  : TScriptDialog;
+   i     : integer;
+   combo : TInput;
+
+begin
+  form := CreateScriptDialog('Dialog test script', 'This script is used to tests some dialog features');
+  form.AddInput('Test value', 0.8);
+
+  combo := form.AddInputCombo('Combo Input', 'On,Off,Disabled', 1);
+
+  for i := 0 to 15 do
+    form.AddInputKnob('Input ' + IntToStr(i), 3.6, -1, 20);
+
+  if form.Execute then
+    RunScript(form.GetInputValue('Test value'), combo.ValueAsInt);
+  form.Free;
+end.

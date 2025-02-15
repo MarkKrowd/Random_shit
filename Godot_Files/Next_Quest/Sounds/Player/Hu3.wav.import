@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Hu3.wav-bedf5ad282f92ccd4ba9e26f48d50a0a.sample"
+
+[deps]
+
+source_file="res://Sounds/Player/Hu3.wav"
+dest_files=[ "res://.import/Hu3.wav-bedf5ad282f92ccd4ba9e26f48d50a0a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

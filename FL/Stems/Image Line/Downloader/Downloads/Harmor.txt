@@ -1,0 +1,79 @@
+$Version=1
+$FileExt=.fst
+$Caption=Harmor
+$Format=88
+
+$Flags=8
+$ColName=Name
+$ColSize=Size
+$ColCount=Presets
+$BankText=preset
+$SampleText=preset
+
+;CDName|SubDirName|ItemName|Count|FileSize|ProductCode|Flags|WebLink|MainItemName
+Harmor|Synthesizer|80s Mystery_free|8|678|0|0||Arksun Synthesizer
+Harmor|Synthesizer|Acidity_free|8|678|0|0||Arksun Synthesizer
+Harmor|Bass|Ant Wobble_free|10|909|0|0||Arksun Bass
+Harmor|Lead|Av A House_free|9|750|0|0||Arksun Lead
+Harmor|Bass|Be Watching You_free|10|909|0|0||Arksun Bass
+Harmor|Arp|Bottle Beats_free|5|417|0|0||Arksun Arp
+Harmor|Arp|Bounce With Me_free|5|417|0|0||Arksun Arp
+Harmor|Sequence|Bungalo_free|6|514|0|0||Arksun Sequence
+Harmor|Synthesizer|Burning Down_free|8|678|0|0||Arksun Synthesizer
+Harmor|Lead|Buzz Lead_free|9|750|0|0||Arksun Lead
+Harmor|Sequence|CERN Reactor_free|6|514|0|0||Arksun Sequence
+Harmor|Pad|Church Of Eno_free|4|384|0|0||Arksun Pad
+Harmor|Arp|Classic Trance Arp_free|5|417|0|0||Arksun Arp
+Harmor|Sequence|Clock Is Ticking_free|6|514|0|0||Arksun Sequence
+Harmor|Arp|Code Breaker_free|5|417|0|0||Arksun Arp
+Harmor|FX|Colony LV-426_free|7|624|0|0||Arksun FX
+Harmor|Pad|Crystal Film_free|4|384|0|0||Arksun Pad
+Harmor|Percussion|Dance Kick_free|4|333|0|0||Arksun Percussion
+Harmor|Sequence|Dancing Pulse_free|6|514|0|0||Arksun Sequence
+Harmor|FX|Dark Sequence_free|7|624|0|0||Arksun FX
+Harmor|String|Digital Strings_free|3|274|0|0||Arksun String
+Harmor|Bass|Distorted Metal_free|10|909|0|0||Arksun Bass
+Harmor|Bass|DubRock_free|10|909|0|0||Arksun Bass
+Harmor|Bass|Electra_free|10|909|0|0||Arksun Bass
+Harmor|Bell|Etheral Waterbell_free|5|417|0|0||Arksun Bell
+Harmor|Lead|Feedbacker_free|9|750|0|0||Arksun Lead
+Harmor|FX|Firin Ma Lasor_free|7|624|0|0||Arksun FX
+Harmor|Lead|Foggy Night_free|9|750|0|0||Arksun Lead
+Harmor|String|Glass Bow_free|3|274|0|0||Arksun String
+Harmor|Bell|Hybraphone_free|5|417|0|0||Arksun Bell
+Harmor|Arp|Impacter_free|5|417|0|0||Arksun Arp
+Harmor|FX|Industrial Transport_free|7|624|0|0||Arksun FX
+Harmor|Sequence|Into The Unknown_free|6|514|0|0||Arksun Sequence
+Harmor|Bass|Juiced Up_free|10|909|0|0||Arksun Bass
+Harmor|Bass|Junadeep_free|10|909|0|0||Arksun Bass
+Harmor|Percussion|LoFi Tom_free|4|333|0|0||Arksun Percussion
+Harmor|Bell|Lullaby_free|5|417|0|0||Arksun Bell
+Harmor|Bass|Marshall Law_free|10|909|0|0||Arksun Bass
+Harmor|Keyboard|Mellow Rhodes_free|3|262|0|0||Arksun Keyboard
+Harmor|Synthesizer|Merry Go Round_free|8|678|0|0||Arksun Synthesizer
+Harmor|FX|Metal Crickets_free|7|624|0|0||Arksun FX
+Harmor|Synthesizer|Moist Stab_free|8|678|0|0||Arksun Synthesizer
+Harmor|Keyboard|My House_free|3|262|0|0||Arksun Keyboard
+Harmor|Keyboard|Phasic_free|3|262|0|0||Arksun Keyboard
+Harmor|Bass|Punchy Buzz_free|10|909|0|0||Arksun Bass
+Harmor|Synthesizer|Quantum Flux_free|8|678|0|0||Arksun Synthesizer
+Harmor|Lead|Raspberry_free|9|750|0|0||Arksun Lead
+Harmor|Synthesizer|Razor Blader_free|8|678|0|0||Arksun Synthesizer
+Harmor|Percussion|Rolling Hihats_free|4|333|0|0||Arksun Percussion
+Harmor|Sequence|Sci-Fi Tripping_free|6|514|0|0||Arksun Sequence
+Harmor|Lead|Simple Star_free|9|750|0|0||Arksun Lead
+Harmor|Pad|Sleeping City_free|4|384|0|0||Arksun Pad
+Harmor|Lead|Snowflake_free|9|750|0|0||Arksun Lead
+Harmor|Bell|Softly Now_free|5|417|0|0||Arksun Bell
+Harmor|Synthesizer|Soft Resonance_free|8|678|0|0||Arksun Synthesizer
+Harmor|FX|Space Message_free|7|624|0|0||Arksun FX
+Harmor|Lead|Stubber_free|9|750|0|0||Arksun Lead
+Harmor|Pad|Super Ark_free|4|384|0|0||Arksun Pad
+Harmor|String|Synthetica Strings_free|3|274|0|0||Arksun String
+Harmor|Bass|Tao_free|10|909|0|0||Arksun Bass
+Harmor|Lead|The Nexus_free|9|750|0|0||Arksun Lead
+Harmor|Percussion|Thumb Piano Toy_free|4|333|0|0||Arksun Percussion
+Harmor|Bell|Victorian Chime_free|5|417|0|0||Arksun Bell
+Harmor|FX|White Sweeper_free|7|624|0|0||Arksun FX
+
+

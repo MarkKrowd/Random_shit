@@ -1,0 +1,359 @@
+$Version=1
+$FileExt=.sakura
+$RootPath=Presets
+$FilePath=Presets
+$Caption=Sakura
+$RegPath=Sakura
+$RegValue=rootFolder
+$Format=344
+
+$Flags=12
+$ColName=Name
+$ColSize=Size
+$ColCount=Presets
+$BankText=preset
+$SampleText=preset
+
+;CDName|SubDirName|ItemName|Count|FileSize|ProductCode|Flags|WebLink
+Sakura|Atmosphere|ATM ChainSaw Symphony FG|0|1|0|0|
+Sakura|Atmosphere|ATM CreepShow FG|0|1|0|0|
+Sakura|Atmosphere|ATM Evil Medievel FG|0|1|0|0|
+Sakura|Atmosphere|ATM Industrial Activity FG|0|1|0|0|
+Sakura|Atmosphere|ATM Marching Steel FG|0|1|0|0|
+Sakura|Atmosphere|ATM Mohican Sun FG|0|1|0|0|
+Sakura|Atmosphere|ATM MotherShip FG|0|1|0|0|
+Sakura|Atmosphere|ATM Night Terrors FG|0|1|0|0|
+Sakura|Atmosphere|ATM Zombies FG|0|1|0|0|
+Sakura|Bass|BAS Ampeg Pop FG|0|1|0|0|
+Sakura|Bass|BAS Deep House FG|0|1|0|0|
+Sakura|Bass|BAS DI Bass FG|0|1|0|0|
+Sakura|Bass|BAS Fender Picked FG|0|1|0|0|
+Sakura|Bass|BAS Funk FG|0|1|0|0|
+Sakura|Bass|BAS Jaco FG|0|1|0|0|
+Sakura|Bass|BAS Jazz Club FG|0|1|0|0|
+Sakura|Bass|BAS Octave Slap FG|0|1|0|0|
+Sakura|Bass|BAS Physical Analog FG|0|1|0|0|
+Sakura|Bass|BAS PizziBass FG|0|1|0|0|
+Sakura|Bass|BAS Platinum Disco FG|0|1|0|0|
+Sakura|Bass|BAS Sloppy Picked FG|0|1|0|0|
+Sakura|Bass|BAS Stand-Up FG|0|1|0|0|
+Sakura|Bass|BAS ThugTech FG|0|1|0|0|
+Sakura|Default|Alaska|0|1|0|0|
+Sakura|Default|Alladdin|0|1|0|0|
+Sakura|Default|Amped E-Guitar|0|1|0|0|
+Sakura|Default|Asian Keys|0|1|0|0|
+Sakura|Default|Bass 10|0|1|0|0|
+Sakura|Default|Bass 1|0|1|0|0|
+Sakura|Default|Bass 2|0|1|0|0|
+Sakura|Default|Bass 3|0|1|0|0|
+Sakura|Default|Bass 4|0|1|0|0|
+Sakura|Default|Bass 5|0|1|0|0|
+Sakura|Default|Bass 6|0|1|0|0|
+Sakura|Default|Bass 7|0|1|0|0|
+Sakura|Default|Bass 8|0|1|0|0|
+Sakura|Default|Bass 9|0|1|0|0|
+Sakura|Default|Big Body|0|1|0|0|
+Sakura|Default|Bowed 1|0|1|0|0|
+Sakura|Default|Bowed 2|0|1|0|0|
+Sakura|Default|Bowed 3|0|1|0|0|
+Sakura|Default|Bowed 4|0|1|0|0|
+Sakura|Default|Bowed 5|0|1|0|0|
+Sakura|Default|Bowed 6|0|1|0|0|
+Sakura|Default|Bowed 7|0|1|0|0|
+Sakura|Default|Bowed 8|0|1|0|0|
+Sakura|Default|Bright harp|0|1|0|0|
+Sakura|Default|Chinese Strings|0|1|0|0|
+Sakura|Default|Clavichord|0|1|0|0|
+Sakura|Default|Clocks|0|1|0|0|
+Sakura|Default|Custom|0|1|0|0|
+Sakura|Default|Detuned E-Guitar|0|1|0|0|
+Sakura|Default|Drama Keys|0|1|0|0|
+Sakura|Default|Drops 1|0|1|0|0|
+Sakura|Default|Drops 2|0|1|0|0|
+Sakura|Default|E-Bass|0|1|0|0|
+Sakura|Default|E-Guitar|0|1|0|0|
+Sakura|Default|E-Keys 10|0|1|0|0|
+Sakura|Default|E-Keys 1|0|1|0|0|
+Sakura|Default|E-Keys 2|0|1|0|0|
+Sakura|Default|E-Keys 3|0|1|0|0|
+Sakura|Default|E-Keys 4|0|1|0|0|
+Sakura|Default|E-Keys 5|0|1|0|0|
+Sakura|Default|E-Keys 6|0|1|0|0|
+Sakura|Default|E-Keys 7|0|1|0|0|
+Sakura|Default|E-Keys 8.5|0|1|0|0|
+Sakura|Default|E-Keys 8|0|1|0|0|
+Sakura|Default|E-Keys 9|0|1|0|0|
+Sakura|Default|E-Organ|0|1|0|0|
+Sakura|Default|E-Pluck|0|1|0|0|
+Sakura|Default|Flute-d|0|1|0|0|
+Sakura|Default|Funky|0|1|0|0|
+Sakura|Default|Guitar 1|0|1|0|0|
+Sakura|Default|Guitar 2|0|1|0|0|
+Sakura|Default|Guitar 3|0|1|0|0|
+Sakura|Default|Hard Compression|0|1|0|0|
+Sakura|Default|Harmonized|0|1|0|0|
+Sakura|Default|Harp 1|0|1|0|0|
+Sakura|Default|Harp 2|0|1|0|0|
+Sakura|Default|Harp 3|0|1|0|0|
+Sakura|Default|Harp 4|0|1|0|0|
+Sakura|Default|Harp 5|0|1|0|0|
+Sakura|Default|Heavy Harp|0|1|0|0|
+Sakura|Default|Muted Strings|0|1|0|0|
+Sakura|Default|Pad 1|0|1|0|0|
+Sakura|Default|Pad 2|0|1|0|0|
+Sakura|Default|Pad 3|0|1|0|0|
+Sakura|Default|Pad 4|0|1|0|0|
+Sakura|Default|Pad 5|0|1|0|0|
+Sakura|Default|Pad 6|0|1|0|0|
+Sakura|Default|Pad 7|0|1|0|0|
+Sakura|Default|Pad 8|0|1|0|0|
+Sakura|Default|Panflute|0|1|0|0|
+Sakura|Default|Piano 1|0|1|0|0|
+Sakura|Default|Piano 2|0|1|0|0|
+Sakura|Default|Plucked 1|0|1|0|0|
+Sakura|Default|Plucked 2|0|1|0|0|
+Sakura|Default|Plucked 3|0|1|0|0|
+Sakura|Default|Rhodes|0|1|0|0|
+Sakura|Default|Sax 1|0|1|0|0|
+Sakura|Default|Sax 2|0|1|0|0|
+Sakura|Default|Sax 3|0|1|0|0|
+Sakura|Default|Sax 4|0|1|0|0|
+Sakura|Default|Sax 5|0|1|0|0|
+Sakura|Default|Sax 6|0|1|0|0|
+Sakura|Default|Shaman|0|1|0|0|
+Sakura|Default|Sitar 1|0|1|0|0|
+Sakura|Default|Sitar 3|0|1|0|0|
+Sakura|Default|Sitar 4|0|1|0|0|
+Sakura|Default|Sitar 5|0|1|0|0|
+Sakura|Default|Sitar 6|0|1|0|0|
+Sakura|Default|Sitar-board|0|1|0|0|
+Sakura|Default|Smoker Flute|0|1|0|0|
+Sakura|Default|Suspence Cry|0|1|0|0|
+Sakura|Default|Synthetic Stuff|0|1|0|0|
+Sakura|Default|Tiny Harp|0|1|0|0|
+Sakura|Default|Triangle|0|1|0|0|
+Sakura|Default|Trombone|0|1|0|0|
+Sakura|Default|Violin 1|0|1|0|0|
+Sakura|Default|Violin 2|0|1|0|0|
+Sakura|Default|Violin 3|0|1|0|0|
+Sakura|Default|Violin 4|0|1|0|0|
+Sakura|Default|Violin 5|0|1|0|0|
+Sakura|Default|Violin 6|0|1|0|0|
+Sakura|Default|Violin 7|0|1|0|0|
+Sakura|Default|Violin|0|1|0|0|
+Sakura|Default|Wired Keys|0|1|0|0|
+Sakura|Default|Wired|0|1|0|0|
+Sakura|Eastern Dreams Bank|BASS Careless DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|BASS Deep Disco DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|BASS Delayed Clang DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|BASS Disco DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|BASS Fretless Light DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|BASS Fretless Mellow DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|BASS Fretless Nova DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|BASS Fretless Pulse DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|BASS Honky Punk DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|BASS Saw You DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|BASS Semi-Powered DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|BASS Short DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|BASS Troublematic DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|BELL Bassophone DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|BELL Blocks DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|BELL Floral Awe DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|BELL Oriental Blow DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|BELL Swaying Hum DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|BELL Wooden Tubular DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|BELL Xylophone DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|FLUTE Biology Revival DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|FLUTE Delayed Sorrows DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|FLUTE Honest FX DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|FLUTE Plastic Tubular DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|FLUTE Scary Autumn DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|FLUTE Seasonal DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|FLUTE Spring DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|GUITAR Behind The Scene DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|GUITAR Blue DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|GUITAR Bonfire DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|GUITAR Bottled DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|GUITAR Chords DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|GUITAR Chords II DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|GUITAR Chords III DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|GUITAR Commited Sound DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|GUITAR Echoing DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|GUITAR Flangered DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|GUITAR Fragile DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|GUITAR Holly DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|GUITAR Jazzy DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|GUITAR Nylon DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|GUITAR Picked DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|GUITAR Picked II DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|GUITAR Pizzi DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|GUITAR Plucked DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|GUITAR Rhythm Me I DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|GUITAR Rhythm Me II DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|GUITAR Rolling Solo DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|GUITAR Semi Faced DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|GUITAR Social Growth DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|GUITAR So Short DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|KEY Ballad DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|KEY Chronophoby DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|KEY Clav-Harp DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|KEY Clavi-Funeral  DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|KEY Clavi-Mighty DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|KEY Clavi-Party  DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|KEY Concert Hall DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|KEY Devil Piano DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|KEY France DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|KEY Lilac DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|KEY Melody Church DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|KEY Occasion DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|KEY One - PM DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|KEY Regilious DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|KEY Rhody DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|KEY Seduce Her DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|KEY Semi-Guitar  DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|KEY Sorrow DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|KEY Soul-On DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|KEY Sticky FM DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|KEY Suburbian DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|KEY Take me DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|KEY Voiced DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|ORGAN Church Goer DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|ORGAN Country Fair DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|ORGAN Deep Violet DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|ORGAN Firtly DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|ORGAN Ivy DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|ORGAN Leslie DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|ORGAN Piano-Combi DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|ORGAN Rock'N'Beat DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|ORGAN Woodstock DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SFX Anticipation DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SFX Awakening DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SFX Creepy Piano DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SFX Dark Dune DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SFX Door Knob DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SFX Flashy DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SFX Heartbeat DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SFX Hollow Throat DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SFX Mystery Order DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SFX Mystery Says DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SFX Prison Door DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SFX Prison Door II DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SFX Recycling Stack DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SFX Religion DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SFX Sandy Coins DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SFX Second Generation DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SFX Sleepy Inferno DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SFX Whiny DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Bottled Message DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Bowed Sylable DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Breath Away_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Buglehorn DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Buglehorn II DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Dark Hopes DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Deadly Depth DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Delicate Dots DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Distorted Virtuality DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Drone Structure DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Electro Spirit DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH FM News DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Glimmer Man DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Global Feeling DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Guitary DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Hear Voices DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Horn DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Key-Like DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Muug DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Neighbouring DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Nemesis DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Oriental Echoing DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Osmosis DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Other Side DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Plucked Leader DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Poly-Mono DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Poly Soloist DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Remorses DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Sahara Glimp DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Severity DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Sour Flour DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH String Like DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Talking Dwarf DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Triumph Trumpet DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Unwilling DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Vintage Short DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Water Slide DS_free|0|1|0|0|
+Sakura|Eastern Dreams Bank|SYNTH Wave Lead DS_free|0|1|0|0|
+Sakura|Keyboard|KBD Clavikura FG|0|1|0|0|
+Sakura|Keyboard|KBD Dusty Rhodes MKII FG|0|1|0|0|
+Sakura|Keyboard|KBD Foggy Grand Piano FG|0|1|0|0|
+Sakura|Keyboard|KBD Grand Harpsikord FG|0|1|0|0|
+Sakura|Keyboard|KBD Hohner D6 1 FG|0|1|0|0|
+Sakura|Keyboard|KBD Hohner D6 2 FG|0|1|0|0|
+Sakura|Keyboard|KBD Hohner D6 3 FG|0|1|0|0|
+Sakura|Keyboard|KBD Live at the EP FG|0|1|0|0|
+Sakura|Keyboard|KBD Sakura Dan Stage EP FG|0|1|0|0|
+Sakura|Keyboard|KBD Sell Out FG|0|1|0|0|
+Sakura|Keyboard|KBD Taped EP FG|0|1|0|0|
+Sakura|Keyboard|KBD Wurlitzer FG|0|1|0|0|
+Sakura|Pads|PAD A Kind of Pipe FG|0|1|0|0|
+Sakura|Pads|PAD CherryBlossom FG|0|1|0|0|
+Sakura|Pads|PAD Dante's Organ FG|0|1|0|0|
+Sakura|Pads|PAD Les Pad FG|0|1|0|0|
+Sakura|Pads|PAD Northern Wind FG|0|1|0|0|
+Sakura|Prc|PRC Analog Kick FG|0|1|0|0|
+Sakura|Prc|PRC Industrial Percussion FG|0|1|0|0|
+Sakura|Prc|PRC Opera Hall Timpani FG|0|1|0|0|
+Sakura|Prc|PRC Sacrificial Drum FG|0|1|0|0|
+Sakura|Sfx|SFX Ice Cube the Great FG|0|1|0|0|
+Sakura|Sfx|SFX Jack-in-The-Box FG|0|1|0|0|
+Sakura|Sfx|SFX Rain-like FG|0|1|0|0|
+Sakura|Sfx|SFX World War II Bombers FG|0|1|0|0|
+Sakura|String|STR Bring the Funk FG|0|1|0|0|
+Sakura|String|STR Campfire Guitar FG|0|1|0|0|
+Sakura|String|STR Cello FG|0|1|0|0|
+Sakura|String|STR Deep Harp 1 FG|0|1|0|0|
+Sakura|String|STR Deep Harp 2 FG|0|1|0|0|
+Sakura|String|STR Double Bass FG|0|1|0|0|
+Sakura|String|STR FunkyTown FG|0|1|0|0|
+Sakura|String|STR Indo-China FG|0|1|0|0|
+Sakura|String|STR Les Paul Clean FG|0|1|0|0|
+Sakura|String|STR Mountain Man Banjo FG|0|1|0|0|
+Sakura|String|STR Nylon String Guitar FG|0|1|0|0|
+Sakura|String|STR Oriental Pizzi FG|0|1|0|0|
+Sakura|String|STR Steel String FG|0|1|0|0|
+Sakura|String|STR Strummer FG|0|1|0|0|
+Sakura|String|STR Viola FG|0|1|0|0|
+Sakura|String|STR Violin FG|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|BA Da Bassman|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|BA Funky Bass|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|BA House Mute|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|BA HR Geiger Drone|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|BA Jazz It Up|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|BA Modwheel Tekno|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|BA Pulsewave|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|BA Short Ringer|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|BL Squidward's Clarinet|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|FX Sudden Fright|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|GT Banjoid|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|GT Celestial Harmonics|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|GT Make Believe|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|GT Plastic Guitar|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|KB Chapel Organ|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|KB Organ|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|KB Surrealist Pedal Tone|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|LD Dali's Brushed Bells|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|LD Impulsive|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|LD Old Skool|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|LD Scary Flute|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|PD Alien Ocean|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|PD Carnation Pink|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|PD Dark Ambience|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|PD Ethereal Vocals|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|PD Nightmare Ragga|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|PD Psychic Flower|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|PR Out Of Africa|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|PR Plucked Gongs|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|ST Bowed Pain|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|ST Modeled Viola|0|1|0|0|
+Sakura|Xenos Soundworks Vol1|ST Synth Pizzicato|0|1|0|0|
+
+

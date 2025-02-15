@@ -1,0 +1,37 @@
+script "Old school" language "pascal";
+
+procedure FX;
+var   n,x,c,x1,x2:Integer;
+      s,v1,v2:Single;
+const Value=8;     
+Begin
+EditorSample.SampleRate:=11000;
+
+x1:=0;
+x2:=EditorSample.Length-1;
+
+v1:=1 shl (Value-1);
+v2:=1/v1;
+
+for n:=x1 to x2 do 
+  Begin
+  x:=n-x1;
+  if x mod 10000=0 then ProgressMsg('Processing',x,x2-x1);
+  
+  for c:=0 to EditorSample.NumChans-1 do
+    Begin
+    s:=EditorSample.GetSampleAt(n,c);
+    s:=Round(s*v1)*v2;
+    EditorSample.SetSampleAt(n,c,s);
+    End;
+  End;
+End;
+
+
+var Form:TScriptDialog;
+
+Begin
+Form:=CreateScriptDialog('Old school','Bit & samplerate reduction. Applied on the whole sample.');
+if Form.Execute then FX;
+Form.Free;
+End.

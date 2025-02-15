@@ -1,0 +1,1 @@
+{'type': 'Feature', 'properties': {'name': 'xxx', 'website': 'xxx', 'usernaaaame': 'sss', 'Couleurs': ['Blanche', 'Brune'], 'Styles': ['Bière de garde'], 'Tel': 'xxx'}, 'geometry': {'type': 'Point', 'coordinates': [732176.2023794419, 5903402.225026512]}, 'id': '732176.20237944195903402.225026512'}

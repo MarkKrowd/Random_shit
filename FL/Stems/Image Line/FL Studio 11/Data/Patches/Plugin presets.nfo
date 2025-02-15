@@ -1,0 +1,7 @@
+Tip=Drop these on channels / mixer effect slots...
+
+' highlight this subdir
+ColIndex=3
+IconIndex=22
+HeightOfs=4
+SortGroup=16
